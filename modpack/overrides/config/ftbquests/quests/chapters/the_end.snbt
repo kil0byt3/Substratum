@@ -1,0 +1,84 @@
+{
+	id: "50EEC609E833AB5F"
+	group: ""
+	order_index: 5
+	filename: "the_end"
+	title: "The End"
+	icon: "minecraft:end_portal_frame"
+	default_quest_shape: ""
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			id: "4D36AAFE17F5CD9C"
+			tasks: [{
+				id: "444AC080F3243355"
+				type: "dimension"
+				title: "Enter The End Dimension"
+				icon: "minecraft:end_portal_frame"
+				dimension: "minecraft:the_end"
+			}]
+			rewards: [{
+				id: "7B2239F7579DF766"
+				type: "item"
+				item: "minecraft:end_stone"
+				count: 64
+			}]
+		}
+		{
+			icon: "minecraft:dragon_head"
+			x: 1.5d
+			y: 0.0d
+			id: "2A51F2BA00FCA9DF"
+			tasks: [{
+				id: "412B85684482E982"
+				type: "kill"
+				title: "Kill The Ender Dragon"
+				entity: "minecraft:ender_dragon"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "7DBC304C366F38DF"
+					type: "item"
+					item: "dragonmounts:ender_dragon_egg"
+				}
+				{
+					id: "12B2A87640A2BD7A"
+					type: "item"
+					item: "voidtotem:totem_of_void_undying"
+				}
+			]
+		}
+		{
+			title: "Find a Elytra"
+			x: 3.0d
+			y: 0.0d
+			id: "579C9E5280835E46"
+			tasks: [{
+				id: "13ACF5C597C43EDD"
+				type: "item"
+				item: {
+					id: "minecraft:elytra"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "7DB1B922D1DD8544"
+					type: "item"
+					item: "minecraft:firework_rocket"
+					count: 64
+				}
+				{
+					id: "661261D0B5499CC4"
+					type: "item"
+					item: "theabyss:translationletter"
+				}
+			]
+		}
+	]
+}
