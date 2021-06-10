@@ -1,0 +1,92 @@
+{
+	id: "53FAF0A851398EA6"
+	group: ""
+	order_index: 6
+	filename: "the_last_chapter"
+	title: "The Last Chapter"
+	icon: {
+		id: "patchouli:guide_book"
+		Count: 1b
+		tag: {
+			"patchouli:book": "theabyss:abyssbookitem"
+		}
+	}
+	default_quest_shape: ""
+	quests: [
+		{
+			x: -2.5d
+			y: -1.0d
+			id: "35C3DE1B6FF5A7AD"
+			tasks: [{
+				id: "1B62FDD510782A5C"
+				type: "item"
+				title: "Craft The Abyss Chapter II Book"
+				icon: {
+					id: "patchouli:guide_book"
+					Count: 1b
+					tag: {
+						"patchouli:book": "theabyss:abyssbookitem"
+					}
+				}
+				item: {
+					id: "patchouli:guide_book"
+					Count: 1b
+					tag: {
+						"patchouli:book": "theabyss:abyssbookitem"
+					}
+				}
+			}]
+			rewards: [{
+				id: "7AABDD2356FBF35B"
+				type: "item"
+				item: {
+					id: "theabyss:theabyssdim"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 1.5d
+			y: -1.0d
+			id: "5E0885E5F7E182A1"
+			tasks: [{
+				id: "59123AC31DB93558"
+				type: "dimension"
+				title: "Enter The Abyss"
+				icon: "theabyss:abyssportalstone"
+				dimension: "theabyss:theabyssdim"
+			}]
+			rewards: [
+				{
+					id: "5963243C7452591C"
+					type: "item"
+					item: {
+						id: "minecraft:splash_potion"
+						Count: 1b
+						tag: {
+							Potion: "minecraft:fire_resistance"
+						}
+					}
+				}
+				{
+					id: "52DFEE039DA7C8A1"
+					type: "item"
+					item: {
+						id: "minecraft:writable_book"
+						Count: 1b
+						tag: {
+							pages: ["What is this place?Where am I?Why is it so dark?To start on The Last Chapter, go and find the NPC's"]
+							RepairCost: 0
+							display: {
+								Name: "{\"text\":\"The Last Chapter\"}"
+							}
+						}
+					}
+				}
+			]
+		}
+	]
+}
