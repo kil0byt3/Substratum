@@ -1,3 +1,6 @@
 {
-	chapter_groups: [ ]
+	chapter_groups: [
+		{ id: "14AA25EE372B0EDF", title: "Home and Hearth" }
+		{ id: "021F505278996F72", title: "New Worlds" }
+	]
 }

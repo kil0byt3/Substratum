@@ -475,7 +475,7 @@
 	"Big Stone Clusters" = true
 	Biotite = true
 	"Blossom Trees" = true
-	"Cave Roots" = true
+	"Cave Roots" = false
 	"Chorus Vegetation" = true
 	Crevices = true
 	"Fairy Rings" = true
@@ -488,7 +488,7 @@
 	"Spiral Spires" = true
 	"Underground Clay" = true
 	"Brimstone Underground Biome" = true
-	"Cave Crystal Underground Biome" = true
+	"Cave Crystal Underground Biome" = false
 	"Elder Prismarine Underground Biome" = true
 	"Glowshroom Underground Biome" = true
 	"Lush Underground Biome" = true
@@ -1135,9 +1135,9 @@
 
 	[world.new_stone_types]
 		"Enable Marble" = true
-		"Enable Limestone" = true
-		"Enable Jasper" = true
-		"Enable Slate" = true
+		"Enable Limestone" = false
+		"Enable Jasper" = false
+		"Enable Slate" = false
 		"Enable Voidstone" = true
 		"Enable Myalite" = true
 
@@ -1238,8 +1238,8 @@
 				"Cluster Count" = 10
 
 	[world.speleothems]
-		"Tries Per Chunk" = 60
-		"Speleothems Per Chunk" = 12
+		"Tries Per Chunk" = 40
+		"Speleothems Per Chunk" = 6
 		"Tries Per Chunk In Nether" = 4
 		"Speleothems Per Chunk In Nether" = 12
 		"Max Ylevel" = 55
@@ -1856,7 +1856,7 @@
 
 	[client.improved_tooltips]
 		"Attribute Tooltips" = true
-		"Food Tooltips" = true
+		"Food Tooltips" = false
 		"Shulker Tooltips" = true
 		"Map Tooltips" = true
 		"Enchanting Tooltips" = true
