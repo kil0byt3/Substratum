@@ -12,6 +12,7 @@
 			icon: "minecraft:grass_block"
 			x: 1.5d
 			y: -3.0d
+			shape: "square"
 			id: "7AB5EA68B6C4B8C8"
 			tasks: [{
 				id: "7CD52E1D2BAF4A81"
@@ -59,7 +60,7 @@
 		{
 			title: "Make A Drean Pillow"
 			x: 0.5d
-			y: -2.0d
+			y: -1.0d
 			dependencies: ["7AB5EA68B6C4B8C8"]
 			dependency_requirement: "one_started"
 			id: "346B370108602127"
@@ -264,6 +265,18 @@
 				id: "22F39B78A2B2E92A"
 				type: "xp_levels"
 				xp_levels: 30
+			}]
+		}
+		{
+			title: "Test"
+			x: 4.0d
+			y: -1.5d
+			id: "39E7F785366E1A32"
+			tasks: [{
+				id: "5B02F7CF576EB9DE"
+				type: "biome"
+				icon: "minecraft:grass"
+				biome: "minecraft:plains"
 			}]
 		}
 	]

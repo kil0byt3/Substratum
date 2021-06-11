@@ -1,0 +1,4 @@
+
+logs/
+minecraftinstance.json
+.mixin.out/audit/mixin_implementation_report.txt

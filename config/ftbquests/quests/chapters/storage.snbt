@@ -1,0 +1,9 @@
+{
+	id: "4FAD3E3F48613C1E"
+	group: "14AA25EE372B0EDF"
+	order_index: 0
+	filename: "storage"
+	title: "Storage"
+	default_quest_shape: ""
+	quests: [ ]
+}
