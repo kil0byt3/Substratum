@@ -5,5 +5,68 @@
 	filename: "storage"
 	title: "Storage"
 	default_quest_shape: ""
-	quests: [ ]
+	quests: [
+		{
+			title: "Better than Chests"
+			x: -0.5d
+			y: -2.0d
+			id: "4E36E03BFF11B93D"
+			tasks: [{
+				id: "3502FEB9CCF03E5F"
+				type: "item"
+				item: "storagedrawers:oak_full_drawers_1"
+				count: 8L
+			}]
+			rewards: [
+				{
+					id: "3036EE14DFDDEE51"
+					type: "item"
+					item: "storagedrawers:drawer_key"
+				}
+				{
+					id: "3EB3C819138B6082"
+					type: "item"
+					item: "storagedrawers:oak_full_drawers_2"
+					count: 4
+				}
+				{
+					id: "56714448EF893A61"
+					type: "item"
+					item: "storagedrawers:oak_full_drawers_4"
+					count: 4
+				}
+			]
+		}
+		{
+			title: "REAL Storage"
+			x: -0.5d
+			y: 0.0d
+			dependencies: ["4E36E03BFF11B93D"]
+			id: "2F1940121B8AC04D"
+			tasks: [{
+				id: "3CD3B121ADB97B1A"
+				type: "item"
+				item: "storagedrawers:controller"
+			}]
+			rewards: [
+				{
+					id: "4CC6BEE01E2D4DE8"
+					type: "item"
+					item: "storagedrawers:compacting_drawers_3"
+					count: 4
+				}
+				{
+					id: "7B34C6D456D4F1D8"
+					type: "item"
+					item: "storagedrawers:controller_slave"
+				}
+				{
+					id: "448EDB4C8F625337"
+					type: "item"
+					item: "storagedrawers:upgrade_template"
+					count: 8
+				}
+			]
+		}
+	]
 }

@@ -1,0 +1,294 @@
+{
+	id: "28D7DA32D037EF12"
+	group: ""
+	order_index: 1
+	filename: "monster_slayer"
+	title: "Monster Slayer"
+	icon: {
+		id: "minecraft:diamond_sword"
+		Count: 1b
+		tag: {
+			Damage: 0
+		}
+	}
+	default_quest_shape: ""
+	quests: [
+		{
+			title: "Novice Mob Slayer"
+			x: 0.0d
+			y: -1.5d
+			hide_dependency_lines: true
+			id: "3E28809C7A7205B9"
+			tasks: [
+				{
+					id: "78B8B15932AFC84C"
+					type: "kill"
+					icon: "minecraft:zombie_head"
+					entity: "minecraft:zombie"
+					value: 25L
+				}
+				{
+					id: "56B2179DD3C7A5C3"
+					type: "kill"
+					icon: "minecraft:skeleton_skull"
+					entity: "minecraft:skeleton"
+					value: 25L
+				}
+				{
+					id: "743A07B9AEBDDF47"
+					type: "kill"
+					icon: "minecraft:creeper_head"
+					entity: "minecraft:creeper"
+					value: 25L
+				}
+				{
+					id: "73EA4BEAB28CCF9F"
+					type: "kill"
+					icon: "minecraft:spider_eye"
+					entity: "minecraft:spider"
+					value: 25L
+				}
+			]
+			rewards: [
+				{
+					id: "482163FA8793D8F7"
+					type: "item"
+					item: {
+						id: "minecraft:iron_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "3CE964B0CE4F33F2"
+					type: "item"
+					item: {
+						id: "minecraft:iron_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "537E76A6CF211B9C"
+					type: "item"
+					item: {
+						id: "minecraft:iron_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "60CA8872CE3DC950"
+					type: "item"
+					item: {
+						id: "minecraft:iron_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "090B81733DE73015"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+		}
+		{
+			x: -2.5d
+			y: -1.5d
+			hide_dependency_lines: false
+			dependencies: ["3E28809C7A7205B9"]
+			dependency_requirement: "one_completed"
+			id: "72A7B1B3925005A8"
+			tasks: [{
+				id: "00FCC3A146FBC72A"
+				type: "kill"
+				icon: "minecraft:zombie_head"
+				entity: "minecraft:zombie"
+				value: 100L
+			}]
+			rewards: [
+				{
+					id: "54C30364DF42CF38"
+					type: "item"
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 5s
+								id: "minecraft:smite"
+							}]
+						}
+					}
+				}
+				{
+					id: "470EF2E1B0AEEA64"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+			]
+		}
+		{
+			x: -2.5d
+			y: 0.5d
+			dependencies: ["3E28809C7A7205B9"]
+			id: "64F59457C53DF2F5"
+			tasks: [{
+				id: "7E31D00941835B25"
+				type: "kill"
+				icon: "minecraft:skeleton_skull"
+				entity: "minecraft:skeleton"
+				value: 100L
+			}]
+			rewards: [
+				{
+					id: "2BEAA467947EF5C2"
+					type: "item"
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 5s
+								id: "minecraft:power"
+							}]
+						}
+					}
+				}
+				{
+					id: "7BF4603367856961"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+			]
+		}
+		{
+			x: 2.5d
+			y: -1.5d
+			dependencies: ["3E28809C7A7205B9"]
+			dependency_requirement: "one_completed"
+			id: "5F0423F59114DAB1"
+			tasks: [{
+				id: "0EDB38B5B0471AB4"
+				type: "kill"
+				icon: "minecraft:creeper_head"
+				entity: "minecraft:creeper"
+				value: 100L
+			}]
+			rewards: [
+				{
+					id: "3CE142D4609618E3"
+					type: "item"
+					item: "minecraft:tnt"
+					count: 32
+				}
+				{
+					id: "7201E91334224072"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+			]
+		}
+		{
+			x: 2.5d
+			y: 0.5d
+			dependencies: ["3E28809C7A7205B9"]
+			id: "4EBF5AA00CF81BAD"
+			tasks: [{
+				id: "35244AA64F0C726E"
+				type: "kill"
+				icon: "minecraft:spider_eye"
+				entity: "minecraft:spider"
+				value: 100L
+			}]
+			rewards: [
+				{
+					id: "2EFC1DD8BF4E42D3"
+					type: "item"
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 5s
+								id: "minecraft:bane_of_arthropods"
+							}]
+						}
+					}
+				}
+				{
+					id: "7100CEEE89AE4557"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 3.0d
+			dependencies: ["3E28809C7A7205B9"]
+			id: "2D4D29AB1A88D4C8"
+			tasks: [
+				{
+					id: "66E118EAE6BC8A2D"
+					type: "kill"
+					entity: "minecraft:blaze"
+					value: 25L
+				}
+				{
+					id: "50058E75E777A0F9"
+					type: "kill"
+					entity: "minecraft:wither_skeleton"
+					value: 25L
+				}
+				{
+					id: "307EA38C82C5AC26"
+					type: "kill"
+					entity: "minecraft:enderman"
+					value: 25L
+				}
+				{
+					id: "331249267CF577E4"
+					type: "kill"
+					entity: "minecraft:piglin"
+					value: 25L
+				}
+			]
+		}
+		{
+			title: "Wither Slayer"
+			x: 2.0d
+			y: 5.0d
+			dependencies: ["2D4D29AB1A88D4C8"]
+			id: "509408AE25438938"
+			tasks: [{
+				id: "3D408E9048924F83"
+				type: "kill"
+				entity: "minecraft:wither"
+				value: 1L
+			}]
+		}
+		{
+			title: "Ender Dragon Slayer"
+			x: -2.0d
+			y: 5.0d
+			dependencies: ["2D4D29AB1A88D4C8"]
+			id: "640CDC1086891178"
+			tasks: [{
+				id: "125DE58502021D25"
+				type: "kill"
+				entity: "minecraft:ender_dragon"
+				value: 1L
+			}]
+		}
+	]
+}
