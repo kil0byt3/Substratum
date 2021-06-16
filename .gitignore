@@ -5,3 +5,9 @@ minecraftinstance.json
 .curseclient
 
 .mixin.out/
+
+saves/
+
+usercache.json
+
+usernamecache.json
