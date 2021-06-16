@@ -1,0 +1,85 @@
+{
+	id: "199DB27DAA5DBED8"
+	group: ""
+	order_index: 0
+	filename: "a_new_beginning"
+	title: "A New Experience"
+	icon: "minecraft:grass_block"
+	default_quest_shape: ""
+	quests: [
+		{
+			title: "Anew. Press ~."
+			icon: "minecraft:grass_block"
+			x: 1.5d
+			y: -3.0d
+			shape: "square"
+			id: "7AB5EA68B6C4B8C8"
+			tasks: [{
+				id: "7CD52E1D2BAF4A81"
+				type: "dimension"
+				title: "Beginning. Press ~ to see Quests."
+				icon: "minecraft:grass_block"
+				dimension: "minecraft:overworld"
+			}]
+			rewards: [
+				{
+					id: "4B1D2E18BF83DDCE"
+					type: "item"
+					item: {
+						id: "minecraft:writable_book"
+						Count: 1b
+						tag: {
+							pages: [
+								"Welcome to Substratum. These quests exist to guide you through the many new items and systems in modded Minecraft. They are optional, but helpful.The rewards will help you get started."
+								"Don't worry - you can just play this modpack like vanilla Minecraft, and have a great time. This guide will simply show you some of the fun and unique things out there for you to do, outside of the regular game. They will also show you the many new"
+								"useful items that can help you on your journey.Good luck, and have fun. - kilo"
+							]
+							RepairCost: 0
+							display: {
+								Name: "{\"text\":\"The Beginning\"}"
+							}
+						}
+					}
+				}
+				{
+					id: "76ADB55B8003157E"
+					type: "item"
+					item: {
+						id: "antiqueatlas:empty_antique_atlas"
+						Count: 1b
+						tag: {
+							RepairCost: 0
+							display: {
+								Name: "{\"text\":\"World Map\"}"
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Collect 12 Eyes of Ender and 1 Beacon"
+			x: 6.0d
+			y: 1.0d
+			id: "6480E727A25D5F95"
+			tasks: [
+				{
+					id: "6DE708D0DFF73821"
+					type: "item"
+					item: "minecraft:ender_eye"
+					count: 12L
+				}
+				{
+					id: "02EDF3DD861F05F9"
+					type: "item"
+					item: "minecraft:beacon"
+				}
+			]
+			rewards: [{
+				id: "6E7FBF4E27E686C4"
+				type: "item"
+				item: "minecraft:totem_of_undying"
+			}]
+		}
+	]
+}
