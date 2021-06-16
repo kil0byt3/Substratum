@@ -17,7 +17,7 @@
 			title: "Novice Mob Slayer"
 			x: 0.0d
 			y: -1.5d
-			hide_dependency_lines: true
+			dependencies: ["495A9A522431B613"]
 			id: "3E28809C7A7205B9"
 			tasks: [
 				{
@@ -51,53 +51,43 @@
 			]
 			rewards: [
 				{
-					id: "482163FA8793D8F7"
-					type: "item"
-					item: {
-						id: "minecraft:iron_helmet"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "3CE964B0CE4F33F2"
-					type: "item"
-					item: {
-						id: "minecraft:iron_chestplate"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "537E76A6CF211B9C"
-					type: "item"
-					item: {
-						id: "minecraft:iron_leggings"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "60CA8872CE3DC950"
-					type: "item"
-					item: {
-						id: "minecraft:iron_boots"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
 					id: "090B81733DE73015"
 					type: "xp_levels"
-					xp_levels: 5
+					xp_levels: 30
+				}
+				{
+					id: "41C3D59319EA6D4A"
+					type: "item"
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 3s
+								id: "minecraft:unbreaking"
+							}]
+						}
+					}
+				}
+				{
+					id: "24F2B1B9FB5B756C"
+					type: "item"
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 3s
+								id: "minecraft:looting"
+							}]
+						}
+					}
+				}
+				{
+					id: "37C171E3BC42DDD1"
+					type: "item"
+					item: "minecraft:diamond"
+					count: 16
 				}
 			]
 		}
@@ -233,6 +223,7 @@
 			]
 		}
 		{
+			title: "Expert Mob Slayer"
 			x: 0.0d
 			y: 3.0d
 			dependencies: ["3E28809C7A7205B9"]
@@ -260,7 +251,26 @@
 					id: "331249267CF577E4"
 					type: "kill"
 					entity: "minecraft:piglin"
-					value: 25L
+					value: 5L
+				}
+			]
+			rewards: [
+				{
+					id: "266356852B0ED7AB"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+				{
+					id: "79CE82852E4ED889"
+					type: "item"
+					item: "minecraft:netherite_ingot"
+					count: 16
+				}
+				{
+					id: "673B12C022A073A8"
+					type: "item"
+					item: "minecraft:diamond"
+					count: 32
 				}
 			]
 		}
@@ -273,9 +283,29 @@
 			tasks: [{
 				id: "3D408E9048924F83"
 				type: "kill"
+				icon: "minecraft:wither_skeleton_skull"
 				entity: "minecraft:wither"
 				value: 1L
 			}]
+			rewards: [
+				{
+					id: "0883E7308BB8E8E3"
+					type: "item"
+					item: "minecraft:obsidian"
+					count: 3
+				}
+				{
+					id: "7821849FF3967D64"
+					type: "item"
+					item: "minecraft:glass"
+					count: 5
+				}
+				{
+					id: "4607166072355B21"
+					type: "xp_levels"
+					xp_levels: 50
+				}
+			]
 		}
 		{
 			title: "Ender Dragon Slayer"
@@ -286,8 +316,107 @@
 			tasks: [{
 				id: "125DE58502021D25"
 				type: "kill"
+				icon: "minecraft:dragon_head"
 				entity: "minecraft:ender_dragon"
 				value: 1L
+			}]
+			rewards: [{
+				id: "3B326F86F6D2FD1E"
+				type: "item"
+				item: "minecraft:dragon_head"
+			}]
+		}
+		{
+			title: "Junior Mob Slayer"
+			x: 0.0d
+			y: -3.5d
+			dependencies: ["7BBB7A4D4E20C1E0"]
+			id: "495A9A522431B613"
+			tasks: [
+				{
+					id: "204EBDD44E92D9AA"
+					type: "kill"
+					icon: "minecraft:zombie_head"
+					entity: "minecraft:zombie"
+					value: 3L
+				}
+				{
+					id: "785BF206BD36229F"
+					type: "kill"
+					icon: "minecraft:skeleton_skull"
+					entity: "minecraft:skeleton"
+					value: 3L
+				}
+				{
+					id: "1DBFC573B7F5542B"
+					type: "kill"
+					icon: "minecraft:creeper_head"
+					entity: "minecraft:creeper"
+					value: 3L
+				}
+				{
+					id: "3356F87733BEF2B6"
+					type: "kill"
+					icon: "minecraft:spider_eye"
+					entity: "minecraft:spider"
+					value: 3L
+				}
+			]
+			rewards: [
+				{
+					id: "3AEB4662A059CC96"
+					type: "item"
+					item: {
+						id: "minecraft:iron_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "554779FF2CD14CF0"
+					type: "item"
+					item: {
+						id: "minecraft:iron_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "42C55CE6F5BFBE4C"
+					type: "item"
+					item: {
+						id: "minecraft:iron_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "7117AB1D879D167E"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -5.0d
+			id: "7BBB7A4D4E20C1E0"
+			tasks: [{
+				id: "3F7413E46C086B13"
+				type: "advancement"
+				advancement: "minecraft:adventure/kill_a_mob"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "0872E01C20840E8E"
+				type: "xp_levels"
+				xp_levels: 5
 			}]
 		}
 	]

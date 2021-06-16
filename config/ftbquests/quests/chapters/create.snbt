@@ -1,0 +1,43 @@
+{
+	id: "456D6B64E1A18EBC"
+	group: "66A3CD4CBC174A6B"
+	order_index: 0
+	filename: "create"
+	title: "Create"
+	default_quest_shape: ""
+	quests: [
+		{
+			x: 1.5d
+			y: -0.5d
+			id: "0A430BAD9B663B1F"
+			tasks: [{
+				id: "0D4A0D8901307AAC"
+				type: "advancement"
+				advancement: "create:root"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "0EFCA9A0D3743884"
+					type: "item"
+					item: "create:hand_crank"
+				}
+				{
+					id: "50FBF0D247C327B5"
+					type: "item"
+					item: "create:millstone"
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: 1.0d
+			id: "35A67C82B4194FDD"
+			tasks: [{
+				id: "07746B9EB5B93D07"
+				type: "item"
+				item: "create:hand_crank"
+			}]
+		}
+	]
+}
