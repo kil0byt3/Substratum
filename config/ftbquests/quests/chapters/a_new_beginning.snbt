@@ -3,70 +3,37 @@
 	group: ""
 	order_index: 0
 	filename: "a_new_beginning"
-	title: "A New Experience"
+	title: "And So, We Begin"
 	icon: "minecraft:grass_block"
 	default_quest_shape: ""
-	quests: [
-		{
-			title: "Anew. Press ~."
+	quests: [{
+		title: "Anew. Press ~."
+		icon: "minecraft:grass_block"
+		x: 1.5d
+		y: -3.0d
+		shape: "square"
+		subtitle: "Oh, good. You can read. Congrats on completing your first quest! Your reward is a map. Very useful. Don't lose it. Click me to get your reward."
+		id: "7AB5EA68B6C4B8C8"
+		tasks: [{
+			id: "7CD52E1D2BAF4A81"
+			type: "dimension"
+			title: "Beginning. Press ~ to see Quests."
 			icon: "minecraft:grass_block"
-			x: 1.5d
-			y: -3.0d
-			shape: "square"
-			id: "7AB5EA68B6C4B8C8"
-			tasks: [{
-				id: "7CD52E1D2BAF4A81"
-				type: "dimension"
-				title: "Beginning. Press ~ to see Quests."
-				icon: "minecraft:grass_block"
-				dimension: "minecraft:overworld"
-			}]
-			rewards: [
-				{
-					id: "4B1D2E18BF83DDCE"
-					type: "item"
-					item: {
-						id: "minecraft:writable_book"
-						Count: 1b
-						tag: {
-							pages: [
-								"Welcome to Substratum. These quests exist to guide you through the many new items and systems in modded Minecraft. They are optional, but helpful.The rewards will help you get started."
-								"Don't worry - you can just play this modpack like vanilla Minecraft, and have a great time. This guide will simply show you some of the fun and unique things out there for you to do, outside of the regular game. They will also show you the many new"
-								"useful items that can help you on your journey.Good luck, and have fun. - kilo"
-							]
-							RepairCost: 0
-							display: {
-								Name: "{\"text\":\"The Beginning\"}"
-							}
-						}
+			dimension: "minecraft:overworld"
+		}]
+		rewards: [{
+			id: "76ADB55B8003157E"
+			type: "item"
+			item: {
+				id: "antiqueatlas:empty_antique_atlas"
+				Count: 1b
+				tag: {
+					RepairCost: 0
+					display: {
+						Name: "{\"text\":\"World Map\"}"
 					}
 				}
-				{
-					id: "76ADB55B8003157E"
-					type: "item"
-					item: {
-						id: "antiqueatlas:empty_antique_atlas"
-						Count: 1b
-						tag: {
-							RepairCost: 0
-							display: {
-								Name: "{\"text\":\"World Map\"}"
-							}
-						}
-					}
-				}
-			]
-		}
-		{
-			x: 4.5d
-			y: -3.0d
-			id: "3722B15B0B15995E"
-			tasks: [{
-				id: "53EA1BE6C50ACDB8"
-				type: "advancement"
-				advancement: "minecraft:adventure/honey_block_slide"
-				criterion: ""
-			}]
-		}
-	]
+			}
+		}]
+	}]
 }

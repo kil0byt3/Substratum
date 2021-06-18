@@ -1,7 +1,7 @@
 {
 	id: "359EE9D97F633B2A"
-	group: ""
-	order_index: 2
+	group: "132EA375F94346D0"
+	order_index: 0
 	filename: "exploration"
 	title: "Exploration"
 	icon: {
@@ -24,201 +24,8 @@
 			}]
 		}
 		{
-			x: -2.5d
-			y: -1.5d
-			dependencies: ["2216F8C71CAC7760"]
-			id: "383872C1C813A9F9"
-			tasks: [{
-				id: "2237BC798770E275"
-				type: "advancement"
-				advancement: "repurposed_structures:ruined_portals"
-				criterion: ""
-			}]
-		}
-		{
-			x: -1.0d
-			y: -1.5d
-			dependencies: ["2216F8C71CAC7760"]
-			id: "1F36F46FC5DFC9DE"
-			tasks: [{
-				id: "565B15256719BA4D"
-				type: "advancement"
-				advancement: "repurposed_structures:fortresses"
-				criterion: ""
-			}]
-		}
-		{
-			x: 0.5d
-			y: -1.5d
-			dependencies: ["2216F8C71CAC7760"]
-			id: "55CC384D93E0433A"
-			tasks: [{
-				id: "553C6C928AC33539"
-				type: "advancement"
-				advancement: "repurposed_structures:bastions"
-				criterion: ""
-			}]
-		}
-		{
-			x: 0.5d
-			y: -5.0d
-			dependencies: ["2216F8C71CAC7760"]
-			id: "5C017DCECA89B6FE"
-			tasks: [{
-				id: "6A3282840D3BCBBA"
-				type: "advancement"
-				advancement: "repurposed_structures:pyramids"
-				criterion: ""
-			}]
-		}
-		{
-			x: 0.5d
-			y: -3.5d
-			dependencies: ["2216F8C71CAC7760"]
-			id: "66F64DF9DF2DDB8E"
-			tasks: [{
-				id: "64EF721F337CCFD9"
-				type: "advancement"
-				advancement: "repurposed_structures:shipwrecks"
-				criterion: ""
-			}]
-		}
-		{
-			x: 0.5d
-			y: -6.5d
-			dependencies: ["2216F8C71CAC7760"]
-			id: "007BA83F9BB518EC"
-			tasks: [{
-				id: "5EA2508824E83D80"
-				type: "advancement"
-				advancement: "repurposed_structures:witch_huts"
-				criterion: ""
-			}]
-		}
-		{
-			x: 0.5d
-			y: -8.0d
-			dependencies: ["2216F8C71CAC7760"]
-			id: "550CF24BD4CE1908"
-			tasks: [{
-				id: "5DD4D734976CED1C"
-				type: "advancement"
-				advancement: "repurposed_structures:cities"
-				criterion: ""
-			}]
-		}
-		{
-			x: -1.0d
-			y: -8.0d
-			dependencies: ["2216F8C71CAC7760"]
-			id: "69E6B9D25627BE80"
-			tasks: [{
-				id: "08F32ED095D0CEB7"
-				type: "advancement"
-				advancement: "repurposed_structures:mineshafts"
-				criterion: ""
-			}]
-		}
-		{
-			x: -2.5d
-			y: -8.0d
-			dependencies: ["2216F8C71CAC7760"]
-			id: "57C1E43A77694D6F"
-			tasks: [{
-				id: "3F34FB9E5604BDBA"
-				type: "advancement"
-				advancement: "repurposed_structures:igloos"
-				criterion: ""
-			}]
-		}
-		{
-			x: -6.0d
-			y: -1.5d
-			dependencies: ["2216F8C71CAC7760"]
-			id: "70A5D98F32B7C946"
-			tasks: [{
-				id: "15FBB35282E3DEC1"
-				type: "advancement"
-				advancement: "repurposed_structures:outposts"
-				criterion: ""
-			}]
-		}
-		{
-			x: -7.5d
-			y: -1.5d
-			dependencies: ["2216F8C71CAC7760"]
-			id: "491810EC076ACDCE"
-			tasks: [{
-				id: "5027A62797BEB291"
-				type: "advancement"
-				advancement: "repurposed_structures:mansions"
-				criterion: ""
-			}]
-		}
-		{
-			x: -6.0d
-			y: -8.0d
-			dependencies: ["2216F8C71CAC7760"]
-			id: "097EA8144B2BDA75"
-			tasks: [{
-				id: "288DD8AF594A26F7"
-				type: "advancement"
-				advancement: "repurposed_structures:ruins"
-				criterion: ""
-			}]
-		}
-		{
-			x: -7.5d
-			y: -5.0d
-			dependencies: ["2216F8C71CAC7760"]
-			id: "7D2EDC03BBFC487F"
-			tasks: [{
-				id: "73530011D25CE3FF"
-				type: "advancement"
-				advancement: "repurposed_structures:villages"
-				criterion: ""
-			}]
-		}
-		{
-			x: -7.5d
-			y: -6.5d
-			dependencies: ["2216F8C71CAC7760"]
-			id: "3BE32FD9EEBF5F6F"
-			tasks: [{
-				id: "55A1B86250B59EC3"
-				type: "advancement"
-				advancement: "repurposed_structures:temples"
-				criterion: ""
-			}]
-		}
-		{
-			x: -7.5d
-			y: -8.0d
-			dependencies: ["2216F8C71CAC7760"]
-			id: "6C0140F5FB17778A"
-			tasks: [{
-				id: "6EC13035BDEB798D"
-				type: "advancement"
-				advancement: "repurposed_structures:strongholds"
-				criterion: ""
-			}]
-		}
-		{
-			x: -4.5d
-			y: -1.5d
-			dependencies: ["2216F8C71CAC7760"]
-			id: "45A1D31464CC085C"
-			tasks: [{
-				id: "410C48BDC40E1F21"
-				type: "advancement"
-				advancement: "minecraft:adventure/adventuring_time"
-				criterion: ""
-			}]
-		}
-		{
 			x: -10.5d
 			y: -3.0d
-			dependencies: ["7D2EDC03BBFC487F"]
 			id: "78909C9E46451FE5"
 			tasks: [{
 				id: "0FC45D1299A0EF4E"
@@ -252,7 +59,7 @@
 			}]
 		}
 		{
-			x: -4.5d
+			x: -3.5d
 			y: -8.0d
 			dependencies: ["2216F8C71CAC7760"]
 			id: "3D8ACAC9176E68C1"
@@ -264,7 +71,7 @@
 			}]
 		}
 		{
-			x: -4.5d
+			x: -3.5d
 			y: -9.5d
 			dependencies: ["3D8ACAC9176E68C1"]
 			id: "49B01BFE2249F2DD"
@@ -276,7 +83,7 @@
 			}]
 		}
 		{
-			x: -6.0d
+			x: -5.0d
 			y: -11.0d
 			dependencies: ["49B01BFE2249F2DD"]
 			id: "4F4A5B588262D352"
@@ -288,7 +95,7 @@
 			}]
 		}
 		{
-			x: -4.5d
+			x: -3.5d
 			y: -11.0d
 			dependencies: ["49B01BFE2249F2DD"]
 			id: "4560413454F0BE59"
@@ -300,7 +107,7 @@
 			}]
 		}
 		{
-			x: -3.0d
+			x: -2.0d
 			y: -11.0d
 			dependencies: ["49B01BFE2249F2DD"]
 			id: "68AC33F141AF136F"
@@ -314,7 +121,8 @@
 		{
 			x: -9.0d
 			y: -5.0d
-			dependencies: ["7D2EDC03BBFC487F"]
+			dependencies: ["33BA4274A615319C"]
+			dependency_requirement: "one_started"
 			id: "5DF30DAF06BBB6EC"
 			tasks: [{
 				id: "26302E933883FC0E"
@@ -410,7 +218,7 @@
 		{
 			x: -10.5d
 			y: -6.5d
-			dependencies: ["7D2EDC03BBFC487F"]
+			dependencies: ["33BA4274A615319C"]
 			id: "469F47BDF68F24B1"
 			tasks: [{
 				id: "65CF277901161B7D"
@@ -432,7 +240,7 @@
 			}]
 		}
 		{
-			x: 6.5d
+			x: 1.0d
 			y: -5.0d
 			id: "531DDD27D4339A84"
 			tasks: [{
@@ -443,8 +251,8 @@
 			}]
 		}
 		{
-			x: 6.5d
-			y: -7.0d
+			x: 5.0d
+			y: -7.5d
 			dependencies: ["531DDD27D4339A84"]
 			id: "0FF791EC9710A596"
 			tasks: [{
@@ -455,8 +263,8 @@
 			}]
 		}
 		{
-			x: 6.5d
-			y: -8.5d
+			x: 5.0d
+			y: -9.0d
 			dependencies: ["0FF791EC9710A596"]
 			id: "5E4077499CCA4FA0"
 			tasks: [{
@@ -467,8 +275,8 @@
 			}]
 		}
 		{
-			x: 6.5d
-			y: -10.0d
+			x: 5.0d
+			y: -10.5d
 			dependencies: ["5E4077499CCA4FA0"]
 			id: "3F9017D3132F2587"
 			tasks: [{
@@ -503,8 +311,8 @@
 			}]
 		}
 		{
-			x: 4.5d
-			y: -7.0d
+			x: 3.5d
+			y: -8.0d
 			dependencies: ["531DDD27D4339A84"]
 			id: "39AE6C4901FFC035"
 			tasks: [{
@@ -647,7 +455,7 @@
 			}]
 		}
 		{
-			x: 4.5d
+			x: 6.5d
 			y: -5.0d
 			dependencies: ["531DDD27D4339A84"]
 			id: "06F5F4AF3427816A"
@@ -659,7 +467,7 @@
 			}]
 		}
 		{
-			x: 3.0d
+			x: 5.0d
 			y: -5.0d
 			dependencies: ["06F5F4AF3427816A"]
 			id: "4026D3B74BD5273E"
@@ -671,7 +479,7 @@
 			}]
 		}
 		{
-			x: 4.5d
+			x: 2.0d
 			y: -3.0d
 			dependencies: ["531DDD27D4339A84"]
 			id: "79C3DAE066616E25"
@@ -683,8 +491,8 @@
 			}]
 		}
 		{
-			x: 3.0d
-			y: -3.0d
+			x: 2.5d
+			y: -1.5d
 			dependencies: ["79C3DAE066616E25"]
 			id: "06ACA8A25694E421"
 			tasks: [{
@@ -695,8 +503,8 @@
 			}]
 		}
 		{
-			x: 6.5d
-			y: -3.0d
+			x: 5.5d
+			y: -2.5d
 			dependencies: ["531DDD27D4339A84"]
 			id: "32010FAC2DC7E867"
 			tasks: [{
@@ -707,8 +515,8 @@
 			}]
 		}
 		{
-			x: 5.5d
-			y: -1.5d
+			x: 4.5d
+			y: -1.0d
 			dependencies: ["32010FAC2DC7E867"]
 			id: "005D88735F59460B"
 			tasks: [{
@@ -719,8 +527,8 @@
 			}]
 		}
 		{
-			x: 7.5d
-			y: -1.5d
+			x: 6.5d
+			y: -1.0d
 			dependencies: ["32010FAC2DC7E867"]
 			id: "5B68ACF822529859"
 			tasks: [{
@@ -930,6 +738,18 @@
 				id: "7401BAF09C4ECB2E"
 				type: "advancement"
 				advancement: "endergetic:booflo_vest"
+				criterion: ""
+			}]
+		}
+		{
+			x: -7.5d
+			y: -5.0d
+			dependencies: ["2216F8C71CAC7760"]
+			id: "33BA4274A615319C"
+			tasks: [{
+				id: "3C690A94434A4404"
+				type: "advancement"
+				advancement: "morevillagers:first_village"
 				criterion: ""
 			}]
 		}

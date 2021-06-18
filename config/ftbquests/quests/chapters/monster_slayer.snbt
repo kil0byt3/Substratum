@@ -1,7 +1,7 @@
 {
 	id: "28D7DA32D037EF12"
-	group: ""
-	order_index: 1
+	group: "132EA375F94346D0"
+	order_index: 2
 	filename: "monster_slayer"
 	title: "Monster Slayer"
 	icon: {
@@ -406,6 +406,7 @@
 		{
 			x: 0.0d
 			y: -5.0d
+			dependency_requirement: "one_started"
 			id: "7BBB7A4D4E20C1E0"
 			tasks: [{
 				id: "3F7413E46C086B13"
