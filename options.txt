@@ -33,7 +33,7 @@ graphicsMode:1
 ao:2
 biomeBlendRadius:7
 renderClouds:true
-resourcePacks:["vanilla","mod_resources","quark:emote_resources","file/xali\u0027s Enchanted Books v0.6.zip","file/Stay_True_1.16.zip","file/New Ores 1.16.5 Version 3.zip","Black Icons"]
+resourcePacks:["vanilla","mod_resources","quark:emote_resources","file/xali\u0027s Enchanted Books v0.6.zip","file/Stay_True_1.16.zip","Black Icons","file/New Ores 1.16.5 Version 3.zip","file/Unity-1.16.X-Dark-0.7.0.zip"]
 incompatibleResourcePacks:["quark:emote_resources"]
 lastServer:
 lang:en_us

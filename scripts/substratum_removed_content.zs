@@ -44,6 +44,7 @@ val removeRecipesItem = [
 <item:quark:backpack>,
 <item:sophisticatedbackpacks:inception_upgrade>,
 <item:sophisticatedbackpacks:feeding_upgrade>,
+<item:minecraft:crossbow>,
 
 ] as IItemStack[];
  
@@ -53,3 +54,15 @@ craftingTable.removeRecipe(item);
 stoneCutter.removeRecipe(item);
 furnace.removeRecipe(item);
 }
+
+
+// Regex Bolt Removal
+
+mods.jei.JEI.hideRegex(".*bolt.*");
+craftingTable.removeByRegex(".*bolt.*");
+
+craftingTable.addShaped("crossbow_bolt", <item:spartanweaponry:bolt> * 4, [
+      [<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:iron_ingot>],
+      [<item:minecraft:air>, <item:minecraft:iron_nugget>, <item:minecraft:air>],
+      [<item:minecraft:feather>, <item:minecraft:air>, <item:minecraft:air>]
+]);

@@ -39,3 +39,9 @@ craftingTable.addShaped("deed_pedestal", <item:craftabledeeds:deed_pedestal>, [
       [<item:minecraft:gold_ingot>, <item:minecraft:gold_ingot>, <item:minecraft:gold_ingot>],
       [<item:minecraft:iron_block>, <item:minecraft:iron_block>, <item:minecraft:iron_block>]
 ]);
+
+craftingTable.addShaped("crossbow_bolt", <item:spartanweaponry:bolt> * 4, [
+      [<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:iron_ingot>],
+      [<item:minecraft:air>, <item:minecraft:iron_nugget>, <item:minecraft:air>],
+      [<item:minecraft:feather>, <item:minecraft:air>, <item:minecraft:air>]
+]);
