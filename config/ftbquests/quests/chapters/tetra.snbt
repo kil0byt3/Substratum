@@ -5,5 +5,714 @@
 	filename: "tetra"
 	title: "Tetra"
 	default_quest_shape: ""
-	quests: [ ]
+	quests: [
+		{
+			x: -3.0d
+			y: -4.5d
+			id: "3C5B501DFAE17B51"
+			tasks: [{
+				id: "6ED1A02644314826"
+				type: "advancement"
+				advancement: "tetra:upgrades/root"
+				criterion: ""
+			}]
+		}
+		{
+			x: -0.5d
+			y: -3.5d
+			dependencies: ["3C5B501DFAE17B51"]
+			id: "31910AAC0163F99A"
+			tasks: [{
+				id: "08D108CB5A1F3E41"
+				type: "advancement"
+				advancement: "tetra:upgrades/repairs"
+				criterion: ""
+			}]
+		}
+		{
+			x: -5.0d
+			y: -3.5d
+			dependencies: ["3C5B501DFAE17B51"]
+			dependency_requirement: "one_completed"
+			id: "46BD1A3D112C0F05"
+			tasks: [{
+				id: "0FF0474E4C3C7AC5"
+				type: "advancement"
+				advancement: "tetra:upgrades/toolbelt"
+				criterion: ""
+			}]
+		}
+		{
+			x: -3.0d
+			y: -3.0d
+			dependencies: ["3C5B501DFAE17B51"]
+			id: "502C4E53B40C86F6"
+			tasks: [{
+				id: "236CB87173851380"
+				type: "advancement"
+				advancement: "tetra:upgrades/workbench"
+				criterion: ""
+			}]
+		}
+		{
+			x: 1.0d
+			y: -3.5d
+			dependencies: ["31910AAC0163F99A"]
+			id: "5B6ED8D7A10E09A4"
+			tasks: [{
+				id: "134ACAB2C536036A"
+				type: "advancement"
+				advancement: "tetra:upgrades/double_headed"
+				criterion: ""
+			}]
+		}
+		{
+			x: -6.5d
+			y: -3.5d
+			dependencies: ["46BD1A3D112C0F05"]
+			id: "52C1564092B85401"
+			tasks: [{
+				id: "1FC497F21F182ABE"
+				type: "advancement"
+				advancement: "tetra:upgrades/toolbelt_upgraded"
+				criterion: ""
+			}]
+		}
+		{
+			x: -0.5d
+			y: -1.0d
+			dependencies: ["502C4E53B40C86F6"]
+			id: "64B2E5EB6F6A66A3"
+			tasks: [{
+				id: "354C241D7ED10200"
+				type: "advancement"
+				advancement: "tetra:upgrades/sword_upgrade"
+				criterion: ""
+			}]
+		}
+		{
+			x: -1.5d
+			y: -1.0d
+			dependencies: ["502C4E53B40C86F6"]
+			id: "151A7D65062181C7"
+			tasks: [{
+				id: "298762E765A94240"
+				type: "advancement"
+				advancement: "tetra:upgrades/shield_upgrade"
+				criterion: ""
+			}]
+		}
+		{
+			x: -2.5d
+			y: -1.0d
+			dependencies: ["502C4E53B40C86F6"]
+			id: "7592A4238DA48E1D"
+			tasks: [{
+				id: "5F6379107471C906"
+				type: "advancement"
+				advancement: "tetra:upgrades/bow_upgrade"
+				criterion: ""
+			}]
+		}
+		{
+			x: -3.5d
+			y: -1.0d
+			dependencies: ["502C4E53B40C86F6"]
+			id: "353D4C213195E6BF"
+			tasks: [{
+				id: "53A422C112DCEE32"
+				type: "advancement"
+				advancement: "tetra:upgrades/hammer_2"
+				criterion: ""
+			}]
+		}
+		{
+			x: -4.5d
+			y: -1.0d
+			dependencies: ["502C4E53B40C86F6"]
+			id: "70D49E9AC3243AB0"
+			tasks: [{
+				id: "6A04FD5811C484C1"
+				type: "advancement"
+				advancement: "tetra:upgrades/tool_upgrade"
+				criterion: ""
+			}]
+		}
+		{
+			x: -5.5d
+			y: -1.0d
+			dependencies: ["502C4E53B40C86F6"]
+			id: "24FCFD06FFC25BEA"
+			tasks: [{
+				id: "1ABD902FCCAA2737"
+				type: "advancement"
+				advancement: "tetra:upgrades/rack"
+				criterion: ""
+			}]
+		}
+		{
+			x: 0.0d
+			y: 0.5d
+			dependencies: ["64B2E5EB6F6A66A3"]
+			id: "0CC50944E5F42F1E"
+			tasks: [{
+				id: "2B7ED210AB71EECE"
+				type: "advancement"
+				advancement: "tetra:upgrades/sword_integrity"
+				criterion: ""
+			}]
+		}
+		{
+			x: -1.0d
+			y: 0.5d
+			dependencies: ["64B2E5EB6F6A66A3"]
+			id: "3E1D7A48AB2ED99C"
+			tasks: [{
+				id: "406B423187117135"
+				type: "advancement"
+				advancement: "tetra:upgrades/sword_hone"
+				criterion: ""
+			}]
+		}
+		{
+			x: -0.5d
+			y: 2.0d
+			dependencies: ["3E1D7A48AB2ED99C"]
+			id: "07E3586FC370A373"
+			tasks: [{
+				id: "595C4A778F13B596"
+				type: "advancement"
+				advancement: "tetra:upgrades/sword_improvement_hone"
+				criterion: ""
+			}]
+		}
+		{
+			x: -1.5d
+			y: 2.0d
+			dependencies: ["3E1D7A48AB2ED99C"]
+			id: "27CC6C5C2848DEE4"
+			tasks: [{
+				id: "5465537064AF89A1"
+				type: "advancement"
+				advancement: "tetra:upgrades/sword_hone_peak"
+				criterion: ""
+			}]
+		}
+		{
+			x: -3.5d
+			y: 0.5d
+			dependencies: ["353D4C213195E6BF"]
+			id: "7573453D7AA992B9"
+			tasks: [{
+				id: "718B7EC37E6ECFE6"
+				type: "advancement"
+				advancement: "tetra:upgrades/hammer_3"
+				criterion: ""
+			}]
+		}
+		{
+			x: -3.5d
+			y: 2.0d
+			dependencies: ["7573453D7AA992B9"]
+			id: "78A3CD2E4210C93E"
+			tasks: [{
+				id: "56D49FFDC45AC54D"
+				type: "advancement"
+				advancement: "tetra:upgrades/hammer_4"
+				criterion: ""
+			}]
+		}
+		{
+			x: -3.5d
+			y: 3.5d
+			dependencies: ["78A3CD2E4210C93E"]
+			id: "4AFD5690E237C01B"
+			tasks: [{
+				id: "446243B193A58FAA"
+				type: "advancement"
+				advancement: "tetra:upgrades/hammer_5"
+				criterion: ""
+			}]
+		}
+		{
+			x: -3.5d
+			y: 5.0d
+			dependencies: ["4AFD5690E237C01B"]
+			id: "549C8FF16FD89BE2"
+			tasks: [{
+				id: "43D918CA5998B70F"
+				type: "advancement"
+				advancement: "tetra:upgrades/hammer_6"
+				criterion: ""
+			}]
+		}
+		{
+			x: -3.0d
+			y: -6.0d
+			dependencies: ["3C5B501DFAE17B51"]
+			id: "7439E99F8685CC86"
+			tasks: [{
+				id: "6969BC3EC8371B29"
+				type: "advancement"
+				advancement: "tetra:spelunking/root"
+				criterion: ""
+			}]
+		}
+		{
+			x: -3.0d
+			y: -7.5d
+			dependencies: ["7439E99F8685CC86"]
+			id: "7736CD7231E1B75C"
+			tasks: [{
+				id: "2A34C49675140ED3"
+				type: "advancement"
+				advancement: "tetra:spelunking/ancient_ruins"
+				criterion: ""
+			}]
+		}
+		{
+			x: -6.5d
+			y: -6.0d
+			dependencies: ["7439E99F8685CC86"]
+			id: "79142033B9380A05"
+			tasks: [{
+				id: "32FEDE6EFB4F3497"
+				type: "advancement"
+				advancement: "tetra:spelunking/geode"
+				criterion: ""
+			}]
+		}
+		{
+			x: 0.5d
+			y: -6.0d
+			dependencies: ["7439E99F8685CC86"]
+			id: "02089AF08018322C"
+			tasks: [{
+				id: "55C46E5FA8831CE5"
+				type: "advancement"
+				advancement: "tetra:spelunking/find_scroll"
+				criterion: ""
+			}]
+		}
+		{
+			x: 3.0d
+			y: -6.5d
+			dependencies: ["02089AF08018322C"]
+			id: "059B8ADB986D1929"
+			tasks: [{
+				id: "1888382763CB7483"
+				type: "advancement"
+				advancement: "tetra:spelunking/find_scroll_throwing"
+				criterion: ""
+			}]
+		}
+		{
+			x: 3.0d
+			y: -5.5d
+			dependencies: ["02089AF08018322C"]
+			id: "468DC22D60A6FA8E"
+			tasks: [{
+				id: "0156970F0FFF097C"
+				type: "advancement"
+				advancement: "tetra:spelunking/find_scroll_sturdy"
+				criterion: ""
+			}]
+		}
+		{
+			x: 3.0d
+			y: -3.5d
+			dependencies: ["02089AF08018322C"]
+			id: "0EB62818418B7993"
+			tasks: [{
+				id: "4734B8D4274C6A50"
+				type: "advancement"
+				advancement: "tetra:spelunking/find_scroll_warforge"
+				criterion: ""
+			}]
+		}
+		{
+			x: 3.0d
+			y: -4.5d
+			dependencies: ["02089AF08018322C"]
+			id: "12DCD1C1A03D4969"
+			tasks: [{
+				id: "726179899F27E076"
+				type: "advancement"
+				advancement: "tetra:spelunking/find_scroll_howling"
+				criterion: ""
+			}]
+		}
+		{
+			x: 3.0d
+			y: -7.5d
+			dependencies: ["02089AF08018322C"]
+			id: "5A277B50DB6B76BF"
+			tasks: [{
+				id: "3FB5073F904434F0"
+				type: "advancement"
+				advancement: "tetra:spelunking/find_scroll_gild"
+				criterion: ""
+			}]
+		}
+		{
+			x: 3.0d
+			y: -8.5d
+			dependencies: ["02089AF08018322C"]
+			id: "45E2D835049A519E"
+			tasks: [{
+				id: "5A540D5198320E54"
+				type: "advancement"
+				advancement: "tetra:spelunking/find_scroll_efficiency"
+				criterion: ""
+			}]
+		}
+		{
+			x: 4.5d
+			y: -8.5d
+			dependencies: ["45E2D835049A519E"]
+			id: "25CB46C931188BF4"
+			tasks: [{
+				id: "6DFCC798B840AAB9"
+				type: "advancement"
+				advancement: "tetra:spelunking/find_scroll_expertise"
+				criterion: ""
+			}]
+		}
+		{
+			x: -8.0d
+			y: -6.0d
+			dependencies: ["79142033B9380A05"]
+			id: "60F1AB2C68B592F0"
+			tasks: [{
+				id: "688D19714285821B"
+				type: "advancement"
+				advancement: "tetra:spelunking/geode_open"
+				criterion: ""
+			}]
+		}
+		{
+			x: -9.5d
+			y: -6.0d
+			dependencies: ["60F1AB2C68B592F0"]
+			id: "12BB97923EA2932C"
+			tasks: [{
+				id: "712269178E1B197B"
+				type: "advancement"
+				advancement: "tetra:spelunking/pristine_socket"
+				criterion: ""
+			}]
+		}
+		{
+			x: -0.5d
+			y: -9.0d
+			dependencies: ["7736CD7231E1B75C"]
+			id: "1412948A68930FD9"
+			tasks: [{
+				id: "63059C01EBE538C3"
+				type: "advancement"
+				advancement: "tetra:spelunking/find_cell"
+				criterion: ""
+			}]
+		}
+		{
+			x: -5.5d
+			y: -9.0d
+			dependencies: ["7736CD7231E1B75C"]
+			id: "7706086C6A013CB1"
+			tasks: [{
+				id: "7DC064773B708178"
+				type: "advancement"
+				advancement: "tetra:spelunking/containers"
+				criterion: ""
+			}]
+		}
+		{
+			x: -3.0d
+			y: -9.0d
+			dependencies: ["7736CD7231E1B75C"]
+			id: "4A594A2DEB1EEF08"
+			tasks: [{
+				id: "399FF7ECDA877F72"
+				type: "advancement"
+				advancement: "tetra:spelunking/scanner"
+				criterion: ""
+			}]
+		}
+		{
+			x: 0.0d
+			y: -10.5d
+			dependencies: ["1412948A68930FD9"]
+			id: "69FC98C073D4030A"
+			tasks: [{
+				id: "240A65854838CC94"
+				type: "advancement"
+				advancement: "tetra:spelunking/hammer_fix"
+				criterion: ""
+			}]
+		}
+		{
+			x: -1.0d
+			y: -10.5d
+			dependencies: ["1412948A68930FD9"]
+			id: "20789B18A3D9CEED"
+			tasks: [{
+				id: "6A26267FF23A4BF0"
+				type: "advancement"
+				advancement: "tetra:spelunking/refill_cell"
+				criterion: ""
+			}]
+		}
+		{
+			x: 0.0d
+			y: -12.0d
+			dependencies: ["69FC98C073D4030A"]
+			id: "5DD33752CBF16480"
+			tasks: [{
+				id: "5B9D66717602804B"
+				type: "advancement"
+				advancement: "tetra:spelunking/hammer_remove"
+				criterion: ""
+			}]
+		}
+		{
+			x: -1.0d
+			y: -12.0d
+			dependencies: ["69FC98C073D4030A"]
+			id: "0F024AFB09BA88F1"
+			tasks: [{
+				id: "07C68753E9318539"
+				type: "advancement"
+				advancement: "tetra:spelunking/hammer_craft"
+				criterion: ""
+			}]
+		}
+		{
+			x: 1.0d
+			y: -12.0d
+			dependencies: ["69FC98C073D4030A"]
+			id: "65AF2235383CEAB9"
+			tasks: [{
+				id: "3000A57728BA784C"
+				type: "advancement"
+				advancement: "tetra:spelunking/hammer_power"
+				criterion: ""
+			}]
+		}
+		{
+			x: 1.0d
+			y: -13.5d
+			dependencies: ["65AF2235383CEAB9"]
+			id: "1D54155F03F73B82"
+			tasks: [{
+				id: "0BCC2EEFABF622C2"
+				type: "advancement"
+				advancement: "tetra:spelunking/loot_ruins"
+				criterion: ""
+			}]
+		}
+		{
+			x: -1.0d
+			y: -13.5d
+			dependencies: ["0F024AFB09BA88F1"]
+			id: "21F2FBBA875D45C8"
+			tasks: [{
+				id: "2F3362FE238CF096"
+				type: "advancement"
+				advancement: "tetra:spelunking/hammer_jam"
+				criterion: ""
+			}]
+		}
+		{
+			x: -1.0d
+			y: -15.0d
+			dependencies: ["21F2FBBA875D45C8"]
+			id: "72D7BB79729C3B06"
+			tasks: [{
+				id: "584FE7B89CCEC001"
+				type: "advancement"
+				advancement: "tetra:spelunking/hammer_unjam"
+				criterion: ""
+			}]
+		}
+		{
+			x: -8.0d
+			y: -10.5d
+			dependencies: ["7706086C6A013CB1"]
+			id: "51BD42ABE62591D9"
+			tasks: [{
+				id: "239031585EE351E3"
+				type: "advancement"
+				advancement: "tetra:spelunking/find_planar"
+				criterion: ""
+			}]
+		}
+		{
+			x: -6.0d
+			y: -10.5d
+			dependencies: ["7706086C6A013CB1"]
+			id: "3DA639B3C179F876"
+			tasks: [{
+				id: "2E8F0635A5761FDF"
+				type: "advancement"
+				advancement: "tetra:spelunking/find_bolt"
+				criterion: ""
+			}]
+		}
+		{
+			x: -7.0d
+			y: -10.5d
+			dependencies: ["7706086C6A013CB1"]
+			id: "660C7A5F12DD3A58"
+			tasks: [{
+				id: "05C693E920C15743"
+				type: "advancement"
+				advancement: "tetra:spelunking/find_latch"
+				criterion: ""
+			}]
+		}
+		{
+			x: -4.0d
+			y: -10.5d
+			dependencies: ["7706086C6A013CB1"]
+			id: "0FE18AF8FEB4424A"
+			tasks: [{
+				id: "7BEA15085BF9204D"
+				type: "advancement"
+				advancement: "tetra:spelunking/earthpiercer"
+				criterion: ""
+			}]
+		}
+		{
+			x: -3.0d
+			y: -10.5d
+			dependencies: ["7706086C6A013CB1"]
+			id: "156E2D9F0E8365C9"
+			tasks: [{
+				id: "484D52AC7FB22E3C"
+				type: "advancement"
+				advancement: "tetra:spelunking/chthonic_extractor"
+				criterion: ""
+			}]
+		}
+		{
+			x: -5.0d
+			y: -10.5d
+			dependencies: ["7706086C6A013CB1"]
+			id: "4F68184185988A17"
+			tasks: [{
+				id: "5457FBF390E19DAF"
+				type: "advancement"
+				advancement: "tetra:spelunking/stonecutter"
+				criterion: ""
+			}]
+		}
+		{
+			x: -5.0d
+			y: -12.0d
+			dependencies: ["4F68184185988A17"]
+			id: "2B405E86771300E1"
+			tasks: [{
+				id: "2DD40CDCA488126D"
+				type: "advancement"
+				advancement: "tetra:spelunking/stonecutter_enchant"
+				criterion: ""
+			}]
+		}
+		{
+			x: -6.0d
+			y: -12.0d
+			dependencies: ["3DA639B3C179F876"]
+			id: "1177EE10772CAC0B"
+			tasks: [{
+				id: "14730164BA5B3997"
+				type: "advancement"
+				advancement: "tetra:spelunking/use_bolt"
+				criterion: ""
+			}]
+		}
+		{
+			x: -8.5d
+			y: -12.0d
+			dependencies: ["51BD42ABE62591D9"]
+			id: "6BF8EB48998DE9A7"
+			tasks: [{
+				id: "1C335B4029A30F9F"
+				type: "advancement"
+				advancement: "tetra:spelunking/suspend_bow"
+				criterion: ""
+			}]
+		}
+		{
+			x: -7.5d
+			y: -12.0d
+			dependencies: ["51BD42ABE62591D9"]
+			id: "047321F447FF2674"
+			tasks: [{
+				id: "7E2071737068A1A7"
+				type: "advancement"
+				advancement: "tetra:spelunking/suspend_belt"
+				criterion: ""
+			}]
+		}
+		{
+			x: -4.0d
+			y: -12.0d
+			dependencies: ["156E2D9F0E8365C9"]
+			id: "4FE22E3378E5308C"
+			tasks: [{
+				id: "198EA23EB4BC111B"
+				type: "advancement"
+				advancement: "tetra:spelunking/chthonic_hammer"
+				criterion: ""
+			}]
+		}
+		{
+			x: -3.0d
+			y: -12.0d
+			dependencies: ["156E2D9F0E8365C9"]
+			id: "474497F720093EC7"
+			tasks: [{
+				id: "15D0633D6F5B8DA6"
+				type: "advancement"
+				advancement: "tetra:spelunking/chthonic_crossbow"
+				criterion: ""
+			}]
+		}
+		{
+			x: -2.0d
+			y: -12.0d
+			dependencies: ["156E2D9F0E8365C9"]
+			id: "272308A6F66FA653"
+			tasks: [{
+				id: "7C6655E004B4E36B"
+				type: "advancement"
+				advancement: "tetra:spelunking/chthonic_module"
+				criterion: ""
+			}]
+		}
+		{
+			x: -4.0d
+			y: -13.5d
+			dependencies: ["4FE22E3378E5308C"]
+			id: "7DA527899D605AA3"
+			tasks: [{
+				id: "402964DB8E29043C"
+				type: "advancement"
+				advancement: "tetra:spelunking/chthonic_automation"
+				criterion: ""
+			}]
+		}
+		{
+			x: -3.0d
+			y: -13.5d
+			dependencies: ["474497F720093EC7"]
+			id: "263DCE1D14810BA2"
+			tasks: [{
+				id: "58C14D906F97B335"
+				type: "advancement"
+				advancement: "tetra:spelunking/chthonic_cooldown"
+				criterion: ""
+			}]
+		}
+	]
 }
