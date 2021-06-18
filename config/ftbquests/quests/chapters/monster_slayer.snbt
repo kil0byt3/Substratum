@@ -419,5 +419,87 @@
 				xp_levels: 5
 			}]
 		}
+		{
+			x: 0.0d
+			y: 5.0d
+			dependencies: ["2D4D29AB1A88D4C8"]
+			id: "739AA300C9256D54"
+			tasks: [{
+				id: "65ECE1D763A7B6AB"
+				type: "advancement"
+				advancement: "minecraft:adventure/kill_all_mobs"
+				criterion: ""
+			}]
+		}
+		{
+			x: 11.0d
+			y: -5.0d
+			id: "3B0C9E70339D1B9B"
+			tasks: [{
+				id: "7150F4551C84F1C5"
+				type: "advancement"
+				advancement: "upgrade_aquatic:adventure/tooth_fairy"
+				criterion: ""
+			}]
+		}
+		{
+			x: 12.5d
+			y: -3.5d
+			dependencies: ["3B0C9E70339D1B9B"]
+			id: "35F187B1F093F783"
+			tasks: [{
+				id: "61CE44CD007B4123"
+				type: "advancement"
+				advancement: "upgrade_aquatic:adventure/kill_great_thrasher"
+				criterion: ""
+			}]
+		}
+		{
+			x: 11.0d
+			y: -3.5d
+			dependencies: ["3B0C9E70339D1B9B"]
+			id: "3E466320C47F80D3"
+			tasks: [{
+				id: "25250BE678E1C3F7"
+				type: "advancement"
+				advancement: "upgrade_aquatic:adventure/unethical_dentistry"
+				criterion: ""
+			}]
+		}
+		{
+			x: 9.5d
+			y: -3.5d
+			dependencies: ["3B0C9E70339D1B9B"]
+			id: "2B9B3D2DE584F7D2"
+			tasks: [{
+				id: "66B258D315FFBD71"
+				type: "advancement"
+				advancement: "minecraft:adventure/throw_trident"
+				criterion: ""
+			}]
+		}
+		{
+			x: 5.0d
+			y: -5.0d
+			id: "7FE6B9D83DCA743E"
+			tasks: [{
+				id: "3D1D2B88C50D88BA"
+				type: "advancement"
+				advancement: "minecraft:adventure/voluntary_exile"
+				criterion: ""
+			}]
+		}
+		{
+			x: 5.0d
+			y: -3.5d
+			dependencies: ["7FE6B9D83DCA743E"]
+			id: "698680359E90509C"
+			tasks: [{
+				id: "3F036B4F873E5DAA"
+				type: "advancement"
+				advancement: "minecraft:adventure/hero_of_the_village"
+				criterion: ""
+			}]
+		}
 	]
 }

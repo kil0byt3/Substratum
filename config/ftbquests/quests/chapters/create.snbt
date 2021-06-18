@@ -4,6 +4,7 @@
 	order_index: 0
 	filename: "create"
 	title: "Create"
+	icon: "create:crushing_wheel"
 	default_quest_shape: ""
 	quests: [
 		{
@@ -32,11 +33,937 @@
 		{
 			x: 1.5d
 			y: 1.0d
-			id: "35A67C82B4194FDD"
+			dependencies: ["0A430BAD9B663B1F"]
+			id: "2BECF744E3C9AE67"
 			tasks: [{
-				id: "07746B9EB5B93D07"
-				type: "item"
-				item: "create:hand_crank"
+				id: "5CDF42C293F03F11"
+				type: "advancement"
+				advancement: "create:andesite_alloy"
+				criterion: ""
+			}]
+		}
+		{
+			x: 1.5d
+			y: 2.5d
+			dependencies: ["2BECF744E3C9AE67"]
+			id: "2766D45A3C2AF8E1"
+			tasks: [{
+				id: "5569D7632BEC96B2"
+				type: "advancement"
+				advancement: "create:water_wheel"
+				criterion: ""
+			}]
+		}
+		{
+			x: 8.0d
+			y: 2.5d
+			dependencies: ["2BECF744E3C9AE67"]
+			id: "5C940AD92B145444"
+			tasks: [{
+				id: "6D3C292FB33CB257"
+				type: "advancement"
+				advancement: "create:andesite_casing"
+				criterion: ""
+			}]
+		}
+		{
+			x: 0.0d
+			y: 2.5d
+			dependencies: ["2BECF744E3C9AE67"]
+			id: "78E344DC18E0BC74"
+			tasks: [{
+				id: "5D10FA73736B261C"
+				type: "advancement"
+				advancement: "create:windmill"
+				criterion: ""
+			}]
+		}
+		{
+			x: 4.5d
+			y: 4.0d
+			dependencies: ["360142A3E091C9B8"]
+			id: "2D9521B35CD212DF"
+			tasks: [{
+				id: "360CA8E08182B00E"
+				type: "advancement"
+				advancement: "create:reinforced"
+				criterion: ""
+			}]
+		}
+		{
+			x: 4.5d
+			y: 2.5d
+			dependencies: ["2BECF744E3C9AE67"]
+			id: "360142A3E091C9B8"
+			tasks: [{
+				id: "5217F5E39CF171A0"
+				type: "advancement"
+				advancement: "create:aesthetics"
+				criterion: ""
+			}]
+		}
+		{
+			x: 3.0d
+			y: 2.5d
+			dependencies: ["2BECF744E3C9AE67"]
+			id: "178BB3C1D9924B53"
+			tasks: [{
+				id: "35F2480F53D08047"
+				type: "advancement"
+				advancement: "create:millstone"
+				criterion: ""
+			}]
+		}
+		{
+			x: -3.5d
+			y: 2.5d
+			dependencies: ["2BECF744E3C9AE67"]
+			id: "27639BB678B681D0"
+			tasks: [{
+				id: "6773F09655966366"
+				type: "advancement"
+				advancement: "create:its_alive"
+				criterion: ""
+			}]
+		}
+		{
+			x: -1.5d
+			y: 2.5d
+			dependencies: ["2BECF744E3C9AE67"]
+			id: "55A54A51D54A9D39"
+			tasks: [{
+				id: "33FBC25408EBB76C"
+				type: "advancement"
+				advancement: "create:cuckoo"
+				criterion: ""
+			}]
+		}
+		{
+			x: 2.0d
+			y: 4.0d
+			dependencies: ["2766D45A3C2AF8E1"]
+			id: "7AEAB5C125F18CB8"
+			tasks: [{
+				id: "02CB44A52D3A341D"
+				type: "advancement"
+				advancement: "create:lava_wheel"
+				criterion: ""
+			}]
+		}
+		{
+			x: 1.0d
+			y: 4.0d
+			dependencies: ["2766D45A3C2AF8E1"]
+			id: "583F0BA408334811"
+			tasks: [{
+				id: "7E6DE2EE6A4283D3"
+				type: "advancement"
+				advancement: "create:chocolate_wheel"
+				criterion: ""
+			}]
+		}
+		{
+			x: 0.0d
+			y: 4.0d
+			dependencies: ["78E344DC18E0BC74"]
+			id: "35C12CB3E1499AC7"
+			tasks: [{
+				id: "12CCE32AD68F47EF"
+				type: "advancement"
+				advancement: "create:maxed_windmill"
+				criterion: ""
+			}]
+		}
+		{
+			x: 6.5d
+			y: 4.0d
+			dependencies: ["5C940AD92B145444"]
+			id: "4ECD606C3CF3C88A"
+			tasks: [{
+				id: "525A5D8CC8D1C149"
+				type: "advancement"
+				advancement: "create:mechanical_drill"
+				criterion: ""
+			}]
+		}
+		{
+			x: 9.5d
+			y: 4.0d
+			dependencies: ["5C940AD92B145444"]
+			id: "75F064A9EAB035FA"
+			tasks: [{
+				id: "0ABD469E1FEA5E4E"
+				type: "advancement"
+				advancement: "create:polished_rose_quartz"
+				criterion: ""
+			}]
+		}
+		{
+			x: 8.0d
+			y: 4.0d
+			dependencies: ["5C940AD92B145444"]
+			id: "45BEB64369E7791D"
+			tasks: [{
+				id: "2067DE9479AACBE8"
+				type: "advancement"
+				advancement: "create:press"
+				criterion: ""
+			}]
+		}
+		{
+			x: 11.0d
+			y: 4.0d
+			dependencies: ["75F064A9EAB035FA"]
+			id: "11B9C324B447752B"
+			tasks: [{
+				id: "604189AB7B7545F1"
+				type: "advancement"
+				advancement: "create:electron_tube"
+				criterion: ""
+			}]
+		}
+		{
+			x: 11.0d
+			y: 5.5d
+			dependencies: ["45BEB64369E7791D"]
+			id: "27AE8AE5BBE8DF51"
+			tasks: [{
+				id: "40E538C3CC8D84FE"
+				type: "advancement"
+				advancement: "create:fan"
+				criterion: ""
+			}]
+		}
+		{
+			x: 5.0d
+			y: 5.5d
+			dependencies: ["45BEB64369E7791D"]
+			id: "16CFAE03A661C13A"
+			tasks: [{
+				id: "6988E523CA123F74"
+				type: "advancement"
+				advancement: "create:copper_casing"
+				criterion: ""
+			}]
+		}
+		{
+			x: 9.5d
+			y: 5.5d
+			dependencies: ["45BEB64369E7791D"]
+			id: "57205B4310249247"
+			tasks: [{
+				id: "4188D91300573BFA"
+				type: "advancement"
+				advancement: "create:mechanical_saw"
+				criterion: ""
+			}]
+		}
+		{
+			x: 8.0d
+			y: 5.5d
+			dependencies: ["45BEB64369E7791D"]
+			id: "6DD5CD774592AB20"
+			tasks: [{
+				id: "2769663605469EA0"
+				type: "advancement"
+				advancement: "create:basin"
+				criterion: ""
+			}]
+		}
+		{
+			x: 11.0d
+			y: 7.0d
+			dependencies: ["27AE8AE5BBE8DF51"]
+			id: "24D7C9D20D896309"
+			tasks: [{
+				id: "298FDA5333F5A334"
+				type: "advancement"
+				advancement: "create:fan_water"
+				criterion: ""
+			}]
+		}
+		{
+			x: 12.0d
+			y: 7.0d
+			dependencies: ["27AE8AE5BBE8DF51"]
+			id: "4C36108CD27C3B5D"
+			tasks: [{
+				id: "0D6B9DEBB5E183E8"
+				type: "advancement"
+				advancement: "create:fan_smoke"
+				criterion: ""
+			}]
+		}
+		{
+			x: 10.0d
+			y: 7.0d
+			dependencies: ["27AE8AE5BBE8DF51"]
+			id: "5687260DB7B06543"
+			tasks: [{
+				id: "7E51EA59EF13BECD"
+				type: "advancement"
+				advancement: "create:fan_lava"
+				criterion: ""
+			}]
+		}
+		{
+			x: 9.0d
+			y: 7.0d
+			dependencies: ["6DD5CD774592AB20"]
+			id: "72EDB782EEE913AC"
+			tasks: [{
+				id: "15333F54E3CFBA12"
+				type: "advancement"
+				advancement: "create:compact"
+				criterion: ""
+			}]
+		}
+		{
+			x: 8.0d
+			y: 7.0d
+			dependencies: ["6DD5CD774592AB20"]
+			id: "1D62B259BB131FA4"
+			tasks: [{
+				id: "50AD10020E13D9BC"
+				type: "advancement"
+				advancement: "create:mixer"
+				criterion: ""
+			}]
+		}
+		{
+			x: 8.0d
+			y: 8.5d
+			dependencies: ["1D62B259BB131FA4"]
+			id: "6E197620D3C1F370"
+			tasks: [{
+				id: "52D535B4ABC68AFD"
+				type: "advancement"
+				advancement: "create:blaze_burner"
+				criterion: ""
+			}]
+		}
+		{
+			x: 8.0d
+			y: 10.0d
+			dependencies: ["6E197620D3C1F370"]
+			id: "173411B43F9364FA"
+			tasks: [{
+				id: "0E06041781D875E4"
+				type: "advancement"
+				advancement: "create:brass"
+				criterion: ""
+			}]
+		}
+		{
+			x: 8.0d
+			y: 11.5d
+			dependencies: ["173411B43F9364FA"]
+			id: "080804365086E7BF"
+			tasks: [{
+				id: "10A196A977A0128E"
+				type: "advancement"
+				advancement: "create:brass_casing"
+				criterion: ""
+			}]
+		}
+		{
+			x: 5.0d
+			y: 7.0d
+			dependencies: ["16CFAE03A661C13A"]
+			id: "50AC529B47A364B6"
+			tasks: [{
+				id: "1E9570454AEE904A"
+				type: "advancement"
+				advancement: "create:item_drain"
+				criterion: ""
+			}]
+		}
+		{
+			x: 3.5d
+			y: 7.0d
+			dependencies: ["16CFAE03A661C13A"]
+			id: "308D1A119E7FCDE3"
+			tasks: [{
+				id: "583C1EFEBE222EC6"
+				type: "advancement"
+				advancement: "create:glass_pipe"
+				criterion: ""
+			}]
+		}
+		{
+			x: 6.5d
+			y: 7.0d
+			dependencies: ["16CFAE03A661C13A"]
+			id: "4CBF38194B04FC3B"
+			tasks: [{
+				id: "5E2C1E43CDBB167F"
+				type: "advancement"
+				advancement: "create:spout"
+				criterion: ""
+			}]
+		}
+		{
+			x: 4.0d
+			y: 8.5d
+			dependencies: ["308D1A119E7FCDE3"]
+			id: "58077D0A178AA5DD"
+			tasks: [{
+				id: "7B5B747210BD120C"
+				type: "advancement"
+				advancement: "create:pipe_collision"
+				criterion: ""
+			}]
+		}
+		{
+			x: 3.0d
+			y: 8.5d
+			dependencies: ["308D1A119E7FCDE3"]
+			id: "729A6F5A4C28D1BF"
+			tasks: [{
+				id: "09B2C0D0E8F2C87F"
+				type: "advancement"
+				advancement: "create:pipe_spill"
+				criterion: ""
+			}]
+		}
+		{
+			x: 3.0d
+			y: 10.0d
+			dependencies: ["729A6F5A4C28D1BF"]
+			id: "3B6C1BF75871B4DD"
+			tasks: [{
+				id: "48246A0749DBF415"
+				type: "advancement"
+				advancement: "create:hose_pulley"
+				criterion: ""
+			}]
+		}
+		{
+			x: 4.0d
+			y: 11.5d
+			dependencies: ["3B6C1BF75871B4DD"]
+			id: "46876CF8BBEA190B"
+			tasks: [{
+				id: "225BF873FF4738A8"
+				type: "advancement"
+				advancement: "create:infinite_water"
+				criterion: ""
+			}]
+		}
+		{
+			x: 3.0d
+			y: 11.5d
+			dependencies: ["3B6C1BF75871B4DD"]
+			id: "4917C449560C8835"
+			tasks: [{
+				id: "420DD87887EF0452"
+				type: "advancement"
+				advancement: "create:infinite_chocolate"
+				criterion: ""
+			}]
+		}
+		{
+			x: 2.0d
+			y: 11.5d
+			dependencies: ["3B6C1BF75871B4DD"]
+			id: "0CB3AB80523A5BE8"
+			tasks: [{
+				id: "36ED2DB0E65CAB48"
+				type: "advancement"
+				advancement: "create:infinite_lava"
+				criterion: ""
+			}]
+		}
+		{
+			x: 5.0d
+			y: 8.5d
+			dependencies: ["50AC529B47A364B6"]
+			id: "6B134C54F9199A3E"
+			tasks: [{
+				id: "0D3D4B31FB9DC581"
+				type: "advancement"
+				advancement: "create:chained_item_drain"
+				criterion: ""
+			}]
+		}
+		{
+			x: 7.0d
+			y: 8.5d
+			dependencies: ["4CBF38194B04FC3B"]
+			id: "03ED73EA7F63ACB4"
+			tasks: [{
+				id: "656D98CF5310B6E5"
+				type: "advancement"
+				advancement: "create:chocolate"
+				criterion: ""
+			}]
+		}
+		{
+			x: 6.0d
+			y: 8.5d
+			dependencies: ["4CBF38194B04FC3B"]
+			id: "77B43A37B922828F"
+			tasks: [{
+				id: "04A23C4A4F79F49C"
+				type: "advancement"
+				advancement: "create:spout_potion"
+				criterion: ""
+			}]
+		}
+		{
+			x: -1.5d
+			y: 4.0d
+			dependencies: ["27639BB678B681D0"]
+			id: "1EA25D61613F62AA"
+			tasks: [{
+				id: "6781DB4B44E40C39"
+				type: "advancement"
+				advancement: "create:shifting_gears"
+				criterion: ""
+			}]
+		}
+		{
+			x: -5.5d
+			y: 4.0d
+			dependencies: ["27639BB678B681D0"]
+			id: "14693EB9ADE53ECA"
+			tasks: [{
+				id: "29C4E4EEB5E993AA"
+				type: "advancement"
+				advancement: "create:belt"
+				criterion: ""
+			}]
+		}
+		{
+			x: -2.5d
+			y: 4.0d
+			dependencies: ["27639BB678B681D0"]
+			id: "5E76244282AD9142"
+			tasks: [{
+				id: "5EFCE6A05F6DF75F"
+				type: "advancement"
+				advancement: "create:goggles"
+				criterion: ""
+			}]
+		}
+		{
+			x: -4.5d
+			y: 4.0d
+			dependencies: ["27639BB678B681D0"]
+			id: "68BBE2C3B750366D"
+			tasks: [{
+				id: "1FDFEB9F9A7B0084"
+				type: "advancement"
+				advancement: "create:wrench"
+				criterion: ""
+			}]
+		}
+		{
+			x: -3.5d
+			y: 4.0d
+			dependencies: ["27639BB678B681D0"]
+			id: "402ABEC74CDB1D09"
+			tasks: [{
+				id: "7C5DDA94599E9420"
+				type: "advancement"
+				advancement: "create:overstressed"
+				criterion: ""
+			}]
+		}
+		{
+			x: -2.0d
+			y: 5.5d
+			dependencies: ["5E76244282AD9142"]
+			id: "7501A2DDE9F6E4E0"
+			tasks: [{
+				id: "747C2650A0252EAC"
+				type: "advancement"
+				advancement: "create:stressometer"
+				criterion: ""
+			}]
+		}
+		{
+			x: -3.0d
+			y: 5.5d
+			dependencies: ["5E76244282AD9142"]
+			id: "320926E29955C680"
+			tasks: [{
+				id: "404CB930B44046B5"
+				type: "advancement"
+				advancement: "create:speedometer"
+				criterion: ""
+			}]
+		}
+		{
+			x: -4.5d
+			y: 5.5d
+			dependencies: ["14693EB9ADE53ECA"]
+			id: "0F129FD4D4F59EEB"
+			tasks: [{
+				id: "3B4780D9F6F93C7E"
+				type: "advancement"
+				advancement: "create:chute"
+				criterion: ""
+			}]
+		}
+		{
+			x: -5.5d
+			y: 5.5d
+			dependencies: ["14693EB9ADE53ECA"]
+			id: "11818E469E3B0DF5"
+			tasks: [{
+				id: "7D7F4EDD4FFFE3CC"
+				type: "advancement"
+				advancement: "create:tunnel"
+				criterion: ""
+			}]
+		}
+		{
+			x: -6.5d
+			y: 5.5d
+			dependencies: ["14693EB9ADE53ECA"]
+			id: "344267D605AC8AA3"
+			tasks: [{
+				id: "6A4A4233E3356EAA"
+				type: "advancement"
+				advancement: "create:belt_funnel"
+				criterion: ""
+			}]
+		}
+		{
+			x: -4.5d
+			y: 7.0d
+			dependencies: ["0F129FD4D4F59EEB"]
+			id: "50BDE14BEDBA60F9"
+			tasks: [{
+				id: "58549B133C869120"
+				type: "advancement"
+				advancement: "create:upward_chute"
+				criterion: ""
+			}]
+		}
+		{
+			x: -5.5d
+			y: 7.0d
+			dependencies: ["11818E469E3B0DF5"]
+			id: "05B093DC94D64D33"
+			tasks: [{
+				id: "72C0EC15E705BFBC"
+				type: "advancement"
+				advancement: "create:splitter_tunnel"
+				criterion: ""
+			}]
+		}
+		{
+			x: -6.5d
+			y: 7.0d
+			dependencies: ["344267D605AC8AA3"]
+			id: "2F853C7DF30DA03B"
+			tasks: [{
+				id: "2FF03AEB847A7C27"
+				type: "advancement"
+				advancement: "create:belt_funnel_kiss"
+				criterion: ""
+			}]
+		}
+		{
+			x: 11.0d
+			y: 13.0d
+			dependencies: ["080804365086E7BF"]
+			id: "534F1A3CE5B83A25"
+			tasks: [{
+				id: "2993E97ED6FDC11B"
+				type: "advancement"
+				advancement: "create:mechanical_arm"
+				criterion: ""
+			}]
+		}
+		{
+			x: 9.0d
+			y: 13.0d
+			dependencies: ["080804365086E7BF"]
+			id: "6EB6EF694EE0BBF8"
+			tasks: [{
+				id: "3FA54DCB0478489C"
+				type: "advancement"
+				advancement: "create:deployer"
+				criterion: ""
+			}]
+		}
+		{
+			x: 6.0d
+			y: 13.0d
+			dependencies: ["080804365086E7BF"]
+			id: "366E9D57080D5BE7"
+			tasks: [{
+				id: "1A1C63333641D431"
+				type: "advancement"
+				advancement: "create:crafter"
+				criterion: ""
+			}]
+		}
+		{
+			x: 8.0d
+			y: 13.0d
+			dependencies: ["080804365086E7BF"]
+			id: "63FEE5A8E538938B"
+			tasks: [{
+				id: "4C1617932EBBA1DD"
+				type: "advancement"
+				advancement: "create:nixie_tube"
+				criterion: ""
+			}]
+		}
+		{
+			x: 7.0d
+			y: 13.0d
+			dependencies: ["080804365086E7BF"]
+			id: "49E4956F23C2B74C"
+			tasks: [{
+				id: "5FD95CD1315C5353"
+				type: "advancement"
+				advancement: "create:clockwork_bearing"
+				criterion: ""
+			}]
+		}
+		{
+			x: 11.0d
+			y: 14.0d
+			dependencies: ["534F1A3CE5B83A25"]
+			id: "0E8B89CB5931A787"
+			tasks: [{
+				id: "3FC67E464C605104"
+				type: "advancement"
+				advancement: "create:musical_arm"
+				criterion: ""
+			}]
+		}
+		{
+			x: 10.0d
+			y: 14.0d
+			dependencies: ["534F1A3CE5B83A25"]
+			id: "4537B161EE74CFED"
+			tasks: [{
+				id: "22AF51D27D512691"
+				type: "advancement"
+				advancement: "create:arm_blaze_burner"
+				criterion: ""
+			}]
+		}
+		{
+			x: 12.0d
+			y: 14.0d
+			dependencies: ["534F1A3CE5B83A25"]
+			id: "2F2D7DF94B96B9F3"
+			tasks: [{
+				id: "071D92568D838DC8"
+				type: "advancement"
+				advancement: "create:arm_many_targets"
+				criterion: ""
+			}]
+		}
+		{
+			x: 9.0d
+			y: 14.0d
+			dependencies: ["6EB6EF694EE0BBF8"]
+			id: "369E8D3A311ABD05"
+			tasks: [{
+				id: "6BBB045485EA4AC1"
+				type: "advancement"
+				advancement: "create:fist_bump"
+				criterion: ""
+			}]
+		}
+		{
+			x: 4.0d
+			y: 15.5d
+			dependencies: ["366E9D57080D5BE7"]
+			id: "6C408577ED71268E"
+			tasks: [{
+				id: "3DD5374BAE2223BD"
+				type: "advancement"
+				advancement: "create:extendo_grip"
+				criterion: ""
+			}]
+		}
+		{
+			x: 8.5d
+			y: 15.5d
+			dependencies: ["366E9D57080D5BE7"]
+			id: "22BEC4840A6410BF"
+			tasks: [{
+				id: "1DF2B6AFD9C809B2"
+				type: "advancement"
+				advancement: "create:crushing_wheel"
+				criterion: ""
+			}]
+		}
+		{
+			x: 7.0d
+			y: 15.5d
+			dependencies: ["366E9D57080D5BE7"]
+			id: "05323678F2B44ED2"
+			tasks: [{
+				id: "3297DA83B5AB2F25"
+				type: "advancement"
+				advancement: "create:integrated_circuit"
+				criterion: ""
+			}]
+		}
+		{
+			x: 5.5d
+			y: 15.5d
+			dependencies: ["366E9D57080D5BE7"]
+			id: "745153D936CF2158"
+			tasks: [{
+				id: "13CC07CCCA964C0C"
+				type: "advancement"
+				advancement: "create:flywheel"
+				criterion: ""
+			}]
+		}
+		{
+			x: 5.5d
+			y: 17.0d
+			dependencies: ["745153D936CF2158"]
+			id: "7CC93F783CAF1044"
+			tasks: [{
+				id: "23AB94AFD385EE23"
+				type: "advancement"
+				advancement: "create:overstress_flywheel"
+				criterion: ""
+			}]
+		}
+		{
+			x: 4.0d
+			y: 17.0d
+			dependencies: ["6C408577ED71268E"]
+			id: "407704FB9968A567"
+			tasks: [{
+				id: "47230F33FB5ABA64"
+				type: "advancement"
+				advancement: "create:dual_extendo_grip"
+				criterion: ""
+			}]
+		}
+		{
+			x: 7.0d
+			y: 17.0d
+			dependencies: ["05323678F2B44ED2"]
+			id: "40BF7282B64CE9C8"
+			tasks: [{
+				id: "7EABB53A28922227"
+				type: "advancement"
+				advancement: "create:speed_controller"
+				criterion: ""
+			}]
+		}
+		{
+			x: 8.5d
+			y: 17.0d
+			dependencies: ["22BEC4840A6410BF"]
+			id: "78267A30EB71C348"
+			tasks: [{
+				id: "5D3FF0D8D5369D98"
+				type: "advancement"
+				advancement: "create:blaze_cake"
+				criterion: ""
+			}]
+		}
+		{
+			x: 8.5d
+			y: 18.5d
+			dependencies: ["78267A30EB71C348"]
+			id: "47D918E9A00E6E75"
+			tasks: [{
+				id: "27370AD9AAD6F693"
+				type: "advancement"
+				advancement: "create:chromatic_compound"
+				criterion: ""
+			}]
+		}
+		{
+			x: 9.5d
+			y: 20.0d
+			dependencies: ["47D918E9A00E6E75"]
+			id: "4CD72571CD771F88"
+			tasks: [{
+				id: "1FACC4567921E146"
+				type: "advancement"
+				advancement: "minecraft:createchromatic_age"
+				criterion: ""
+			}]
+		}
+		{
+			x: 8.5d
+			y: 20.0d
+			dependencies: ["47D918E9A00E6E75"]
+			id: "544D30DD6E43D6F1"
+			tasks: [{
+				id: "10B5C5CEF7C748C3"
+				type: "advancement"
+				advancement: "create:refined_radiance"
+				criterion: ""
+			}]
+		}
+		{
+			x: 7.5d
+			y: 20.0d
+			dependencies: ["47D918E9A00E6E75"]
+			id: "58939FF5E8812D77"
+			tasks: [{
+				id: "06507EC8A3638B95"
+				type: "advancement"
+				advancement: "create:shadow_steel"
+				criterion: ""
+			}]
+		}
+		{
+			x: 8.5d
+			y: 21.5d
+			dependencies: ["544D30DD6E43D6F1"]
+			id: "0EA90E03DB08BDF1"
+			tasks: [{
+				id: "288CF8FCB6565975"
+				type: "advancement"
+				advancement: "create:deforester"
+				criterion: ""
+			}]
+		}
+		{
+			x: 9.5d
+			y: 21.5d
+			dependencies: ["544D30DD6E43D6F1"]
+			id: "5625D53B4AFDAF48"
+			tasks: [{
+				id: "6F5EB4BAB5A40413"
+				type: "advancement"
+				advancement: "create:wand_of_symmetry"
+				criterion: ""
+			}]
+		}
+		{
+			x: 7.5d
+			y: 21.5d
+			dependencies: ["544D30DD6E43D6F1"]
+			id: "530CA93DF62116B6"
+			tasks: [{
+				id: "248420CAFD032FC5"
+				type: "advancement"
+				advancement: "create:zapper"
+				criterion: ""
+			}]
+		}
+		{
+			x: 7.5d
+			y: 23.0d
+			dependencies: ["530CA93DF62116B6"]
+			id: "78ABD5E527CDC92F"
+			tasks: [{
+				id: "4730340571E562EC"
+				type: "advancement"
+				advancement: "create:upgraded_zapper"
+				criterion: ""
 			}]
 		}
 	]

@@ -58,27 +58,14 @@
 			]
 		}
 		{
-			title: "Collect 12 Eyes of Ender and 1 Beacon"
-			x: 6.0d
-			y: 1.0d
-			id: "6480E727A25D5F95"
-			tasks: [
-				{
-					id: "6DE708D0DFF73821"
-					type: "item"
-					item: "minecraft:ender_eye"
-					count: 12L
-				}
-				{
-					id: "02EDF3DD861F05F9"
-					type: "item"
-					item: "minecraft:beacon"
-				}
-			]
-			rewards: [{
-				id: "6E7FBF4E27E686C4"
-				type: "item"
-				item: "minecraft:totem_of_undying"
+			x: 4.5d
+			y: -3.0d
+			id: "3722B15B0B15995E"
+			tasks: [{
+				id: "53EA1BE6C50ACDB8"
+				type: "advancement"
+				advancement: "minecraft:adventure/honey_block_slide"
+				criterion: ""
 			}]
 		}
 	]
