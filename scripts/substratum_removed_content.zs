@@ -44,7 +44,6 @@ val removeRecipesItem = [
 <item:quark:backpack>,
 <item:sophisticatedbackpacks:inception_upgrade>,
 <item:sophisticatedbackpacks:feeding_upgrade>,
-<item:minecraft:crossbow>,
 <item:quark:white_crystal_cluster>,
 <item:quark:black_crystal_cluster>,
 <item:quark:violet_crystal_cluster>,
@@ -77,6 +76,23 @@ val removeRecipesItem = [
 <item:cavesandcliffs:tuff>,
 <item:cavesandcliffs:hanging_roots>,
 <item:cavesandcliffs:glow_lichen>,
+<item:spartanweaponry:explosive_charge>,
+<item:spartanweaponry:dagger_wood>,
+<item:spartanweaponry:longsword_wood>,
+<item:spartanweaponry:katana_wood>,
+<item:spartanweaponry:saber_wood>,
+<item:spartanweaponry:rapier_wood>,
+<item:spartanweaponry:greatsword_wood>,
+<item:spartanweaponry:spear_wood>,
+<item:spartanweaponry:halberd_wood>,
+<item:spartanweaponry:pike_wood>,
+<item:spartanweaponry:lance_wood>,
+<item:spartanweaponry:throwing_knife_wood>,
+<item:spartanweaponry:tomahawk_wood>,
+<item:spartanweaponry:javelin_wood>,
+<item:spartanweaponry:battleaxe_wood>,
+<item:spartanweaponry:glaive_wood>,
+<item:spartanweaponry:quarterstaff_wood>,
 
 ] as IItemStack[];
  
@@ -88,13 +104,13 @@ furnace.removeRecipe(item);
 }
 
 
-// Regex Bolt Removal
+// Regex Removal
 
 mods.jei.JEI.hideRegex(".*bolt.*");
 craftingTable.removeByRegex(".*bolt.*");
-
-craftingTable.addShaped("crossbow_bolt", <item:spartanweaponry:bolt> * 4, [
-      [<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:iron_ingot>],
-      [<item:minecraft:air>, <item:minecraft:iron_nugget>, <item:minecraft:air>],
-      [<item:minecraft:feather>, <item:minecraft:air>, <item:minecraft:air>]
-]);
+mods.jei.JEI.hideRegex(".*heavy_crossbow.*");
+craftingTable.removeByRegex(".*heavy_crossbow.*");
+mods.jei.JEI.hideRegex(".*arrow_.*");
+craftingTable.removeByRegex(".*arrow_.*");
+mods.jei.JEI.hideRegex(".*spikes_tipped*");
+craftingTable.removeByRegex(".*spikes_tipped.*");

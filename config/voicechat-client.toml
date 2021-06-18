@@ -22,7 +22,7 @@ voice_deactivation_delay = 25
 #The microphone used by the voice chat
 #Empty for default device
 microphone = "RTX (NVIDIA Broadcast)"
-#The microphone used by the voice chat
+#The speaker used by the voice chat
 #Empty for default device
 speaker = "SCHIIT (3- USB Modi Device)"
 #If the microphone is muted (only when using voice activation)
@@ -41,4 +41,7 @@ hud_icon_location = "LEFT"
 #The orientation of the player icons in the group HUD
 #Allowed Values: VERTICAL, HORIZONTAL
 group_player_icon_orientation = "VERTICAL"
+#The scale of the group HUD
+#Range: 0.01 ~ 10.0
+group_hud_icon_scale = 2.0
 
