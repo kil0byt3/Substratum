@@ -91,3 +91,29 @@ craftingTable.addShaped("supplementeries_rope", <item:supplementaries:rope> * 3,
       [<item:minecraft:air>, <tag:items:forge:string>, <item:minecraft:air>],
       [<item:minecraft:air>, <tag:items:forge:string>, <item:minecraft:air>]
 ]);
+
+craftingTable.removeRecipe(<item:adfinders:mineral_finder>);
+craftingTable.removeRecipe(<item:adfinders:metal_finder>);
+craftingTable.removeRecipe(<item:adfinders:gem_finder>);
+
+//New mineral finder recipe
+craftingTable.addShaped("mineral_finder", <item:adfinders:mineral_finder>, [
+      [<item:minecraft:repeater>, <tag:items:forge:glass_panes>, <item:minecraft:repeater>],
+      [<item:minecraft:iron_block>, <item:minecraft:compass>, <item:minecraft:iron_block>],
+      [<item:minecraft:repeater>, <item:minecraft:iron_block>, <item:minecraft:repeater>]
+]);
+
+//New metal finder recipe
+craftingTable.addShaped("metal_finder", <item:adfinders:metal_finder>, [
+      [<item:minecraft:repeater>, <tag:items:forge:glass_panes>, <item:minecraft:repeater>],
+      [<item:minecraft:gold_block>, <item:minecraft:compass>, <item:minecraft:gold_block>],
+      [<item:minecraft:repeater>, <item:minecraft:gold_block>, <item:minecraft:repeater>]
+]);
+
+//New mineral finder recipe
+craftingTable.addShaped("gem_finder", <item:adfinders:gem_finder>, [
+      [<item:minecraft:repeater>, <tag:items:forge:glass_panes>, <item:minecraft:repeater>],
+      [<item:minecraft:diamond_block>, <item:minecraft:compass>, <item:minecraft:diamond_block>],
+      [<item:minecraft:repeater>, <item:minecraft:diamond_block>, <item:minecraft:repeater>]
+]);
+	  
