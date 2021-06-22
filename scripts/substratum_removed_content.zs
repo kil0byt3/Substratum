@@ -1,6 +1,7 @@
 import crafttweaker.api.item.IItemStack;
 import crafttweaker.api.blocks.MCBlock;
 import crafttweaker.api.tag.MCTag;
+import crafttweaker.api.BlastFurnaceManager;
 
 // Mod hiding
 // mods.jei.JEI.hideItem(string modid, crafttweaker.api.recipeFilter exclude)
@@ -134,6 +135,7 @@ val removeRecipesItem = [
 <item:druidcraft:rope>,
 <item:druidcraft:hemp_seeds>,
 <item:druidcraft:hemp>,
+<item:cavesandcliffs:copper_ingot>,
 
 ] as IItemStack[];
  
@@ -142,8 +144,8 @@ mods.jei.JEI.hideItem(item);
 craftingTable.removeRecipe(item);
 stoneCutter.removeRecipe(item);
 furnace.removeRecipe(item);
+blastFurnace.removeRecipe(item);
 }
-
 
 // Regex Removal
 
