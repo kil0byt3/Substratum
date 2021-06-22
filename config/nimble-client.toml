@@ -1,8 +1,0 @@
-enable = true
-nimbleMounting = true
-nimbleElytra = true
-elytraRollScreen = true
-#Range: 0 ~ 1000
-elytraTickDelay = 10
-frontKeyToggleMode = false
-

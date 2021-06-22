@@ -155,3 +155,4 @@ mods.jei.JEI.hideRegex(".*arrow_.*");
 craftingTable.removeByRegex(".*arrow_.*");
 mods.jei.JEI.hideRegex(".*spikes_tipped*");
 craftingTable.removeByRegex(".*spikes_tipped.*");
+craftingTable.removeByName("druidcraft:string");
