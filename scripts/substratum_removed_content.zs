@@ -130,7 +130,11 @@ val removeRecipesItem = [
 <item:spartanshields:shield_basic_nickel>,
 <item:spartanshields:shield_basic_invar>,
 <item:farmersdelight:rope>,
+<item:quark:rope>,
 <item:druidcraft:rope>,
+<item:druidcraft:hemp_seeds>,
+<item:druidcraft:hemp>,
+
 ] as IItemStack[];
  
 for item in removeRecipesItem {

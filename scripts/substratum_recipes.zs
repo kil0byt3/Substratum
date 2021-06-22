@@ -91,9 +91,3 @@ craftingTable.addShaped("supplementeries_rope", <item:supplementaries:rope> * 3,
       [<item:minecraft:air>, <tag:items:forge:string>, <item:minecraft:air>],
       [<item:minecraft:air>, <tag:items:forge:string>, <item:minecraft:air>]
 ]);
-
-//supplementeries_rope to quark rope
-craftingTable.addShapeless("quark_rope", <item:quark:rope>, [<item:supplementaries:rope>]);
-
-//quark rope to supplementeries_rope
-craftingTable.addShapeless("subblementeries_rope", <item:supplementaries:rope>, [<item:quark:rope>]);
