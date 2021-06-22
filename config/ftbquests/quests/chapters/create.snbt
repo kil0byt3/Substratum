@@ -9,31 +9,8 @@
 	quests: [
 		{
 			x: 1.5d
-			y: -0.5d
-			id: "0A430BAD9B663B1F"
-			tasks: [{
-				id: "0D4A0D8901307AAC"
-				type: "advancement"
-				advancement: "create:root"
-				criterion: ""
-			}]
-			rewards: [
-				{
-					id: "0EFCA9A0D3743884"
-					type: "item"
-					item: "create:hand_crank"
-				}
-				{
-					id: "50FBF0D247C327B5"
-					type: "item"
-					item: "create:millstone"
-				}
-			]
-		}
-		{
-			x: 1.5d
 			y: 1.0d
-			dependencies: ["0A430BAD9B663B1F"]
+			dependencies: ["2AD13C3E89EF1663"]
 			id: "2BECF744E3C9AE67"
 			tasks: [{
 				id: "5CDF42C293F03F11"
@@ -964,6 +941,17 @@
 				type: "advancement"
 				advancement: "create:upgraded_zapper"
 				criterion: ""
+			}]
+		}
+		{
+			icon: "create:brass_hand"
+			x: 1.5d
+			y: -0.5d
+			id: "2AD13C3E89EF1663"
+			tasks: [{
+				id: "1B7D540A8E070627"
+				type: "checkmark"
+				title: "Welcome to Create"
 			}]
 		}
 	]

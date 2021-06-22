@@ -253,31 +253,6 @@
 			]
 		}
 		{
-			title: "Backpack"
-			x: -14.0d
-			y: -3.0d
-			dependencies: ["199DB27DAA5DBED8"]
-			hide: true
-			id: "738F5B15DBB7F238"
-			tasks: [{
-				id: "683E63A921FB8324"
-				type: "item"
-				item: "sophisticatedbackpacks:backpack"
-			}]
-			rewards: [
-				{
-					id: "65194C2B52C30884"
-					type: "item"
-					item: "sophisticatedbackpacks:upgrade_base"
-				}
-				{
-					id: "7FABBC91DDD24063"
-					type: "xp_levels"
-					xp_levels: 5
-				}
-			]
-		}
-		{
 			x: -10.0d
 			y: -3.0d
 			id: "6529F5C2ED3D9700"
@@ -577,22 +552,6 @@
 				type: "advancement"
 				advancement: "minecraft:adventure/sniper_duel"
 				criterion: ""
-			}]
-		}
-		{
-			x: -16.0d
-			y: -3.0d
-			id: "09609CF09C760BBF"
-			tasks: [{
-				id: "1857CCC8091616D8"
-				type: "advancement"
-				advancement: "minecraft:adventure/sleep_in_bed"
-				criterion: ""
-			}]
-			rewards: [{
-				id: "1EA58C70F0456B72"
-				type: "item"
-				item: "druidcraft:white_bedroll"
 			}]
 		}
 		{
