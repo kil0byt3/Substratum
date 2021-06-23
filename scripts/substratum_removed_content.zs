@@ -141,6 +141,7 @@ val removeRecipesItem = [
 <item:paraglider:stamina_vessel>,
 <item:paraglider:spirit_orb>,
 <item:paraglider:horned_statue>,
+<item:create:handheld_worldshaper>,
 
 ] as IItemStack[];
  

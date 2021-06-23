@@ -124,3 +124,4 @@ craftingTable.addShaped("paraglider", <item:paraglider:paraglider>, [
       [<item:minecraft:leather>, <item:minecraft:stick>, <item:minecraft:leather>],
       [<item:minecraft:stick>, <item:minecraft:air>, <item:minecraft:stick>]
 ]);
+
