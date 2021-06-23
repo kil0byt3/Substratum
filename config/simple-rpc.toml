@@ -10,7 +10,7 @@
 
 [init]
 	enabled = true
-	description = "Minecraft is loading"
+	description = "Substratum is loading"
 	state = "Game Starting..."
 	largeImageKey = "mclogo"
 	largeImageText = "It's Minecraft %mcver%, but modded"
@@ -20,7 +20,7 @@
 
 [main_menu]
 	enabled = true
-	description = "%player% is currently lazy"
+	description = "%player% is AFK"
 	state = "Chilling in the menu"
 	largeImageKey = "mclogo"
 	largeImageText = "It's Minecraft %mcver%, but modded"
@@ -40,7 +40,7 @@
 
 [join_game]
 	enabled = true
-	description = "%player% is joining a game"
+	description = "%player% is waiting to connect"
 	state = "Joining Game"
 	largeImageKey = "mclogo"
 	largeImageText = "It's Minecraft %mcver%, but modded"
@@ -69,7 +69,7 @@
 	buttons = []
 
 [generic]
-	description = "Playing Minecraft"
+	description = "Playing Substratum"
 	state = ""
 	largeImageKey = "mclogo"
 	largeImageText = "It's Minecraft %mcver%, but modded"
