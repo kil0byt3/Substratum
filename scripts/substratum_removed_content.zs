@@ -176,7 +176,13 @@ val removeRecipesItem = [
 <item:environmental:rice>,
 <item:environmental:rice_sack>,
 <item:environmental:fried_egg>,
-
+<item:create:crushed_lead_ore>,
+<item:create:crushed_osmium_ore>,
+<item:create:crushed_silver_ore>,
+<item:create:crushed_nickel_ore>,
+<item:create:crushed_aluminum_ore>,
+<item:create:crushed_tin_ore>,
+<item:create:crushed_uranium_ore>,
 
 ] as IItemStack[];
  

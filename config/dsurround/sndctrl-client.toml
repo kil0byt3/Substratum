@@ -2,7 +2,7 @@
 #General options for defining sound effects
 ["Sound Options"]
 	#Enable sound reverb and filtering
-	"Enable Enhanced Sounds" = true
+	"Enable Enhanced Sounds" = false
 	#Enable conversion of stereo sounds to mono format for spacial play
 	"Enable Stereo to Mono Conversion" = true
 	#Enable sound occlusion calculations (sound muffling when positioned behind blocks)
