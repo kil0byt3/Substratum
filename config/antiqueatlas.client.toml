@@ -76,11 +76,11 @@
 	#Map's width in GUI pixels.
 	#Note that this will change with Minecraft's GUI scale configuration.
 	#Range: > 0
-	width = 155
+	width = 310
 	#Map's height in GUI pixels.
 	#Note that this will change with Minecraft's GUI scale configuration.
 	#Range: > 0
-	height = 109
+	height = 218
 
 [overlayAppearance]
 	#The size (in GUI pixels) of a map's tile.
