@@ -136,6 +136,11 @@ val removeRecipesItem = [
 <item:druidcraft:hemp_seeds>,
 <item:druidcraft:hemp>,
 <item:cavesandcliffs:copper_ingot>,
+<item:paraglider:deku_leaf>,
+<item:paraglider:heart_container>,
+<item:paraglider:stamina_vessel>,
+<item:paraglider:spirit_orb>,
+<item:paraglider:horned_statue>,
 
 ] as IItemStack[];
  

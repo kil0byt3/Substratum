@@ -116,4 +116,11 @@ craftingTable.addShaped("gem_finder", <item:adfinders:gem_finder>, [
       [<item:minecraft:diamond_block>, <item:minecraft:compass>, <item:minecraft:diamond_block>],
       [<item:minecraft:repeater>, <item:minecraft:diamond_block>, <item:minecraft:repeater>]
 ]);
-	  
+
+craftingTable.removeRecipe(<item:paraglider:paraglider>);
+//New paraglider recipe
+craftingTable.addShaped("paraglider", <item:paraglider:paraglider>, [
+      [<item:minecraft:stick>, <item:minecraft:leather>, <item:minecraft:stick>],
+      [<item:minecraft:leather>, <item:minecraft:stick>, <item:minecraft:leather>],
+      [<item:minecraft:stick>, <item:minecraft:air>, <item:minecraft:stick>]
+]);
