@@ -175,6 +175,7 @@ val removeRecipesItem = [
 <item:paraglider:deku_leaf>,
 <item:environmental:rice>,
 <item:environmental:rice_sack>,
+<item:environmental:fried_egg>,
 
 
 ] as IItemStack[];

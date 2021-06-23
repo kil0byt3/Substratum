@@ -47,13 +47,13 @@
 	#Run the command /nutritionalbalance get_unassigned_foods to find any foods that do not have nutrients.
 	[general.nutrient_foods]
 		#List of vegetables.
-		vegetables_item_list = ["#minecraft:flowers", "#forge:vegetables"]
+		vegetables_item_list = ["#minecraft:flowers", "#forge:vegetables", "upgrade_aquatic:boiled_purple_pickerelweed", "upgrade_aquatic:boiled_blue_pickerelweed", "atmospheric:aloe_leaves"]
 		#List of carbohydrates.
 		carbs_item_list = ["#forge:carbs", "#forge:grain"]
 		#List of simple sugars.
 		sugars_item_list = []
 		#List of proteins.
-		protein_item_list = ["#forge:protein", "#forge:milk", "#forge:yogurt", "#forge:nuts"]
+		protein_item_list = ["#forge:protein", "#forge:milk", "#forge:yogurt", "#forge:nuts", "alexsmobs:shrimp_fried_rice"]
 		#List of proteins.
-		fruits_item_list = ["#forge:fruits"]
+		fruits_item_list = ["#forge:fruits", "cavesandcliffs:glow_berries", "endergetic:bolloom_fruit", "atmospheric:passionfruit", "atmospheric:yucca_fruit", "alexsmobs:banana", "environmental:cherries"]
 
