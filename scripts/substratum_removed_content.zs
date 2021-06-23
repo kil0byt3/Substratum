@@ -136,11 +136,6 @@ val removeRecipesItem = [
 <item:druidcraft:hemp_seeds>,
 <item:druidcraft:hemp>,
 <item:cavesandcliffs:copper_ingot>,
-<item:paraglider:deku_leaf>,
-<item:paraglider:heart_container>,
-<item:paraglider:stamina_vessel>,
-<item:paraglider:spirit_orb>,
-<item:paraglider:horned_statue>,
 <item:create:handheld_worldshaper>,
 <item:bno:aluminum_block>,
 <item:bno:copper_block>,
@@ -173,6 +168,14 @@ val removeRecipesItem = [
 <item:bno:silver_nugget>,
 <item:bno:tin_nugget>,
 <item:bno:osmium_nugget>,
+<item:paraglider:horned_statue>,
+<item:paraglider:spirit_orb>,
+<item:paraglider:stamina_vessel>,
+<item:paraglider:heart_container>,
+<item:paraglider:deku_leaf>,
+<item:environmental:rice>,
+<item:environmental:rice_sack>,
+
 
 ] as IItemStack[];
  
