@@ -136,6 +136,8 @@ val removeRecipesItem = [
 <item:druidcraft:hemp_seeds>,
 <item:druidcraft:hemp>,
 <item:cavesandcliffs:copper_ingot>,
+<item:environmental:rice_sack>,
+<item:environmental:rice>,
 
 ] as IItemStack[];
  
