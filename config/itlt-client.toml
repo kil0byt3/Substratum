@@ -259,7 +259,7 @@
 				# 
 				# The minimum amount of allocated RAM in GB needed to be able to launch the modpack.
 				#Range: 0.1 ~ 1024.0
-				reqMinMemoryAmountInGB = 0.5
+				reqMinMemoryAmountInGB = 4.0
 
 			[Java.Memory.Min.Warning]
 				# 
@@ -274,7 +274,7 @@
 				# 
 				# Note: This is *separate* from enableMinMemoryRequirement - you can have a
 				# separate min RAM allocation requirement and warning.
-				enableMinMemoryWarning = true
+				enableMinMemoryWarning = false
 				# 
 				# The minimum recommended amount of allocated RAM in GB needed to skip the warning
 				# message when launching the modpack.
@@ -302,11 +302,11 @@
 				# 
 				# This is useful for warning users that are allocating excessive amounts of RAM
 				# to the point of causing nasty GC-related lag spikes as a result.
-				enableMaxMemoryWarning = true
+				enableMaxMemoryWarning = false
 				# 
 				# The maximum recommended amount of allocated RAM in GB needed to skip the warning
 				# message when launching the modpack.
-				warnMaxMemoryAmountInGB = 14.0
+				warnMaxMemoryAmountInGB = 10.0
 
 		[Java.Memory.NearMax]
 
@@ -318,7 +318,7 @@
 				# This is useful for warning users that are allocating so much RAM that there 
 				# isn't enough left over for other important processes to use without hitting
 				# the much slower swap space, hurting performance as a result.
-				enableNearMaxMemoryWarning = true
+				enableNearMaxMemoryWarning = false
 				# 
 				# The minimum recommended amount of memory left over after allocation in GB needed
 				# to skip the warning message when launching the modpack.
@@ -354,20 +354,20 @@
 			# - "ModpackName v2 based on %mc" = "ModpackName v2 based on Minecraft* 1.16.5"
 			# 
 			# Note: enableCustomWindowTitle must be enabled for this to take effect.
-			customWindowTitleText = "%autoName - %mc"
+			customWindowTitleText = "%autoName 1.0"
 			# 
 			# Whether or not to automatically replace "%autoName" in customWindowTitleText with
 			# your modpack's display name when launching from a supported launcher.
 			# 
 			# Note: enableCustomWindowTitle must be enabled for this to take effect.
-			enableUsingAutodetectedDisplayName = true
+			enableUsingAutodetectedDisplayName = false
 			# 
 			# The text to use in place of %autoDetect if we're unable to automatically detect your
 			# modpack's display name.
 			# 
 			# Note: This value will always be used for %autoName if enableUsingAutodetectedDisplayName
 			# is disabled, regardless of whether or not the pack is launched from a supported launcher.
-			autoDetectedDisplayNameFallback = "ModpackName"
+			autoDetectedDisplayNameFallback = "Substratum"
 
 		[Java.Display.Icon]
 			# 
