@@ -30,19 +30,19 @@ craftingTable.addShapeless("candles_swaptoq", <item:quark:white_candle>, [<item:
 craftingTable.addShapeless("candles_soulcandle", <item:buildersaddition:large_soul_candle>, [<item:buildersaddition:large_candle>, <item:minecraft:soul_sand>]);
 
 // Deeds
-craftingTable.removeRecipe(<item:craftabledeeds:empty_deed>);
-craftingTable.addShaped("deed_cheap", <item:craftabledeeds:empty_deed>, [
-      [<item:minecraft:paper>, <item:minecraft:paper>, <item:minecraft:paper>],
-      [<item:minecraft:paper>, <item:minecraft:diamond_block>, <item:minecraft:paper>],
-      [<item:minecraft:paper>, <item:minecraft:paper>, <item:minecraft:paper>]
-]);
-
-craftingTable.removeRecipe(<item:craftabledeeds:deed_pedestal>);
-craftingTable.addShaped("deed_pedestal", <item:craftabledeeds:deed_pedestal>, [
-      [<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>],
-      [<item:minecraft:gold_ingot>, <item:minecraft:gold_ingot>, <item:minecraft:gold_ingot>],
-      [<item:minecraft:iron_block>, <item:minecraft:iron_block>, <item:minecraft:iron_block>]
-]);
+// craftingTable.removeRecipe(<item:craftabledeeds:empty_deed>);
+// craftingTable.addShaped("deed_cheap", <item:craftabledeeds:empty_deed>, [
+//       [<item:minecraft:paper>, <item:minecraft:paper>, <item:minecraft:paper>],
+//       [<item:minecraft:paper>, <item:minecraft:diamond_block>, <item:minecraft:paper>],
+//       [<item:minecraft:paper>, <item:minecraft:paper>, <item:minecraft:paper>]
+// ]);
+// 
+// craftingTable.removeRecipe(<item:craftabledeeds:deed_pedestal>);
+// craftingTable.addShaped("deed_pedestal", <item:craftabledeeds:deed_pedestal>, [
+//       [<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>],
+//       [<item:minecraft:gold_ingot>, <item:minecraft:gold_ingot>, <item:minecraft:gold_ingot>],
+//       [<item:minecraft:iron_block>, <item:minecraft:iron_block>, <item:minecraft:iron_block>]
+// ]);
 
 //Dungeon Door
 
