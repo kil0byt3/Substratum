@@ -8,7 +8,7 @@
 	maximum_moon_brightness = 1.0
 	dark_overworld = true
 	dark_default = true
-	dark_nether = true
+	dark_nether = false
 	#Range: 0.0 ~ 1.0
 	dark_nether_fog = 0.5
 	dark_end = false
