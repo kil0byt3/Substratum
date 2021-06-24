@@ -2,6 +2,7 @@ import crafttweaker.api.item.IItemStack;
 import crafttweaker.api.blocks.MCBlock;
 import crafttweaker.api.tag.MCTag;
 import crafttweaker.api.BlastFurnaceManager;
+import crafttweaker.api.registries.IRecipeManager;
 
 // Mod hiding
 // mods.jei.JEI.hideItem(string modid, crafttweaker.api.recipeFilter exclude)

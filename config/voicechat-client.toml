@@ -44,4 +44,10 @@ group_player_icon_orientation = "VERTICAL"
 #The scale of the group HUD
 #Range: 0.01 ~ 10.0
 group_hud_icon_scale = 2.0
+#If full audio buffers should get cleared
+#This potentially reduces audio latency on laggy servers
+#This does currently not work on Linux
+clear_full_audio_buffer = false
+#If the own icon should be shown when in a group
+show_own_group_icon = true
 
