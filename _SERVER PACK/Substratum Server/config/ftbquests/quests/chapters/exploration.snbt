@@ -1,0 +1,757 @@
+{
+	id: "359EE9D97F633B2A"
+	group: "132EA375F94346D0"
+	order_index: 0
+	filename: "exploration"
+	title: "Exploration"
+	icon: {
+		id: "naturescompass:naturescompass"
+		Count: 1b
+		tag: { }
+	}
+	default_quest_shape: ""
+	quests: [
+		{
+			x: -3.5d
+			y: -5.0d
+			id: "2216F8C71CAC7760"
+			tasks: [{
+				id: "058C3EEE9E26D807"
+				type: "advancement"
+				title: "Dungeoneering"
+				advancement: "repurposed_structures:root"
+				criterion: ""
+			}]
+		}
+		{
+			x: -10.5d
+			y: -3.0d
+			id: "78909C9E46451FE5"
+			tasks: [{
+				id: "0FC45D1299A0EF4E"
+				type: "advancement"
+				advancement: "minecraft:adventure/trade"
+				criterion: ""
+			}]
+		}
+		{
+			x: -9.0d
+			y: -3.0d
+			dependencies: ["78909C9E46451FE5"]
+			id: "56B351B2D0BB716F"
+			tasks: [{
+				id: "3C94B0EED879553B"
+				type: "advancement"
+				advancement: "minecraft:adventure/summon_iron_golem"
+				criterion: ""
+			}]
+		}
+		{
+			x: -7.5d
+			y: -3.5d
+			dependencies: ["2216F8C71CAC7760"]
+			id: "3B28DE832027CADC"
+			tasks: [{
+				id: "1C97CC05DF136E58"
+				type: "advancement"
+				advancement: "supplementaries:adventure/way_sign"
+				criterion: ""
+			}]
+		}
+		{
+			x: -3.5d
+			y: -8.0d
+			dependencies: ["2216F8C71CAC7760"]
+			id: "3D8ACAC9176E68C1"
+			tasks: [{
+				id: "2D3FC8F4E1FEC1FA"
+				type: "advancement"
+				advancement: "dungeons_plus:adventure/find_tower"
+				criterion: ""
+			}]
+		}
+		{
+			x: -3.5d
+			y: -9.5d
+			dependencies: ["3D8ACAC9176E68C1"]
+			id: "49B01BFE2249F2DD"
+			tasks: [{
+				id: "642199CE5DEA74FE"
+				type: "advancement"
+				advancement: "dungeons_plus:adventure/find_bigger_dungeon"
+				criterion: ""
+			}]
+		}
+		{
+			x: -5.0d
+			y: -11.0d
+			dependencies: ["49B01BFE2249F2DD"]
+			id: "4F4A5B588262D352"
+			tasks: [{
+				id: "385649D140E7C677"
+				type: "advancement"
+				advancement: "dungeons_plus:adventure/find_warped_garden"
+				criterion: ""
+			}]
+		}
+		{
+			x: -3.5d
+			y: -11.0d
+			dependencies: ["49B01BFE2249F2DD"]
+			id: "4560413454F0BE59"
+			tasks: [{
+				id: "0A7D338CA7B6B880"
+				type: "advancement"
+				advancement: "dungeons_plus:adventure/find_leviathan"
+				criterion: ""
+			}]
+		}
+		{
+			x: -2.0d
+			y: -11.0d
+			dependencies: ["49B01BFE2249F2DD"]
+			id: "68AC33F141AF136F"
+			tasks: [{
+				id: "5CDF0152AF198859"
+				type: "advancement"
+				advancement: "dungeons_plus:adventure/find_snowy_temple"
+				criterion: ""
+			}]
+		}
+		{
+			x: -9.0d
+			y: -5.0d
+			dependencies: ["33BA4274A615319C"]
+			dependency_requirement: "one_started"
+			id: "5DF30DAF06BBB6EC"
+			tasks: [{
+				id: "26302E933883FC0E"
+				type: "advancement"
+				advancement: "morevillagers:kill_villager"
+				criterion: ""
+			}]
+		}
+		{
+			x: -10.5d
+			y: -5.0d
+			dependencies: ["5DF30DAF06BBB6EC"]
+			id: "2667A67A55684399"
+			tasks: [{
+				id: "49F5E21F23DF2C39"
+				type: "advancement"
+				advancement: "morevillagers:kill_babyvillager"
+				criterion: ""
+			}]
+		}
+		{
+			x: -12.0d
+			y: -4.5d
+			dependencies: ["78909C9E46451FE5"]
+			id: "33C4EF1E02776C4A"
+			tasks: [{
+				id: "23E27EA23E36CFDC"
+				type: "advancement"
+				advancement: "morevillagers:master_trade"
+				criterion: ""
+			}]
+		}
+		{
+			x: -10.5d
+			y: -1.5d
+			dependencies: ["78909C9E46451FE5"]
+			id: "207CCA0FB755D19D"
+			tasks: [{
+				id: "2892BC52B86E8C7D"
+				type: "advancement"
+				advancement: "morevillagers:nether_trade"
+				criterion: ""
+			}]
+		}
+		{
+			x: -12.0d
+			y: -1.5d
+			dependencies: ["78909C9E46451FE5"]
+			id: "00C42E5100E02794"
+			tasks: [{
+				id: "7F850A8E0849DC70"
+				type: "advancement"
+				advancement: "morevillagers:buy_map"
+				criterion: ""
+			}]
+		}
+		{
+			x: -12.0d
+			y: -3.0d
+			dependencies: ["78909C9E46451FE5"]
+			id: "17283B587148579E"
+			tasks: [{
+				id: "6C80F109A6A4A6D6"
+				type: "advancement"
+				advancement: "morevillagers:end_trade"
+				criterion: ""
+			}]
+		}
+		{
+			x: -9.0d
+			y: -1.5d
+			dependencies: ["78909C9E46451FE5"]
+			id: "008DD49AC523FFD2"
+			tasks: [{
+				id: "43B0A71B5D13CBC1"
+				type: "advancement"
+				advancement: "morevillagers:all_professions_traded"
+				criterion: ""
+			}]
+		}
+		{
+			x: -13.5d
+			y: -3.0d
+			dependencies: ["17283B587148579E"]
+			id: "647B4500A9180F3D"
+			tasks: [{
+				id: "0E4A15DB7AD239C1"
+				type: "advancement"
+				advancement: "morevillagers:map_endcity"
+				criterion: ""
+			}]
+		}
+		{
+			x: -10.5d
+			y: -6.5d
+			dependencies: ["33BA4274A615319C"]
+			id: "469F47BDF68F24B1"
+			tasks: [{
+				id: "65CF277901161B7D"
+				type: "advancement"
+				advancement: "morevillagers:first_workstation_get"
+				criterion: ""
+			}]
+		}
+		{
+			x: -12.0d
+			y: -6.5d
+			dependencies: ["469F47BDF68F24B1"]
+			id: "780A1ECCF846C6D4"
+			tasks: [{
+				id: "207E77A627916DF8"
+				type: "advancement"
+				advancement: "morevillagers:all_workstations_get"
+				criterion: ""
+			}]
+		}
+		{
+			x: 1.0d
+			y: -5.0d
+			id: "531DDD27D4339A84"
+			tasks: [{
+				id: "41F33C2923A7D19C"
+				type: "advancement"
+				advancement: "minecraft:nether/root"
+				criterion: ""
+			}]
+		}
+		{
+			x: 5.0d
+			y: -7.5d
+			dependencies: ["531DDD27D4339A84"]
+			id: "0FF791EC9710A596"
+			tasks: [{
+				id: "10BA8DBBA985D5C0"
+				type: "advancement"
+				advancement: "minecraft:nether/return_to_sender"
+				criterion: ""
+			}]
+		}
+		{
+			x: 5.0d
+			y: -9.0d
+			dependencies: ["0FF791EC9710A596"]
+			id: "5E4077499CCA4FA0"
+			tasks: [{
+				id: "5C90F871ADA7CECB"
+				type: "advancement"
+				advancement: "minecraft:nether/uneasy_alliance"
+				criterion: ""
+			}]
+		}
+		{
+			x: 5.0d
+			y: -10.5d
+			dependencies: ["5E4077499CCA4FA0"]
+			id: "3F9017D3132F2587"
+			tasks: [{
+				id: "7C9BD130598319AF"
+				type: "advancement"
+				advancement: "dungeons_plus:nether/find_soul_prison"
+				criterion: ""
+			}]
+		}
+		{
+			x: 8.5d
+			y: -7.0d
+			dependencies: ["531DDD27D4339A84"]
+			id: "5121DF2321F6CE8D"
+			tasks: [{
+				id: "28180E760DFBD1EB"
+				type: "advancement"
+				advancement: "minecraft:nether/find_bastion"
+				criterion: ""
+			}]
+		}
+		{
+			x: 8.5d
+			y: -8.5d
+			dependencies: ["5121DF2321F6CE8D"]
+			id: "06DB3D0BF73332AF"
+			tasks: [{
+				id: "52E6271BB8C55EA0"
+				type: "advancement"
+				advancement: "minecraft:nether/loot_bastion"
+				criterion: ""
+			}]
+		}
+		{
+			x: 3.5d
+			y: -8.0d
+			dependencies: ["531DDD27D4339A84"]
+			id: "39AE6C4901FFC035"
+			tasks: [{
+				id: "5C5CBE7970741FE4"
+				type: "advancement"
+				advancement: "minecraft:nether/fast_travel"
+				criterion: ""
+			}]
+		}
+		{
+			x: 8.5d
+			y: -5.0d
+			dependencies: ["531DDD27D4339A84"]
+			id: "01F3129EB97DCD5D"
+			tasks: [{
+				id: "6CAD3DB2F628FF2A"
+				type: "advancement"
+				advancement: "minecraft:nether/find_fortress"
+				criterion: ""
+			}]
+		}
+		{
+			x: 10.0d
+			y: -6.5d
+			dependencies: ["01F3129EB97DCD5D"]
+			id: "12B6D1D4ECF3E4B0"
+			tasks: [{
+				id: "24ECFD205870690E"
+				type: "advancement"
+				advancement: "minecraft:nether/obtain_blaze_rod"
+				criterion: ""
+			}]
+		}
+		{
+			x: 10.0d
+			y: -3.5d
+			dependencies: ["01F3129EB97DCD5D"]
+			id: "2A4088528C775553"
+			tasks: [{
+				id: "18D15695DAC39D5A"
+				type: "advancement"
+				advancement: "minecraft:nether/get_wither_skull"
+				criterion: ""
+			}]
+		}
+		{
+			x: 12.0d
+			y: -6.5d
+			dependencies: ["12B6D1D4ECF3E4B0"]
+			id: "0DEB4D47E0120FDE"
+			tasks: [{
+				id: "239630B4C8AE0525"
+				type: "advancement"
+				advancement: "minecraft:nether/brew_potion"
+				criterion: ""
+			}]
+		}
+		{
+			x: 14.0d
+			y: -6.5d
+			dependencies: ["0DEB4D47E0120FDE"]
+			id: "42216A76466D85DC"
+			tasks: [{
+				id: "5AB6C40091D97F7A"
+				type: "advancement"
+				advancement: "minecraft:nether/all_potions"
+				criterion: ""
+			}]
+		}
+		{
+			x: 14.0d
+			y: -8.0d
+			dependencies: ["0DEB4D47E0120FDE"]
+			id: "09236BA9F0157D3E"
+			tasks: [{
+				id: "112BD7D96D393121"
+				type: "advancement"
+				advancement: "upgrade_aquatic:nether/sleepless_slave"
+				criterion: ""
+			}]
+		}
+		{
+			x: 14.0d
+			y: -5.0d
+			dependencies: ["0DEB4D47E0120FDE"]
+			id: "124B86CC695F8FED"
+			tasks: [{
+				id: "2B4A6CFFC32385B2"
+				type: "advancement"
+				advancement: "upgrade_aquatic:nether/vibe_check"
+				criterion: ""
+			}]
+		}
+		{
+			x: 16.0d
+			y: -6.5d
+			dependencies: ["42216A76466D85DC"]
+			id: "0AE66342F396FB15"
+			tasks: [{
+				id: "21C1EAFA52221AA8"
+				type: "advancement"
+				advancement: "minecraft:nether/all_effects"
+				criterion: ""
+			}]
+		}
+		{
+			x: 12.0d
+			y: -3.5d
+			dependencies: ["2A4088528C775553"]
+			id: "02991D04E089CFF5"
+			tasks: [{
+				id: "5E1086C40A0483CA"
+				type: "advancement"
+				advancement: "minecraft:nether/summon_wither"
+				criterion: ""
+			}]
+		}
+		{
+			x: 14.0d
+			y: -3.5d
+			dependencies: ["02991D04E089CFF5"]
+			id: "146C18328F560FA3"
+			tasks: [{
+				id: "1D1F40B5614EF2E3"
+				type: "advancement"
+				advancement: "minecraft:nether/create_beacon"
+				criterion: ""
+			}]
+		}
+		{
+			x: 16.0d
+			y: -3.5d
+			dependencies: ["146C18328F560FA3"]
+			id: "25EDB70162B228BA"
+			tasks: [{
+				id: "56606C1376E01D2A"
+				type: "advancement"
+				advancement: "minecraft:nether/create_full_beacon"
+				criterion: ""
+			}]
+		}
+		{
+			x: 6.5d
+			y: -5.0d
+			dependencies: ["531DDD27D4339A84"]
+			id: "06F5F4AF3427816A"
+			tasks: [{
+				id: "3BF9947180A88B73"
+				type: "advancement"
+				advancement: "minecraft:nether/obtain_crying_obsidian"
+				criterion: ""
+			}]
+		}
+		{
+			x: 5.0d
+			y: -5.0d
+			dependencies: ["06F5F4AF3427816A"]
+			id: "4026D3B74BD5273E"
+			tasks: [{
+				id: "7978DCD068274118"
+				type: "advancement"
+				advancement: "minecraft:nether/charge_respawn_anchor"
+				criterion: ""
+			}]
+		}
+		{
+			x: 2.0d
+			y: -3.0d
+			dependencies: ["531DDD27D4339A84"]
+			id: "79C3DAE066616E25"
+			tasks: [{
+				id: "08FBB471D53265A5"
+				type: "advancement"
+				advancement: "minecraft:nether/ride_strider"
+				criterion: ""
+			}]
+		}
+		{
+			x: 2.5d
+			y: -1.5d
+			dependencies: ["79C3DAE066616E25"]
+			id: "06ACA8A25694E421"
+			tasks: [{
+				id: "11AE7D7C79D15D46"
+				type: "advancement"
+				advancement: "minecraft:nether/explore_nether"
+				criterion: ""
+			}]
+		}
+		{
+			x: 5.5d
+			y: -2.5d
+			dependencies: ["531DDD27D4339A84"]
+			id: "32010FAC2DC7E867"
+			tasks: [{
+				id: "33EA815371587BF1"
+				type: "advancement"
+				advancement: "minecraft:nether/obtain_ancient_debris"
+				criterion: ""
+			}]
+		}
+		{
+			x: 4.5d
+			y: -1.0d
+			dependencies: ["32010FAC2DC7E867"]
+			id: "005D88735F59460B"
+			tasks: [{
+				id: "78B14EB3184D3F53"
+				type: "advancement"
+				advancement: "minecraft:nether/netherite_armor"
+				criterion: ""
+			}]
+		}
+		{
+			x: 6.5d
+			y: -1.0d
+			dependencies: ["32010FAC2DC7E867"]
+			id: "5B68ACF822529859"
+			tasks: [{
+				id: "319A5D8EBC9CBB7B"
+				type: "advancement"
+				advancement: "minecraft:nether/use_lodestone"
+				criterion: ""
+			}]
+		}
+		{
+			x: 8.5d
+			y: -3.0d
+			dependencies: ["531DDD27D4339A84"]
+			id: "7F1C403964EDF615"
+			tasks: [{
+				id: "753994AB251CA649"
+				type: "advancement"
+				advancement: "minecraft:nether/distract_piglin"
+				criterion: ""
+			}]
+		}
+		{
+			x: -18.5d
+			y: -9.5d
+			id: "3ED47B48F70028E3"
+			tasks: [{
+				id: "17ACF3056115D26C"
+				type: "advancement"
+				advancement: "minecraft:end/root"
+				criterion: ""
+			}]
+		}
+		{
+			x: -18.5d
+			y: -8.0d
+			dependencies: ["3ED47B48F70028E3"]
+			id: "62C5D1386AC13646"
+			tasks: [{
+				id: "5865D145AA3F7BE2"
+				type: "advancement"
+				advancement: "minecraft:end/kill_dragon"
+				criterion: ""
+			}]
+		}
+		{
+			x: -17.5d
+			y: -6.5d
+			dependencies: ["62C5D1386AC13646"]
+			id: "490DA84606854E4F"
+			tasks: [{
+				id: "41FFFBB4C36C2EC7"
+				type: "advancement"
+				advancement: "minecraft:end/dragon_egg"
+				criterion: ""
+			}]
+		}
+		{
+			x: -17.0d
+			y: -8.0d
+			dependencies: ["62C5D1386AC13646"]
+			id: "28FB9445C5516AA4"
+			tasks: [{
+				id: "6D89A130DBA410CB"
+				type: "advancement"
+				advancement: "minecraft:end/dragon_breath"
+				criterion: ""
+			}]
+		}
+		{
+			x: -19.5d
+			y: -6.5d
+			dependencies: ["62C5D1386AC13646"]
+			id: "6A456FDF0494D1D0"
+			tasks: [{
+				id: "6B4B288A6AC52490"
+				type: "advancement"
+				advancement: "minecraft:end/enter_end_gateway"
+				criterion: ""
+			}]
+		}
+		{
+			x: -20.0d
+			y: -8.0d
+			dependencies: ["62C5D1386AC13646"]
+			id: "2B7D6DB0FFB23EFA"
+			tasks: [{
+				id: "0966FF098FCC3C24"
+				type: "advancement"
+				advancement: "minecraft:end/respawn_dragon"
+				criterion: ""
+			}]
+		}
+		{
+			x: -19.5d
+			y: -4.5d
+			dependencies: ["6A456FDF0494D1D0"]
+			id: "3B44E58D0B8EB87E"
+			tasks: [{
+				id: "0380015B0915A190"
+				type: "advancement"
+				advancement: "dungeons_plus:end/find_end_ruins"
+				criterion: ""
+			}]
+		}
+		{
+			x: -22.0d
+			y: -4.5d
+			dependencies: ["6A456FDF0494D1D0"]
+			id: "13E19E495CF3F069"
+			tasks: [{
+				id: "2554CD28B50F0A32"
+				type: "advancement"
+				advancement: "endergetic:poise_forest"
+				criterion: ""
+			}]
+		}
+		{
+			x: -16.5d
+			y: -4.5d
+			dependencies: ["6A456FDF0494D1D0"]
+			id: "268B1098731A8FCD"
+			tasks: [{
+				id: "66D54ADF665657D7"
+				type: "advancement"
+				advancement: "minecraft:end/find_end_city"
+				criterion: ""
+			}]
+		}
+		{
+			x: -15.5d
+			y: -3.0d
+			dependencies: ["268B1098731A8FCD"]
+			id: "224C5440C1881E9E"
+			tasks: [{
+				id: "4EB794CA19B46E4F"
+				type: "advancement"
+				advancement: "minecraft:end/levitate"
+				criterion: ""
+			}]
+		}
+		{
+			x: -17.5d
+			y: -3.0d
+			dependencies: ["268B1098731A8FCD"]
+			id: "511791A67F119BE5"
+			tasks: [{
+				id: "0E7B205BF62C2574"
+				type: "advancement"
+				advancement: "minecraft:end/elytra"
+				criterion: ""
+			}]
+		}
+		{
+			x: -19.5d
+			y: -3.0d
+			dependencies: ["13E19E495CF3F069"]
+			id: "0917888FC7B41531"
+			tasks: [{
+				id: "5E51FE8DDB7B9169"
+				type: "advancement"
+				advancement: "endergetic:catch_puffbug"
+				criterion: ""
+			}]
+		}
+		{
+			x: -21.0d
+			y: -3.0d
+			dependencies: ["13E19E495CF3F069"]
+			id: "7F6393E41C6D23B0"
+			tasks: [{
+				id: "78749F67A1AD9EE3"
+				type: "advancement"
+				advancement: "endergetic:eat_bolloom_fruit"
+				criterion: ""
+			}]
+		}
+		{
+			x: -21.0d
+			y: -1.5d
+			dependencies: ["7F6393E41C6D23B0"]
+			id: "09DD2C28D4C3B95C"
+			tasks: [{
+				id: "01042507F4D38F7F"
+				type: "advancement"
+				advancement: "endergetic:up_up_and_away"
+				criterion: ""
+			}]
+		}
+		{
+			x: -23.0d
+			y: -3.0d
+			dependencies: ["13E19E495CF3F069"]
+			id: "00B92E3A716E075D"
+			tasks: [{
+				id: "3E455510D309DCA8"
+				type: "advancement"
+				advancement: "endergetic:tamed_booflo"
+				criterion: ""
+			}]
+		}
+		{
+			x: -24.5d
+			y: -3.0d
+			dependencies: ["13E19E495CF3F069"]
+			id: "6914A8896C778716"
+			tasks: [{
+				id: "7401BAF09C4ECB2E"
+				type: "advancement"
+				advancement: "endergetic:booflo_vest"
+				criterion: ""
+			}]
+		}
+		{
+			x: -7.5d
+			y: -5.0d
+			dependencies: ["2216F8C71CAC7760"]
+			id: "33BA4274A615319C"
+			tasks: [{
+				id: "3C690A94434A4404"
+				type: "advancement"
+				advancement: "morevillagers:first_village"
+				criterion: ""
+			}]
+		}
+	]
+}
