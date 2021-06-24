@@ -484,7 +484,7 @@
 	"Nether Obsidian Spikes" = true
 	"New Stone Types" = true
 	"Realistic World Gen" = true
-	Speleothems = true
+	Speleothems = false
 	"Spiral Spires" = true
 	"Underground Clay" = true
 	"Brimstone Underground Biome" = true
