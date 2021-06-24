@@ -3,5 +3,5 @@
 	#
 	#Enable/disable first passenger rendering transparently from second passenger point of view.
 	#Default value: true
-	FirstPassengerTransparency = true
+	FirstPassengerTransparency = false
 

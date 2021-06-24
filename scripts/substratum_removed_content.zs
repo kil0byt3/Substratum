@@ -204,7 +204,6 @@ val removeRecipesItem = [
 <item:waystones:pink_sharestone>,
 <item:waystones:gray_sharestone>,
 <item:waystones:sandy_waystone>,
-<item:waystones:waystone>,
 <item:waystones:mossy_waystone>,
 <item:waystones:light_gray_sharestone>,
 <item:quark:jasper_bricks>,
@@ -308,14 +307,11 @@ furnace.removeRecipe(item);
 blastFurnace.removeRecipe(item);
 }
 
-// Regex Removal
+// Extra Removal
 
-mods.jei.JEI.hideRegex(".*bolt.*");
-craftingTable.removeByRegex(".*bolt.*");
-mods.jei.JEI.hideRegex(".*heavy_crossbow.*");
-craftingTable.removeByRegex(".*heavy_crossbow.*");
 mods.jei.JEI.hideRegex(".*arrow_.*");
 craftingTable.removeByRegex(".*arrow_.*");
 mods.jei.JEI.hideRegex(".*spikes_tipped*");
 craftingTable.removeByRegex(".*spikes_tipped.*");
 craftingTable.removeByName("druidcraft:string");
+craftingTable.removeRecipe(<item:waystones:waystone>);

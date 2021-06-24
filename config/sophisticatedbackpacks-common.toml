@@ -10,7 +10,7 @@
 	[common.leatherBackpack]
 		#Number of inventory slots in the backpack
 		#Range: 1 ~ 144
-		inventorySlotCount = 27
+		inventorySlotCount = 18
 		#Number of upgrade slots in the backpack
 		#Range: 0 ~ 10
 		upgradeSlotCount = 1
@@ -19,7 +19,7 @@
 	[common.ironBackpack]
 		#Number of inventory slots in the backpack
 		#Range: 1 ~ 144
-		inventorySlotCount = 54
+		inventorySlotCount = 27
 		#Number of upgrade slots in the backpack
 		#Range: 0 ~ 10
 		upgradeSlotCount = 2
@@ -28,7 +28,7 @@
 	[common.goldBackpack]
 		#Number of inventory slots in the backpack
 		#Range: 1 ~ 144
-		inventorySlotCount = 81
+		inventorySlotCount = 54
 		#Number of upgrade slots in the backpack
 		#Range: 0 ~ 10
 		upgradeSlotCount = 3
@@ -37,7 +37,7 @@
 	[common.diamondBackpack]
 		#Number of inventory slots in the backpack
 		#Range: 1 ~ 144
-		inventorySlotCount = 108
+		inventorySlotCount = 81
 		#Number of upgrade slots in the backpack
 		#Range: 0 ~ 10
 		upgradeSlotCount = 5
@@ -248,7 +248,7 @@
 	[common.entityBackpackAdditions]
 		#Chance of an entity spawning with Backpack
 		#Range: 0.0 ~ 1.0
-		chance = 0.01
+		chance = 0.0
 		#Turns on/off addition of loot into backpacks
 		addLoot = true
 		#Turns on/off buffing the entity that wears backpack with potion effects. These are scaled based on how much loot is added.
