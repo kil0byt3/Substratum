@@ -170,7 +170,7 @@ key_mod.chiselsandbits.positivepatternmode.impose:key.keyboard.unknown
 key_mod.chiselsandbits.tapemeasure.bit:key.keyboard.unknown
 key_mod.chiselsandbits.tapemeasure.block:key.keyboard.unknown
 key_mod.chiselsandbits.tapemeasure.distance:key.keyboard.unknown
-key_mod.chiselsandbits.other.mode:key.keyboard.unknown
+key_mod.chiselsandbits.other.mode:key.keyboard.left.alt
 key_mod.chiselsandbits.other.rotate.ccw:key.keyboard.unknown
 key_mod.chiselsandbits.other.rotate.cw:key.keyboard.unknown
 key_mod.chiselsandbits.other.pickbit:key.keyboard.unknown
