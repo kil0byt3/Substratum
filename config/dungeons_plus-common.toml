@@ -2,7 +2,7 @@
 [tower]
 	#Chance of generating in an allowed chunk
 	#Range: 0.0 ~ 1.0
-	probability = 0.75
+	probability = 0.5
 	#Spacing between structures
 	#Range: > 1
 	spacing = 25
