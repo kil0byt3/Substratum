@@ -120,5 +120,5 @@
 ["waystones compat"]
 	#Percent chance for a waystone from Waystones to generate on top of the tower
 	#Range: 0 ~ 100
-	tower_waystone_chance = 100
+	tower_waystone_chance = 0
 
