@@ -298,6 +298,7 @@ val removeRecipesItem = [
 <item:waystones:warp_stone>,
 <item:waystones:warp_scroll>,
 <item:waystones:return_scroll>,
+<item:usefulrailroads:teleport_rail>,
 ] as IItemStack[];
  
 for item in removeRecipesItem {
