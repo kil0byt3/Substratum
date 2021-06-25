@@ -398,5 +398,21 @@
 				type: "checkmark"
 			}]
 		}
+		{
+			title: "Endgame"
+			icon: "enigmaticlegacy:the_acknowledgment"
+			x: 1.5d
+			y: 9.0d
+			id: "5E2834684328B16D"
+			tasks: [{
+				id: "40ABFB3265C88036"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "042B4293CDFC6B18"
+				type: "item"
+				item: "enigmaticlegacy:the_acknowledgment"
+			}]
+		}
 	]
 }
