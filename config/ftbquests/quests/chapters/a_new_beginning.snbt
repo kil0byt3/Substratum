@@ -154,9 +154,8 @@
 			hide: true
 			id: "4E65B5B603814463"
 			tasks: [{
-				id: "2FB9BDE18974CE34"
-				type: "item"
-				item: "ftbquests:missing_item"
+				id: "3F549039B4DD8291"
+				type: "checkmark"
 			}]
 			rewards: [{
 				id: "5A62AB303416A27D"
