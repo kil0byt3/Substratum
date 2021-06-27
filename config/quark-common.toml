@@ -346,7 +346,7 @@
 	"Campfires Boost Elytra" = true
 	"Compasses Work Everywhere" = true
 	"Dirt To Path" = true
-	"Double Door Opening" = true
+	"Double Door Opening" = false
 	"Dragon Scales" = true
 	Emotes = true
 	"Enhanced Ladders" = true
