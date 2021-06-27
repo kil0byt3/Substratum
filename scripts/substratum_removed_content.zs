@@ -320,6 +320,8 @@ val removeRecipesItem = [
 <item:easypaxellite:redstone_paxel>,
 <item:easypaxellite:slime_paxel>,
 <item:easypaxellite:ender_paxel>,
+<item:ftbquests:barrier>,
+<item:ftbquests:stage_barrier>,
 ] as IItemStack[];
  
 for item in removeRecipesItem {

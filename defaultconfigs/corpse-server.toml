@@ -29,5 +29,5 @@ death_storage_duration = -1
 		time = 600
 		#The time passed (in ticks) after a corpse despawns even if its not empty (-1 = never)
 		#Range: > -1
-		force_time = -1
+		force_time = 1728000
 
