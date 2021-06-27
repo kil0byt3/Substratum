@@ -130,7 +130,6 @@ key_key.curios.open.desc:key.keyboard.unknown
 key_key.spartanweaponry.access_quiver:key.keyboard.left.bracket
 key_key.ftbquests.quests:key.keyboard.grave.accent
 key_servertabinfo.keys.show:key.keyboard.l:CONTROL
-key_key.nutritionalbalance.opennutrientgui:key.keyboard.unknown
 key_key.clienttweaks.hideOffhandItem:key.keyboard.unknown
 key_key.clienttweaks.disableStepAssist:key.keyboard.unknown
 key_key.toastcontrol.clear:key.keyboard.unknown
