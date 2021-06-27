@@ -125,3 +125,16 @@ craftingTable.addShaped("paraglider", <item:paraglider:paraglider>, [
       [<item:minecraft:stick>, <item:minecraft:air>, <item:minecraft:stick>]
 ]);
 
+//Name Tag
+craftingTable.addShaped("name_tag", <item:minecraft:name_tag>, [
+      [<item:minecraft:air>, <item:minecraft:paper>, <item:minecraft:air>],
+      [<item:minecraft:air>, <item:minecraft:leather>, <item:minecraft:air>],
+      [<item:minecraft:air>, <item:minecraft:experience_bottle>, <item:minecraft:air>]
+]);
+
+//Village Bell
+craftingTable.addShaped("village_bell", <item:minecraft:bell>, [
+      [<item:minecraft:air>, <item:supplementaries:rope>, <item:minecraft:air>],
+      [<item:minecraft:air>, <item:minecraft:golden_helmet>, <item:minecraft:air>],
+      [<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>]
+]);
