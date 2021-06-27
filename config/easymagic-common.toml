@@ -18,9 +18,9 @@
 	#Inventory contents stay in their slot after closing the enchanting screen. Also makes hoppers able to input and output items.
 	"Inventory Contents Stay" = true
 	#Re-roll possible enchantments in an enchanting table every time an item is placed into the enchanting slot.
-	"Re-Roll Enchantments" = true
+	"Re-Roll Enchantments" = false
 	#When hovering over an enchanting option show the complete outcome on the tooltip instead of only a single enchantment.
-	"Show All Enchantments" = false
+	"Show All Enchantments" = true
 	#Amount of bookshelves required to perform enchantments at the highest level.
 	#Range: > 0
 	"Enchanting Power" = 15
