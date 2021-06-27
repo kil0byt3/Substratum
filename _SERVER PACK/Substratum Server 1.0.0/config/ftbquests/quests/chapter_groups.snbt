@@ -1,0 +1,7 @@
+{
+	chapter_groups: [
+		{ id: "14AA25EE372B0EDF", title: "Home and Hearth" }
+		{ id: "132EA375F94346D0", title: "A World To Discover" }
+		{ id: "66A3CD4CBC174A6B", title: "The Rise of Technology" }
+	]
+}

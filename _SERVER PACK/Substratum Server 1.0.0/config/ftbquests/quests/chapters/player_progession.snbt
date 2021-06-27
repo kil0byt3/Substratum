@@ -1,0 +1,878 @@
+{
+	id: "7E51D3F888D9A69A"
+	group: ""
+	order_index: 1
+	filename: "player_progession"
+	title: "Starting Out"
+	icon: {
+		id: "minecraft:diamond_pickaxe"
+		Count: 1b
+		tag: {
+			Damage: 0
+		}
+	}
+	default_quest_shape: ""
+	quests: [
+		{
+			title: "Gone Fishin'"
+			icon: {
+				id: "minecraft:fishing_rod"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 5.5d
+			y: -3.0d
+			id: "07FDFACA896FFDB9"
+			tasks: [
+				{
+					id: "014C54B429B898CF"
+					type: "item"
+					item: "minecraft:salmon"
+				}
+				{
+					id: "44CDD3438DE399C4"
+					type: "item"
+					item: "minecraft:pufferfish"
+				}
+				{
+					id: "3483D6BCAFDB5B53"
+					type: "item"
+					item: "minecraft:cod"
+				}
+				{
+					id: "50F53EA8D515BEC4"
+					type: "advancement"
+					advancement: "minecraft:husbandry/fishy_business"
+					criterion: ""
+				}
+			]
+			rewards: [
+				{
+					id: "2FFCF5D1DEC25B5C"
+					type: "item"
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 3s
+								id: "minecraft:luck_of_the_sea"
+							}]
+						}
+					}
+				}
+				{
+					id: "355C7A8F226DC198"
+					type: "item"
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 3s
+								id: "minecraft:lure"
+							}]
+						}
+					}
+				}
+				{
+					id: "00AF9AF63B4E55B5"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "05A8D644EBC71D9C"
+					type: "item"
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 1s
+								id: "minecraft:mending"
+							}]
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Full Harvest"
+			icon: {
+				id: "minecraft:wooden_hoe"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -6.5d
+			y: -1.5d
+			dependencies: ["52D0F9FE64802F26"]
+			id: "767E0827D372D9E5"
+			tasks: [
+				{
+					id: "7BDAD08C0B68A5B1"
+					type: "item"
+					item: "minecraft:sugar_cane"
+				}
+				{
+					id: "37A09040209B766B"
+					type: "item"
+					item: "minecraft:kelp"
+				}
+				{
+					id: "3871CD4D3A4420B9"
+					type: "item"
+					item: "minecraft:bamboo"
+				}
+				{
+					id: "0A8D2CEE9DAC9ECA"
+					type: "item"
+					item: "minecraft:cactus"
+				}
+				{
+					id: "2BA4F16666BCE12D"
+					type: "item"
+					item: "minecraft:vine"
+				}
+				{
+					id: "705AB942FC8E8413"
+					type: "item"
+					item: "minecraft:melon"
+				}
+				{
+					id: "4FF7C137FF69728C"
+					type: "item"
+					item: "minecraft:pumpkin"
+				}
+				{
+					id: "18E6691CD17A8F6C"
+					type: "item"
+					item: "minecraft:carrot"
+				}
+				{
+					id: "62EA87871978949F"
+					type: "item"
+					item: "minecraft:potato"
+				}
+				{
+					id: "03BEDBE7EB0EEE81"
+					type: "advancement"
+					advancement: "minecraft:husbandry/plant_seed"
+					criterion: ""
+				}
+			]
+			rewards: [
+				{
+					id: "6100BE9C44160071"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "523D8A5BDB7B3A03"
+					type: "item"
+					item: {
+						id: "minecraft:netherite_hoe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Don't run you are only going to die tired"
+			x: -8.0d
+			y: -3.0d
+			id: "72B3755D40353F62"
+			tasks: [{
+				id: "0EF699C0CC7DD75B"
+				type: "item"
+				item: {
+					id: "minecraft:bow"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "707BB3710FC9D63B"
+				type: "item"
+				item: "minecraft:arrow"
+				count: 32
+			}]
+		}
+		{
+			title: "Harvest 2.0"
+			icon: "minecraft:crimson_fungus"
+			x: -6.5d
+			y: 0.0d
+			dependencies: ["767E0827D372D9E5"]
+			id: "1ABF8C55A8F7B85D"
+			tasks: [
+				{
+					id: "3F16A0EE40F6F048"
+					type: "item"
+					item: "minecraft:crimson_fungus"
+				}
+				{
+					id: "1096302117B41B84"
+					type: "item"
+					item: "minecraft:warped_fungus"
+				}
+				{
+					id: "6FFFC4F926AFB501"
+					type: "item"
+					item: "minecraft:chorus_fruit"
+				}
+			]
+			rewards: [
+				{
+					id: "07A3DE09AFE41DDF"
+					type: "item"
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 1s
+								id: "minecraft:mending"
+							}]
+						}
+					}
+				}
+				{
+					id: "0F0505DB267EF9DD"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+		}
+		{
+			x: -10.0d
+			y: -3.0d
+			id: "6529F5C2ED3D9700"
+			tasks: [{
+				id: "143C1112E3B4090F"
+				type: "item"
+				item: {
+					id: "minecraft:stone_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "21D706370733FC98"
+				type: "item"
+				item: "minecraft:torch"
+				count: 16
+			}]
+		}
+		{
+			x: -10.0d
+			y: -1.5d
+			dependencies: ["6529F5C2ED3D9700"]
+			id: "4ED8333ED2AECF3C"
+			tasks: [{
+				id: "5F512F1E8B4E7EF5"
+				type: "item"
+				item: {
+					id: "minecraft:iron_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "3921A6E07A8008A5"
+					type: "item"
+					item: "minecraft:iron_ingot"
+					count: 8
+				}
+				{
+					id: "65074A185BA32D97"
+					type: "item"
+					item: "minecraft:bucket"
+				}
+			]
+		}
+		{
+			x: -10.0d
+			y: 0.0d
+			dependencies: ["4ED8333ED2AECF3C"]
+			id: "01601D07492C2685"
+			tasks: [{
+				id: "44BC593EC95C9944"
+				type: "item"
+				item: {
+					id: "minecraft:diamond_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "587FE0EA4F87E7E3"
+					type: "item"
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 3s
+								id: "minecraft:sharpness"
+							}]
+						}
+					}
+				}
+				{
+					id: "76510C1DE277380F"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+			]
+		}
+		{
+			x: -10.0d
+			y: 1.5d
+			dependencies: ["01601D07492C2685"]
+			id: "03FA006EFCF85ECD"
+			tasks: [{
+				id: "5420ED623F8EB8EB"
+				type: "item"
+				item: {
+					id: "minecraft:netherite_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "4D406021E4928D32"
+					type: "item"
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 3s
+								id: "minecraft:unbreaking"
+							}]
+						}
+					}
+				}
+				{
+					id: "13F1625228345B1D"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+			]
+		}
+		{
+			x: -12.0d
+			y: -3.0d
+			id: "4D297356FC685F43"
+			tasks: [{
+				id: "394C96649A44B26B"
+				type: "item"
+				item: {
+					id: "minecraft:stone_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "0BF853648C9556BF"
+					type: "item"
+					item: "minecraft:cobblestone"
+					count: 32
+				}
+				{
+					id: "1E82DC7D13C7E59A"
+					type: "item"
+					item: "farmersdelight:steak_and_potatoes"
+					count: 4
+				}
+			]
+		}
+		{
+			x: -12.0d
+			y: -1.5d
+			dependencies: ["4D297356FC685F43"]
+			id: "05DB2BB3636E62AF"
+			tasks: [{
+				id: "4C4DCB424DB9AE35"
+				type: "item"
+				item: {
+					id: "minecraft:iron_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "2BEA47B5969337E4"
+					type: "item"
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 2s
+								id: "minecraft:efficiency"
+							}]
+						}
+					}
+				}
+				{
+					id: "12DA61C135B6D25E"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "0661A7BF2588FC42"
+					type: "item"
+					item: "farmersdelight:shepherds_pie"
+					count: 4
+				}
+			]
+		}
+		{
+			x: -12.0d
+			y: 0.0d
+			dependencies: ["05DB2BB3636E62AF"]
+			id: "26EBE0DEE8D57BD7"
+			tasks: [{
+				id: "58D9C6BC931CC4B5"
+				type: "item"
+				item: {
+					id: "minecraft:diamond_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "10AB349664A8759F"
+					type: "item"
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 3s
+								id: "minecraft:efficiency"
+							}]
+						}
+					}
+				}
+				{
+					id: "71C11E5E43491540"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+			]
+		}
+		{
+			x: -12.0d
+			y: 1.5d
+			dependencies: ["26EBE0DEE8D57BD7"]
+			id: "31221346AC97AD1F"
+			tasks: [{
+				id: "71F3448A5BB0AAF6"
+				type: "item"
+				item: {
+					id: "minecraft:netherite_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "1E2D013D59765AAB"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+				{
+					id: "01581605951DA8C4"
+					type: "item"
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 5s
+								id: "minecraft:efficiency"
+							}]
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Expert Fisherman"
+			x: 5.0d
+			y: -1.5d
+			dependencies: ["07FDFACA896FFDB9"]
+			id: "55A3B95152EDEA29"
+			tasks: [{
+				id: "50F253C27D215753"
+				type: "item"
+				item: "minecraft:tropical_fish"
+			}]
+		}
+		{
+			x: -8.5d
+			y: -1.5d
+			dependencies: ["72B3755D40353F62"]
+			id: "7F8105F43DAD30D7"
+			tasks: [{
+				id: "161F7BF176D7B05F"
+				type: "advancement"
+				advancement: "minecraft:adventure/sniper_duel"
+				criterion: ""
+			}]
+		}
+		{
+			x: -7.5d
+			y: -1.5d
+			dependencies: ["72B3755D40353F62"]
+			id: "40541E325F4B2952"
+			tasks: [{
+				id: "34A8A6189E3BCE94"
+				type: "advancement"
+				advancement: "minecraft:adventure/ol_betsy"
+				criterion: ""
+			}]
+		}
+		{
+			x: 6.0d
+			y: -1.5d
+			dependencies: ["07FDFACA896FFDB9"]
+			id: "56C8834A05FE1420"
+			tasks: [{
+				id: "2A9EF19416468841"
+				type: "advancement"
+				advancement: "minecraft:husbandry/tactical_fishing"
+				criterion: ""
+			}]
+		}
+		{
+			x: -6.5d
+			y: 1.5d
+			dependencies: ["1ABF8C55A8F7B85D"]
+			id: "12C5AD9047CC650A"
+			tasks: [{
+				id: "02F29DABC8F606B4"
+				type: "advancement"
+				advancement: "minecraft:husbandry/balanced_diet"
+				criterion: ""
+			}]
+		}
+		{
+			x: 3.0d
+			y: -1.5d
+			dependencies: ["74BC0253BE5E3BB9"]
+			id: "78AA466B4C8251B5"
+			tasks: [{
+				id: "61B2E92706EC27FE"
+				type: "advancement"
+				advancement: "minecraft:husbandry/tame_an_animal"
+				criterion: ""
+			}]
+		}
+		{
+			x: 3.5d
+			y: -3.0d
+			id: "74BC0253BE5E3BB9"
+			tasks: [{
+				id: "2B24FA5B320638EF"
+				type: "advancement"
+				advancement: "minecraft:husbandry/root"
+				criterion: ""
+			}]
+		}
+		{
+			x: 4.0d
+			y: -1.5d
+			dependencies: ["74BC0253BE5E3BB9"]
+			id: "43E8951CC488532A"
+			tasks: [{
+				id: "49A2F963A527D631"
+				type: "advancement"
+				advancement: "minecraft:husbandry/breed_an_animal"
+				criterion: ""
+			}]
+		}
+		{
+			x: 4.0d
+			y: 0.0d
+			dependencies: ["43E8951CC488532A"]
+			id: "05977CE0462838AC"
+			tasks: [{
+				id: "1C1E21E48500CAF5"
+				type: "advancement"
+				advancement: "minecraft:husbandry/bred_all_animals"
+				criterion: ""
+			}]
+		}
+		{
+			x: -2.5d
+			y: -3.0d
+			id: "52D0F9FE64802F26"
+			tasks: [{
+				id: "3E64311B75629906"
+				type: "advancement"
+				advancement: "simplefarming:root"
+				criterion: ""
+			}]
+		}
+		{
+			x: -4.5d
+			y: -1.5d
+			dependencies: ["52D0F9FE64802F26"]
+			id: "3A8E0363E51D34B6"
+			tasks: [{
+				id: "7B0132FED9DA2633"
+				type: "advancement"
+				advancement: "simplefarming:grapes"
+				criterion: ""
+			}]
+		}
+		{
+			x: -4.5d
+			y: 0.0d
+			dependencies: ["3A8E0363E51D34B6"]
+			id: "465CBB0FCE3B36E4"
+			tasks: [{
+				id: "4A767FB4A446BBCB"
+				type: "advancement"
+				advancement: "simplefarming:wine"
+				criterion: ""
+			}]
+		}
+		{
+			x: -3.5d
+			y: -1.5d
+			dependencies: ["52D0F9FE64802F26"]
+			id: "333926D31DBBD619"
+			tasks: [{
+				id: "34D62BECDF32B92E"
+				type: "advancement"
+				advancement: "simplefarming:berries"
+				criterion: ""
+			}]
+		}
+		{
+			x: -3.5d
+			y: 0.0d
+			dependencies: ["333926D31DBBD619"]
+			id: "7DCDCEA7F9FE93AF"
+			tasks: [{
+				id: "37056474BA93A45F"
+				type: "advancement"
+				advancement: "simplefarming:crops"
+				criterion: ""
+			}]
+		}
+		{
+			x: -2.5d
+			y: -1.5d
+			dependencies: ["52D0F9FE64802F26"]
+			id: "576F376412E74B0F"
+			tasks: [{
+				id: "16D21A89E9C2AF62"
+				type: "advancement"
+				advancement: "simplefarming:cheese"
+				criterion: ""
+			}]
+		}
+		{
+			x: -2.5d
+			y: 0.0d
+			dependencies: ["576F376412E74B0F"]
+			id: "3CAAA55ECF2B6491"
+			tasks: [{
+				id: "1F50A01D3377FDFC"
+				type: "advancement"
+				advancement: "simplefarming:cheeseburger"
+				criterion: ""
+			}]
+		}
+		{
+			x: -1.5d
+			y: -1.5d
+			dependencies: ["52D0F9FE64802F26"]
+			id: "058596EDC8D32BBB"
+			tasks: [{
+				id: "411820171B3C4DDC"
+				type: "advancement"
+				advancement: "simplefarming:birthday_cake"
+				criterion: ""
+			}]
+		}
+		{
+			x: -0.5d
+			y: -1.5d
+			dependencies: ["52D0F9FE64802F26"]
+			id: "6DF8C44E93DA0585"
+			tasks: [{
+				id: "5F0A0E8AE697C723"
+				type: "advancement"
+				advancement: "simplefarming:scarecrow"
+				criterion: ""
+			}]
+		}
+		{
+			x: 1.5d
+			y: -1.5d
+			dependencies: ["52D0F9FE64802F26"]
+			id: "6B60081B9A401F5B"
+			tasks: [{
+				id: "4BFAF9B6F5D611BD"
+				type: "advancement"
+				advancement: "farmersdelight:main/place_stove"
+				criterion: ""
+			}]
+		}
+		{
+			x: 1.0d
+			y: 0.0d
+			dependencies: ["6B60081B9A401F5B"]
+			id: "74590E9F08B62EE8"
+			tasks: [{
+				id: "06EB5E1D400100B1"
+				type: "advancement"
+				advancement: "farmersdelight:main/place_cooking_pot"
+				criterion: ""
+			}]
+		}
+		{
+			x: 2.0d
+			y: 0.0d
+			dependencies: ["6B60081B9A401F5B"]
+			id: "5E29BD84B6B87165"
+			tasks: [{
+				id: "03B718F2128A1EBA"
+				type: "advancement"
+				advancement: "farmersdelight:main/use_cutting_board"
+				criterion: ""
+			}]
+		}
+		{
+			x: 0.5d
+			y: 1.5d
+			dependencies: ["74590E9F08B62EE8"]
+			id: "6662E3951958A16D"
+			tasks: [{
+				id: "3B274C367D64FD9F"
+				type: "advancement"
+				advancement: "farmersdelight:main/drink_hot_cocoa"
+				criterion: ""
+			}]
+		}
+		{
+			x: 1.5d
+			y: 1.5d
+			dependencies: ["74590E9F08B62EE8"]
+			id: "22DC44B12C72749C"
+			tasks: [{
+				id: "58FC9F75BAABFD17"
+				type: "advancement"
+				advancement: "farmersdelight:main/eat_comfort_food"
+				criterion: ""
+			}]
+		}
+		{
+			x: 1.5d
+			y: 3.0d
+			dependencies: ["22DC44B12C72749C"]
+			id: "4F3BEA565A6BE2EE"
+			tasks: [{
+				id: "0435F7508C7DAAC7"
+				type: "advancement"
+				advancement: "farmersdelight:main/eat_nourishing_food"
+				criterion: ""
+			}]
+		}
+		{
+			x: 1.5d
+			y: 4.5d
+			dependencies: ["4F3BEA565A6BE2EE"]
+			id: "7CE1D78801F4671D"
+			tasks: [{
+				id: "39FBBD018FCDD7B6"
+				type: "advancement"
+				advancement: "farmersdelight:main/place_feast"
+				criterion: ""
+			}]
+		}
+		{
+			x: 1.5d
+			y: 6.0d
+			dependencies: ["7CE1D78801F4671D"]
+			id: "7A05CC17A901605B"
+			tasks: [{
+				id: "0CF32407C08F0B5A"
+				type: "advancement"
+				advancement: "farmersdelight:main/master_chef"
+				criterion: ""
+			}]
+		}
+		{
+			x: -18.5d
+			y: -3.0d
+			id: "08F5A7899A977654"
+			tasks: [{
+				id: "539843EA851C532C"
+				type: "advancement"
+				advancement: "minecraft:story/smelt_iron"
+				criterion: ""
+			}]
+		}
+		{
+			x: -18.5d
+			y: -1.5d
+			dependencies: ["08F5A7899A977654"]
+			id: "6482921994A73FEC"
+			tasks: [{
+				id: "15AF1844E2606217"
+				type: "advancement"
+				advancement: "minecraft:story/mine_diamond"
+				criterion: ""
+			}]
+		}
+		{
+			x: -18.5d
+			y: 0.0d
+			dependencies: ["6482921994A73FEC"]
+			id: "3FAD27389446F6F1"
+			tasks: [{
+				id: "36673D9D3BBABFEF"
+				type: "item"
+				item: "minecraft:netherite_ingot"
+			}]
+		}
+	]
+}

@@ -1,0 +1,9 @@
+{
+	id: "099DAA1D1FA7D525"
+	group: "66A3CD4CBC174A6B"
+	order_index: 1
+	filename: "quark"
+	title: "Quark"
+	default_quest_shape: ""
+	quests: [ ]
+}

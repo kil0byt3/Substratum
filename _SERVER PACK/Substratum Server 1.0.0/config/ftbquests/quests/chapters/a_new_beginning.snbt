@@ -1,0 +1,404 @@
+{
+	id: "199DB27DAA5DBED8"
+	group: ""
+	order_index: 0
+	filename: "a_new_beginning"
+	title: "And So, We Begin"
+	icon: "minecraft:grass_block"
+	default_quest_shape: ""
+	quests: [
+		{
+			title: "Anew."
+			icon: "minecraft:grass_block"
+			x: 1.5d
+			y: -3.0d
+			shape: "square"
+			subtitle: "Press ~ to open your quests. "
+			description: ["Oh, good. You can read. Congrats on completing your first quest! Your reward is a map. Very useful. Don't lose it. Click it to get your reward."]
+			id: "7AB5EA68B6C4B8C8"
+			tasks: [{
+				id: "7CD52E1D2BAF4A81"
+				type: "dimension"
+				title: "You're here!"
+				icon: "minecraft:grass_block"
+				dimension: "minecraft:overworld"
+			}]
+		}
+		{
+			title: "Hey look! Another quest!"
+			icon: "ftbquests:book"
+			x: 1.5d
+			y: -1.5d
+			subtitle: "Why do I have so much junk in my inventory?"
+			description: [
+				"You may notice that your inventory has a few useful items in it. There's a book, which you should read when you have a minute. You also have a few pointy sticks, a less pointy club, and a sharp lil' grass cuttin' device. "
+				""
+				"There's a single torch as well. If you're using OptiFine (it's required for some of the more advanced features), you can put this torch in your off-hand for some portable light while you're running around. "
+				""
+				"Finally, there's a sort of Field Guide for some of the creatures you may meet. "
+			]
+			dependencies: ["7AB5EA68B6C4B8C8"]
+			hide: true
+			id: "394F73ABB2578291"
+			tasks: [{
+				id: "2EA0075E5BB963A5"
+				type: "checkmark"
+				title: "Click me once you've read the below. "
+			}]
+			rewards: [{
+				id: "6832F2648AFAD091"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			title: "Junk in the Trunk"
+			icon: "sophisticatedbackpacks:backpack"
+			x: 1.5d
+			y: 0.0d
+			subtitle: "Packin' and Backin'"
+			description: [
+				"If you've opened up your inventory, you may also see some materials in the top left. "
+				""
+				"There's exactly enough stuff here to make a Backpack. "
+				""
+				"You may ask \"Kilo, why did you not just give me the backpack item to start?\""
+				""
+				"Well, dear reader, I wish you to learn about Crafting Tasks. A Crafting Task is a Quest that requires you to craft or otherwise obtain an item. "
+				""
+				"Chop down a tree, make a crafting table, and craft a backpack to get a little snack as a reward. "
+			]
+			dependencies: ["394F73ABB2578291"]
+			hide: true
+			id: "0CE47A9FADA807C8"
+			tasks: [
+				{
+					id: "2154BCCF04E77323"
+					type: "item"
+					item: "minecraft:crafting_table"
+				}
+				{
+					id: "1048A886803DD11B"
+					type: "item"
+					item: "sophisticatedbackpacks:backpack"
+				}
+			]
+			rewards: [{
+				id: "711E930891741982"
+				type: "item"
+				item: "farmersdelight:fruit_salad"
+				count: 4
+			}]
+		}
+		{
+			title: "Sweet Dreams"
+			x: 1.5d
+			y: 2.5d
+			subtitle: "ZzzZZZzzzzzzZZZ"
+			description: [
+				"It may be worthwhile to have a place to lay your head when the sun gets low."
+				""
+				"While you are traveling and searching for a home, a Bedroll may come in handy."
+				""
+				"It can be used to skip the night without setting a permanent spawn. It also looks nice and cozy. "
+				""
+				"As a reward, I'll save some sheep lives and give you a bed to set up when you have a home."
+			]
+			dependencies: ["0CE47A9FADA807C8"]
+			hide: true
+			id: "356E41618C5897B7"
+			tasks: [{
+				id: "4C9A96DC28E5F1CD"
+				type: "item"
+				title: "Craft a Bedroll"
+				item: "druidcraft:white_bedroll"
+			}]
+			rewards: [{
+				id: "65E1619E71E0F774"
+				type: "item"
+				item: "minecraft:red_bed"
+			}]
+		}
+		{
+			title: "But wait, how do I know the recipe?"
+			x: 0.0d
+			y: 0.0d
+			shape: "hexagon"
+			subtitle: "The vanilla recipe book sucks, don't talk to me about it"
+			description: [
+				"To find and use recipes, open your inventory and look to the big list of items on the right. This is both an item viewer and a recipe finder, called JEI (Just Enough Items)."
+				""
+				"You can search for anything in the bottom bar, like \"backpack\" and it'll give you a list of things that match the search."
+				""
+				"You can then left or right-click an item to see the recipe and the uses for that item, respectively. You can also press R for Recipes, or U for Uses, while hovering an item."
+				""
+				"This is absurdly useful! Don't forget!"
+				""
+				"Just so you don't forget, I'm gonna give you crab legs as a reward for this one. "
+			]
+			dependencies: ["0CE47A9FADA807C8"]
+			hide: true
+			id: "4E65B5B603814463"
+			tasks: [{
+				id: "3F549039B4DD8291"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "5A62AB303416A27D"
+				type: "item"
+				item: "quark:cooked_crab_leg"
+				count: 2
+			}]
+		}
+		{
+			title: "Ok, Zoomer"
+			icon: "cavesandcliffs:spyglass"
+			x: 7.5d
+			y: 2.5d
+			subtitle: "OptiFine isn't really optional"
+			description: [
+				"This is a spyglass. If you're using OptiFine, you don't need this; you can zoom by pressing C by default. "
+				""
+				"You can actually combine the Spyglass and the OptiFine zoom for some intense spying."
+			]
+			dependencies: ["7F3AA0CEBC61945A"]
+			hide: true
+			id: "27E5FAF728FB0944"
+			tasks: [{
+				id: "0A02785CD52BCF57"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "3580ABF72FEF8FF5"
+				type: "item"
+				item: "cavesandcliffs:spyglass"
+			}]
+		}
+		{
+			title: "Keys to the City"
+			icon: "supplementaries:key"
+			x: 7.5d
+			y: 0.0d
+			subtitle: "Bro I cannot hold all of these keybinds"
+			description: ["If you want to learn some other handy keybinds, follow this quest tree."]
+			dependencies: ["1C37ADFE1ADF91BF"]
+			hide: true
+			id: "7F3AA0CEBC61945A"
+			tasks: [{
+				id: "09F29DDF1F553D92"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "43BAFD70D280CCFF"
+				type: "item"
+				item: "environmental:cherries"
+			}]
+		}
+		{
+			title: "Mic Check"
+			icon: "druidcraft:ceramic_lantern"
+			x: 3.0d
+			y: 0.0d
+			subtitle: "Is this thing on?"
+			description: [
+				"This modpack has local voice chat for use on servers."
+				""
+				"Press V to see the microphone settings. By default it's set to broadcast whenever you speak, but you can set it to a keybind as well."
+				""
+				"If you're playing on singleplayer, I'm sorry. I'll be your friend. "
+			]
+			dependencies: ["0CE47A9FADA807C8"]
+			hide: true
+			id: "1C37ADFE1ADF91BF"
+			tasks: [{
+				id: "4ADEE8F42BE4396B"
+				type: "checkmark"
+				title: "Click me once you've read the below."
+			}]
+			rewards: [{
+				id: "1BF74A14CA7A5F12"
+				type: "item"
+				title: "If you don't have a mic, you can use this, I guess."
+				item: "minecraft:oak_sign"
+			}]
+		}
+		{
+			title: "Bonus Round"
+			icon: "minecraft:name_tag"
+			x: -1.5d
+			y: 0.0d
+			shape: "hexagon"
+			subtitle: "It's a hexagon actually"
+			description: [
+				"You can type @modname to see all the items from a mod. For example, @Quark, or @Spartan to see all the fun sharp things."
+				""
+				"To see what mod something's from, you can refer to the blue text under an item's name when you hover over it, or if it's a block in the world, look at the display in the top middle of your screen to see the name of the block and what mod it's from."
+			]
+			dependencies: ["4E65B5B603814463"]
+			hide: true
+			id: "31D46BDF49F8E22D"
+			tasks: [{
+				id: "322115D59C48E52D"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "3E264A4DBA6CE4D9"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			title: "Have a Seat"
+			icon: "buildersaddition:bench_oak"
+			x: 4.5d
+			y: 2.5d
+			subtitle: "Ahhh, that's better."
+			description: [
+				"You can press Z to \"go prone\" and crawl around. Handy for getting into tight spaces."
+				""
+				"You can press X to toggle sitting, anywhere."
+				""
+				"You could also sit by right-clicking one of these benches, but that's lame."
+			]
+			dependencies: ["7F3AA0CEBC61945A"]
+			hide: true
+			id: "083E2013AEA664A0"
+			tasks: [{
+				id: "4705DEF0D2F97DC2"
+				type: "checkmark"
+			}]
+			rewards: [
+				{
+					id: "5E793FFB8A6CA2D9"
+					type: "item"
+					item: "buildersaddition:bench_oak"
+				}
+				{
+					id: "2D872D88D1E8FA17"
+					type: "item"
+					item: "buildersaddition:table_oak"
+				}
+			]
+		}
+		{
+			icon: "minecraft:paper"
+			x: 6.0d
+			y: 2.5d
+			subtitle: "I should be writing this down"
+			description: [
+				"You can open up an ingame journal."
+				""
+				"This is just for you, and is a way for you to track notes on locations, people, and your to-do list. "
+				""
+				"Press N to open your Notes GUI."
+			]
+			dependencies: ["7F3AA0CEBC61945A"]
+			hide: true
+			id: "0A581FD2C41C8E7F"
+			tasks: [{
+				id: "53FDBC823300AA54"
+				type: "checkmark"
+				title: "Make a Note of That"
+			}]
+		}
+		{
+			title: "You Live to Die Another Day"
+			icon: "minecraft:skeleton_skull"
+			x: 0.0d
+			y: 4.5d
+			dependencies: ["356E41618C5897B7"]
+			hide: true
+			id: "55DD3EA2C331E4B6"
+			tasks: [{
+				id: "6C6CEEF8C2012321"
+				type: "stat"
+				stat: "minecraft:deaths"
+				value: 1
+			}]
+		}
+		{
+			icon: "minecraft:chest"
+			x: 9.0d
+			y: 2.5d
+			dependencies: ["7F3AA0CEBC61945A"]
+			hide: true
+			id: "60EFAEB2A0D4FCAE"
+			tasks: [{
+				id: "0968B9DEA1D1AD8E"
+				type: "checkmark"
+				title: "Carry On My Wayward Son"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 4.5d
+			dependencies: ["356E41618C5897B7"]
+			hide: true
+			id: "4255BCA131D20A92"
+			tasks: [{
+				id: "3E8FC32E9449677F"
+				type: "checkmark"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 4.5d
+			dependencies: ["356E41618C5897B7"]
+			hide: true
+			id: "06D8B93BC594F5D2"
+			tasks: [{
+				id: "0D5FBEA5FBA9F0D5"
+				type: "checkmark"
+			}]
+		}
+		{
+			x: 10.5d
+			y: 2.5d
+			dependencies: ["7F3AA0CEBC61945A"]
+			hide: true
+			id: "62B99D11F634D6D8"
+			tasks: [{
+				id: "5D2F7159E40D3A98"
+				type: "checkmark"
+			}]
+		}
+		{
+			x: 10.5d
+			y: 1.0d
+			dependencies: ["7F3AA0CEBC61945A"]
+			hide: true
+			id: "720EF719867E552C"
+			tasks: [{
+				id: "29FC902137D0BE12"
+				type: "checkmark"
+			}]
+		}
+		{
+			x: 10.5d
+			y: -0.5d
+			dependencies: ["7F3AA0CEBC61945A"]
+			hide: true
+			id: "5CA37C0E62E82C7B"
+			tasks: [{
+				id: "0B1417E09F858FA1"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "Endgame"
+			icon: "enigmaticlegacy:the_acknowledgment"
+			x: 1.5d
+			y: 9.0d
+			id: "5E2834684328B16D"
+			tasks: [{
+				id: "40ABFB3265C88036"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "042B4293CDFC6B18"
+				type: "item"
+				item: "enigmaticlegacy:the_acknowledgment"
+			}]
+		}
+	]
+}
