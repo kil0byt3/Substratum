@@ -138,3 +138,8 @@ craftingTable.addShaped("village_bell", <item:minecraft:bell>, [
       [<item:minecraft:air>, <item:minecraft:golden_helmet>, <item:minecraft:air>],
       [<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>]
 ]);
+
+//New stamp recipe
+craftingTable.removeRecipe(<item:endermail:stamp>);
+craftingTable.addShapeless("endermail_stamp", <item:endermail:stamp>, [<item:minecraft:paper>, <item:minecraft:gold_nugget>]);
+
