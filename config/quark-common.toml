@@ -281,12 +281,12 @@
 		"Cloud Level Top" = 132
 
 	[tools.color_runes]
-		"Dungeon Weight" = 10
-		"Nether Fortress Weight" = 8
-		"Jungle Temple Weight" = 8
-		"Desert Temple Weight" = 8
+		"Dungeon Weight" = 5
+		"Nether Fortress Weight" = 4
+		"Jungle Temple Weight" = 4
+		"Desert Temple Weight" = 4
 		"Item Quality" = 0
-		"Apply Cost" = 15
+		"Apply Cost" = 5
 
 	[tools.pathfinder_maps]
 		#In this section you can add custom Pathfinder Maps. This works for both vanilla and modded biomes.
@@ -410,7 +410,7 @@
 		#Allowed values: (0,)
 		"Afk Time" = 2400
 		#Allowed values: (0,1]
-		"Percent Req" = 0.50
+		"Percent Req" = 0.5
 
 	[tweaks.infinity_bucket]
 		Cost = 10
