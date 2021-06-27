@@ -299,6 +299,9 @@ val removeRecipesItem = [
 <item:waystones:warp_scroll>,
 <item:waystones:return_scroll>,
 <item:usefulrailroads:teleport_rail>,
+<item:ftbquests:barrier>,
+<item:ftbquests:stage_barrier>,
+
 ] as IItemStack[];
  
 for item in removeRecipesItem {

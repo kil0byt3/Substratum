@@ -23,20 +23,6 @@
 				icon: "minecraft:grass_block"
 				dimension: "minecraft:overworld"
 			}]
-			rewards: [{
-				id: "76ADB55B8003157E"
-				type: "item"
-				item: {
-					id: "antiqueatlas:empty_antique_atlas"
-					Count: 1b
-					tag: {
-						RepairCost: 0
-						display: {
-							Name: "{\"text\":\"World Map\"}"
-						}
-					}
-				}
-			}]
 		}
 		{
 			title: "Hey look! Another quest!"
