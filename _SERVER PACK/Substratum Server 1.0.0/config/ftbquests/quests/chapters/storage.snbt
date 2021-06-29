@@ -4,12 +4,17 @@
 	order_index: 0
 	filename: "storage"
 	title: "Storage"
+	icon: "storagedrawers:controller"
 	default_quest_shape: ""
 	quests: [
 		{
 			title: "Better than Chests"
-			x: -0.5d
+			x: -2.0d
 			y: -2.0d
+			subtitle: "Seriously."
+			description: ["Drawers can hold items - a lot of items - and allow quick access to those items when needed. Simply right-click an item into the drawer slot to put it in, and left-click to get it out. There are many upgrades, different wood types, and decorative options as well."]
+			dependencies: ["375D40704E5D76C7"]
+			hide: true
 			id: "4E36E03BFF11B93D"
 			tasks: [{
 				id: "3502FEB9CCF03E5F"
@@ -39,9 +44,12 @@
 		}
 		{
 			title: "REAL Storage"
-			x: -0.5d
+			x: -2.0d
 			y: 0.0d
+			subtitle: "The next level."
+			description: ["Controllers act as a single-point interaction with your drawers. Right-clicking an item into the controller will find a spot in your network where they fit, and deposit them instantly. Compacting Drawers allow you to store blocks of iron, gold, etc, and retrive the nuggets, ingots, etc when needed."]
 			dependencies: ["4E36E03BFF11B93D"]
+			hide: true
 			id: "2F1940121B8AC04D"
 			tasks: [{
 				id: "3CD3B121ADB97B1A"
@@ -65,6 +73,70 @@
 					type: "item"
 					item: "storagedrawers:upgrade_template"
 					count: 8
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: -4.0d
+			subtitle: "Options."
+			description: ["While storage in Substratum is slightly less important than more heavily modded modpacks, there are still more items than vanilla, and so here are some options for keeping all that junk sorted."]
+			dependencies: ["0CE47A9FADA807C8"]
+			id: "375D40704E5D76C7"
+			tasks: [{
+				id: "005C26BC1F31C4E7"
+				type: "checkmark"
+				title: "Storage and You"
+			}]
+			rewards: [{
+				id: "3297BF368B2E245B"
+				type: "item"
+				item: "quark:spruce_chest"
+				count: 8
+			}]
+		}
+		{
+			x: -0.5d
+			y: -2.0d
+			subtitle: "Extra Large"
+			description: ["Placing crates together upgrades the crate's inventory size. You can make really nice looking 2x2 crate blocks to hold a lot of stuff."]
+			dependencies: ["375D40704E5D76C7"]
+			hide: true
+			id: "6438035BB12CCD10"
+			tasks: [{
+				id: "74F9740A76711CC1"
+				type: "item"
+				item: "druidcraft:crate"
+			}]
+			rewards: [{
+				id: "157A02559BE9D43C"
+				type: "item"
+				item: "druidcraft:crate"
+				count: 7
+			}]
+		}
+		{
+			x: 1.0d
+			y: -2.0d
+			description: ["Crates are bulk storage blocks for various farming items."]
+			dependencies: ["375D40704E5D76C7"]
+			hide: true
+			id: "12D551270D2E7E34"
+			tasks: [{
+				id: "1C7887B2BC061FD3"
+				type: "item"
+				item: "farmersdelight:potato_crate"
+			}]
+			rewards: [
+				{
+					id: "073BAE9724400246"
+					type: "item"
+					item: "quark:apple_crate"
+				}
+				{
+					id: "376B4F03130B0883"
+					type: "item"
+					item: "environmental:chicken_egg_crate"
 				}
 			]
 		}
