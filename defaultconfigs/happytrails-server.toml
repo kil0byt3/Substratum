@@ -8,4 +8,4 @@
 
 ["Trail Values 6464"]
 	#Trail Block String 6464
-	defaultTrailBlocksActual = "minecraft:grass_path,1;buildersaddition:gravel_path,1;atmospheric:crustose_path,1;,environmental:podzol_path,1;environmental:mycelium_path,1;minecraft:sand,-1;minecraft:red_sand,-1;atmospheric:arid_sand,-1;atmospheric:red_arid_sand,-1;"
+	defaultTrailBlocksActual = "minecraft:grass_path,1;buildersaddition:gravel_path,1;atmospheric:crustose_path,1;,environmental:podzol_path,1;environmental:mycelium_path,1;minecraft:sand,-2;minecraft:red_sand,-2;atmospheric:arid_sand,-2;atmospheric:red_arid_sand,-2;"

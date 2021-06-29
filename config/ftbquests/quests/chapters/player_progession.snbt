@@ -3,7 +3,7 @@
 	group: ""
 	order_index: 1
 	filename: "player_progession"
-	title: "Starting Out"
+	title: "Starting Out."
 	icon: {
 		id: "minecraft:diamond_pickaxe"
 		Count: 1b
@@ -22,7 +22,7 @@
 					Damage: 0
 				}
 			}
-			x: 2.0d
+			x: 1.5d
 			y: -3.0d
 			dependencies: ["394F73ABB2578291"]
 			hide: true
@@ -109,8 +109,9 @@
 					Damage: 0
 				}
 			}
-			x: -4.0d
+			x: -6.0d
 			y: -3.0d
+			subtitle: "Gather."
 			dependencies: ["394F73ABB2578291"]
 			hide: true
 			id: "767E0827D372D9E5"
@@ -187,9 +188,11 @@
 			]
 		}
 		{
-			title: "Don't run you are only going to die tired"
-			x: -8.0d
+			title: "Don't run. You'll only die tired."
+			x: -8.5d
 			y: -3.0d
+			subtitle: "If you learn nothing else, learn this: when a Hunter takes up the bow of a dead comrade, this is a vow. "
+			description: ["There are other, upgraded bow materials and tiers. Check JEI."]
 			dependencies: ["394F73ABB2578291"]
 			hide: true
 			id: "72B3755D40353F62"
@@ -214,8 +217,9 @@
 		{
 			title: "Harvest 2.0"
 			icon: "minecraft:crimson_fungus"
-			x: -4.0d
+			x: -6.0d
 			y: -1.5d
+			subtitle: "Gather more."
 			dependencies: ["767E0827D372D9E5"]
 			hide: true
 			id: "1ABF8C55A8F7B85D"
@@ -259,8 +263,9 @@
 			]
 		}
 		{
-			x: -10.0d
+			x: -11.5d
 			y: -3.0d
+			subtitle: "Fight on. You’re still breathing."
 			dependencies: ["394F73ABB2578291"]
 			hide: true
 			id: "6529F5C2ED3D9700"
@@ -283,8 +288,9 @@
 			}]
 		}
 		{
-			x: -10.0d
+			x: -11.5d
 			y: -1.5d
+			subtitle: "Send them back to the Void."
 			dependencies: ["6529F5C2ED3D9700"]
 			hide: true
 			id: "4ED8333ED2AECF3C"
@@ -314,8 +320,10 @@
 			]
 		}
 		{
-			x: -10.0d
+			x: -11.5d
 			y: 0.0d
+			subtitle: "They say the first one forged is always sharper."
+			description: ["“I am the needle that threads the fabric of time.”"]
 			dependencies: ["4ED8333ED2AECF3C"]
 			hide: true
 			id: "01601D07492C2685"
@@ -353,8 +361,10 @@
 			]
 		}
 		{
-			x: -10.0d
+			x: -11.5d
 			y: 1.5d
+			subtitle: "And the last one forged stands the test of time."
+			description: ["\"All I have left is this weapon. They say you crafted it yourself, built it out of scraps and Light and sheer will, inside the Infinite Forge. I'll make sure it finds its way back to you. When you gave it to me, I swore I would make it my duty to follow your example. I'm still trying.\""]
 			dependencies: ["01601D07492C2685"]
 			hide: true
 			id: "03FA006EFCF85ECD"
@@ -388,161 +398,6 @@
 					id: "13F1625228345B1D"
 					type: "xp_levels"
 					xp_levels: 30
-				}
-			]
-		}
-		{
-			x: -12.0d
-			y: -3.0d
-			dependencies: ["394F73ABB2578291"]
-			hide: true
-			id: "4D297356FC685F43"
-			tasks: [{
-				id: "394C96649A44B26B"
-				type: "item"
-				item: {
-					id: "minecraft:stone_pickaxe"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
-			rewards: [
-				{
-					id: "0BF853648C9556BF"
-					type: "item"
-					item: "minecraft:cobblestone"
-					count: 32
-				}
-				{
-					id: "1E82DC7D13C7E59A"
-					type: "item"
-					item: "farmersdelight:steak_and_potatoes"
-					count: 4
-				}
-			]
-		}
-		{
-			x: -12.0d
-			y: -1.5d
-			dependencies: ["4D297356FC685F43"]
-			hide: true
-			id: "05DB2BB3636E62AF"
-			tasks: [{
-				id: "4C4DCB424DB9AE35"
-				type: "item"
-				item: {
-					id: "minecraft:iron_pickaxe"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
-			rewards: [
-				{
-					id: "2BEA47B5969337E4"
-					type: "item"
-					item: {
-						id: "minecraft:enchanted_book"
-						Count: 1b
-						tag: {
-							StoredEnchantments: [{
-								lvl: 2s
-								id: "minecraft:efficiency"
-							}]
-						}
-					}
-				}
-				{
-					id: "12DA61C135B6D25E"
-					type: "xp_levels"
-					xp_levels: 5
-				}
-				{
-					id: "0661A7BF2588FC42"
-					type: "item"
-					item: "farmersdelight:shepherds_pie"
-					count: 4
-				}
-			]
-		}
-		{
-			x: -12.0d
-			y: 0.0d
-			dependencies: ["05DB2BB3636E62AF"]
-			hide: true
-			id: "26EBE0DEE8D57BD7"
-			tasks: [{
-				id: "58D9C6BC931CC4B5"
-				type: "item"
-				item: {
-					id: "minecraft:diamond_pickaxe"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
-			rewards: [
-				{
-					id: "10AB349664A8759F"
-					type: "item"
-					item: {
-						id: "minecraft:enchanted_book"
-						Count: 1b
-						tag: {
-							StoredEnchantments: [{
-								lvl: 3s
-								id: "minecraft:efficiency"
-							}]
-						}
-					}
-				}
-				{
-					id: "71C11E5E43491540"
-					type: "xp_levels"
-					xp_levels: 15
-				}
-			]
-		}
-		{
-			x: -12.0d
-			y: 1.5d
-			dependencies: ["26EBE0DEE8D57BD7"]
-			hide: true
-			id: "31221346AC97AD1F"
-			tasks: [{
-				id: "71F3448A5BB0AAF6"
-				type: "item"
-				item: {
-					id: "minecraft:netherite_pickaxe"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
-			rewards: [
-				{
-					id: "1E2D013D59765AAB"
-					type: "xp_levels"
-					xp_levels: 30
-				}
-				{
-					id: "01581605951DA8C4"
-					type: "item"
-					item: {
-						id: "minecraft:enchanted_book"
-						Count: 1b
-						tag: {
-							StoredEnchantments: [{
-								lvl: 5s
-								id: "minecraft:efficiency"
-							}]
-						}
-					}
 				}
 			]
 		}
@@ -622,6 +477,7 @@
 		{
 			x: -8.5d
 			y: -1.5d
+			subtitle: "Show them how much it hurts."
 			dependencies: ["72B3755D40353F62"]
 			hide: true
 			id: "7F8105F43DAD30D7"
@@ -656,6 +512,8 @@
 		{
 			x: -7.5d
 			y: -1.5d
+			subtitle: "Ol' Reliable."
+			description: ["There are also upgraded Crossbows."]
 			dependencies: ["72B3755D40353F62"]
 			hide: true
 			id: "40541E325F4B2952"
@@ -719,8 +577,9 @@
 			}]
 		}
 		{
-			x: -4.0d
+			x: -6.0d
 			y: 0.0d
+			subtitle: "This is the hard part."
 			dependencies: ["1ABF8C55A8F7B85D"]
 			hide: true
 			id: "12C5AD9047CC650A"
@@ -772,7 +631,7 @@
 			]
 		}
 		{
-			x: 0.0d
+			x: -1.5d
 			y: -3.0d
 			dependencies: ["394F73ABB2578291"]
 			hide: true
@@ -798,7 +657,7 @@
 			]
 		}
 		{
-			x: 0.5d
+			x: -1.5d
 			y: -1.5d
 			dependencies: ["74BC0253BE5E3BB9"]
 			hide: true
@@ -817,7 +676,7 @@
 			}]
 		}
 		{
-			x: 0.5d
+			x: -1.5d
 			y: 0.0d
 			dependencies: ["43E8951CC488532A"]
 			hide: true
@@ -835,7 +694,7 @@
 			}]
 		}
 		{
-			x: -2.0d
+			x: -4.5d
 			y: -3.0d
 			dependencies: ["394F73ABB2578291"]
 			hide: true
@@ -848,7 +707,7 @@
 			}]
 		}
 		{
-			x: -1.5d
+			x: -4.5d
 			y: -1.5d
 			dependencies: ["6B60081B9A401F5B"]
 			hide: true
@@ -861,7 +720,7 @@
 			}]
 		}
 		{
-			x: -2.5d
+			x: -3.5d
 			y: -1.5d
 			dependencies: ["6B60081B9A401F5B"]
 			hide: true
@@ -874,7 +733,7 @@
 			}]
 		}
 		{
-			x: -2.0d
+			x: -3.5d
 			y: 0.0d
 			dependencies: ["74590E9F08B62EE8"]
 			hide: true
@@ -887,7 +746,7 @@
 			}]
 		}
 		{
-			x: -1.0d
+			x: -4.5d
 			y: 0.0d
 			dependencies: ["74590E9F08B62EE8"]
 			hide: true
@@ -900,7 +759,7 @@
 			}]
 		}
 		{
-			x: -1.0d
+			x: -4.5d
 			y: 1.5d
 			dependencies: ["22DC44B12C72749C"]
 			hide: true
@@ -913,7 +772,7 @@
 			}]
 		}
 		{
-			x: -1.0d
+			x: -4.5d
 			y: 3.0d
 			dependencies: ["4F3BEA565A6BE2EE"]
 			hide: true
@@ -926,7 +785,7 @@
 			}]
 		}
 		{
-			x: -1.0d
+			x: -4.5d
 			y: 4.5d
 			dependencies: ["7CE1D78801F4671D"]
 			hide: true
@@ -939,80 +798,168 @@
 			}]
 		}
 		{
-			x: -6.0d
-			y: -3.0d
+			x: -10.0d
+			y: -4.5d
+			subtitle: "“I am a shield onto myself.”"
 			dependencies: ["394F73ABB2578291"]
 			hide: true
-			id: "08F5A7899A977654"
+			id: "6D6026809F0A26F7"
 			tasks: [{
-				id: "539843EA851C532C"
-				type: "advancement"
-				advancement: "minecraft:story/smelt_iron"
-				criterion: ""
+				id: "72DA824C9354BFF7"
+				type: "item"
+				item: {
+					id: "spartanshields:shield_basic_wood"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
 			}]
 			rewards: [{
-				id: "4352B466531EE7BA"
+				id: "5165461D2459EBE9"
 				type: "item"
-				item: "minecraft:iron_ingot"
-				count: 8
+				item: "supplementaries:bomb"
 			}]
 		}
 		{
-			x: -6.0d
+			x: -10.0d
+			y: -3.0d
+			subtitle: "“To dwell on what was is the greatest sin.”"
+			dependencies: ["6D6026809F0A26F7"]
+			hide: true
+			id: "47129A2D2661178B"
+			tasks: [{
+				id: "19489BD1CDD6CEB1"
+				type: "item"
+				item: {
+					id: "spartanshields:shield_basic_stone"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "190EB9BE149EA824"
+				type: "item"
+				item: {
+					id: "spartanweaponry:hammer_stone"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -10.0d
 			y: -1.5d
-			dependencies: ["08F5A7899A977654"]
+			subtitle: "\"If need be, she would hold this line until the end of time.\""
+			dependencies: ["47129A2D2661178B"]
 			hide: true
-			id: "6482921994A73FEC"
+			id: "101A352973D1A1E8"
 			tasks: [{
-				id: "15AF1844E2606217"
-				type: "advancement"
-				advancement: "minecraft:story/mine_diamond"
-				criterion: ""
+				id: "5A8F01759D1C3419"
+				type: "item"
+				item: {
+					id: "spartanshields:shield_basic_iron"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
 			}]
-			rewards: [
-				{
-					id: "07FB4563C44E0960"
-					type: "xp_levels"
-					xp_levels: 5
+			rewards: [{
+				id: "5340895173DA4572"
+				type: "item"
+				item: {
+					id: "spartanweaponry:longsword_iron"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
 				}
-				{
-					id: "357BDFE8B98BB2DA"
-					type: "item"
-					item: "minecraft:golden_carrot"
-					count: 16
-				}
-			]
+			}]
 		}
 		{
-			x: -6.0d
+			x: -10.0d
 			y: 0.0d
-			dependencies: ["6482921994A73FEC"]
+			subtitle: "Defy extinction."
+			dependencies: ["101A352973D1A1E8"]
 			hide: true
-			id: "3FAD27389446F6F1"
+			id: "405B1B6B33B41934"
 			tasks: [{
-				id: "36673D9D3BBABFEF"
+				id: "1FEE5FE59E3EFDE8"
 				type: "item"
-				item: "minecraft:netherite_ingot"
+				item: {
+					id: "spartanshields:shield_basic_diamond"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "5FFCE1FA6631445D"
+				type: "item"
+				item: {
+					id: "spartanweaponry:spear_diamond"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -10.0d
+			y: 1.5d
+			subtitle: "The courage to walk into the darkness, but strength to return to the light. "
+			dependencies: ["405B1B6B33B41934"]
+			hide: true
+			id: "19F83CEAA5F06008"
+			tasks: [{
+				id: "0737F51BFB3651BC"
+				type: "item"
+				item: {
+					id: "spartanshields:shield_basic_netherite"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
 			}]
 			rewards: [
 				{
-					id: "0B2104E1742F0917"
+					id: "7F529E83586081C3"
 					type: "item"
 					item: {
-						id: "enigmaticlegacy:ultimate_potion_splash"
+						id: "minecraft:enchanted_book"
 						Count: 1b
 						tag: {
-							EnigmaticPotion: "ultimate_fire_resistance"
+							StoredEnchantments: [{
+								lvl: 3s
+								id: "spartanshields:spikes"
+							}]
 						}
 					}
 				}
 				{
-					id: "2B6E14770FA64549"
+					id: "48AAB59A2D7F765B"
 					type: "item"
-					item: "endergetic:music_disc_kilobyte"
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 4s
+								id: "spartanshields:payback"
+							}]
+						}
+					}
 				}
 				{
-					id: "26DF19649CBB01C0"
+					id: "00CF11D67EDDC799"
 					type: "xp_levels"
 					xp_levels: 30
 				}

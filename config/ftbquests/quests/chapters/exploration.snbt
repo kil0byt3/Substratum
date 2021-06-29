@@ -799,6 +799,8 @@
 			title: "Hey you made it!"
 			x: -3.5d
 			y: -5.0d
+			subtitle: "WIP"
+			description: ["These ones aren't done yet. You can get em', but there aren't any rewards."]
 			dependencies: ["199DB27DAA5DBED8"]
 			hide: true
 			id: "33BA4274A615319C"

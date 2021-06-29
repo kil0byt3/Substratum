@@ -92,8 +92,8 @@
 		}
 		{
 			title: "Sweet Dreams"
-			x: 1.5d
-			y: 1.5d
+			x: 3.0d
+			y: 0.0d
 			subtitle: "ZzzZZZzzzzzzZZZ"
 			description: [
 				"It may be worthwhile to have a place to lay your head when the sun gets low."
@@ -121,10 +121,11 @@
 		}
 		{
 			title: "But wait, how do I know the recipe?"
-			x: 0.0d
-			y: 0.0d
+			icon: "minecraft:item_frame"
+			x: -0.5d
+			y: -1.5d
 			shape: "hexagon"
-			subtitle: "The vanilla recipe book sucks, don't talk to me about it"
+			subtitle: "The quest for knowledge is the purest war."
 			description: [
 				"To find and use recipes, open your inventory and look to the big list of items on the right. This is both an item viewer and a recipe finder, called JEI (Just Enough Items)."
 				""
@@ -134,7 +135,9 @@
 				""
 				"This is absurdly useful! Don't forget!"
 				""
-				"Just so you don't forget, I'm gonna give you crab legs as a reward for this one. "
+				"Good job reading all this! Just so you don't forget, I'm gonna give you crab legs as a reward for this one. "
+				""
+				"Hint: you can click on an item in the \"Tasks\" area in the quest book here, to see the recipe."
 			]
 			dependencies: ["0CE47A9FADA807C8"]
 			hide: true
@@ -153,8 +156,8 @@
 		{
 			title: "Ok, Zoomer"
 			icon: "cavesandcliffs:spyglass"
-			x: 4.5d
-			y: 1.5d
+			x: 5.0d
+			y: -4.5d
 			subtitle: "OptiFine isn't really optional"
 			description: [
 				"This is a spyglass. If you're using OptiFine, you don't need this; you can zoom by pressing C by default. "
@@ -177,8 +180,8 @@
 		{
 			title: "Keys to the City"
 			icon: "supplementaries:key"
-			x: 4.5d
-			y: 0.0d
+			x: 5.0d
+			y: -3.0d
 			subtitle: "Bro I cannot hold all of these keybinds"
 			description: ["If you want to learn some other handy keybinds, follow this quest tree."]
 			dependencies: ["1C37ADFE1ADF91BF"]
@@ -197,8 +200,8 @@
 		{
 			title: "Mic Check"
 			icon: "druidcraft:ceramic_lantern"
-			x: 3.0d
-			y: 0.0d
+			x: 3.5d
+			y: -2.0d
 			subtitle: "Is this thing on?"
 			description: [
 				"This modpack has local voice chat for use on servers."
@@ -223,10 +226,10 @@
 			}]
 		}
 		{
-			title: "Bonus Round"
+			title: "JEI Bonus Round"
 			icon: "minecraft:name_tag"
-			x: -1.5d
-			y: 0.0d
+			x: -0.5d
+			y: -3.0d
 			shape: "hexagon"
 			subtitle: "It's a hexagon actually"
 			description: [
@@ -241,17 +244,24 @@
 				id: "322115D59C48E52D"
 				type: "checkmark"
 			}]
-			rewards: [{
-				id: "3E264A4DBA6CE4D9"
-				type: "xp_levels"
-				xp_levels: 5
-			}]
+			rewards: [
+				{
+					id: "3E264A4DBA6CE4D9"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "1DDE4E27FEFB44E2"
+					type: "item"
+					item: "minecraft:name_tag"
+				}
+			]
 		}
 		{
 			title: "Have a Seat"
 			icon: "buildersaddition:bench_oak"
-			x: 4.5d
-			y: -1.5d
+			x: 6.5d
+			y: -4.0d
 			subtitle: "Ahhh, that's better."
 			description: [
 				"You can press Z to \"go prone\" and crawl around. Handy for getting into tight spaces."
@@ -282,8 +292,8 @@
 		}
 		{
 			icon: "minecraft:paper"
-			x: 6.0d
-			y: -1.5d
+			x: 3.5d
+			y: -4.0d
 			subtitle: "I should be writing this down"
 			description: [
 				"You can open up an ingame journal."
@@ -304,8 +314,18 @@
 		{
 			title: "You Live to Die Another Day"
 			icon: "minecraft:skeleton_skull"
-			x: 0.5d
-			y: 3.0d
+			x: 4.5d
+			y: 0.0d
+			subtitle: "LOL 0.5 KDR"
+			description: [
+				"RIP."
+				""
+				"Thankfully it's not a huge deal. Your gear will be preserved in a corpse. A cute little body, just lying there. If you right-click the body, you'll be able to quickly recover your gear. "
+				""
+				"Repeat after me. \"The dad bod don't disappear/till ya get your gear.\""
+				""
+				"Good luck getting back to your gear. Here's a knife and some bread. "
+			]
 			dependencies: ["356E41618C5897B7"]
 			hide: true
 			id: "55DD3EA2C331E4B6"
@@ -315,11 +335,36 @@
 				stat: "minecraft:deaths"
 				value: 1
 			}]
+			rewards: [
+				{
+					id: "63D0DFB5CB9E4BD9"
+					type: "item"
+					item: "minecraft:bread"
+					count: 4
+				}
+				{
+					id: "6DB4D2C16CB4ABF7"
+					type: "item"
+					item: {
+						id: "spartanweaponry:dagger_iron"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
 		}
 		{
 			icon: "minecraft:chest"
-			x: 6.0d
-			y: 1.5d
+			x: 6.5d
+			y: -2.0d
+			subtitle: "Move. That. Bus. "
+			description: [
+				"Just Sneak + Right-Click to move blocks around easily. This works on most blocks that hold an inventory, like chests and furnaces. "
+				""
+				"It also works on farm animals. "
+			]
 			dependencies: ["7F3AA0CEBC61945A"]
 			hide: true
 			id: "60EFAEB2A0D4FCAE"
@@ -328,35 +373,93 @@
 				type: "checkmark"
 				title: "Carry On My Wayward Son"
 			}]
+			rewards: [{
+				id: "1A74C10E89481949"
+				type: "item"
+				item: "quark:spruce_chest"
+				count: 4
+			}]
 		}
 		{
-			x: 1.5d
-			y: 3.0d
-			dependencies: ["356E41618C5897B7"]
+			title: "Finders Keepers"
+			x: 3.0d
+			y: 4.5d
+			subtitle: "Recovery is a spiral, not a circle. You may return to the same patterns, but you will break free."
+			description: [
+				"This one might have to go on your \"to-do list\". Yes, that's a lot of iron. However, this spicy little number will let you find metals nearby. Just hold it in your hands and let it guide you to riches. There's also one for Metals and Gems. "
+				""
+				"Just type @AdvancedFinders in JEI."
+			]
+			dependencies: ["6985FED27ACBB2E2"]
 			hide: true
 			id: "4255BCA131D20A92"
 			tasks: [{
-				id: "3E8FC32E9449677F"
-				type: "checkmark"
+				id: "1CC1F1F37080BBFE"
+				type: "item"
+				item: {
+					id: "adfinders:mineral_finder"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
 			}]
+			rewards: [
+				{
+					id: "4EDF5A1882C3CB4E"
+					type: "item"
+					item: "minecraft:gold_block"
+				}
+				{
+					id: "6CD1F0D3043DA46A"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
 		}
 		{
-			x: 2.5d
-			y: 3.0d
-			dependencies: ["356E41618C5897B7"]
+			title: "Advanced Hacks"
+			x: 4.0d
+			y: 5.5d
+			subtitle: "It's just a metal finder"
+			dependencies: ["4255BCA131D20A92"]
 			hide: true
 			id: "06D8B93BC594F5D2"
 			tasks: [{
-				id: "0D5FBEA5FBA9F0D5"
-				type: "checkmark"
+				id: "0D94A1E6DFCA5B2F"
+				type: "item"
+				item: {
+					id: "adfinders:metal_finder"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
 			}]
+			rewards: [
+				{
+					id: "0E2CA8E4EF147800"
+					type: "item"
+					item: "adpoles:diamond_pole"
+				}
+				{
+					id: "32F75C37BF910EB7"
+					type: "item"
+					item: "minecraft:diamond"
+				}
+			]
 		}
 		{
 			title: "Endgame"
 			icon: "enigmaticlegacy:the_acknowledgment"
-			x: 1.5d
-			y: -4.5d
-			dependencies: ["3ED47B48F70028E3"]
+			x: -2.5d
+			y: 6.5d
+			subtitle: "Some terrors you defeat. Some, you become."
+			description: ["Here is where it gets really spicy. Good luck out there in the Outer End Islands!"]
+			dependencies: [
+				"17ACF3056115D26C"
+				"5DD0A6DA9918E1CC"
+			]
 			hide: true
 			dependency_requirement: "all_started"
 			id: "5E2834684328B16D"
@@ -371,13 +474,697 @@
 			}]
 		}
 		{
-			x: 6.0d
-			y: 0.0d
-			dependencies: ["7F3AA0CEBC61945A"]
-			id: "536047CC5BF78ABF"
+			title: "We do a little mining"
+			x: 1.5d
+			y: 3.0d
+			subtitle: "Don't pick a fight with me"
+			description: ["Make a pickaxe. You know how it's done. "]
+			dependencies: ["64F383BD2EF17EE1"]
+			hide: true
+			id: "6985FED27ACBB2E2"
 			tasks: [{
-				id: "20966E4D8286B1CF"
+				id: "7C2A7784B9C12EAE"
+				type: "item"
+				item: {
+					id: "minecraft:stone_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "2849940E9DEA602E"
+					type: "item"
+					item: "minecraft:cobblestone"
+					count: 32
+				}
+				{
+					id: "6E8B0167FA44613B"
+					type: "item"
+					item: "farmersdelight:steak_and_potatoes"
+					count: 4
+				}
+			]
+		}
+		{
+			title: "Battle Stations"
+			x: 1.5d
+			y: 1.5d
+			subtitle: "Some traditions are too good to be true."
+			description: [
+				"You know that crafting table you just made? It sucks. Just make a Crafting Station right away. They're much more useful."
+				""
+				"Not only do they work like a regular table, they also retain items placed inside, and if you place a chest beside one, you can see the inventory of the chest while you're crafting. "
+			]
+			dependencies: ["0CE47A9FADA807C8"]
+			hide: true
+			id: "64F383BD2EF17EE1"
+			tasks: [{
+				id: "090DE13CC93B3758"
+				type: "item"
+				item: "craftingstation:crafting_station"
+			}]
+			rewards: [{
+				id: "2F047BC0176DB312"
+				type: "item"
+				item: "quark:oak_chest"
+			}]
+		}
+		{
+			title: "Putting the Horse before the Cart"
+			icon: "enigmaticlegacy:avarice_scroll"
+			x: 7.5d
+			y: 0.5d
+			subtitle: "Horse optional."
+			description: [
+				"You can pull a cart yourself, if you think you're buff enough. It's actually quite easy. Just plop down your cart, position yourself near the handles, and press \"\\\" on your keyboard (above the ENTER key). You'll be rolling back into town in no time. "
+				""
+				"Oh yeah, there are more boats too. This one has a chest. "
+			]
+			dependencies: [
+				"60EFAEB2A0D4FCAE"
+				"6FF225BD62E2B09A"
+			]
+			hide: true
+			id: "598FAB13BB4F675E"
+			tasks: [{
+				id: "4275D27B455D08C6"
 				type: "checkmark"
+			}]
+			rewards: [{
+				id: "243FE539C7D1476F"
+				type: "item"
+				item: "extraboats:oak_chest_boat"
+			}]
+		}
+		{
+			title: "A Murder Most Foul"
+			icon: "minecraft:wither_skeleton_skull"
+			x: 5.0d
+			y: -1.5d
+			subtitle: "I hope it wasn't your buddy smacking you in the back of the head. "
+			description: [
+				"See what I did there? It's a keybind, but also a death. "
+				""
+				"Press U to see your death history. You can see the coordinates of your death and see what you had on you."
+				""
+				"Of course, you could also just look at the death waypoint on the minimap. I forgot we had one of those. "
+			]
+			dependencies: [
+				"7F3AA0CEBC61945A"
+				"55DD3EA2C331E4B6"
+			]
+			hide: true
+			id: "5B3F742B1E049FC4"
+			tasks: [{
+				id: "4D996C3F24C48493"
+				type: "checkmark"
+				title: "Yahoo!"
+			}]
+			rewards: [{
+				id: "4C2F0679A683F4CA"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+		}
+		{
+			title: "One Good Turn Deserves Another"
+			x: 6.0d
+			y: 3.0d
+			subtitle: "Gotta get that loot out somehow"
+			description: [
+				"Once you're sufficiently geared, it might be about time to head back to the spawn village. If you have too much to carry, you can easily make a cart to bring it all home. "
+				""
+				"All you need are these two wheels and a little more wood. "
+				""
+				"Craft it to complete the next task."
+			]
+			dependencies: ["6985FED27ACBB2E2"]
+			hide: true
+			id: "60E7DE4E3D0A7E55"
+			tasks: [{
+				id: "462E9FBE734BE4ED"
+				type: "item"
+				item: "astikorcarts:wheel"
+			}]
+			rewards: [
+				{
+					id: "52141D35BC10413D"
+					type: "item"
+					item: "astikorcarts:wheel"
+				}
+				{
+					id: "3DFDB73B28B069B1"
+					type: "item"
+					item: "minecraft:oak_log"
+					count: 16
+				}
+			]
+		}
+		{
+			x: 7.5d
+			y: 3.0d
+			subtitle: "No wayyyyy"
+			description: [
+				"Shift+Right-Click the cart to open the inventory of it. You can also Right-Click the cart without Shifting to hop on the back. Force your buddy to pull you home! Free ride woo!"
+				""
+				"Check out the next quest to learn how to pull the cart. "
+			]
+			dependencies: ["60E7DE4E3D0A7E55"]
+			hide: true
+			id: "6FF225BD62E2B09A"
+			tasks: [{
+				id: "6D3CEEF23F2C3074"
+				type: "item"
+				item: "astikorcarts:supply_cart"
+			}]
+			rewards: [{
+				id: "0F9AB0E6C717BF55"
+				type: "item"
+				item: {
+					id: "spartanweaponry:quarterstaff_iron"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "Pathing"
+			icon: "minecraft:grass_path"
+			x: 6.0d
+			y: 1.5d
+			subtitle: "The best way from A to B"
+			description: [
+				"If you haven't noticed yet, you get Speed I on path blocks. Sand also slows you down a lot. If you haven't figured out where I'm going with that yet, making roads will be key to success in Substratum. If ya wanna go fast, make roads."
+				""
+				"If you hold a shovel and Shift+Right-Click a grass block, you'll see some text pop up that'll teach you how to make easy, long paths and roads. "
+			]
+			dependencies: ["60E7DE4E3D0A7E55"]
+			hide: true
+			id: "7E82E069CBEC7E60"
+			tasks: [{
+				id: "5CB86B4B234F0320"
+				type: "item"
+				item: {
+					id: "minecraft:stone_shovel"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "2EA98DA648374016"
+				type: "item"
+				auto: "disabled"
+				item: {
+					id: "minecraft:iron_shovel"
+					Count: 1b
+					tag: {
+						RepairCost: 0
+						Damage: 0
+						Enchantments: [{
+							lvl: 3s
+							id: "minecraft:unbreaking"
+						}]
+						display: {
+							Name: "{\"text\":\"One Pathy Lad\"}"
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "Upgrade Mk. 2"
+			x: 0.0d
+			y: 4.5d
+			subtitle: "Movin' on up"
+			description: ["Craft me. Get loot."]
+			dependencies: ["1599C4900E8F74D2"]
+			hide: true
+			id: "62F93B1AE6C3EBF8"
+			tasks: [{
+				id: "5D291F22FE0B2881"
+				type: "item"
+				item: {
+					id: "minecraft:iron_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "675865F08C184977"
+					type: "item"
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 2s
+								id: "minecraft:efficiency"
+							}]
+						}
+					}
+				}
+				{
+					id: "2BFE8C92C89AD47D"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "4D818733820CD628"
+					type: "item"
+					item: "farmersdelight:shepherds_pie"
+					count: 4
+				}
+			]
+		}
+		{
+			title: "Daddy Mode"
+			x: 0.0d
+			y: 6.5d
+			subtitle: "Shiny blue rocks"
+			description: ["More free things."]
+			dependencies: ["62F93B1AE6C3EBF8"]
+			hide: true
+			id: "5DD0A6DA9918E1CC"
+			tasks: [{
+				id: "2B51330DCB9AA166"
+				type: "item"
+				item: {
+					id: "minecraft:diamond_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "03B53E3FDD6EAA5C"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					id: "6068FAD51FA98AE4"
+					type: "item"
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 3s
+								id: "minecraft:efficiency"
+							}]
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "God Mode"
+			x: 4.0d
+			y: 6.5d
+			subtitle: "Again...it finds gems"
+			dependencies: ["06D8B93BC594F5D2"]
+			hide: true
+			id: "4A38B963217FB475"
+			tasks: [{
+				id: "2403CAA67C45AA16"
+				type: "item"
+				item: {
+					id: "adfinders:gem_finder"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "753BE0F69CB2CC1B"
+				type: "item"
+				item: "minecraft:nether_wart"
+			}]
+		}
+		{
+			title: "Top Tier (or is it?)"
+			x: 0.0d
+			y: 8.0d
+			description: ["Congrats! That's vanilla progression done..."]
+			dependencies: ["5DD0A6DA9918E1CC"]
+			hide: true
+			id: "53188E7813D80486"
+			tasks: [{
+				id: "0CCAA33089EE9A67"
+				type: "item"
+				item: {
+					id: "minecraft:netherite_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "4FB6EBF269F28833"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+				{
+					id: "52199FB2E87B7A59"
+					type: "item"
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 5s
+								id: "minecraft:efficiency"
+							}]
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: 1.5d
+			subtitle: "You ever want to fly?"
+			description: ["I mean, you can't fly with this, but you can glide. In style. And it's fun."]
+			dependencies: ["2DBCBF08C50B8FDC"]
+			hide: true
+			id: "4CD5045657E66723"
+			tasks: [{
+				id: "2836A1C606990DA9"
+				type: "item"
+				item: "paraglider:paraglider"
+			}]
+			rewards: [{
+				id: "6621F80F28BBA0AE"
+				type: "item"
+				item: "minecraft:leather"
+				count: 16
+			}]
+		}
+		{
+			x: 1.5d
+			y: 4.5d
+			subtitle: "Ironically, here's more Iron"
+			dependencies: ["6985FED27ACBB2E2"]
+			hide: true
+			id: "1599C4900E8F74D2"
+			tasks: [{
+				id: "0183C4C81C109718"
+				type: "item"
+				item: "minecraft:iron_ingot"
+			}]
+			rewards: [{
+				id: "5ADD8FB33F85047B"
+				type: "item"
+				item: "minecraft:iron_ingot"
+				count: 8
+			}]
+		}
+		{
+			x: 3.0d
+			y: 5.5d
+			subtitle: "Bling me up"
+			dependencies: ["1599C4900E8F74D2"]
+			hide: true
+			id: "5D85FCF5BF1EF5AE"
+			tasks: [{
+				id: "1783EF07DECCC791"
+				type: "item"
+				item: "minecraft:gold_ingot"
+			}]
+			rewards: [
+				{
+					id: "0B4E87EAE63EE3EF"
+					type: "item"
+					item: "supplementaries:candelabra"
+					count: 3
+				}
+				{
+					id: "73CA25690202C65D"
+					type: "item"
+					item: {
+						id: "easypaxellite:golden_paxel"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: 6.5d
+			subtitle: "A Steve's best friend"
+			dependencies: ["1599C4900E8F74D2"]
+			hide: true
+			id: "42DFB4B9FC48FFF5"
+			tasks: [{
+				id: "112AF44EE17424A0"
+				type: "item"
+				item: "minecraft:diamond"
+			}]
+			rewards: [
+				{
+					id: "22CDD57D32A647EE"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					id: "5F13F447CB2841EE"
+					type: "item"
+					item: "minecraft:golden_carrot"
+					count: 16
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: 8.0d
+			subtitle: "This song is actually kinda pog"
+			dependencies: ["42DFB4B9FC48FFF5"]
+			id: "2580184ECA9D7861"
+			tasks: [{
+				id: "43B0F0751581C638"
+				type: "item"
+				item: "minecraft:netherite_ingot"
+			}]
+			rewards: [
+				{
+					id: "2D753F0F28788A75"
+					type: "item"
+					item: {
+						id: "enigmaticlegacy:ultimate_potion_splash"
+						Count: 1b
+						tag: {
+							EnigmaticPotion: "ultimate_fire_resistance"
+						}
+					}
+				}
+				{
+					id: "04262E4F6EF50CDB"
+					type: "item"
+					item: "endergetic:music_disc_kilobyte"
+				}
+				{
+					id: "4EE8A026F6FCAF0C"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+			]
+		}
+		{
+			title: "Weast"
+			icon: "minecraft:compass"
+			x: -2.0d
+			y: 0.0d
+			subtitle: "Find your way."
+			description: [
+				"This quest tree will guide you through a few adventuring items, if you're into that."
+				"You'll need the spare compass for a Nature's Compass."
+			]
+			dependencies: ["0CE47A9FADA807C8"]
+			hide: true
+			id: "2DBCBF08C50B8FDC"
+			tasks: [
+				{
+					id: "00B90B0EE7C0CBAC"
+					type: "item"
+					item: "minecraft:redstone"
+				}
+				{
+					id: "1E9454023B309B46"
+					type: "item"
+					item: "minecraft:iron_ingot"
+					count: 4L
+				}
+			]
+			rewards: [{
+				id: "21B8E1323D728DC6"
+				type: "item"
+				item: "minecraft:compass"
+			}]
+		}
+		{
+			x: -2.0d
+			y: -1.5d
+			subtitle: "All natural."
+			description: ["This will help you find the biomes you need. Just Right-Click with it in hand. "]
+			dependencies: ["2DBCBF08C50B8FDC"]
+			hide: true
+			id: "06B929D01FFBE4B9"
+			tasks: [{
+				id: "7F3891D698E2B794"
+				type: "item"
+				item: {
+					id: "naturescompass:naturescompass"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: -3.5d
+			y: -1.5d
+			subtitle: "It does what it says on the tin."
+			dependencies: ["2DBCBF08C50B8FDC"]
+			hide: true
+			id: "7CD009FFFC84D130"
+			tasks: [{
+				id: "1C79EEE4760C8593"
+				type: "item"
+				item: "minecraft:clock"
+			}]
+			rewards: [
+				{
+					id: "7F3A82CBAC734DD8"
+					type: "item"
+					item: "supplementaries:clock_block"
+				}
+				{
+					id: "4C484E849610D268"
+					type: "item"
+					item: "supplementaries:sconce"
+					count: 16
+				}
+			]
+		}
+		{
+			x: -3.5d
+			y: 0.0d
+			subtitle: "For telling what season it is."
+			description: ["Oh yeah, we have seasons, by the way. "]
+			dependencies: ["2DBCBF08C50B8FDC"]
+			hide: true
+			id: "658FDE0F567A0F72"
+			tasks: [{
+				id: "1DF64CBD206E6D30"
+				type: "item"
+				item: "sereneseasons:calendar"
+			}]
+			rewards: [
+				{
+					id: "19F3BE6EE4AFB39C"
+					type: "item"
+					item: "sereneseasons:season_sensor"
+				}
+				{
+					id: "3DD89CD5CE9E31B4"
+					type: "item"
+					item: "minecraft:redstone_lamp"
+					count: 4
+				}
+				{
+					id: "7D12409B4CA92FFE"
+					type: "item"
+					item: "minecraft:redstone"
+					count: 32
+				}
+			]
+		}
+		{
+			x: -3.5d
+			y: 1.5d
+			subtitle: "Measure your worth"
+			description: [
+				"You ever used a measuring tape? Yeah, that's what this does."
+				"The quest reward does nearly the same thing, but is more complicated. Use what you prefer."
+			]
+			dependencies: ["2DBCBF08C50B8FDC"]
+			hide: true
+			id: "2663DEB0940E5FF2"
+			tasks: [{
+				id: "1C612083577BF181"
+				type: "item"
+				item: "quark:abacus"
+			}]
+			rewards: [{
+				id: "66D64EE453F156FE"
+				type: "item"
+				item: "chiselsandbits:tape_measure"
+			}]
+		}
+		{
+			title: "Displacement"
+			x: 4.5d
+			y: 1.5d
+			subtitle: "Infinite."
+			description: ["Our wizards are working on a more efficient way of transportation across the lands. They've come up with this \"Warp Plate\". We're not quite sure how it works, but maybe you can figure it out. "]
+			dependencies: [
+				"7E82E069CBEC7E60"
+				"7C5BF62E1AA0F5D8"
+			]
+			hide: true
+			id: "20C5E3D5FC8A59E7"
+			tasks: [{
+				id: "6C71668976A100C6"
+				type: "item"
+				item: "waystones:warp_plate"
+			}]
+			rewards: [{
+				id: "59C028FC2774029E"
+				type: "xp_levels"
+				xp_levels: 30
+			}]
+		}
+		{
+			title: "What's this?"
+			icon: "waystones:warp_scroll"
+			x: 3.0d
+			y: 1.5d
+			subtitle: "An ancient scroll."
+			description: [
+				"Waystones are ancient sources of arcane power, granting the user the ability to transport themselves across space and time. "
+				""
+				"The secret of crafting them has been lost to time itself. The village of Detlas, where all new adventurers find themselves, was built around one such source of ancient power."
+				""
+				"You can use this scroll (and more like it, if you craft them) to easily return to the village by linking this scroll to a Waystone with a Right-Click. Then, just hold Right-Click while holding the scroll to return home."
+			]
+			dependencies: ["0CE47A9FADA807C8"]
+			hide: true
+			id: "7C5BF62E1AA0F5D8"
+			tasks: [{
+				id: "60CFDB26CC0CBA1E"
+				type: "checkmark"
+				title: "Uwu?"
+			}]
+			rewards: [{
+				id: "2A60EA4EE6921748"
+				type: "item"
+				item: "waystones:bound_scroll"
 			}]
 		}
 	]
