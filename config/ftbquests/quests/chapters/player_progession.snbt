@@ -22,8 +22,10 @@
 					Damage: 0
 				}
 			}
-			x: 5.5d
+			x: 2.0d
 			y: -3.0d
+			dependencies: ["394F73ABB2578291"]
+			hide: true
 			id: "07FDFACA896FFDB9"
 			tasks: [
 				{
@@ -107,9 +109,10 @@
 					Damage: 0
 				}
 			}
-			x: -6.5d
-			y: -1.5d
-			dependencies: ["52D0F9FE64802F26"]
+			x: -4.0d
+			y: -3.0d
+			dependencies: ["394F73ABB2578291"]
+			hide: true
 			id: "767E0827D372D9E5"
 			tasks: [
 				{
@@ -187,6 +190,8 @@
 			title: "Don't run you are only going to die tired"
 			x: -8.0d
 			y: -3.0d
+			dependencies: ["394F73ABB2578291"]
+			hide: true
 			id: "72B3755D40353F62"
 			tasks: [{
 				id: "0EF699C0CC7DD75B"
@@ -209,9 +214,10 @@
 		{
 			title: "Harvest 2.0"
 			icon: "minecraft:crimson_fungus"
-			x: -6.5d
-			y: 0.0d
+			x: -4.0d
+			y: -1.5d
 			dependencies: ["767E0827D372D9E5"]
+			hide: true
 			id: "1ABF8C55A8F7B85D"
 			tasks: [
 				{
@@ -255,6 +261,8 @@
 		{
 			x: -10.0d
 			y: -3.0d
+			dependencies: ["394F73ABB2578291"]
+			hide: true
 			id: "6529F5C2ED3D9700"
 			tasks: [{
 				id: "143C1112E3B4090F"
@@ -278,6 +286,7 @@
 			x: -10.0d
 			y: -1.5d
 			dependencies: ["6529F5C2ED3D9700"]
+			hide: true
 			id: "4ED8333ED2AECF3C"
 			tasks: [{
 				id: "5F512F1E8B4E7EF5"
@@ -308,6 +317,7 @@
 			x: -10.0d
 			y: 0.0d
 			dependencies: ["4ED8333ED2AECF3C"]
+			hide: true
 			id: "01601D07492C2685"
 			tasks: [{
 				id: "44BC593EC95C9944"
@@ -346,6 +356,7 @@
 			x: -10.0d
 			y: 1.5d
 			dependencies: ["01601D07492C2685"]
+			hide: true
 			id: "03FA006EFCF85ECD"
 			tasks: [{
 				id: "5420ED623F8EB8EB"
@@ -383,6 +394,8 @@
 		{
 			x: -12.0d
 			y: -3.0d
+			dependencies: ["394F73ABB2578291"]
+			hide: true
 			id: "4D297356FC685F43"
 			tasks: [{
 				id: "394C96649A44B26B"
@@ -414,6 +427,7 @@
 			x: -12.0d
 			y: -1.5d
 			dependencies: ["4D297356FC685F43"]
+			hide: true
 			id: "05DB2BB3636E62AF"
 			tasks: [{
 				id: "4C4DCB424DB9AE35"
@@ -458,6 +472,7 @@
 			x: -12.0d
 			y: 0.0d
 			dependencies: ["05DB2BB3636E62AF"]
+			hide: true
 			id: "26EBE0DEE8D57BD7"
 			tasks: [{
 				id: "58D9C6BC931CC4B5"
@@ -496,6 +511,7 @@
 			x: -12.0d
 			y: 1.5d
 			dependencies: ["26EBE0DEE8D57BD7"]
+			hide: true
 			id: "31221346AC97AD1F"
 			tasks: [{
 				id: "71F3448A5BB0AAF6"
@@ -532,20 +548,82 @@
 		}
 		{
 			title: "Expert Fisherman"
-			x: 5.0d
+			x: 1.5d
 			y: -1.5d
 			dependencies: ["07FDFACA896FFDB9"]
+			hide: true
 			id: "55A3B95152EDEA29"
 			tasks: [{
 				id: "50F253C27D215753"
 				type: "item"
 				item: "minecraft:tropical_fish"
 			}]
+			rewards: [
+				{
+					id: "1FC1074A2D59FB50"
+					type: "item"
+					item: {
+						id: "minecraft:trident"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "289400D78F636082"
+					type: "item"
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 5s
+								id: "minecraft:impaling"
+							}]
+						}
+					}
+				}
+				{
+					id: "05A4E4F0FF6C1837"
+					type: "item"
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 3s
+								id: "minecraft:riptide"
+							}]
+						}
+					}
+				}
+				{
+					id: "0270B4B0BD4A10DC"
+					type: "item"
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 1s
+								id: "minecraft:channeling"
+							}]
+						}
+					}
+				}
+				{
+					id: "565DFA4A0506A54A"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+			]
 		}
 		{
 			x: -8.5d
 			y: -1.5d
 			dependencies: ["72B3755D40353F62"]
+			hide: true
 			id: "7F8105F43DAD30D7"
 			tasks: [{
 				id: "161F7BF176D7B05F"
@@ -553,11 +631,33 @@
 				advancement: "minecraft:adventure/sniper_duel"
 				criterion: ""
 			}]
+			rewards: [
+				{
+					id: "54A4C86145830476"
+					type: "item"
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 5s
+								id: "minecraft:power"
+							}]
+						}
+					}
+				}
+				{
+					id: "17D097D8007FFFAE"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
 		}
 		{
 			x: -7.5d
 			y: -1.5d
 			dependencies: ["72B3755D40353F62"]
+			hide: true
 			id: "40541E325F4B2952"
 			tasks: [{
 				id: "34A8A6189E3BCE94"
@@ -565,11 +665,45 @@
 				advancement: "minecraft:adventure/ol_betsy"
 				criterion: ""
 			}]
+			rewards: [
+				{
+					id: "4D94B9DE86F17539"
+					type: "item"
+					item: {
+						id: "spartanweaponry:heavy_crossbow_iron"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "625C83FBA3AA6357"
+					type: "item"
+					item: "spartanweaponry:bolt"
+					count: 32
+				}
+				{
+					id: "3189A82FDBD0816B"
+					type: "item"
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 3s
+								id: "minecraft:quick_charge"
+							}]
+						}
+					}
+				}
+			]
 		}
 		{
-			x: 6.0d
+			x: 2.5d
 			y: -1.5d
 			dependencies: ["07FDFACA896FFDB9"]
+			hide: true
 			id: "56C8834A05FE1420"
 			tasks: [{
 				id: "2A9EF19416468841"
@@ -577,11 +711,18 @@
 				advancement: "minecraft:husbandry/tactical_fishing"
 				criterion: ""
 			}]
+			rewards: [{
+				id: "4B48C6A9E6E9D99B"
+				type: "item"
+				item: "minecraft:diamond"
+				count: 16
+			}]
 		}
 		{
-			x: -6.5d
-			y: 1.5d
+			x: -4.0d
+			y: 0.0d
 			dependencies: ["1ABF8C55A8F7B85D"]
+			hide: true
 			id: "12C5AD9047CC650A"
 			tasks: [{
 				id: "02F29DABC8F606B4"
@@ -589,11 +730,25 @@
 				advancement: "minecraft:husbandry/balanced_diet"
 				criterion: ""
 			}]
+			rewards: [
+				{
+					id: "34C39229FA69846D"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+				{
+					id: "7E99003656F59CD0"
+					type: "item"
+					item: "alexsmobs:kangaroo_burger"
+					count: 64
+				}
+			]
 		}
 		{
-			x: 3.0d
+			x: -0.5d
 			y: -1.5d
 			dependencies: ["74BC0253BE5E3BB9"]
+			hide: true
 			id: "78AA466B4C8251B5"
 			tasks: [{
 				id: "61B2E92706EC27FE"
@@ -601,10 +756,26 @@
 				advancement: "minecraft:husbandry/tame_an_animal"
 				criterion: ""
 			}]
+			rewards: [
+				{
+					id: "451D23E09E47FD01"
+					type: "item"
+					item: "alexsmobs:kangaroo_burger"
+					count: 8
+				}
+				{
+					id: "082370377AEE2008"
+					type: "item"
+					item: "minecraft:cooked_beef"
+					count: 8
+				}
+			]
 		}
 		{
-			x: 3.5d
+			x: 0.0d
 			y: -3.0d
+			dependencies: ["394F73ABB2578291"]
+			hide: true
 			id: "74BC0253BE5E3BB9"
 			tasks: [{
 				id: "2B24FA5B320638EF"
@@ -612,11 +783,25 @@
 				advancement: "minecraft:husbandry/root"
 				criterion: ""
 			}]
+			rewards: [
+				{
+					id: "3755C396BF7CD3BD"
+					type: "item"
+					item: "minecraft:pumpkin_pie"
+					count: 8
+				}
+				{
+					id: "2B86A87EFFB5218D"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
 		}
 		{
-			x: 4.0d
+			x: 0.5d
 			y: -1.5d
 			dependencies: ["74BC0253BE5E3BB9"]
+			hide: true
 			id: "43E8951CC488532A"
 			tasks: [{
 				id: "49A2F963A527D631"
@@ -624,11 +809,18 @@
 				advancement: "minecraft:husbandry/breed_an_animal"
 				criterion: ""
 			}]
+			rewards: [{
+				id: "4A4F1F38C0BF90CC"
+				type: "item"
+				item: "minecraft:lead"
+				count: 4
+			}]
 		}
 		{
-			x: 4.0d
+			x: 0.5d
 			y: 0.0d
 			dependencies: ["43E8951CC488532A"]
+			hide: true
 			id: "05977CE0462838AC"
 			tasks: [{
 				id: "1C1E21E48500CAF5"
@@ -636,118 +828,17 @@
 				advancement: "minecraft:husbandry/bred_all_animals"
 				criterion: ""
 			}]
+			rewards: [{
+				id: "43DD7E99775C523D"
+				type: "xp_levels"
+				xp_levels: 30
+			}]
 		}
 		{
-			x: -2.5d
+			x: -2.0d
 			y: -3.0d
-			id: "52D0F9FE64802F26"
-			tasks: [{
-				id: "3E64311B75629906"
-				type: "advancement"
-				advancement: "simplefarming:root"
-				criterion: ""
-			}]
-		}
-		{
-			x: -4.5d
-			y: -1.5d
-			dependencies: ["52D0F9FE64802F26"]
-			id: "3A8E0363E51D34B6"
-			tasks: [{
-				id: "7B0132FED9DA2633"
-				type: "advancement"
-				advancement: "simplefarming:grapes"
-				criterion: ""
-			}]
-		}
-		{
-			x: -4.5d
-			y: 0.0d
-			dependencies: ["3A8E0363E51D34B6"]
-			id: "465CBB0FCE3B36E4"
-			tasks: [{
-				id: "4A767FB4A446BBCB"
-				type: "advancement"
-				advancement: "simplefarming:wine"
-				criterion: ""
-			}]
-		}
-		{
-			x: -3.5d
-			y: -1.5d
-			dependencies: ["52D0F9FE64802F26"]
-			id: "333926D31DBBD619"
-			tasks: [{
-				id: "34D62BECDF32B92E"
-				type: "advancement"
-				advancement: "simplefarming:berries"
-				criterion: ""
-			}]
-		}
-		{
-			x: -3.5d
-			y: 0.0d
-			dependencies: ["333926D31DBBD619"]
-			id: "7DCDCEA7F9FE93AF"
-			tasks: [{
-				id: "37056474BA93A45F"
-				type: "advancement"
-				advancement: "simplefarming:crops"
-				criterion: ""
-			}]
-		}
-		{
-			x: -2.5d
-			y: -1.5d
-			dependencies: ["52D0F9FE64802F26"]
-			id: "576F376412E74B0F"
-			tasks: [{
-				id: "16D21A89E9C2AF62"
-				type: "advancement"
-				advancement: "simplefarming:cheese"
-				criterion: ""
-			}]
-		}
-		{
-			x: -2.5d
-			y: 0.0d
-			dependencies: ["576F376412E74B0F"]
-			id: "3CAAA55ECF2B6491"
-			tasks: [{
-				id: "1F50A01D3377FDFC"
-				type: "advancement"
-				advancement: "simplefarming:cheeseburger"
-				criterion: ""
-			}]
-		}
-		{
-			x: -1.5d
-			y: -1.5d
-			dependencies: ["52D0F9FE64802F26"]
-			id: "058596EDC8D32BBB"
-			tasks: [{
-				id: "411820171B3C4DDC"
-				type: "advancement"
-				advancement: "simplefarming:birthday_cake"
-				criterion: ""
-			}]
-		}
-		{
-			x: -0.5d
-			y: -1.5d
-			dependencies: ["52D0F9FE64802F26"]
-			id: "6DF8C44E93DA0585"
-			tasks: [{
-				id: "5F0A0E8AE697C723"
-				type: "advancement"
-				advancement: "simplefarming:scarecrow"
-				criterion: ""
-			}]
-		}
-		{
-			x: 1.5d
-			y: -1.5d
-			dependencies: ["52D0F9FE64802F26"]
+			dependencies: ["394F73ABB2578291"]
+			hide: true
 			id: "6B60081B9A401F5B"
 			tasks: [{
 				id: "4BFAF9B6F5D611BD"
@@ -757,9 +848,10 @@
 			}]
 		}
 		{
-			x: 1.0d
-			y: 0.0d
+			x: -1.5d
+			y: -1.5d
 			dependencies: ["6B60081B9A401F5B"]
+			hide: true
 			id: "74590E9F08B62EE8"
 			tasks: [{
 				id: "06EB5E1D400100B1"
@@ -769,9 +861,10 @@
 			}]
 		}
 		{
-			x: 2.0d
-			y: 0.0d
+			x: -2.5d
+			y: -1.5d
 			dependencies: ["6B60081B9A401F5B"]
+			hide: true
 			id: "5E29BD84B6B87165"
 			tasks: [{
 				id: "03B718F2128A1EBA"
@@ -781,9 +874,10 @@
 			}]
 		}
 		{
-			x: 0.5d
-			y: 1.5d
+			x: -2.0d
+			y: 0.0d
 			dependencies: ["74590E9F08B62EE8"]
+			hide: true
 			id: "6662E3951958A16D"
 			tasks: [{
 				id: "3B274C367D64FD9F"
@@ -793,9 +887,10 @@
 			}]
 		}
 		{
-			x: 1.5d
-			y: 1.5d
+			x: -1.0d
+			y: 0.0d
 			dependencies: ["74590E9F08B62EE8"]
+			hide: true
 			id: "22DC44B12C72749C"
 			tasks: [{
 				id: "58FC9F75BAABFD17"
@@ -805,9 +900,10 @@
 			}]
 		}
 		{
-			x: 1.5d
-			y: 3.0d
+			x: -1.0d
+			y: 1.5d
 			dependencies: ["22DC44B12C72749C"]
+			hide: true
 			id: "4F3BEA565A6BE2EE"
 			tasks: [{
 				id: "0435F7508C7DAAC7"
@@ -817,9 +913,10 @@
 			}]
 		}
 		{
-			x: 1.5d
-			y: 4.5d
+			x: -1.0d
+			y: 3.0d
 			dependencies: ["4F3BEA565A6BE2EE"]
+			hide: true
 			id: "7CE1D78801F4671D"
 			tasks: [{
 				id: "39FBBD018FCDD7B6"
@@ -829,9 +926,10 @@
 			}]
 		}
 		{
-			x: 1.5d
-			y: 6.0d
+			x: -1.0d
+			y: 4.5d
 			dependencies: ["7CE1D78801F4671D"]
+			hide: true
 			id: "7A05CC17A901605B"
 			tasks: [{
 				id: "0CF32407C08F0B5A"
@@ -841,8 +939,10 @@
 			}]
 		}
 		{
-			x: -18.5d
+			x: -6.0d
 			y: -3.0d
+			dependencies: ["394F73ABB2578291"]
+			hide: true
 			id: "08F5A7899A977654"
 			tasks: [{
 				id: "539843EA851C532C"
@@ -850,11 +950,18 @@
 				advancement: "minecraft:story/smelt_iron"
 				criterion: ""
 			}]
+			rewards: [{
+				id: "4352B466531EE7BA"
+				type: "item"
+				item: "minecraft:iron_ingot"
+				count: 8
+			}]
 		}
 		{
-			x: -18.5d
+			x: -6.0d
 			y: -1.5d
 			dependencies: ["08F5A7899A977654"]
+			hide: true
 			id: "6482921994A73FEC"
 			tasks: [{
 				id: "15AF1844E2606217"
@@ -862,17 +969,54 @@
 				advancement: "minecraft:story/mine_diamond"
 				criterion: ""
 			}]
+			rewards: [
+				{
+					id: "07FB4563C44E0960"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "357BDFE8B98BB2DA"
+					type: "item"
+					item: "minecraft:golden_carrot"
+					count: 16
+				}
+			]
 		}
 		{
-			x: -18.5d
+			x: -6.0d
 			y: 0.0d
 			dependencies: ["6482921994A73FEC"]
+			hide: true
 			id: "3FAD27389446F6F1"
 			tasks: [{
 				id: "36673D9D3BBABFEF"
 				type: "item"
 				item: "minecraft:netherite_ingot"
 			}]
+			rewards: [
+				{
+					id: "0B2104E1742F0917"
+					type: "item"
+					item: {
+						id: "enigmaticlegacy:ultimate_potion_splash"
+						Count: 1b
+						tag: {
+							EnigmaticPotion: "ultimate_fire_resistance"
+						}
+					}
+				}
+				{
+					id: "2B6E14770FA64549"
+					type: "item"
+					item: "endergetic:music_disc_kilobyte"
+				}
+				{
+					id: "26DF19649CBB01C0"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+			]
 		}
 	]
 }

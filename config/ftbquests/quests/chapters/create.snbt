@@ -5,6 +5,7 @@
 	filename: "create"
 	title: "Create"
 	icon: "create:crushing_wheel"
+	always_invisible: true
 	default_quest_shape: ""
 	quests: [
 		{

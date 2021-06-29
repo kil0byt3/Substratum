@@ -16,8 +16,9 @@
 		{
 			title: "Novice Mob Slayer"
 			x: 0.0d
-			y: -1.5d
+			y: -2.0d
 			dependencies: ["495A9A522431B613"]
+			hide: true
 			id: "3E28809C7A7205B9"
 			tasks: [
 				{
@@ -92,10 +93,11 @@
 			]
 		}
 		{
-			x: -2.5d
-			y: -1.5d
+			x: -1.5d
+			y: -3.0d
 			hide_dependency_lines: false
 			dependencies: ["3E28809C7A7205B9"]
+			hide: true
 			dependency_requirement: "one_completed"
 			id: "72A7B1B3925005A8"
 			tasks: [{
@@ -128,9 +130,10 @@
 			]
 		}
 		{
-			x: -2.5d
-			y: 0.5d
+			x: -1.5d
+			y: -1.0d
 			dependencies: ["3E28809C7A7205B9"]
+			hide: true
 			id: "64F59457C53DF2F5"
 			tasks: [{
 				id: "7E31D00941835B25"
@@ -162,9 +165,10 @@
 			]
 		}
 		{
-			x: 2.5d
-			y: -1.5d
+			x: 1.5d
+			y: -3.0d
 			dependencies: ["3E28809C7A7205B9"]
+			hide: true
 			dependency_requirement: "one_completed"
 			id: "5F0423F59114DAB1"
 			tasks: [{
@@ -189,9 +193,10 @@
 			]
 		}
 		{
-			x: 2.5d
-			y: 0.5d
+			x: 1.5d
+			y: -1.0d
 			dependencies: ["3E28809C7A7205B9"]
+			hide: true
 			id: "4EBF5AA00CF81BAD"
 			tasks: [{
 				id: "35244AA64F0C726E"
@@ -225,8 +230,9 @@
 		{
 			title: "Expert Mob Slayer"
 			x: 0.0d
-			y: 3.0d
+			y: -0.5d
 			dependencies: ["3E28809C7A7205B9"]
+			hide: true
 			id: "2D4D29AB1A88D4C8"
 			tasks: [
 				{
@@ -276,9 +282,10 @@
 		}
 		{
 			title: "Wither Slayer"
-			x: 2.0d
-			y: 5.0d
+			x: 1.0d
+			y: 1.0d
 			dependencies: ["2D4D29AB1A88D4C8"]
+			hide: true
 			id: "509408AE25438938"
 			tasks: [{
 				id: "3D408E9048924F83"
@@ -309,9 +316,10 @@
 		}
 		{
 			title: "Ender Dragon Slayer"
-			x: -2.0d
-			y: 5.0d
+			x: -1.0d
+			y: 1.0d
 			dependencies: ["2D4D29AB1A88D4C8"]
+			hide: true
 			id: "640CDC1086891178"
 			tasks: [{
 				id: "125DE58502021D25"
@@ -320,17 +328,39 @@
 				entity: "minecraft:ender_dragon"
 				value: 1L
 			}]
-			rewards: [{
-				id: "3B326F86F6D2FD1E"
-				type: "item"
-				item: "minecraft:dragon_head"
-			}]
+			rewards: [
+				{
+					id: "3B326F86F6D2FD1E"
+					type: "item"
+					item: "minecraft:dragon_head"
+				}
+				{
+					id: "476CF29337E32DA9"
+					type: "item"
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 1s
+								id: "minecraft:mending"
+							}]
+						}
+					}
+				}
+				{
+					id: "0F431F747ADD5CD8"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+			]
 		}
 		{
 			title: "Junior Mob Slayer"
 			x: 0.0d
 			y: -3.5d
 			dependencies: ["7BBB7A4D4E20C1E0"]
+			hide: true
 			id: "495A9A522431B613"
 			tasks: [
 				{
@@ -406,6 +436,8 @@
 		{
 			x: 0.0d
 			y: -5.0d
+			dependencies: ["6529F5C2ED3D9700"]
+			hide: true
 			dependency_requirement: "one_started"
 			id: "7BBB7A4D4E20C1E0"
 			tasks: [{
@@ -422,8 +454,9 @@
 		}
 		{
 			x: 0.0d
-			y: 5.0d
+			y: 1.0d
 			dependencies: ["2D4D29AB1A88D4C8"]
+			hide: true
 			id: "739AA300C9256D54"
 			tasks: [{
 				id: "65ECE1D763A7B6AB"
@@ -433,8 +466,10 @@
 			}]
 		}
 		{
-			x: 11.0d
+			x: 1.5d
 			y: -5.0d
+			dependencies: ["07FDFACA896FFDB9"]
+			hide: true
 			id: "3B0C9E70339D1B9B"
 			tasks: [{
 				id: "7150F4551C84F1C5"
@@ -444,9 +479,10 @@
 			}]
 		}
 		{
-			x: 12.5d
-			y: -3.5d
+			x: 3.0d
+			y: -6.0d
 			dependencies: ["3B0C9E70339D1B9B"]
+			hide: true
 			id: "35F187B1F093F783"
 			tasks: [{
 				id: "61CE44CD007B4123"
@@ -456,9 +492,10 @@
 			}]
 		}
 		{
-			x: 11.0d
-			y: -3.5d
+			x: 3.0d
+			y: -5.0d
 			dependencies: ["3B0C9E70339D1B9B"]
+			hide: true
 			id: "3E466320C47F80D3"
 			tasks: [{
 				id: "25250BE678E1C3F7"
@@ -468,9 +505,10 @@
 			}]
 		}
 		{
-			x: 9.5d
-			y: -3.5d
+			x: 3.0d
+			y: -4.0d
 			dependencies: ["3B0C9E70339D1B9B"]
+			hide: true
 			id: "2B9B3D2DE584F7D2"
 			tasks: [{
 				id: "66B258D315FFBD71"
@@ -480,8 +518,10 @@
 			}]
 		}
 		{
-			x: 5.0d
+			x: -1.5d
 			y: -5.0d
+			dependencies: ["6529F5C2ED3D9700"]
+			hide: true
 			id: "7FE6B9D83DCA743E"
 			tasks: [{
 				id: "3D1D2B88C50D88BA"
@@ -489,17 +529,28 @@
 				advancement: "minecraft:adventure/voluntary_exile"
 				criterion: ""
 			}]
+			rewards: [{
+				id: "49521051A6A90D12"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 		}
 		{
-			x: 5.0d
-			y: -3.5d
+			x: -3.0d
+			y: -5.0d
 			dependencies: ["7FE6B9D83DCA743E"]
+			hide: true
 			id: "698680359E90509C"
 			tasks: [{
 				id: "3F036B4F873E5DAA"
 				type: "advancement"
 				advancement: "minecraft:adventure/hero_of_the_village"
 				criterion: ""
+			}]
+			rewards: [{
+				id: "06E16F8DCDFEE57C"
+				type: "xp_levels"
+				xp_levels: 30
 			}]
 		}
 	]

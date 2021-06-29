@@ -93,7 +93,7 @@
 		{
 			title: "Sweet Dreams"
 			x: 1.5d
-			y: 2.5d
+			y: 1.5d
 			subtitle: "ZzzZZZzzzzzzZZZ"
 			description: [
 				"It may be worthwhile to have a place to lay your head when the sun gets low."
@@ -153,8 +153,8 @@
 		{
 			title: "Ok, Zoomer"
 			icon: "cavesandcliffs:spyglass"
-			x: 7.5d
-			y: 2.5d
+			x: 4.5d
+			y: 1.5d
 			subtitle: "OptiFine isn't really optional"
 			description: [
 				"This is a spyglass. If you're using OptiFine, you don't need this; you can zoom by pressing C by default. "
@@ -177,7 +177,7 @@
 		{
 			title: "Keys to the City"
 			icon: "supplementaries:key"
-			x: 7.5d
+			x: 4.5d
 			y: 0.0d
 			subtitle: "Bro I cannot hold all of these keybinds"
 			description: ["If you want to learn some other handy keybinds, follow this quest tree."]
@@ -251,7 +251,7 @@
 			title: "Have a Seat"
 			icon: "buildersaddition:bench_oak"
 			x: 4.5d
-			y: 2.5d
+			y: -1.5d
 			subtitle: "Ahhh, that's better."
 			description: [
 				"You can press Z to \"go prone\" and crawl around. Handy for getting into tight spaces."
@@ -283,7 +283,7 @@
 		{
 			icon: "minecraft:paper"
 			x: 6.0d
-			y: 2.5d
+			y: -1.5d
 			subtitle: "I should be writing this down"
 			description: [
 				"You can open up an ingame journal."
@@ -304,8 +304,8 @@
 		{
 			title: "You Live to Die Another Day"
 			icon: "minecraft:skeleton_skull"
-			x: 0.0d
-			y: 4.5d
+			x: 0.5d
+			y: 3.0d
 			dependencies: ["356E41618C5897B7"]
 			hide: true
 			id: "55DD3EA2C331E4B6"
@@ -318,8 +318,8 @@
 		}
 		{
 			icon: "minecraft:chest"
-			x: 9.0d
-			y: 2.5d
+			x: 6.0d
+			y: 1.5d
 			dependencies: ["7F3AA0CEBC61945A"]
 			hide: true
 			id: "60EFAEB2A0D4FCAE"
@@ -331,7 +331,7 @@
 		}
 		{
 			x: 1.5d
-			y: 4.5d
+			y: 3.0d
 			dependencies: ["356E41618C5897B7"]
 			hide: true
 			id: "4255BCA131D20A92"
@@ -341,8 +341,8 @@
 			}]
 		}
 		{
-			x: 3.0d
-			y: 4.5d
+			x: 2.5d
+			y: 3.0d
 			dependencies: ["356E41618C5897B7"]
 			hide: true
 			id: "06D8B93BC594F5D2"
@@ -352,52 +352,32 @@
 			}]
 		}
 		{
-			x: 10.5d
-			y: 2.5d
-			dependencies: ["7F3AA0CEBC61945A"]
-			hide: true
-			id: "62B99D11F634D6D8"
-			tasks: [{
-				id: "5D2F7159E40D3A98"
-				type: "checkmark"
-			}]
-		}
-		{
-			x: 10.5d
-			y: 1.0d
-			dependencies: ["7F3AA0CEBC61945A"]
-			hide: true
-			id: "720EF719867E552C"
-			tasks: [{
-				id: "29FC902137D0BE12"
-				type: "checkmark"
-			}]
-		}
-		{
-			x: 10.5d
-			y: -0.5d
-			dependencies: ["7F3AA0CEBC61945A"]
-			hide: true
-			id: "5CA37C0E62E82C7B"
-			tasks: [{
-				id: "0B1417E09F858FA1"
-				type: "checkmark"
-			}]
-		}
-		{
 			title: "Endgame"
 			icon: "enigmaticlegacy:the_acknowledgment"
 			x: 1.5d
-			y: 9.0d
+			y: -4.5d
+			dependencies: ["3ED47B48F70028E3"]
+			hide: true
+			dependency_requirement: "all_started"
 			id: "5E2834684328B16D"
 			tasks: [{
-				id: "40ABFB3265C88036"
+				id: "6A3E553B5E685C1F"
 				type: "checkmark"
 			}]
 			rewards: [{
 				id: "042B4293CDFC6B18"
 				type: "item"
 				item: "enigmaticlegacy:the_acknowledgment"
+			}]
+		}
+		{
+			x: 6.0d
+			y: 0.0d
+			dependencies: ["7F3AA0CEBC61945A"]
+			id: "536047CC5BF78ABF"
+			tasks: [{
+				id: "20966E4D8286B1CF"
+				type: "checkmark"
 			}]
 		}
 	]

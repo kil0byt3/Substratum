@@ -4,12 +4,15 @@
 	order_index: 0
 	filename: "storage"
 	title: "Storage"
+	icon: "storagedrawers:controller"
 	default_quest_shape: ""
 	quests: [
 		{
 			title: "Better than Chests"
 			x: -0.5d
 			y: -2.0d
+			dependencies: ["0CE47A9FADA807C8"]
+			hide: true
 			id: "4E36E03BFF11B93D"
 			tasks: [{
 				id: "3502FEB9CCF03E5F"
@@ -42,6 +45,7 @@
 			x: -0.5d
 			y: 0.0d
 			dependencies: ["4E36E03BFF11B93D"]
+			hide: true
 			id: "2F1940121B8AC04D"
 			tasks: [{
 				id: "3CD3B121ADB97B1A"
