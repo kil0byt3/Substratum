@@ -143,3 +143,29 @@ craftingTable.addShaped("village_bell", <item:minecraft:bell>, [
 craftingTable.removeRecipe(<item:endermail:stamp>);
 craftingTable.addShapeless("endermail_stamp", <item:endermail:stamp>, [<item:minecraft:paper>, <item:minecraft:gold_nugget>]);
 
+craftingTable.removeRecipe(<item:minecraft:lead>);
+//New lead recipe
+craftingTable.addShaped("lead", <item:minecraft:lead>, [
+      [<item:minecraft:string>, <item:minecraft:string>, <item:minecraft:air>],
+      [<item:minecraft:string>, <item:minecraft:slime_ball>, <item:minecraft:air>],
+      [<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:string>]
+]);
+
+//New fishoil recipe
+craftingTable.addShaped("fish_oil", <item:alexsmobs:fish_oil>, [
+      [<item:minecraft:glass_bottle>, <tag:items:forge:raw_fishes>, <tag:items:forge:raw_fishes>],
+      [<tag:items:forge:raw_fishes>, <tag:items:forge:raw_fishes>, <item:minecraft:air>],
+      [<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>]
+]);
+
+//New Quiver recipes
+craftingTable.addShaped("arrow_quiver", <item:spartanweaponry:quiver_arrow_small>, [
+      [<item:minecraft:leather>, <item:minecraft:string>, <item:minecraft:leather>],
+      [<item:minecraft:leather>, <item:minecraft:arrow>, <item:minecraft:leather>],
+      [<item:minecraft:iron_ingot>, <item:minecraft:iron_ingot>, <item:minecraft:iron_ingot>]
+]);
+craftingTable.addShaped("bolt_quiver", <item:spartanweaponry:quiver_bolt_small>, [
+      [<item:minecraft:leather>, <item:minecraft:string>, <item:minecraft:leather>],
+      [<item:minecraft:leather>, <item:spartanweaponry:bolt>, <item:minecraft:leather>],
+      [<item:minecraft:iron_ingot>, <item:minecraft:iron_ingot>, <item:minecraft:iron_ingot>]
+]);

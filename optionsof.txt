@@ -47,7 +47,7 @@ ofBetterSnow:false
 ofSwampColors:true
 ofRandomEntities:true
 ofCustomFonts:true
-ofCustomColors:true
+ofCustomColors:false
 ofCustomItems:true
 ofCustomSky:true
 ofShowCapes:true

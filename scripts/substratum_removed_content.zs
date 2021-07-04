@@ -325,6 +325,14 @@ val removeRecipesItem = [
 <item:quark:carrot_crate>,
 <item:quark:beetroot_crate>,
 <item:quark:potato_crate>,
+<item:storagedrawers:creative_storage_upgrade>,
+<item:storagedrawers:creative_vending_upgrade>,
+<item:create:creative_motor>,
+<item:create:creative_fluid_tank>,
+<item:create:creative_crate>,
+<item:alexsmobs:spawn_egg_frilled_shark>,
+<item:alexsmobs:spawn_egg_mimic_octopus>,
+<item:alexsmobs:spawn_egg_void_worm>,
 ] as IItemStack[];
  
 for item in removeRecipesItem {
