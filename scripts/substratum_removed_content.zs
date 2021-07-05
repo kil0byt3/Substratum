@@ -78,7 +78,6 @@ val removeRecipesItem = [
 <item:cavesandcliffs:tuff>,
 <item:cavesandcliffs:hanging_roots>,
 <item:cavesandcliffs:glow_lichen>,
-<item:spartanweaponry:explosive_charge>,
 <item:spartanweaponry:dagger_wood>,
 <item:spartanweaponry:longsword_wood>,
 <item:spartanweaponry:katana_wood>,
@@ -131,6 +130,15 @@ val removeRecipesItem = [
 <item:spartanshields:shield_basic_lead>,
 <item:spartanshields:shield_basic_nickel>,
 <item:spartanshields:shield_basic_invar>,
+<item:spartanweaponry:heavy_crossbow_tin>,
+<item:spartanweaponry:heavy_crossbow_bronze>,
+<item:spartanweaponry:heavy_crossbow_steel>,
+<item:spartanweaponry:heavy_crossbow_silver>,
+<item:spartanweaponry:heavy_crossbow_invar>,
+<item:spartanweaponry:heavy_crossbow_platinum>,
+<item:spartanweaponry:heavy_crossbow_electrum>,
+<item:spartanweaponry:heavy_crossbow_nickel>,
+<item:spartanweaponry:heavy_crossbow_lead>,
 <item:farmersdelight:rope>,
 <item:quark:rope>,
 <item:druidcraft:rope>,
@@ -345,11 +353,22 @@ blastFurnace.removeRecipe(item);
 
 // Extra Removal
 
-mods.jei.JEI.hideRegex(".*arrow_.*");
-craftingTable.removeByRegex(".*arrow_.*");
-mods.jei.JEI.hideRegex(".*bolt_.*");
-craftingTable.removeByRegex(".*bolt_.*");
+// Spartan arrows, quivers, bolts
+//mods.jei.JEI.hideRegex(".*arrow_.*");
+//craftingTable.removeByRegex(".*arrow_.*");
+//mods.jei.JEI.hideRegex(".*bolt_.*");
+//craftingTable.removeByRegex(".*bolt_.*");
+
+// Hide Spartan tipped arrows
+mods.jei.JEI.hideRegex(".*_tipped.*");
+craftingTable.removeByRegex(".*_tipped.*");
+// Hide vanilla tipped arrows
+mods.jei.JEI.hideRegex(".*tipped_.*");
+craftingTable.removeByRegex(".*tipped_.*");
+// Hide Supp tipped spikes
 mods.jei.JEI.hideRegex(".*spikes_tipped*");
 craftingTable.removeByRegex(".*spikes_tipped.*");
+
+// Misc removal
 craftingTable.removeByName("druidcraft:string");
 craftingTable.removeRecipe(<item:waystones:waystone>);
