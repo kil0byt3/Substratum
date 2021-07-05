@@ -341,6 +341,13 @@ val removeRecipesItem = [
 <item:alexsmobs:spawn_egg_frilled_shark>,
 <item:alexsmobs:spawn_egg_mimic_octopus>,
 <item:alexsmobs:spawn_egg_void_worm>,
+<item:createplus:goggle_chainmail_helmet>,
+<item:createplus:goggle_diamond_helmet>,
+<item:createplus:goggle_golden_helmet>,
+<item:createplus:goggle_iron_helmet>,
+<item:createplus:goggle_leather_helmet>,
+<item:createplus:goggle_turtle_helmet>,
+<item:createplus:goggle_netherite_helmet>,
 ] as IItemStack[];
  
 for item in removeRecipesItem {
