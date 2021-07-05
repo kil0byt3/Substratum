@@ -83,15 +83,6 @@ craftingTable.addShaped("diamond_horse_armor", <item:minecraft:diamond_horse_arm
       [<item:minecraft:diamond>, <item:minecraft:air>, <item:minecraft:diamond>]
 ]);
 
-craftingTable.removeRecipe(<item:supplementaries:rope>);
-
-//New rope recipe
-craftingTable.addShaped("supplementeries_rope", <item:supplementaries:rope> * 3, [
-      [<item:minecraft:air>, <tag:items:forge:string>, <item:minecraft:air>],
-      [<item:minecraft:air>, <tag:items:forge:string>, <item:minecraft:air>],
-      [<item:minecraft:air>, <tag:items:forge:string>, <item:minecraft:air>]
-]);
-
 craftingTable.removeRecipe(<item:adfinders:mineral_finder>);
 craftingTable.removeRecipe(<item:adfinders:metal_finder>);
 craftingTable.removeRecipe(<item:adfinders:gem_finder>);
@@ -143,3 +134,33 @@ craftingTable.addShaped("village_bell", <item:minecraft:bell>, [
 craftingTable.removeRecipe(<item:endermail:stamp>);
 craftingTable.addShapeless("endermail_stamp", <item:endermail:stamp>, [<item:minecraft:paper>, <item:minecraft:gold_nugget>]);
 
+// Buff string from flax
+craftingTable.removeByName("supplementaries:strings");
+craftingTable.addShapeless("flaxtostring", <item:minecraft:string>*3, [<item:supplementaries:flax>]);
+// Rope recipe
+craftingTable.removeRecipe(<item:supplementaries:rope>);
+craftingTable.addShaped("supplementeries_rope", <item:supplementaries:rope> * 3, [
+      [<item:minecraft:air>, <tag:items:forge:string>, <item:minecraft:air>],
+      [<item:minecraft:air>, <tag:items:forge:string>, <item:minecraft:air>],
+      [<item:minecraft:air>, <tag:items:forge:string>, <item:minecraft:air>]
+]);
+
+//New lead recipes
+craftingTable.removeRecipe(<item:minecraft:lead>);
+craftingTable.addShaped("leadwithslime", <item:minecraft:lead>*4, [
+      [<item:supplementaries:rope>, <item:supplementaries:rope>, <item:minecraft:air>],
+      [<item:supplementaries:rope>, <item:minecraft:slime_ball>, <item:minecraft:air>],
+      [<item:minecraft:air>, <item:minecraft:air>, <item:supplementaries:rope>]
+]);
+craftingTable.addShaped("leadwithrope", <item:minecraft:lead>, [
+      [<item:supplementaries:rope>, <item:supplementaries:rope>, <item:minecraft:air>],
+      [<item:supplementaries:rope>, <item:supplementaries:rope>, <item:minecraft:air>],
+      [<item:minecraft:air>, <item:minecraft:air>, <item:supplementaries:rope>]
+]);
+
+//New fishoil recipe
+craftingTable.addShaped("fish_oil", <item:alexsmobs:fish_oil>, [
+      [<item:minecraft:glass_bottle>, <tag:items:forge:raw_fishes>, <tag:items:forge:raw_fishes>],
+      [<tag:items:forge:raw_fishes>, <tag:items:forge:raw_fishes>, <item:minecraft:air>],
+      [<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>]
+]);
