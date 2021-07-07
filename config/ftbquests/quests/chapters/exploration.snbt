@@ -12,8 +12,10 @@
 	default_quest_shape: ""
 	quests: [
 		{
+			title: "What a DEAL"
 			x: -3.5d
 			y: -3.5d
+			description: ["Trade with a Villager."]
 			dependencies: ["33BA4274A615319C"]
 			hide: true
 			id: "78909C9E46451FE5"
@@ -23,10 +25,17 @@
 				advancement: "minecraft:adventure/trade"
 				criterion: ""
 			}]
+			rewards: [{
+				id: "7DBA4A57D2BF63B4"
+				type: "item"
+				item: "minecraft:emerald"
+			}]
 		}
 		{
+			title: "Hired Help"
 			x: -3.0d
 			y: -2.0d
+			description: ["Summon an Iron Golem to help defend a village."]
 			dependencies: ["78909C9E46451FE5"]
 			hide: true
 			id: "56B351B2D0BB716F"
@@ -38,8 +47,10 @@
 			}]
 		}
 		{
+			title: "This is the WAE"
 			x: -2.0d
 			y: -6.5d
+			description: ["These signs point you in the direction of the nearest village"]
 			dependencies: ["33BA4274A615319C"]
 			hide: true
 			id: "3B28DE832027CADC"
@@ -49,10 +60,29 @@
 				advancement: "supplementaries:adventure/way_sign"
 				criterion: ""
 			}]
+			rewards: [
+				{
+					id: "50C2951406F8769E"
+					type: "item"
+					item: "supplementaries:hanging_sign_spruce"
+				}
+				{
+					id: "4BB30DB11A3925BA"
+					type: "item"
+					item: "supplementaries:sign_post_spruce"
+				}
+				{
+					id: "439246ADAF3648FE"
+					type: "item"
+					item: "buildersaddition:shop_sign_wood"
+				}
+			]
 		}
 		{
+			title: "Battle Towers?!"
 			x: -3.5d
 			y: -6.5d
+			description: ["Find and conquer a battletower."]
 			dependencies: ["33BA4274A615319C"]
 			hide: true
 			id: "3D8ACAC9176E68C1"
@@ -62,10 +92,17 @@
 				advancement: "dungeons_plus:adventure/find_tower"
 				criterion: ""
 			}]
+			rewards: [{
+				id: "6A6A7B8EE1A69883"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 		}
 		{
+			title: "Smells a lil musty down here"
 			x: -3.5d
 			y: -8.0d
+			description: ["Loot an underground dungeon. Maps can often be found in a battle tower."]
 			dependencies: ["3D8ACAC9176E68C1"]
 			hide: true
 			id: "49B01BFE2249F2DD"
@@ -77,8 +114,13 @@
 			}]
 		}
 		{
+			title: "These Mushrooms are HUGE"
 			x: -4.5d
 			y: -9.5d
+			description: [
+				""
+				"Find a warped garden."
+			]
 			dependencies: ["49B01BFE2249F2DD"]
 			hide: true
 			id: "4F4A5B588262D352"
@@ -90,8 +132,10 @@
 			}]
 		}
 		{
+			title: "Ancient Remains"
 			x: -3.5d
 			y: -9.5d
+			description: ["Find a Leviathan"]
 			dependencies: ["49B01BFE2249F2DD"]
 			hide: true
 			id: "4560413454F0BE59"
@@ -103,8 +147,10 @@
 			}]
 		}
 		{
+			title: "Snowed In"
 			x: -2.5d
 			y: -9.5d
+			description: ["Find a snowy cave"]
 			dependencies: ["49B01BFE2249F2DD"]
 			hide: true
 			id: "68AC33F141AF136F"
@@ -116,8 +162,10 @@
 			}]
 		}
 		{
+			title: "Now that trade is a rip off"
 			x: -5.0d
 			y: -5.0d
+			description: ["Kill a villager"]
 			dependencies: ["33BA4274A615319C"]
 			hide: true
 			dependency_requirement: "one_started"
@@ -128,10 +176,17 @@
 				advancement: "morevillagers:kill_villager"
 				criterion: ""
 			}]
+			rewards: [{
+				id: "5347047123C74F3F"
+				type: "item"
+				item: "environmental:crab_kelp_roll"
+			}]
 		}
 		{
+			title: "Master Skywalker, there are too many of them!"
 			x: -6.5d
 			y: -5.0d
+			description: ["Kill a baby villager. You monster."]
 			dependencies: ["5DF30DAF06BBB6EC"]
 			hide: true
 			id: "2667A67A55684399"
@@ -141,10 +196,17 @@
 				advancement: "morevillagers:kill_babyvillager"
 				criterion: ""
 			}]
+			rewards: [{
+				id: "133DF41E41405D14"
+				type: "item"
+				item: "minecraft:creeper_head"
+			}]
 		}
 		{
+			title: "The Jedi Council"
 			x: -5.0d
 			y: -3.5d
+			description: ["Level up a villager to the rank of Master."]
 			dependencies: ["78909C9E46451FE5"]
 			hide: true
 			id: "33C4EF1E02776C4A"
@@ -154,10 +216,17 @@
 				advancement: "morevillagers:master_trade"
 				criterion: ""
 			}]
+			rewards: [{
+				id: "4D03C7AE5B6434CA"
+				type: "item"
+				item: "minecraft:diamond_block"
+			}]
 		}
 		{
+			title: "Burning Money"
 			x: -2.0d
 			y: -2.0d
+			description: ["Trade with a Netherologist."]
 			dependencies: ["78909C9E46451FE5"]
 			hide: true
 			id: "207CCA0FB755D19D"
@@ -169,8 +238,10 @@
 			}]
 		}
 		{
+			title: "Insider Information"
 			x: -4.0d
 			y: -2.0d
+			description: ["Buy an Explorer Map from a villager."]
 			dependencies: ["78909C9E46451FE5"]
 			hide: true
 			id: "00C42E5100E02794"
@@ -182,8 +253,10 @@
 			}]
 		}
 		{
+			title: "How did you End up out here?"
 			x: -5.0d
 			y: -2.0d
+			description: ["Trade with an Enderologist villager in the End."]
 			dependencies: ["78909C9E46451FE5"]
 			hide: true
 			id: "17283B587148579E"
@@ -193,10 +266,18 @@
 				advancement: "morevillagers:end_trade"
 				criterion: ""
 			}]
+			rewards: [{
+				id: "06313E3F4B697245"
+				type: "item"
+				item: "minecraft:emerald"
+				count: 8
+			}]
 		}
 		{
+			title: "Frequent Customer"
 			x: -2.0d
 			y: -3.5d
+			description: ["Trade with every villager profession."]
 			dependencies: ["78909C9E46451FE5"]
 			hide: true
 			id: "008DD49AC523FFD2"
@@ -206,10 +287,17 @@
 				advancement: "morevillagers:all_professions_traded"
 				criterion: ""
 			}]
+			rewards: [{
+				id: "697F6E0AA3D1221B"
+				type: "item"
+				item: "minecraft:diamond"
+			}]
 		}
 		{
+			title: "Hey can you give me directions to find an Elytra?"
 			x: -5.0d
 			y: -0.5d
+			description: ["Use an End City map from an Enderologist."]
 			dependencies: ["17283B587148579E"]
 			hide: true
 			id: "647B4500A9180F3D"
@@ -219,10 +307,17 @@
 				advancement: "morevillagers:map_endcity"
 				criterion: ""
 			}]
+			rewards: [{
+				id: "0027A77C87FE7A55"
+				type: "item"
+				item: "minecraft:shulker_box"
+			}]
 		}
 		{
+			title: "Let's get to work"
 			x: -5.0d
 			y: -6.5d
+			description: ["Find or craft a villager workstation."]
 			dependencies: ["33BA4274A615319C"]
 			hide: true
 			id: "469F47BDF68F24B1"
@@ -232,10 +327,17 @@
 				advancement: "morevillagers:first_workstation_get"
 				criterion: ""
 			}]
+			rewards: [{
+				id: "377756343AED9934"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 		}
 		{
+			title: "Jack of all Trades"
 			x: -6.5d
 			y: -6.5d
+			description: ["Craft every villager workstation"]
 			dependencies: ["469F47BDF68F24B1"]
 			hide: true
 			id: "780A1ECCF846C6D4"
@@ -245,11 +347,17 @@
 				advancement: "morevillagers:all_workstations_get"
 				criterion: ""
 			}]
+			rewards: [{
+				id: "03BD32E52AE8D6A8"
+				type: "item"
+				item: "minecraft:diamond_block"
+			}]
 		}
 		{
 			title: "The Nether"
 			x: -2.0d
 			y: -5.0d
+			description: ["You made it to this hellscape,but can you survive?"]
 			dependencies: ["33BA4274A615319C"]
 			hide: true
 			id: "531DDD27D4339A84"
@@ -259,10 +367,23 @@
 				advancement: "minecraft:nether/root"
 				criterion: ""
 			}]
+			rewards: [{
+				id: "3B894C99EC59953E"
+				type: "item"
+				item: {
+					id: "minecraft:potion"
+					Count: 1b
+					tag: {
+						Potion: "minecraft:fire_resistance"
+					}
+				}
+			}]
 		}
 		{
+			title: "Return to Sender"
 			x: 0.5d
 			y: -7.5d
+			description: ["Bat a Ghast's fireball back and kill it."]
 			dependencies: ["531DDD27D4339A84"]
 			hide: true
 			id: "0FF791EC9710A596"
@@ -274,8 +395,10 @@
 			}]
 		}
 		{
+			title: "You want me to do WHAT?!?"
 			x: 0.5d
 			y: -9.0d
+			description: ["Bring a Ghast to the Overworld and Kill it."]
 			dependencies: ["0FF791EC9710A596"]
 			hide: true
 			id: "5E4077499CCA4FA0"
@@ -285,10 +408,16 @@
 				advancement: "minecraft:nether/uneasy_alliance"
 				criterion: ""
 			}]
+			rewards: [{
+				id: "25D26CC936D06648"
+				type: "item"
+				item: "minecraft:diamond_block"
+			}]
 		}
 		{
 			x: 0.5d
 			y: -10.5d
+			description: ["When somebody is able to see this quest let Ryan know so he can edit this desription and name. -Ryan"]
 			dependencies: ["5E4077499CCA4FA0"]
 			hide: true
 			id: "3F9017D3132F2587"
@@ -300,8 +429,10 @@
 			}]
 		}
 		{
+			title: "You Guys Live in Here?"
 			x: 0.5d
-			y: -6.5d
+			y: -6.0d
+			description: ["Find a Bastion."]
 			dependencies: ["531DDD27D4339A84"]
 			hide: true
 			id: "5121DF2321F6CE8D"
@@ -311,10 +442,18 @@
 				advancement: "minecraft:nether/find_bastion"
 				criterion: ""
 			}]
+			rewards: [{
+				id: "4288C2FAC767C6AA"
+				type: "item"
+				item: "minecraft:gold_block"
+				count: 8
+			}]
 		}
 		{
+			title: "War Pigs"
 			x: 2.0d
-			y: -6.5d
+			y: -6.0d
+			description: ["Loot a chest in a bastion."]
 			dependencies: ["5121DF2321F6CE8D"]
 			hide: true
 			id: "06DB3D0BF73332AF"
@@ -324,10 +463,17 @@
 				advancement: "minecraft:nether/loot_bastion"
 				criterion: ""
 			}]
+			rewards: [{
+				id: "03A61E46C73F41E9"
+				type: "item"
+				item: "spartanweaponry:arrow_diamond"
+			}]
 		}
 		{
+			title: "Subspace Bubble"
 			x: -0.5d
 			y: -7.5d
+			description: ["Use Nether Portals to travel 7000 blocks in the Overworld."]
 			dependencies: ["531DDD27D4339A84"]
 			hide: true
 			id: "39AE6C4901FFC035"
@@ -339,8 +485,10 @@
 			}]
 		}
 		{
+			title: "A Terrible Fortress"
 			x: 3.5d
 			y: -5.0d
+			description: ["Fins a Nether Fortress."]
 			dependencies: ["531DDD27D4339A84"]
 			hide: true
 			id: "01F3129EB97DCD5D"
@@ -352,8 +500,10 @@
 			}]
 		}
 		{
+			title: "Into Fire"
 			x: 5.0d
 			y: -6.0d
+			description: ["Kill a Blaze and get a blaze rod."]
 			dependencies: ["01F3129EB97DCD5D"]
 			hide: true
 			id: "12B6D1D4ECF3E4B0"
@@ -365,8 +515,10 @@
 			}]
 		}
 		{
+			title: "Spooky Scary Skellingtons"
 			x: 5.0d
 			y: -4.0d
+			description: ["Kill and obtain a Wither Skull."]
 			dependencies: ["01F3129EB97DCD5D"]
 			hide: true
 			id: "2A4088528C775553"
@@ -378,8 +530,10 @@
 			}]
 		}
 		{
+			title: "Local Brewery"
 			x: 6.5d
 			y: -6.0d
+			description: ["Brew a potion."]
 			dependencies: ["12B6D1D4ECF3E4B0"]
 			hide: true
 			id: "0DEB4D47E0120FDE"
@@ -391,8 +545,10 @@
 			}]
 		}
 		{
+			title: "A Furious Cocktail"
 			x: 8.0d
 			y: -6.0d
+			description: ["Have every potion effect at one time."]
 			dependencies: ["0DEB4D47E0120FDE"]
 			hide: true
 			id: "42216A76466D85DC"
@@ -404,8 +560,10 @@
 			}]
 		}
 		{
+			title: "Danny Phantom"
 			x: 8.0d
 			y: -7.0d
+			description: ["Create a Flare by inflicting a Phantom with Insomnia."]
 			dependencies: ["0DEB4D47E0120FDE"]
 			hide: true
 			id: "09236BA9F0157D3E"
@@ -417,8 +575,10 @@
 			}]
 		}
 		{
+			title: "Vibe Check"
 			x: 8.0d
 			y: -5.0d
+			description: ["Brew a potion of Repllance and Inert it with a spider eye for a potion of Vibing."]
 			dependencies: ["0DEB4D47E0120FDE"]
 			hide: true
 			id: "124B86CC695F8FED"
@@ -430,8 +590,10 @@
 			}]
 		}
 		{
+			title: "How did we get here?"
 			x: 9.5d
 			y: -6.0d
+			description: ["Have EVERY effect active at one time. Is that even possible?"]
 			dependencies: ["42216A76466D85DC"]
 			hide: true
 			id: "0AE66342F396FB15"
@@ -441,10 +603,18 @@
 				advancement: "minecraft:nether/all_effects"
 				criterion: ""
 			}]
+			rewards: [{
+				id: "3D4B1A2E69AFF5EE"
+				type: "item"
+				item: "minecraft:diamond_block"
+				count: 32
+			}]
 		}
 		{
+			title: "Withering Away"
 			x: 6.5d
 			y: -4.0d
+			description: ["Summon a Wither"]
 			dependencies: ["2A4088528C775553"]
 			hide: true
 			id: "02991D04E089CFF5"
@@ -456,8 +626,10 @@
 			}]
 		}
 		{
+			title: "Bring Home the Beacon"
 			x: 8.0d
 			y: -4.0d
+			description: ["Construct and place a Beacon."]
 			dependencies: ["02991D04E089CFF5"]
 			hide: true
 			id: "146C18328F560FA3"
@@ -469,8 +641,10 @@
 			}]
 		}
 		{
+			title: "Wendy's Beaconator"
 			x: 9.5d
 			y: -4.0d
+			description: ["Bring a beacon to full power."]
 			dependencies: ["146C18328F560FA3"]
 			hide: true
 			id: "25EDB70162B228BA"
@@ -482,8 +656,13 @@
 			}]
 		}
 		{
-			x: 2.0d
+			title: "Who is Cutting Onions?"
+			x: 0.5d
 			y: -5.0d
+			description: [
+				""
+				"Obtain crying obsidian."
+			]
 			dependencies: ["531DDD27D4339A84"]
 			hide: true
 			id: "06F5F4AF3427816A"
@@ -493,10 +672,17 @@
 				advancement: "minecraft:nether/obtain_crying_obsidian"
 				criterion: ""
 			}]
+			rewards: [{
+				id: "5B37985E9D56FAE2"
+				type: "item"
+				item: "minecraft:ender_pearl"
+			}]
 		}
 		{
-			x: 0.5d
+			title: "Not Quite Nine Lives"
+			x: 2.0d
 			y: -5.0d
+			description: ["Charge a respawn anchor to the maximum."]
 			dependencies: ["06F5F4AF3427816A"]
 			hide: true
 			id: "4026D3B74BD5273E"
@@ -506,10 +692,17 @@
 				advancement: "minecraft:nether/charge_respawn_anchor"
 				criterion: ""
 			}]
+			rewards: [{
+				id: "44B3A84D6DAF140C"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 		}
 		{
+			title: "This Boat has Legs"
 			x: -0.5d
 			y: -2.5d
+			description: ["Ride a Strider with a Warped Fungus on a Stick."]
 			dependencies: ["531DDD27D4339A84"]
 			hide: true
 			id: "79C3DAE066616E25"
@@ -521,8 +714,10 @@
 			}]
 		}
 		{
+			title: "Hot Tourist Destinations"
 			x: -0.5d
 			y: -1.0d
+			description: ["Explore all Nether Biomes"]
 			dependencies: ["79C3DAE066616E25"]
 			hide: true
 			id: "06ACA8A25694E421"
@@ -534,8 +729,10 @@
 			}]
 		}
 		{
+			title: "Hidden in the Depths"
 			x: 0.5d
 			y: -2.5d
+			description: ["Find ancient debris."]
 			dependencies: ["531DDD27D4339A84"]
 			hide: true
 			id: "32010FAC2DC7E867"
@@ -545,10 +742,17 @@
 				advancement: "minecraft:nether/obtain_ancient_debris"
 				criterion: ""
 			}]
+			rewards: [{
+				id: "5660A1BE03CE4089"
+				type: "xp_levels"
+				xp_levels: 30
+			}]
 		}
 		{
+			title: "Cover Me In Debris"
 			x: 0.5d
 			y: -1.0d
+			description: ["Get a full set of Nethrite Armour."]
 			dependencies: ["32010FAC2DC7E867"]
 			hide: true
 			id: "005D88735F59460B"
@@ -560,8 +764,10 @@
 			}]
 		}
 		{
+			title: "Country Lode, Take Me Home"
 			x: 0.5d
 			y: 0.5d
+			description: ["Use a compass on a Lodestone."]
 			dependencies: ["32010FAC2DC7E867"]
 			hide: true
 			id: "5B68ACF822529859"
@@ -573,8 +779,10 @@
 			}]
 		}
 		{
+			title: "Oh Shiny"
 			x: 0.5d
-			y: -3.5d
+			y: -4.0d
+			description: ["Distract Piglins with Gold."]
 			dependencies: ["531DDD27D4339A84"]
 			hide: true
 			id: "7F1C403964EDF615"
@@ -584,11 +792,18 @@
 				advancement: "minecraft:nether/distract_piglin"
 				criterion: ""
 			}]
+			rewards: [{
+				id: "3E844EFA36BDB0A6"
+				type: "item"
+				item: "quark:golden_frog_leg"
+			}]
 		}
 		{
 			title: "The End"
 			x: -9.5d
 			y: -9.5d
+			subtitle: "Or perhaps, the beginning."
+			description: ["Coming Soon....(A end overhaul might be coming so we didn't want to waste time going through these a second time)"]
 			hide_dependency_lines: true
 			dependencies: ["531DDD27D4339A84"]
 			hide: true
@@ -598,6 +813,11 @@
 				type: "advancement"
 				advancement: "minecraft:end/root"
 				criterion: ""
+			}]
+			rewards: [{
+				id: "410D5C71DB82C91C"
+				type: "xp_levels"
+				xp_levels: 5
 			}]
 		}
 		{
@@ -611,6 +831,11 @@
 				type: "advancement"
 				advancement: "minecraft:end/kill_dragon"
 				criterion: ""
+			}]
+			rewards: [{
+				id: "11159C78118611BC"
+				type: "xp_levels"
+				xp_levels: 30
 			}]
 		}
 		{
@@ -655,6 +880,7 @@
 		{
 			x: -11.0d
 			y: -8.0d
+			subtitle: "You madman."
 			dependencies: ["62C5D1386AC13646"]
 			hide: true
 			id: "2B7D6DB0FFB23EFA"
@@ -800,8 +1026,8 @@
 			x: -3.5d
 			y: -5.0d
 			subtitle: "WIP"
-			description: ["These ones aren't done yet. You can get em', but there aren't any rewards."]
-			dependencies: ["199DB27DAA5DBED8"]
+			description: ["These ones aren't done yet. You can get em', but the rewards and descriptions are unfinished."]
+			dependencies: ["1048A886803DD11B"]
 			hide: true
 			id: "33BA4274A615319C"
 			tasks: [{

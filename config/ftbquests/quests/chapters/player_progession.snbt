@@ -24,6 +24,7 @@
 			}
 			x: 1.5d
 			y: -3.0d
+			description: ["Catch some fish"]
 			dependencies: ["394F73ABB2578291"]
 			hide: true
 			id: "07FDFACA896FFDB9"
@@ -162,10 +163,9 @@
 					item: "minecraft:potato"
 				}
 				{
-					id: "03BEDBE7EB0EEE81"
-					type: "advancement"
-					advancement: "minecraft:husbandry/plant_seed"
-					criterion: ""
+					id: "5C9B75BDC6F7FD4C"
+					type: "item"
+					item: "minecraft:wheat"
 				}
 			]
 			rewards: [
@@ -189,7 +189,7 @@
 		}
 		{
 			title: "Don't run. You'll only die tired."
-			x: -8.5d
+			x: -8.0d
 			y: -3.0d
 			subtitle: "If you learn nothing else, learn this: when a Hunter takes up the bow of a dead comrade, this is a vow. "
 			description: ["There are other, upgraded bow materials and tiers. Check JEI."]
@@ -289,7 +289,7 @@
 		}
 		{
 			x: -11.5d
-			y: -1.5d
+			y: 0.0d
 			subtitle: "Send them back to the Void."
 			dependencies: ["6529F5C2ED3D9700"]
 			hide: true
@@ -321,9 +321,8 @@
 		}
 		{
 			x: -11.5d
-			y: 0.0d
+			y: 1.5d
 			subtitle: "They say the first one forged is always sharper."
-			description: ["“I am the needle that threads the fabric of time.”"]
 			dependencies: ["4ED8333ED2AECF3C"]
 			hide: true
 			id: "01601D07492C2685"
@@ -362,7 +361,7 @@
 		}
 		{
 			x: -11.5d
-			y: 1.5d
+			y: 3.0d
 			subtitle: "And the last one forged stands the test of time."
 			description: ["\"All I have left is this weapon. They say you crafted it yourself, built it out of scraps and Light and sheer will, inside the Infinite Forge. I'll make sure it finds its way back to you. When you gave it to me, I swore I would make it my duty to follow your example. I'm still trying.\""]
 			dependencies: ["01601D07492C2685"]
@@ -403,7 +402,7 @@
 		}
 		{
 			title: "Expert Fisherman"
-			x: 1.5d
+			x: 1.0d
 			y: -1.5d
 			dependencies: ["07FDFACA896FFDB9"]
 			hide: true
@@ -507,6 +506,23 @@
 					type: "xp_levels"
 					xp_levels: 5
 				}
+				{
+					id: "197DA98020C43E6E"
+					type: "item"
+					item: {
+						id: "spartanweaponry:quiver_arrow_small"
+						Count: 1b
+						tag: {
+							ClientInventory: [ ]
+						}
+						ForgeCaps: {
+							Parent: {
+								Size: 4
+								Items: [ ]
+							}
+						}
+					}
+				}
 			]
 		}
 		{
@@ -555,11 +571,30 @@
 						}
 					}
 				}
+				{
+					id: "207C781036D696EE"
+					type: "item"
+					item: {
+						id: "spartanweaponry:quiver_bolt_small"
+						Count: 1b
+						tag: {
+							ClientInventory: [ ]
+						}
+						ForgeCaps: {
+							Parent: {
+								Size: 4
+								Items: [ ]
+							}
+						}
+					}
+				}
 			]
 		}
 		{
-			x: 2.5d
+			title: "Tactical Fishing"
+			x: 2.0d
 			y: -1.5d
+			description: ["Catch a fish in a bucket"]
 			dependencies: ["07FDFACA896FFDB9"]
 			hide: true
 			id: "56C8834A05FE1420"
@@ -601,11 +636,26 @@
 					item: "alexsmobs:kangaroo_burger"
 					count: 64
 				}
+				{
+					id: "32AC63300949C9D4"
+					type: "item"
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 1s
+								id: "minecraft:mending"
+							}]
+						}
+					}
+				}
 			]
 		}
 		{
 			x: -0.5d
 			y: -1.5d
+			description: ["Tame an animal"]
 			dependencies: ["74BC0253BE5E3BB9"]
 			hide: true
 			id: "78AA466B4C8251B5"
@@ -631,7 +681,7 @@
 			]
 		}
 		{
-			x: -1.5d
+			x: -1.0d
 			y: -3.0d
 			dependencies: ["394F73ABB2578291"]
 			hide: true
@@ -659,6 +709,7 @@
 		{
 			x: -1.5d
 			y: -1.5d
+			description: ["Breed two animals"]
 			dependencies: ["74BC0253BE5E3BB9"]
 			hide: true
 			id: "43E8951CC488532A"
@@ -676,8 +727,10 @@
 			}]
 		}
 		{
+			title: "The ARK"
 			x: -1.5d
 			y: 0.0d
+			description: ["Breed every animal."]
 			dependencies: ["43E8951CC488532A"]
 			hide: true
 			id: "05977CE0462838AC"
@@ -687,14 +740,36 @@
 				advancement: "minecraft:husbandry/bred_all_animals"
 				criterion: ""
 			}]
-			rewards: [{
-				id: "43DD7E99775C523D"
-				type: "xp_levels"
-				xp_levels: 30
-			}]
+			rewards: [
+				{
+					id: "43DD7E99775C523D"
+					type: "xp_levels"
+					xp_levels: 50
+				}
+				{
+					id: "1A251AFFF2D77D2B"
+					type: "item"
+					item: "minecraft:diamond_block"
+					count: 5
+				}
+				{
+					id: "21A81CB9CFB2BC81"
+					type: "item"
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 1s
+								id: "minecraft:mending"
+							}]
+						}
+					}
+				}
+			]
 		}
 		{
-			x: -4.5d
+			x: -4.0d
 			y: -3.0d
 			dependencies: ["394F73ABB2578291"]
 			hide: true
@@ -799,7 +874,7 @@
 		}
 		{
 			x: -10.0d
-			y: -4.5d
+			y: -3.0d
 			subtitle: "“I am a shield onto myself.”"
 			dependencies: ["394F73ABB2578291"]
 			hide: true
@@ -823,7 +898,7 @@
 		}
 		{
 			x: -10.0d
-			y: -3.0d
+			y: -1.5d
 			subtitle: "“To dwell on what was is the greatest sin.”"
 			dependencies: ["6D6026809F0A26F7"]
 			hide: true
@@ -853,7 +928,7 @@
 		}
 		{
 			x: -10.0d
-			y: -1.5d
+			y: 0.0d
 			subtitle: "\"If need be, she would hold this line until the end of time.\""
 			dependencies: ["47129A2D2661178B"]
 			hide: true
@@ -883,7 +958,7 @@
 		}
 		{
 			x: -10.0d
-			y: 0.0d
+			y: 1.5d
 			subtitle: "Defy extinction."
 			dependencies: ["101A352973D1A1E8"]
 			hide: true
@@ -913,7 +988,7 @@
 		}
 		{
 			x: -10.0d
-			y: 1.5d
+			y: 3.0d
 			subtitle: "The courage to walk into the darkness, but strength to return to the light. "
 			dependencies: ["405B1B6B33B41934"]
 			hide: true
@@ -963,7 +1038,142 @@
 					type: "xp_levels"
 					xp_levels: 30
 				}
+				{
+					id: "34CB1C0F08B9ECC8"
+					type: "item"
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 1s
+								id: "minecraft:mending"
+							}]
+						}
+					}
+				}
 			]
+		}
+		{
+			title: "Advanced Weaponry"
+			x: -13.0d
+			y: -1.5d
+			description: ["Handles and Poles are your key to creating more advanced weaponry from the Spartan Weaponry mod. @Spartan in JEI. "]
+			dependencies: ["6529F5C2ED3D9700"]
+			hide: true
+			id: "39D94DEF5CE9E5E6"
+			tasks: [
+				{
+					id: "5652CDE756871473"
+					type: "item"
+					item: "spartanweaponry:handle"
+				}
+				{
+					id: "019563CCDBFD20BD"
+					type: "item"
+					item: "spartanweaponry:pole"
+				}
+			]
+			rewards: [
+				{
+					id: "1772F9F08C626629"
+					type: "item"
+					item: "spartanweaponry:handle"
+					count: 8
+				}
+				{
+					id: "5BC5C678808C0AA2"
+					type: "item"
+					item: "spartanweaponry:pole"
+					count: 8
+				}
+			]
+		}
+		{
+			title: "Duality of Man."
+			icon: {
+				id: "spartanweaponry:longsword_steel"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -13.5d
+			y: -3.5d
+			description: [
+				"You can dual wield weapons effectively in Substratum. Holding a warhammer or throwing dagger in your offhand can be life-saving in battle. Left-Click for your main hand, and Right-Click for your offhand. Holding Right-Click will throw your spear, knife, or other throwing weapon."
+				"Try a stack of throwing knives in your offhand."
+			]
+			dependencies: ["6529F5C2ED3D9700"]
+			hide: true
+			id: "290A9D4E3A9E005A"
+			tasks: [{
+				id: "51B52D33F95EBAA7"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "1E189A3C857CB769"
+				type: "item"
+				item: "spartanweaponry:throwing_knife_iron"
+				count: 4
+			}]
+		}
+		{
+			x: -13.0d
+			y: 1.5d
+			subtitle: "Death is hungry."
+			dependencies: ["01601D07492C2685"]
+			id: "39EB1C489E74AEE1"
+			tasks: [{
+				id: "4DD40E5D5EAF0B86"
+				type: "item"
+				item: {
+					id: "druidcraft:moonstone_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "2E4452C5659FABA3"
+				type: "item"
+				item: {
+					id: "minecraft:enchanted_book"
+					Count: 1b
+					tag: {
+						StoredEnchantments: [{
+							lvl: 3s
+							id: "minecraft:sweeping"
+						}]
+					}
+				}
+			}]
+		}
+		{
+			icon: {
+				id: "spartanweaponry:dagger_iron"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -13.5d
+			y: -2.5d
+			description: ["Mobs are able to be hit far faster in Substratum. No longer will you and your allies have to pause and wait for the other to strike before you can. Attack speed now matters much more. A fast pair of knives can be just as effective as a heavy broadsword."]
+			dependencies: ["6529F5C2ED3D9700"]
+			hide: true
+			id: "3D218F954C0C4B2D"
+			tasks: [{
+				id: "627C7E605ED37182"
+				type: "checkmark"
+				title: "Invincibility is for wimps."
+			}]
+			rewards: [{
+				id: "29465648EBC45380"
+				type: "xp_levels"
+				xp_levels: 15
+			}]
 		}
 	]
 }

@@ -11,7 +11,7 @@
 			title: "Anew."
 			icon: "minecraft:grass_block"
 			x: 1.5d
-			y: -3.0d
+			y: -4.5d
 			shape: "square"
 			subtitle: "Press ~ to open your quests. "
 			description: ["Oh, good. You can read. Congrats on completing your first quest! Your reward is a map. Very useful. Don't lose it. Click it to get your reward."]
@@ -28,7 +28,7 @@
 			title: "Hey look! Another quest!"
 			icon: "ftbquests:book"
 			x: 1.5d
-			y: -1.5d
+			y: -3.0d
 			subtitle: "Why do I have so much junk in my inventory?"
 			description: [
 				"You may notice that your inventory has a few useful items in it. There's a book, which you should read when you have a minute. You also have a few pointy sticks, a less pointy club, and a sharp lil' grass cuttin' device. "
@@ -92,7 +92,7 @@
 		}
 		{
 			title: "Sweet Dreams"
-			x: 3.0d
+			x: 5.5d
 			y: 0.0d
 			subtitle: "ZzzZZZzzzzzzZZZ"
 			description: [
@@ -122,8 +122,8 @@
 		{
 			title: "But wait, how do I know the recipe?"
 			icon: "minecraft:item_frame"
-			x: -0.5d
-			y: -1.5d
+			x: 0.0d
+			y: -3.0d
 			shape: "hexagon"
 			subtitle: "The quest for knowledge is the purest war."
 			description: [
@@ -156,9 +156,9 @@
 		{
 			title: "Ok, Zoomer"
 			icon: "cavesandcliffs:spyglass"
-			x: 5.0d
+			x: 7.0d
 			y: -4.5d
-			subtitle: "OptiFine isn't really optional"
+			subtitle: "OptiFine sorta optional"
 			description: [
 				"This is a spyglass. If you're using OptiFine, you don't need this; you can zoom by pressing C by default. "
 				""
@@ -180,8 +180,9 @@
 		{
 			title: "Keys to the City"
 			icon: "supplementaries:key"
-			x: 5.0d
+			x: 7.0d
 			y: -3.0d
+			shape: "hexagon"
 			subtitle: "Bro I cannot hold all of these keybinds"
 			description: ["If you want to learn some other handy keybinds, follow this quest tree."]
 			dependencies: ["1C37ADFE1ADF91BF"]
@@ -200,13 +201,13 @@
 		{
 			title: "Mic Check"
 			icon: "druidcraft:ceramic_lantern"
-			x: 3.5d
-			y: -2.0d
+			x: 5.5d
+			y: -1.5d
 			subtitle: "Is this thing on?"
 			description: [
 				"This modpack has local voice chat for use on servers."
 				""
-				"Press V to see the microphone settings. By default it's set to broadcast whenever you speak, but you can set it to a keybind as well."
+				"Press B to see the microphone settings. By default it's set to broadcast whenever you speak, but you can set it to a keybind as well."
 				""
 				"If you're playing on singleplayer, I'm sorry. I'll be your friend. "
 			]
@@ -228,8 +229,8 @@
 		{
 			title: "JEI Bonus Round"
 			icon: "minecraft:name_tag"
-			x: -0.5d
-			y: -3.0d
+			x: 0.0d
+			y: -4.5d
 			shape: "hexagon"
 			subtitle: "It's a hexagon actually"
 			description: [
@@ -260,8 +261,8 @@
 		{
 			title: "Have a Seat"
 			icon: "buildersaddition:bench_oak"
-			x: 6.5d
-			y: -4.0d
+			x: 8.5d
+			y: -4.5d
 			subtitle: "Ahhh, that's better."
 			description: [
 				"You can press Z to \"go prone\" and crawl around. Handy for getting into tight spaces."
@@ -292,8 +293,8 @@
 		}
 		{
 			icon: "minecraft:paper"
-			x: 3.5d
-			y: -4.0d
+			x: 5.5d
+			y: -4.5d
 			subtitle: "I should be writing this down"
 			description: [
 				"You can open up an ingame journal."
@@ -314,7 +315,7 @@
 		{
 			title: "You Live to Die Another Day"
 			icon: "minecraft:skeleton_skull"
-			x: 4.5d
+			x: 7.0d
 			y: 0.0d
 			subtitle: "LOL 0.5 KDR"
 			description: [
@@ -357,8 +358,8 @@
 		}
 		{
 			icon: "minecraft:chest"
-			x: 6.5d
-			y: -2.0d
+			x: 8.5d
+			y: -1.5d
 			subtitle: "Move. That. Bus. "
 			description: [
 				"Just Sneak + Right-Click to move blocks around easily. This works on most blocks that hold an inventory, like chests and furnaces. "
@@ -382,8 +383,8 @@
 		}
 		{
 			title: "Finders Keepers"
-			x: 3.0d
-			y: 4.5d
+			x: 0.0d
+			y: 3.0d
 			subtitle: "Recovery is a spiral, not a circle. You may return to the same patterns, but you will break free."
 			description: [
 				"This one might have to go on your \"to-do list\". Yes, that's a lot of iron. However, this spicy little number will let you find metals nearby. Just hold it in your hands and let it guide you to riches. There's also one for Metals and Gems. "
@@ -419,8 +420,8 @@
 		}
 		{
 			title: "Advanced Hacks"
-			x: 4.0d
-			y: 5.5d
+			x: -1.5d
+			y: 3.0d
 			subtitle: "It's just a metal finder"
 			dependencies: ["4255BCA131D20A92"]
 			hide: true
@@ -450,10 +451,10 @@
 			]
 		}
 		{
-			title: "Endgame"
+			title: "Avengers Endgame"
 			icon: "enigmaticlegacy:the_acknowledgment"
-			x: -2.5d
-			y: 6.5d
+			x: -1.5d
+			y: 8.0d
 			subtitle: "Some terrors you defeat. Some, you become."
 			description: ["Here is where it gets really spicy. Good luck out there in the Outer End Islands!"]
 			dependencies: [
@@ -535,8 +536,8 @@
 		{
 			title: "Putting the Horse before the Cart"
 			icon: "enigmaticlegacy:avarice_scroll"
-			x: 7.5d
-			y: 0.5d
+			x: 8.5d
+			y: 0.0d
 			subtitle: "Horse optional."
 			description: [
 				"You can pull a cart yourself, if you think you're buff enough. It's actually quite easy. Just plop down your cart, position yourself near the handles, and press \"\\\" on your keyboard (above the ENTER key). You'll be rolling back into town in no time. "
@@ -562,7 +563,7 @@
 		{
 			title: "A Murder Most Foul"
 			icon: "minecraft:wither_skeleton_skull"
-			x: 5.0d
+			x: 7.0d
 			y: -1.5d
 			subtitle: "I hope it wasn't your buddy smacking you in the back of the head. "
 			description: [
@@ -624,7 +625,7 @@
 			]
 		}
 		{
-			x: 7.5d
+			x: 8.5d
 			y: 3.0d
 			subtitle: "No wayyyyy"
 			description: [
@@ -790,8 +791,8 @@
 		}
 		{
 			title: "God Mode"
-			x: 4.0d
-			y: 6.5d
+			x: -3.0d
+			y: 3.0d
 			subtitle: "Again...it finds gems"
 			dependencies: ["06D8B93BC594F5D2"]
 			hide: true
@@ -807,11 +808,18 @@
 					}
 				}
 			}]
-			rewards: [{
-				id: "753BE0F69CB2CC1B"
-				type: "item"
-				item: "minecraft:nether_wart"
-			}]
+			rewards: [
+				{
+					id: "7AC9B9A12CF4E4D4"
+					type: "item"
+					item: "minecraft:diamond_block"
+				}
+				{
+					id: "3F407C222B51CE65"
+					type: "item"
+					item: "create:extendo_grip"
+				}
+			]
 		}
 		{
 			title: "Top Tier (or is it?)"
@@ -895,7 +903,7 @@
 		}
 		{
 			x: 3.0d
-			y: 5.5d
+			y: 4.5d
 			subtitle: "Bling me up"
 			dependencies: ["1599C4900E8F74D2"]
 			hide: true
@@ -954,6 +962,7 @@
 		{
 			x: 1.5d
 			y: 8.0d
+			shape: "hexagon"
 			subtitle: "This song is actually kinda pog"
 			dependencies: ["42DFB4B9FC48FFF5"]
 			id: "2580184ECA9D7861"
@@ -1165,6 +1174,371 @@
 				id: "2A60EA4EE6921748"
 				type: "item"
 				item: "waystones:bound_scroll"
+			}]
+		}
+		{
+			title: "Strapped"
+			icon: "toolbelt:belt"
+			x: -0.5d
+			y: 1.5d
+			subtitle: "What has he got in his pocketses?"
+			description: ["Holding \"F\" while having the Tool Belt equipped will let you see and swap out your tools. You can craft a Tool Belt with a Belt Pouch in an Anvil to add more slots."]
+			dependencies: ["2DBCBF08C50B8FDC"]
+			hide: true
+			id: "1BE0CE417B45E56E"
+			tasks: [{
+				id: "2E0C4B592A27FD38"
+				type: "item"
+				item: "toolbelt:belt"
+			}]
+			rewards: [{
+				id: "3D524B0358E568B7"
+				type: "item"
+				item: "toolbelt:pouch"
+			}]
+		}
+		{
+			title: "You Look Enchanting"
+			x: 4.0d
+			y: 8.0d
+			subtitle: "uwu :)"
+			description: ["Enchanting Tables will keep your items and Lapis inside them now. No more dropping them all over the floor!"]
+			dependencies: ["42DFB4B9FC48FFF5"]
+			hide: true
+			id: "54B8E8430E09C284"
+			tasks: [{
+				id: "48040A378369A4C1"
+				type: "item"
+				item: "minecraft:enchanting_table"
+			}]
+			rewards: [{
+				id: "60825ACF5868FF6C"
+				type: "xp_levels"
+				xp_levels: 30
+			}]
+		}
+		{
+			title: "Acme Inc."
+			x: 5.5d
+			y: 8.0d
+			subtitle: "CLANG"
+			description: ["Anvils can be repaired more easily by right-clicking them with iron. An ingot will repair it a bit, and a block will fully repair it."]
+			dependencies: ["54B8E8430E09C284"]
+			hide: true
+			id: "56F0DEAA7AAEA435"
+			tasks: [{
+				id: "0AF84EC56BE732FC"
+				type: "item"
+				item: "minecraft:anvil"
+			}]
+			rewards: [
+				{
+					id: "2D34824D99577EDB"
+					type: "item"
+					item: "minecraft:iron_ingot"
+				}
+				{
+					id: "02B1EC2EB5F3F1D1"
+					type: "item"
+					item: "minecraft:iron_block"
+				}
+			]
+		}
+		{
+			title: "Green Juice"
+			icon: "minecraft:experience_bottle"
+			x: 4.0d
+			y: 9.5d
+			description: ["You can Shift+Right-Click a glass bottle on an Enchanting Table to create Bottles of Enchanting. It might hurt a little. As a reward for your pain, here's some enchanting room decor."]
+			dependencies: ["54B8E8430E09C284"]
+			hide: true
+			id: "5264AD5C1D17F3D5"
+			tasks: [
+				{
+					id: "72117B989E52D7A5"
+					type: "item"
+					item: "minecraft:experience_bottle"
+				}
+				{
+					id: "7F73718C728968C4"
+					type: "item"
+					item: "minecraft:glass_bottle"
+				}
+			]
+			rewards: [
+				{
+					id: "15DDF8B7784CE1E6"
+					type: "item"
+					item: "supplementaries:firefly_jar"
+					count: 5
+				}
+				{
+					id: "52BFFBF005F16E2B"
+					type: "item"
+					item: "quark:red_candle"
+					count: 4
+				}
+				{
+					id: "7927B3F98A5C8E3D"
+					type: "item"
+					item: "buildersaddition:candle"
+					count: 4
+				}
+				{
+					id: "3A74194BA88EAA57"
+					type: "item"
+					item: "minecraft:soul_lantern"
+				}
+			]
+		}
+		{
+			title: "Loot and You"
+			x: 3.0d
+			y: -3.0d
+			shape: "pentagon"
+			description: ["All loot chests in the world have loot specific to you. DO NOT break these chests as others will want the contents. If you must break them, hold shift while breaking it to destroy it."]
+			dependencies: ["0CE47A9FADA807C8"]
+			hide: true
+			id: "25C7DF837CB2B70B"
+			tasks: [{
+				id: "7F1D657F23437E64"
+				type: "observation"
+				icon: "quark:dark_oak_chest"
+				timer: 0L
+				observe: ""
+			}]
+			rewards: [{
+				id: "3D13879A0160E2FB"
+				type: "item"
+				item: "minecraft:torch"
+				count: 63
+			}]
+		}
+		{
+			title: "Wtf is with the weird brackets?"
+			icon: "itemfilters:custom"
+			x: 5.5d
+			y: -3.0d
+			description: ["The weird brackets are from Quark, and they're to assist with block placement. You'll notice you can place blocks underneath ledges, and on the far side of blocks under your feet. They simply let you reach around corners just a little bit, for safer bridging and staircases downward."]
+			dependencies: ["7F3AA0CEBC61945A"]
+			hide: true
+			id: "69BA55D0E53BFF5F"
+			tasks: [{
+				id: "193FE2BFD5C5E2F2"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "42B3DB4C304CCE30"
+				type: "item"
+				item: "minecraft:dirt"
+				count: 64
+			}]
+		}
+		{
+			title: "PING!"
+			icon: "itemfilters:not"
+			x: 8.5d
+			y: -3.0d
+			description: ["Hold V to see the ping menu. Yep, we're Apex Legends now."]
+			dependencies: ["7F3AA0CEBC61945A"]
+			hide: true
+			id: "3B889F18B8F71635"
+			tasks: [{
+				id: "1276B76C93999E2F"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "3F0DB9E59B058AEE"
+				type: "item"
+				item: "minecraft:firework_rocket"
+			}]
+		}
+		{
+			x: -0.5d
+			y: -1.5d
+			subtitle: "Yeehaw"
+			description: [
+				"Rope can be used for quick escapes from caves, climbing cliffs, and even hauling up loot chests from below. Right-Click on placed rope to place more rope below it. Shift+Right-Click with an empty hand to hoist up whatever's underneath the bottom of the rope."
+				"There are also Rope Arrows, which can be used to launch rope a further distance. Handy!"
+			]
+			dependencies: ["2DBCBF08C50B8FDC"]
+			hide: true
+			id: "39E1203351B35FE5"
+			tasks: [{
+				id: "6976A774BB15040C"
+				type: "item"
+				item: "supplementaries:rope"
+			}]
+			rewards: [
+				{
+					id: "6039A079F132C997"
+					type: "item"
+					item: "supplementaries:rope"
+					count: 64
+				}
+				{
+					id: "247B334426B23944"
+					type: "item"
+					item: {
+						id: "supplementaries:rope_arrow"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Mooooony"
+			x: -1.5d
+			y: 6.5d
+			subtitle: "It sparkles."
+			description: ["A sidegrade. Has more durability than Diamond!"]
+			dependencies: ["5DD0A6DA9918E1CC"]
+			hide: true
+			id: "5574F09214AD8ED4"
+			tasks: [{
+				id: "5E4ABD24A19725EF"
+				type: "item"
+				item: {
+					id: "druidcraft:moonstone_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "5EF7BD5DAFA40542"
+				type: "item"
+				item: "druidcraft:moonstone"
+				count: 6
+			}]
+		}
+		{
+			title: "Saddle up, cowboy"
+			x: 10.0d
+			y: 3.0d
+			description: ["You can also pull carts with horses. Just mount your horse and press the same \\ key while close to your cart."]
+			dependencies: ["6FF225BD62E2B09A"]
+			hide: true
+			id: "05349E620FD7DE6E"
+			tasks: [{
+				id: "3F782C22A9D04E10"
+				type: "item"
+				item: "minecraft:saddle"
+			}]
+			rewards: [{
+				id: "2528E96B6716DAB3"
+				type: "item"
+				item: "minecraft:lead"
+			}]
+		}
+		{
+			title: "Dual Riders"
+			icon: "minecraft:iron_horse_armor"
+			x: 11.5d
+			y: 3.0d
+			description: ["Two players can ride a horse at the same time."]
+			dependencies: ["05349E620FD7DE6E"]
+			hide: true
+			id: "3339C5BB2EDEE8EA"
+			tasks: [{
+				id: "04EC2AFFB20A80CA"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "00D5E00710329950"
+				type: "item"
+				item: "minecraft:iron_horse_armor"
+			}]
+		}
+		{
+			title: "Caldwell Pax....el"
+			icon: {
+				id: "easypaxellite:iron_paxel"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -1.5d
+			y: 4.5d
+			description: ["Paxels are ideal for combining your pickaxe, axe, and shovel all into one tool. They have a lot of durability, and can do everything from stripping bark to making paths."]
+			dependencies: ["62F93B1AE6C3EBF8"]
+			hide: true
+			id: "20B9B7792B79FEA7"
+			tasks: [
+				{
+					id: "503C11E666CEB133"
+					type: "item"
+					item: {
+						id: "minecraft:iron_shovel"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "5B99D2B53F68B1BB"
+					type: "item"
+					item: {
+						id: "minecraft:iron_axe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "26CB66AB705132F7"
+				type: "item"
+				item: {
+					id: "easypaxellite:iron_paxel"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "Mail Room"
+			x: 7.5d
+			y: 1.5d
+			description: ["Craft a Package, put some items inside, slap a Stamp on it, and Right-Click with a Package Controller to send your package to the coordinates of your choice. Or, enter a Locker ID to send it direct to a locker. Handy for trading!"]
+			dependencies: ["7E82E069CBEC7E60"]
+			hide: true
+			id: "4086DE4D2004FBFB"
+			tasks: [
+				{
+					id: "3D7F52FE8B6B7F49"
+					type: "item"
+					item: "endermail:package"
+				}
+				{
+					id: "22403B7E2F98A69E"
+					type: "item"
+					item: "endermail:stamp"
+				}
+				{
+					id: "1C2C84F79AB853AE"
+					type: "item"
+					item: {
+						id: "endermail:package_controller"
+						Count: 1b
+						tag: { }
+					}
+				}
+			]
+			rewards: [{
+				id: "30D3E15BCBBB80C5"
+				type: "item"
+				item: "endermail:stamp"
+				count: 4
 			}]
 		}
 	]
