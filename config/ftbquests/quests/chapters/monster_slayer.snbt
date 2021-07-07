@@ -599,7 +599,10 @@
 			title: "Hero of the Village"
 			x: -3.0d
 			y: -5.0d
-			description: ["Defend our great village from an raid"]
+			description: [
+				"Defend our great village from an raid"
+				"NOTE: To start a raid on a village you must burn a banner with flint and steel."
+			]
 			dependencies: ["7FE6B9D83DCA743E"]
 			hide: true
 			id: "698680359E90509C"

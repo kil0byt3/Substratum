@@ -45,6 +45,12 @@
 				advancement: "minecraft:adventure/summon_iron_golem"
 				criterion: ""
 			}]
+			rewards: [{
+				id: "14F8EC133C9609E7"
+				type: "item"
+				item: "minecraft:iron_block"
+				count: 8
+			}]
 		}
 		{
 			title: "This is the WAE"
@@ -112,6 +118,27 @@
 				advancement: "dungeons_plus:adventure/find_bigger_dungeon"
 				criterion: ""
 			}]
+			rewards: [
+				{
+					id: "50A2B146B9C8FDA2"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "3FC3A964D566B730"
+					type: "item"
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 4s
+								id: "minecraft:feather_falling"
+							}]
+						}
+					}
+				}
+			]
 		}
 		{
 			title: "These Mushrooms are HUGE"
@@ -130,6 +157,12 @@
 				advancement: "dungeons_plus:adventure/find_warped_garden"
 				criterion: ""
 			}]
+			rewards: [{
+				id: "1A6557D61EA4FD28"
+				type: "item"
+				item: "minecraft:shroomlight"
+				count: 32
+			}]
 		}
 		{
 			title: "Ancient Remains"
@@ -145,6 +178,20 @@
 				advancement: "dungeons_plus:adventure/find_leviathan"
 				criterion: ""
 			}]
+			rewards: [
+				{
+					id: "35F52562B0CA15E6"
+					type: "item"
+					item: "minecraft:bone_block"
+					count: 32
+				}
+				{
+					id: "5509FAAE16B69F0A"
+					type: "item"
+					item: "minecraft:gold_block"
+					count: 8
+				}
+			]
 		}
 		{
 			title: "Snowed In"
@@ -160,6 +207,19 @@
 				advancement: "dungeons_plus:adventure/find_snowy_temple"
 				criterion: ""
 			}]
+			rewards: [
+				{
+					id: "3C5E7D3CEBE15967"
+					type: "item"
+					item: "cavesandcliffs:powder_snow_bucket"
+				}
+				{
+					id: "42D3F7F368B25605"
+					type: "item"
+					item: "minecraft:snow_block"
+					count: 64
+				}
+			]
 		}
 		{
 			title: "Now that trade is a rip off"
@@ -186,7 +246,7 @@
 			title: "Master Skywalker, there are too many of them!"
 			x: -6.5d
 			y: -5.0d
-			description: ["Kill a baby villager. You monster."]
+			description: ["Kill a baby villager. You monster!"]
 			dependencies: ["5DF30DAF06BBB6EC"]
 			hide: true
 			id: "2667A67A55684399"
@@ -236,6 +296,11 @@
 				advancement: "morevillagers:nether_trade"
 				criterion: ""
 			}]
+			rewards: [{
+				id: "33C4BAEA68D800FE"
+				type: "item"
+				item: "minecraft:emerald_block"
+			}]
 		}
 		{
 			title: "Insider Information"
@@ -251,6 +316,24 @@
 				advancement: "morevillagers:buy_map"
 				criterion: ""
 			}]
+			rewards: [
+				{
+					id: "3A5176AE6524E59D"
+					type: "item"
+					item: {
+						id: "minecraft:diamond_shovel"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "7E0DFF274D7CBA3A"
+					type: "item"
+					item: "minecraft:map"
+				}
+			]
 		}
 		{
 			title: "How did you End up out here?"
@@ -393,6 +476,12 @@
 				advancement: "minecraft:nether/return_to_sender"
 				criterion: ""
 			}]
+			rewards: [{
+				id: "1396B840C0E3EFAE"
+				type: "item"
+				item: "minecraft:ghast_tear"
+				count: 4
+			}]
 		}
 		{
 			title: "You want me to do WHAT?!?"
@@ -463,11 +552,18 @@
 				advancement: "minecraft:nether/loot_bastion"
 				criterion: ""
 			}]
-			rewards: [{
-				id: "03A61E46C73F41E9"
-				type: "item"
-				item: "spartanweaponry:arrow_diamond"
-			}]
+			rewards: [
+				{
+					id: "03A61E46C73F41E9"
+					type: "item"
+					item: "spartanweaponry:arrow_diamond"
+				}
+				{
+					id: "757419F589C2173A"
+					type: "item"
+					item: "minecraft:gold_block"
+				}
+			]
 		}
 		{
 			title: "Subspace Bubble"
@@ -483,6 +579,30 @@
 				advancement: "minecraft:nether/fast_travel"
 				criterion: ""
 			}]
+			rewards: [
+				{
+					id: "1FFBC8B01E656FF7"
+					type: "item"
+					item: "minecraft:obsidian"
+					count: 16
+				}
+				{
+					id: "4878A58809B43017"
+					type: "item"
+					item: {
+						id: "minecraft:flint_and_steel"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "2F0FDFF6B58663B1"
+					type: "item"
+					item: "minecraft:spruce_sign"
+				}
+			]
 		}
 		{
 			title: "A Terrible Fortress"
@@ -513,6 +633,19 @@
 				advancement: "minecraft:nether/obtain_blaze_rod"
 				criterion: ""
 			}]
+			rewards: [
+				{
+					id: "6AD9BF3BFBEC5F66"
+					type: "item"
+					item: "minecraft:blaze_rod"
+					count: 8
+				}
+				{
+					id: "69D035EDC7C9F30B"
+					type: "item"
+					item: "create:blaze_cake"
+				}
+			]
 		}
 		{
 			title: "Spooky Scary Skellingtons"
@@ -528,6 +661,28 @@
 				advancement: "minecraft:nether/get_wither_skull"
 				criterion: ""
 			}]
+			rewards: [
+				{
+					id: "350DE625F111F63A"
+					type: "item"
+					item: "minecraft:soul_sand"
+					count: 4
+				}
+				{
+					id: "6489AFBC0EC53EE4"
+					type: "item"
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 3s
+								id: "minecraft:looting"
+							}]
+						}
+					}
+				}
+			]
 		}
 		{
 			title: "Local Brewery"
@@ -543,6 +698,28 @@
 				advancement: "minecraft:nether/brew_potion"
 				criterion: ""
 			}]
+			rewards: [
+				{
+					id: "5B37E9C4FB0877BF"
+					type: "item"
+					item: "minecraft:brewing_stand"
+				}
+				{
+					id: "1DDE4926B11BDFED"
+					type: "item"
+					item: "minecraft:ghast_tear"
+				}
+				{
+					id: "670797A9D9E13948"
+					type: "item"
+					item: "minecraft:melon_slice"
+				}
+				{
+					id: "3F28B3B6067E7392"
+					type: "item"
+					item: "minecraft:dragon_breath"
+				}
+			]
 		}
 		{
 			title: "A Furious Cocktail"
@@ -557,6 +734,11 @@
 				type: "advancement"
 				advancement: "minecraft:nether/all_potions"
 				criterion: ""
+			}]
+			rewards: [{
+				id: "321F3292C9F6F962"
+				type: "item"
+				item: "minecraft:netherite_block"
 			}]
 		}
 		{
@@ -573,6 +755,25 @@
 				advancement: "upgrade_aquatic:nether/sleepless_slave"
 				criterion: ""
 			}]
+			rewards: [
+				{
+					id: "1A98BA977FAEF996"
+					type: "item"
+					item: {
+						id: "minecraft:splash_potion"
+						Count: 1b
+						tag: {
+							Potion: "upgrade_aquatic:insomnia_strong"
+						}
+					}
+				}
+				{
+					id: "23481699C8C84B88"
+					type: "item"
+					item: "minecraft:phantom_membrane"
+					count: 8
+				}
+			]
 		}
 		{
 			title: "Vibe Check"
@@ -588,6 +789,24 @@
 				advancement: "upgrade_aquatic:nether/vibe_check"
 				criterion: ""
 			}]
+			rewards: [
+				{
+					id: "16A17A92171BA2C4"
+					type: "item"
+					item: {
+						id: "minecraft:potion"
+						Count: 1b
+						tag: {
+							Potion: "upgrade_aquatic:repellence_long"
+						}
+					}
+				}
+				{
+					id: "4F308720E8293BC0"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
 		}
 		{
 			title: "How did we get here?"
@@ -604,10 +823,10 @@
 				criterion: ""
 			}]
 			rewards: [{
-				id: "3D4B1A2E69AFF5EE"
+				id: "3CF3F1077DBDCAF5"
 				type: "item"
-				item: "minecraft:diamond_block"
-				count: 32
+				item: "minecraft:netherite_block"
+				count: 64
 			}]
 		}
 		{
@@ -624,6 +843,11 @@
 				advancement: "minecraft:nether/summon_wither"
 				criterion: ""
 			}]
+			rewards: [{
+				id: "440C49CF5ADDE2C2"
+				type: "item"
+				item: "minecraft:milk_bucket"
+			}]
 		}
 		{
 			title: "Bring Home the Beacon"
@@ -639,6 +863,12 @@
 				advancement: "minecraft:nether/create_beacon"
 				criterion: ""
 			}]
+			rewards: [{
+				id: "7126806D51EB46C4"
+				type: "item"
+				item: "minecraft:iron_block"
+				count: 9
+			}]
 		}
 		{
 			title: "Wendy's Beaconator"
@@ -653,6 +883,11 @@
 				type: "advancement"
 				advancement: "minecraft:nether/create_full_beacon"
 				criterion: ""
+			}]
+			rewards: [{
+				id: "5B85748510AE8D07"
+				type: "item"
+				item: "minecraft:netherite_ingot"
 			}]
 		}
 		{
@@ -672,11 +907,19 @@
 				advancement: "minecraft:nether/obtain_crying_obsidian"
 				criterion: ""
 			}]
-			rewards: [{
-				id: "5B37985E9D56FAE2"
-				type: "item"
-				item: "minecraft:ender_pearl"
-			}]
+			rewards: [
+				{
+					id: "5B37985E9D56FAE2"
+					type: "item"
+					item: "minecraft:ender_pearl"
+				}
+				{
+					id: "77B380DBD0CBD4B8"
+					type: "item"
+					item: "minecraft:crying_obsidian"
+					count: 8
+				}
+			]
 		}
 		{
 			title: "Not Quite Nine Lives"
@@ -692,11 +935,18 @@
 				advancement: "minecraft:nether/charge_respawn_anchor"
 				criterion: ""
 			}]
-			rewards: [{
-				id: "44B3A84D6DAF140C"
-				type: "xp_levels"
-				xp_levels: 5
-			}]
+			rewards: [
+				{
+					id: "44B3A84D6DAF140C"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "690C34E269E67B02"
+					type: "item"
+					item: "minecraft:totem_of_undying"
+				}
+			]
 		}
 		{
 			title: "This Boat has Legs"
@@ -712,6 +962,24 @@
 				advancement: "minecraft:nether/ride_strider"
 				criterion: ""
 			}]
+			rewards: [
+				{
+					id: "79814C496DBE9600"
+					type: "item"
+					item: "minecraft:saddle"
+				}
+				{
+					id: "469A03D15C609934"
+					type: "item"
+					item: {
+						id: "minecraft:splash_potion"
+						Count: 1b
+						tag: {
+							Potion: "minecraft:long_fire_resistance"
+						}
+					}
+				}
+			]
 		}
 		{
 			title: "Hot Tourist Destinations"
@@ -726,6 +994,11 @@
 				type: "advancement"
 				advancement: "minecraft:nether/explore_nether"
 				criterion: ""
+			}]
+			rewards: [{
+				id: "36EB995802CD4BF5"
+				type: "item"
+				item: "minecraft:netherite_ingot"
 			}]
 		}
 		{
@@ -762,6 +1035,11 @@
 				advancement: "minecraft:nether/netherite_armor"
 				criterion: ""
 			}]
+			rewards: [{
+				id: "0E64977BD06C7D1E"
+				type: "item"
+				item: "minecraft:beacon"
+			}]
 		}
 		{
 			title: "Country Lode, Take Me Home"
@@ -777,6 +1055,23 @@
 				advancement: "minecraft:nether/use_lodestone"
 				criterion: ""
 			}]
+			rewards: [
+				{
+					id: "5BC686C43B996A0C"
+					type: "item"
+					item: "alexsmobs:music_disc_thime"
+				}
+				{
+					id: "20EE354F7D30FC48"
+					type: "item"
+					item: "alexsmobs:music_disc_daze"
+				}
+				{
+					id: "58316DB960B5C086"
+					type: "item"
+					item: "minecraft:netherite_ingot"
+				}
+			]
 		}
 		{
 			title: "Oh Shiny"
@@ -792,11 +1087,23 @@
 				advancement: "minecraft:nether/distract_piglin"
 				criterion: ""
 			}]
-			rewards: [{
-				id: "3E844EFA36BDB0A6"
-				type: "item"
-				item: "quark:golden_frog_leg"
-			}]
+			rewards: [
+				{
+					id: "3E844EFA36BDB0A6"
+					type: "item"
+					item: "quark:golden_frog_leg"
+				}
+				{
+					id: "0FF01FEA3D43C518"
+					type: "item"
+					item: "minecraft:golden_apple"
+				}
+				{
+					id: "2BA9C383F2F6E7DE"
+					type: "item"
+					item: "minecraft:golden_carrot"
+				}
+			]
 		}
 		{
 			title: "The End"
