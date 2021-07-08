@@ -12,5 +12,4 @@ config/worldedit/worldedit.properties
 patchouli_data.json
 XaeroWorldMap/
 *.bak
-
 XaeroWaypoints/
