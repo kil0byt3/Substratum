@@ -3,6 +3,7 @@ import crafttweaker.api.blocks.MCBlock;
 import crafttweaker.api.tag.MCTag;
 import crafttweaker.api.registries.IRecipeManager;
 import crafttweaker.api.BlastFurnaceManager;
+import crafttweaker.api.food.MCFood;
 
 // craftingTable.addShapeless("chop_ingot", <item:minecraft:gold_nugget> * 10, [<item:minecraft:gold_ingot>, <item:minecraft:flint>]);
 
@@ -55,7 +56,10 @@ craftingTable.addShaped("safety_net", <item:farmersdelight:safety_net>*2, [
       [<item:supplementaries:rope>, <item:supplementaries:rope>]
 ]);
 
-
+// Elderflower Cordial
+craftingTable.removeRecipe(<item:druidcraft:elderflower_cordial>);
+craftingTable.addShapeless("elderflower_cordial", <item:druidcraft:elderflower_cordial>, [<item:minecraft:sugar>, <item:minecraft:potion>.withTag({Potion: "minecraft:water" as string}), <item:druidcraft:elderflower>]);
+<item:druidcraft:elderflower_cordial>.setMaxStackSize(1);
 
 //Dungeon Door
 
