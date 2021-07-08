@@ -44,6 +44,16 @@ craftingTable.addShapeless("candles_soulcandle", <item:buildersaddition:large_so
 //       [<item:minecraft:iron_block>, <item:minecraft:iron_block>, <item:minecraft:iron_block>]
 // ]);
 
+// Safety Net
+
+craftingTable.removeRecipe(<item:farmersdelight:safety_net>);
+craftingTable.addShaped("safety_net", <item:farmersdelight:safety_net>*2, [
+      [<item:supplementaries:rope>, <item:supplementaries:rope>],
+      [<item:supplementaries:rope>, <item:supplementaries:rope>]
+]);
+
+
+
 //Dungeon Door
 
 craftingTable.addShaped("dungeon_door", <item:valhelsia_structures:dungeon_door>, [
