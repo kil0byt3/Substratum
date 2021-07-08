@@ -2,6 +2,7 @@ import crafttweaker.api.item.IItemStack;
 import crafttweaker.api.blocks.MCBlock;
 import crafttweaker.api.tag.MCTag;
 import crafttweaker.api.registries.IRecipeManager;
+import crafttweaker.api.BlastFurnaceManager;
 
 // craftingTable.addShapeless("chop_ingot", <item:minecraft:gold_nugget> * 10, [<item:minecraft:gold_ingot>, <item:minecraft:flint>]);
 
@@ -12,22 +13,24 @@ import crafttweaker.api.registries.IRecipeManager;
 
 // <item:quark:white_candle>
 
-// Candles 
+// Candles and Tallow
 
-craftingTable.removeRecipe(<item:buildersaddition:large_candle>);
-craftingTable.removeRecipe(<item:buildersaddition:large_soul_candle>);
+craftingTable.removeByName("quark:building/crafting/candles/candle_basic");
 
-craftingTable.addShaped("candles_wax", <item:quark:white_candle>*2, [
+blastFurnace.addRecipe("tallow", <item:quark:tallow>, <item:minecraft:rotten_flesh>, 1.0, 100);
+
+
+craftingTable.addShaped("candles_tallow", <item:quark:white_candle>*4, [
+      [<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>],
+      [<item:minecraft:air>, <item:minecraft:string>, <item:minecraft:air>],
+      [<item:minecraft:air>, <item:quark:tallow>, <item:minecraft:air>]
+]);
+
+craftingTable.addShaped("candles_beeswax", <item:quark:white_candle>*2, [
       [<item:minecraft:air>, <item:minecraft:string>, <item:minecraft:air>],
       [<item:minecraft:air>, <item:minecraft:honeycomb>, <item:minecraft:air>],
       [<item:minecraft:air>, <item:minecraft:honeycomb>, <item:minecraft:air>]
 ]);
-
-// Swap candles between BA and Quark
-craftingTable.addShapeless("candles_swaptoba", <item:buildersaddition:large_candle>, [<item:quark:white_candle>]);
-craftingTable.addShapeless("candles_swaptoq", <item:quark:white_candle>, [<item:buildersaddition:large_candle>]);
-
-craftingTable.addShapeless("candles_soulcandle", <item:buildersaddition:large_soul_candle>, [<item:buildersaddition:large_candle>, <item:minecraft:soul_sand>]);
 
 // Deeds
 // craftingTable.removeRecipe(<item:craftabledeeds:empty_deed>);
@@ -43,6 +46,16 @@ craftingTable.addShapeless("candles_soulcandle", <item:buildersaddition:large_so
 //       [<item:minecraft:gold_ingot>, <item:minecraft:gold_ingot>, <item:minecraft:gold_ingot>],
 //       [<item:minecraft:iron_block>, <item:minecraft:iron_block>, <item:minecraft:iron_block>]
 // ]);
+
+// Safety Net
+
+craftingTable.removeRecipe(<item:farmersdelight:safety_net>);
+craftingTable.addShaped("safety_net", <item:farmersdelight:safety_net>*2, [
+      [<item:supplementaries:rope>, <item:supplementaries:rope>],
+      [<item:supplementaries:rope>, <item:supplementaries:rope>]
+]);
+
+
 
 //Dungeon Door
 

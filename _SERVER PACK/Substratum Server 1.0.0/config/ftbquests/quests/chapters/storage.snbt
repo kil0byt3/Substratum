@@ -45,7 +45,7 @@
 		{
 			title: "REAL Storage"
 			x: -2.0d
-			y: 0.0d
+			y: -0.5d
 			subtitle: "The next level."
 			description: ["Controllers act as a single-point interaction with your drawers. Right-clicking an item into the controller will find a spot in your network where they fit, and deposit them instantly. Compacting Drawers allow you to store blocks of iron, gold, etc, and retrive the nuggets, ingots, etc when needed."]
 			dependencies: ["4E36E03BFF11B93D"]
@@ -139,6 +139,29 @@
 					item: "environmental:chicken_egg_crate"
 				}
 			]
+		}
+		{
+			title: "You have how many diamonds?"
+			x: -2.0d
+			y: 1.0d
+			description: [
+				"This item allows the player to visually see how many items they have in the drawers."
+				"Right-Click on a drawer to use, or on a Drawer Controller to change all attached Drawers."
+			]
+			dependencies: ["2F1940121B8AC04D"]
+			hide: true
+			id: "3A957FAF10B595BF"
+			tasks: [{
+				id: "1EE02075E51C4137"
+				type: "item"
+				item: "storagedrawers:quantify_key"
+			}]
+			rewards: [{
+				id: "31E819FB52478A56"
+				type: "item"
+				item: "minecraft:diamond"
+				count: 4
+			}]
 		}
 	]
 }
