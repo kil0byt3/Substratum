@@ -14,6 +14,10 @@ craftingTable.removeByModid("ftbquests");
 
 // Single Item hiding
 val removeRecipesItem = [
+<item:buildersaddition:candle>,
+<item:buildersaddition:soul_candle>,
+<item:buildersaddition:large_candle>,
+<item:buildersaddition:large_soul_candle>,
 <item:decorative_blocks:stone_pillar>,
 <item:valhelsia_structures:brazier>,
 <item:valhelsia_structures:soul_brazier>,
