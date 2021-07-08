@@ -1,6 +1,6 @@
 #Microphone activation type
 #Allowed Values: PTT, VOICE
-microphone_activation_type = "PTT"
+microphone_activation_type = "VOICE"
 #The threshold for voice activation in dB
 #Range: -127.0 ~ 0.0
 voice_activation_threshold = -50.0
