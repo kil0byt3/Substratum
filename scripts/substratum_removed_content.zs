@@ -18,6 +18,8 @@ val removeRecipesItem = [
 <item:buildersaddition:soul_candle>,
 <item:buildersaddition:large_candle>,
 <item:buildersaddition:large_soul_candle>,
+<item:eidolon:tallow>,
+<item:eidolon:candle>,
 <item:decorative_blocks:stone_pillar>,
 <item:valhelsia_structures:brazier>,
 <item:valhelsia_structures:soul_brazier>,
