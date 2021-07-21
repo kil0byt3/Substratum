@@ -175,9 +175,16 @@ craftingTable.addShaped("leadwithrope", <item:minecraft:lead>, [
       [<item:minecraft:air>, <item:minecraft:air>, <item:supplementaries:rope>]
 ]);
 
-//New fishoil recipe
+//New fish oil recipe
 craftingTable.addShaped("fish_oil", <item:alexsmobs:fish_oil>, [
       [<item:minecraft:glass_bottle>, <tag:items:forge:raw_fishes>, <tag:items:forge:raw_fishes>],
       [<tag:items:forge:raw_fishes>, <tag:items:forge:raw_fishes>, <item:minecraft:air>],
+      [<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>]
+]);
+
+//New amber gem recipe
+craftingTable.addShaped("amber_block", <item:betterendforge:amber_gem>, [
+      [<item:druidcraft:amber>, <item:druidcraft:amber>, <item:minecraft:air>],
+      [<item:druidcraft:amber>, <item:druidcraft:amber>, <item:minecraft:air>],
       [<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>]
 ]);
