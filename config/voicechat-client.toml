@@ -50,4 +50,12 @@ hud_icon_location = "LEFT"
 #The orientation of the player icons in the group HUD
 #Allowed Values: VERTICAL, HORIZONTAL
 group_player_icon_orientation = "VERTICAL"
+#The maximum amount of audio packets that are held back, if a packet arrives out of order or gets dropped
+#This prevents discarding audio packets that are slightly out of order
+#Set this to 0 to disable
+#Range: 0 ~ 16
+audio_packet_threshold = 3
+#The location where recordings should be saved
+#Leave empty for default location
+recording_destination = ""
 
