@@ -35,3 +35,4 @@ mods.jei.JEI.addInfo(<item:fairylights:triangle_pennant>, ["Can be dyed any colo
 mods.jei.JEI.addInfo(<item:fairylights:spearhead_pennant>, ["Can be dyed any color."]);
 mods.jei.JEI.addInfo(<item:fairylights:swallowtail_pennant>, ["Can be dyed any color."]);
 mods.jei.JEI.addInfo(<item:fairylights:square_pennant>, ["Can be dyed any color."]);
+mods.jei.JEI.addInfo(<item:endergetic:bolloom_balloon>, ["Can be dyed any color."]);
