@@ -446,6 +446,8 @@ val removeRecipesItem = [
 <item:druidcraft:yellow_lunar_moth_egg>,
 <item:druidcraft:orange_lunar_moth_egg>,
 <item:druidcraft:pink_lunar_moth_egg>,
+<item:betterendforge:leather_wrapped_stick>,
+
 ] as IItemStack[];
  
 for item in removeRecipesItem {

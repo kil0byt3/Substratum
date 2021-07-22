@@ -4,6 +4,7 @@ import crafttweaker.api.tag.MCTag;
 import crafttweaker.api.registries.IRecipeManager;
 import crafttweaker.api.BlastFurnaceManager;
 import crafttweaker.api.food.MCFood;
+import crafttweaker.api.SmithingManager;
 
 // craftingTable.addShapeless("chop_ingot", <item:minecraft:gold_nugget> * 10, [<item:minecraft:gold_ingot>, <item:minecraft:flint>]);
 
@@ -20,6 +21,19 @@ craftingTable.removeByName("quark:building/crafting/candles/candle_basic");
 
 blastFurnace.addRecipe("tallow", <item:quark:tallow>, <item:minecraft:rotten_flesh>, 1.0, 100);
 
+//Remove leather rapped sticks and replaced spartan handles
+smithing.removeRecipe(<item:betterendforge:aeternium_shovel>);
+smithing.addRecipe("aeternium_shovel", <item:betterendforge:aeternium_shovel>, <item:betterendforge:aeternium_shovel_head>, <item:spartanweaponry:handle>);
+smithing.removeRecipe(<item:betterendforge:aeternium_sword_handle>);
+smithing.addRecipe("aeternium_sword_handle", <item:betterendforge:aeternium_sword_handle>, <item:betterendforge:terminite_ingot>, <item:spartanweaponry:handle>);
+smithing.removeRecipe(<item:betterendforge:aeternium_hammer>);
+smithing.addRecipe("aeternium_smith_hammer", <item:betterendforge:aeternium_hammer>, <item:betterendforge:aeternium_hammer_head>, <item:spartanweaponry:handle>);
+smithing.removeRecipe(<item:betterendforge:aeternium_axe>);
+smithing.addRecipe("aeternium_axe", <item:betterendforge:aeternium_axe>, <item:betterendforge:aeternium_axe_head>, <item:spartanweaponry:handle>);
+smithing.removeRecipe(<item:betterendforge:aeternium_pickaxe>);
+smithing.addRecipe("aeternium_pickaxe", <item:betterendforge:aeternium_pickaxe>, <item:betterendforge:aeternium_pickaxe_head>, <item:spartanweaponry:handle>);
+smithing.removeRecipe(<item:betterendforge:aeternium_hoe>);
+smithing.addRecipe("aeternium_hoe", <item:betterendforge:aeternium_hoe>, <item:betterendforge:aeternium_hoe_head>, <item:spartanweaponry:handle>);
 
 craftingTable.addShaped("candles_tallow", <item:quark:white_candle>*4, [
       [<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>],
@@ -184,7 +198,6 @@ craftingTable.addShaped("fish_oil", <item:alexsmobs:fish_oil>, [
 
 //New amber gem recipe
 craftingTable.addShaped("amber_block", <item:betterendforge:amber_gem>, [
-      [<item:druidcraft:amber>, <item:druidcraft:amber>, <item:minecraft:air>],
-      [<item:druidcraft:amber>, <item:druidcraft:amber>, <item:minecraft:air>],
-      [<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>]
+      [<item:druidcraft:amber>, <item:druidcraft:amber>],
+      [<item:druidcraft:amber>, <item:druidcraft:amber>],
 ]);
