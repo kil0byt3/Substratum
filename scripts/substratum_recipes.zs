@@ -5,6 +5,7 @@ import crafttweaker.api.registries.IRecipeManager;
 import crafttweaker.api.BlastFurnaceManager;
 import crafttweaker.api.food.MCFood;
 import crafttweaker.api.SmithingManager;
+import crafttweaker.api.FurnaceManager;
 
 // craftingTable.addShapeless("chop_ingot", <item:minecraft:gold_nugget> * 10, [<item:minecraft:gold_ingot>, <item:minecraft:flint>]);
 
@@ -201,3 +202,7 @@ craftingTable.addShaped("amber_block", <item:betterendforge:amber_gem>, [
       [<item:druidcraft:amber>, <item:druidcraft:amber>],
       [<item:druidcraft:amber>, <item:druidcraft:amber>],
 ]);
+
+//New ancient debris recipes
+<recipetype:create:crushing>.addRecipe("ancient_debris", [<item:minecraft:netherite_scrap>*4], <item:minecraft:ancient_debris>);
+
