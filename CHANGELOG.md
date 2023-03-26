@@ -1,6 +1,13 @@
 ## Change Log
 
+### 0.0.0 (2023/03/26)
+
+- cleanup/revamp for new pack version
+
+
+
 ### 1.0.1 (2021/07/08 19:40 +00:00)
+
 - [3e4e137](https://github.com/kil0byt3/Substratum/commit/3e4e13726611a23e9f1096c3df73a287f7d2dde4) recipe: elderflower cordial now craftable (@kil0byt3)
 - [d01a130](https://github.com/kil0byt3/Substratum/commit/d01a130a674db01fc80ca7365e54dc46fa63d5ad) feat: Server pack brought inline with Main (@kil0byt3)
 - [6ffb66c](https://github.com/kil0byt3/Substratum/commit/6ffb66c53b81dc5d44baa80413e9b926287d2e53) feat: Default Options file saved (@kil0byt3)
