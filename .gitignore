@@ -6,3 +6,5 @@ usernamecache.json
 instance.cfg
 minecraft/config/fancymenu/locals/
 instance.cfg
+.DS_Store
+instance.cfg
