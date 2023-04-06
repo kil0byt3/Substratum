@@ -1,14 +1,14 @@
-name = "Konkrete"
-filename = "konkrete_forge_1.6.0_MC_1.19.4.jar"
+name = "Konkrete [Forge]"
+filename = "konkrete_forge_1.6.0_MC_1.19-1.19.2.jar"
 side = "both"
 
 [download]
-mode = "url"
-url = "https://cdn.modrinth.com/data/J81TRJWm/versions/fs2RdBWK/konkrete_forge_1.6.0_MC_1.19.4.jar"
-hash-format = "sha512"
-hash = "78a4c2a2d2ef82efec6841981480e1a2af500a75ab5df1d2973581e9df31822b2cb3bfdc18411fc52728109920c49f7eac057db25a9d8e59477f00f1388207ab"
+mode = "metadata:curseforge"
+url = ""
+hash-format = "sha1"
+hash = "ee067b9add82b9f12e4330daab5a28aebae0b956"
 
 [update]
-[update.modrinth]
-mod-id = "J81TRJWm"
-version = "fs2RdBWK"
+[update.curseforge]
+file-id = 4136430
+project-id = 410295

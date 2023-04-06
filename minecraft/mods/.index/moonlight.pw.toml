@@ -1,0 +1,14 @@
+name = "Moonlight Lib"
+filename = "moonlight-1.19.2-2.2.28-forge.jar"
+side = "both"
+
+[download]
+mode = "url"
+url = "https://cdn.modrinth.com/data/twkfQtEc/versions/JwDuktzc/moonlight-1.19.2-2.2.28-forge.jar"
+hash-format = "sha512"
+hash = "24bb3cecfe51607d338a7c225f9f12617d5f661b9db8ed0ad000fc6c8ba0322de2b5d46e55754f18f4e8bb367ef58f2b51fa8c53f0b2c2c6b3e316a945aa8924"
+
+[update]
+[update.modrinth]
+mod-id = "twkfQtEc"
+version = "JwDuktzc"
