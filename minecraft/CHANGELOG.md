@@ -1,6 +1,6 @@
 ## Change Log
 
-### 0.0.0 (2023/03/26)
+### 2.0.0 (2023/03/26)
 
 - cleanup/revamp for new pack version
 
