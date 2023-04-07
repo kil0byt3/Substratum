@@ -9,3 +9,4 @@ instance.cfg
 .DS_Store
 instance.cfg
 minecraft/crash-reports/
+minecraft/rhino.local.properties
