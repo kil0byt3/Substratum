@@ -10,3 +10,5 @@ instance.cfg
 instance.cfg
 minecraft/crash-reports/
 minecraft/rhino.local.properties
+minecraft/fancymenu_data/last_world.fmdata
+minecraft/saves/
