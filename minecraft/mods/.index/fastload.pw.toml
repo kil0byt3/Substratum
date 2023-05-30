@@ -3,12 +3,12 @@ filename = "Fastload-Reforged-2.6.9+1.19.2.jar"
 side = "both"
 
 [download]
-mode = "url"
-url = "https://cdn.modrinth.com/data/kCpssoSb/versions/Jy0nBwT7/Fastload-Reforged-2.6.9%2B1.19.2.jar"
-hash-format = "sha512"
-hash = "c9b683b949b25c7344f7df21699cb25876569c2aeb2f7d0a5590a80e67393fe60c822bea06d82cbe08260a01836701711a39aabafd0128fc1c83c50db5fe632d"
+mode = "metadata:curseforge"
+url = ""
+hash-format = "sha1"
+hash = "ec0ef78a74af71033f661589f17415e422197074"
 
 [update]
-[update.modrinth]
-mod-id = "kCpssoSb"
-version = "Jy0nBwT7"
+[update.curseforge]
+file-id = 4271606
+project-id = 630620
