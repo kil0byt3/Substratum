@@ -12,3 +12,5 @@ minecraft/crash-reports/
 minecraft/rhino.local.properties
 minecraft/fancymenu_data/last_world.fmdata
 minecraft/saves/
+minecraft/XaeroWorldMap/*
+minecraft/ESM/*
