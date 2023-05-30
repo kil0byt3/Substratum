@@ -1,5 +1,19 @@
 {
   "bookGuiScale": 0,
   "clickedVisualize": false,
-  "bookData": {}
+  "bookData": {
+    "deeperdarker:wanderers_notebook": {
+      "viewedEntries": [
+        "deeperdarker:blocks/echo_wood",
+        "deeperdarker:blocks/sculk_vegetation",
+        "deeperdarker:mobs/sculk_leech",
+        "deeperdarker:mobs/sculk_snapper",
+        "deeperdarker:mobs/shriek_worm",
+        "deeperdarker:mobs/shattered",
+        "deeperdarker:mobs/stalker"
+      ],
+      "bookmarks": [],
+      "completedManualQuests": []
+    }
+  }
 }

@@ -1,0 +1,14 @@
+name = "Scannable"
+filename = "scannable-MC1.19.2-forge-1.7.7+dc5ea09.jar"
+side = "both"
+
+[download]
+mode = "metadata:curseforge"
+url = ""
+hash-format = "sha1"
+hash = "1c4b3cea8e226973a1e39a9d7601cb6921255702"
+
+[update]
+[update.curseforge]
+file-id = 4284889
+project-id = 266784
