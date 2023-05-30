@@ -1,0 +1,14 @@
+name = "Create Ore Excavation"
+filename = "createoreexcavation-1.19-1.2.0.jar"
+side = "both"
+
+[download]
+mode = "metadata:curseforge"
+url = ""
+hash-format = "sha1"
+hash = "53b0ec19eb08c969fb43094d45e2a611b4e16330"
+
+[update]
+[update.curseforge]
+file-id = 4548257
+project-id = 649832
