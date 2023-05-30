@@ -49,6 +49,9 @@
   "jadeaddons": {
     "equipment_requirement": ""
   },
+  "enigmaticgraves": {
+    "grave": true
+  },
   "immersiveengineering": {
     "hemp": true,
     "multiblock_icon": true

@@ -1,0 +1,14 @@
+name = "ChoiceTheorem's Overhauled Village"
+filename = "ctov-3.2.1.jar"
+side = "both"
+
+[download]
+mode = "metadata:curseforge"
+url = ""
+hash-format = "sha1"
+hash = "37c07fde28f5c04d13ca251307055a58ecbda17a"
+
+[update]
+[update.curseforge]
+file-id = 4534045
+project-id = 623908

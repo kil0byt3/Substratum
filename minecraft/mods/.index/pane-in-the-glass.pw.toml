@@ -1,0 +1,14 @@
+name = "Pane In The Glass"
+filename = "pitg-1.19.1-2.1.2.jar"
+side = "both"
+
+[download]
+mode = "metadata:curseforge"
+url = ""
+hash-format = "sha1"
+hash = "1c93d1d33abd0b7564f95a810ea9d7b8afa1bcb4"
+
+[update]
+[update.curseforge]
+file-id = 4111500
+project-id = 374529
