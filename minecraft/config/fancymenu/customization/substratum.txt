@@ -9,21 +9,27 @@ customization-meta {
 }
 
 customization {
-  name = valhelsia
-  action = setbackgroundpanorama
-}
-
-customization {
   keepaspectratio = false
   action = backgroundoptions
 }
 
 customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_copyright_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_copyright_button%
+  action = sethoverlabel
+  label = 
+}
+
+customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
   orientation = mid-centered
-  x = -80
+  x = -254
   action = movebutton
-  y = 18
+  y = -91
 }
 
 customization {
@@ -81,9 +87,9 @@ customization {
 customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
   orientation = mid-centered
-  x = -80
+  x = -254
   action = movebutton
-  y = 54
+  y = -49
 }
 
 customization {
@@ -111,9 +117,9 @@ customization {
 customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
   orientation = mid-centered
-  x = -80
+  x = -255
   action = movebutton
-  y = 90
+  y = -1
 }
 
 customization {
@@ -171,9 +177,9 @@ customization {
 customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
   orientation = mid-centered
-  x = -80
+  x = -255
   action = movebutton
-  y = -18
+  y = -131
 }
 
 customization {
@@ -196,6 +202,36 @@ customization {
   action = setbuttontexture
   backgroundhovered = kubejs\assets\custom-menu\textures\gui\singleplayer-hover-button.png
   backgroundnormal = kubejs\assets\custom-menu\textures\gui\singleplayer-button.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  orientation = bottom-left
+  x = 120
+  action = movebutton
+  y = -40
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  width = 160
+  action = resizebutton
+  height = 34
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  action = setbuttonlabel
+  value =      Mods
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = kubejs\assets\custom-menu\textures\gui\mods-hover-button.png
+  backgroundnormal = kubejs\assets\custom-menu\textures\gui\mods-button.png
 }
 
 customization {
@@ -274,11 +310,11 @@ customization {
 customization {
   path = kubejs/assets/custom-menu/textures/gui/valhelsia.png
   orientation = top-centered
-  x = -77
+  x = -250
   width = 155
   action = addtexture
   actionid = 06f4d2a6-41be-4fbe-8e61-98ce912fa3461639130597244
-  y = 115
+  y = 164
   height = 66
 }
 
@@ -315,43 +351,35 @@ customization {
 }
 
 customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_copyright_button%
-  action = hidebutton
+  orientation = top-left
+  enable_scrolling = true
+  shadow = true
+  scale = 1.0
+  source = https://raw.githubusercontent.com/kil0byt3/Substratum/main/news.txt
+  text_border = 0
+  case_mode = normal
+  source_mode = web
+  line_spacing = 1
+  x = 758
+  width = 329
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = a7830eb5-6e33-424f-bacb-8392eb4978261685500770723
+  y = 252
+  alignment = left
+  height = 145
 }
 
 customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_copyright_button%
-  action = sethoverlabel
-  label = 
-}
-
-customization {
-  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
-  orientation = bottom-left
-  x = 120
-  action = movebutton
-  y = -40
-}
-
-customization {
-  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
-  width = 160
-  action = resizebutton
-  height = 34
-}
-
-customization {
-  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
-  action = setbuttonlabel
-  value =      Mods
-}
-
-customization {
-  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  orientation = top-left
   loopbackgroundanimations = true
   restartbackgroundanimations = true
-  action = setbuttontexture
-  backgroundhovered = kubejs\assets\custom-menu\textures\gui\mods-hover-button.png
-  backgroundnormal = kubejs\assets\custom-menu\textures\gui\mods-button.png
+  buttonaction = openlink;https://github.com/kil0byt3/Substratum/blob/main/CHANGELOG.md%btnaction_splitter_fm%
+  x = 1062
+  width = 100
+  action = addbutton
+  actionid = 673ae311-3a26-4f93-a589-cb84d7219e4b1685500923122
+  y = 545
+  label = Changelog
+  height = 20
 }
 
