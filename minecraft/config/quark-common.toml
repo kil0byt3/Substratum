@@ -109,12 +109,12 @@
 	"Vertical Slabs" = true
 	"Vertical Planks" = true
 	"Variant Ladders" = true
-	"Variant Furnaces" = true
+	"Variant Furnaces" = false
 	"Variant Chests" = true
 	"Variant Bookshelves" = true
 	Thatch = true
 	"Sturdy Stone" = true
-	Stools = true
+	Stools = false
 	"Soul Sandstone" = true
 	Shingles = true
 	"Shear Vines" = true
@@ -278,7 +278,7 @@
 	"Quick Armor Swapping" = true
 	"Item Sharing" = true
 	"Inventory Sorting" = false
-	"Hotbar Changer" = true
+	"Hotbar Changer" = false
 	"Expanded Item Interactions" = true
 	"Easy Transfering" = false
 	"Automatic Tool Restock" = true
@@ -333,7 +333,7 @@
 	"Pathfinder Maps" = true
 	"Parrot Eggs" = true
 	"Endermosh Music Disc" = true
-	"Color Runes" = true
+	"Color Runes" = false
 	"Bundle Recipe" = true
 	"Bottled Cloud" = true
 	"Beacon Redirection" = true
@@ -722,16 +722,16 @@
 	"Spiral Spires" = true
 	Permafrost = true
 	"No More Lava Pockets" = true
-	"New Stone Types" = true
+	"New Stone Types" = false
 	"Nether Obsidian Spikes" = true
 	"Monster Box" = true
 	"Glimmering Weald" = true
 	"Fairy Rings" = true
-	Corundum = true
+	Corundum = false
 	"Chorus Vegetation" = true
-	"Blossom Trees" = true
+	"Blossom Trees" = false
 	"Big Stone Clusters" = true
-	"Azalea Wood" = true
+	"Azalea Wood" = false
 	"Ancient Wood" = true
 
 	[world.spiral_spires]
@@ -1474,7 +1474,7 @@
 
 [client]
 	"Wool Shuts Up Minecarts" = true
-	"Variant Animal Textures" = true
+	"Variant Animal Textures" = false
 	"Uses For Curses" = true
 	"Usage Ticker" = true
 	"Soul Candles" = true
