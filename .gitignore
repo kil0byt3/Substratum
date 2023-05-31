@@ -16,3 +16,6 @@ minecraft/XaeroWorldMap/*
 minecraft/ESM/*
 minecraft/screenshots/*
 minecraft/XaeroWaypoints/*
+minecraft/config/oculus.properties
+minecraft/config/reforgium-renderer.properties
+minecraft/config/fastload.properties
