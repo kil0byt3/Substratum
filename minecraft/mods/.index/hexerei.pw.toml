@@ -1,0 +1,14 @@
+name = "Hexerei"
+filename = "hexerei-0.3.2.2.jar"
+side = "both"
+
+[download]
+mode = "metadata:curseforge"
+url = ""
+hash-format = "sha1"
+hash = "73b2b455207bd47d7ec822299262b8df78b31989"
+
+[update]
+[update.curseforge]
+file-id = 4558662
+project-id = 548599

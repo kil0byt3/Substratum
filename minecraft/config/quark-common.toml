@@ -1483,7 +1483,7 @@
 	"Improved Tooltips" = true
 	"Greener Grass" = true
 	"Elytra Indicator" = true
-	"Chest Searching" = true
+	"Chest Searching" = false
 	Camera = true
 	"Back Button Keybind" = true
 	"Auto Walk Keybind" = true
