@@ -1,0 +1,14 @@
+name = "Calm Mornings"
+filename = "calmmornings-1.19.3-2.0.2.jar"
+side = "both"
+
+[download]
+mode = "metadata:curseforge"
+url = ""
+hash-format = "sha1"
+hash = "e2e1de3f3b9e0898e329568cdab4e372bbe8bf4f"
+
+[update]
+[update.curseforge]
+file-id = 4166525
+project-id = 683324

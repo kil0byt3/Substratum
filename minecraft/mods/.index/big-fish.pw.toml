@@ -1,0 +1,14 @@
+name = "Big Fish"
+filename = "bigfish-1.19.2-1.0.0.jar"
+side = "both"
+
+[download]
+mode = "metadata:curseforge"
+url = ""
+hash-format = "sha1"
+hash = "9c3492268714fdba9ab6684102a040a982a99339"
+
+[update]
+[update.curseforge]
+file-id = 4055291
+project-id = 645121
