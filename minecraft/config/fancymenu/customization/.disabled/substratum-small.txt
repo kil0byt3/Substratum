@@ -29,9 +29,9 @@ customization {
 customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
   orientation = mid-centered
-  x = -254
+  x = -80
   action = movebutton
-  y = -91
+  y = -17
 }
 
 customization {
@@ -89,9 +89,9 @@ customization {
 customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
   orientation = mid-centered
-  x = -254
+  x = -80
   action = movebutton
-  y = -49
+  y = 23
 }
 
 customization {
@@ -119,9 +119,9 @@ customization {
 customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
   orientation = mid-centered
-  x = -255
+  x = -80
   action = movebutton
-  y = -1
+  y = 63
 }
 
 customization {
@@ -179,9 +179,9 @@ customization {
 customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
   orientation = mid-centered
-  x = -255
+  x = -80
   action = movebutton
-  y = -131
+  y = -55
 }
 
 customization {
@@ -312,11 +312,11 @@ customization {
 customization {
   path = kubejs/assets/custom-menu/textures/gui/valhelsia.png
   orientation = top-centered
-  x = -250
+  x = -77
   width = 155
   action = addtexture
   actionid = 06f4d2a6-41be-4fbe-8e61-98ce912fa3461639130597244
-  y = 164
+  y = 217
   height = 66
 }
 
@@ -362,11 +362,11 @@ customization {
   case_mode = normal
   source_mode = web
   line_spacing = 1
-  x = 758
+  x = 803
   width = 329
   action = custom_layout_element:fancymenu_customization_item_text
   actionid = a7830eb5-6e33-424f-bacb-8392eb4978261685500770723
-  y = 252
+  y = 187
   alignment = left
   height = 145
 }
