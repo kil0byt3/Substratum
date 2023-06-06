@@ -1,3 +1,4 @@
+/*
 onEvent("recipes", (event) => {
     // Removal Object
 
@@ -5,7 +6,7 @@ onEvent("recipes", (event) => {
     Examples:
         { output: "create:blaze_cake" },
         { type: "create:milling", output: "minecraft:gunpowder" },
-    */
+    
 
     // Output, Input, Type, Mod
 
@@ -15,3 +16,4 @@ onEvent("recipes", (event) => {
         event.remove(recipe);
     });
 });
+*/
