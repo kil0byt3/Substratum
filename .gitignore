@@ -22,3 +22,4 @@ minecraft/config/fastload.properties
 minecraft/bluemap/web/*
 minecraft/config/bluemap/maps/*
 minecraft/config/chunky/tasks/*
+minecraft/options.txt
