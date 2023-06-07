@@ -530,8 +530,8 @@
 	"Double Door Opening" = true
 	"Coral On Cactus" = true
 	"Compasses Work Everywhere" = true
-	"Campfires Boost Elytra" = true
-	"Better Elytra Rocket" = true
+	"Campfires Boost Elytra" = false
+	"Better Elytra Rocket" = false
 	"Automatic Recipe Unlock" = true
 	"Armed Armor Stands" = true
 	"Slimes To Magma Cubes" = true
@@ -690,8 +690,8 @@
 		"Enable End" = true
 
 	[tweaks.campfires_boost_elytra]
-		"Boost Strength" = 0.5
-		"Max Speed" = 1.0
+		"Boost Strength" = 2.0
+		"Max Speed" = 2.0
 
 	[tweaks.automatic_recipe_unlock]
 		#A list of recipe names that should NOT be added in by default
