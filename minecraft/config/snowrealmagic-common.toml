@@ -14,7 +14,6 @@ snowReduceFallDamage = true
 replaceWorldFeature = true
 sustainGrassIfLayerMoreThanOne = true
 retainOriginalBlocks = false
-advancedBlockInteraction = true
 sneakSnowball = true
 mobSpawningMaxLayers = 8
 
