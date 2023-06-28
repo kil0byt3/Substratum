@@ -559,14 +559,14 @@
 
 [Animals]
 	#Make animals fight back and no longer flee when attacked
-	"Enable Animal Attacking" = true
+	"Enable Animal Attacking" = false
 
 	#Make animals fight back and no longer flee when attacked
 	[Animals."Animal Attacking"]
 		#If true, when attacked, animals will call other animals for help and attack back. Animals have a slightly bigger range to attack. Attack damage can't be changed via config due to limitation so use mods like Mobs Properties Randomness to change the damage. Base damage is 4
-		"Animals Fight back" = true
+		"Animals Fight back" = false
 		#If true, when attacked, animals will no longer flee.
-		"Animals No Longer Flee" = true
+		"Animals No Longer Flee" = false
 		#Movement speed multiplier when aggroed.
 		#Range: 0.0 ~ 4.0
 		"Movement Speed Multiplier" = 1.35
