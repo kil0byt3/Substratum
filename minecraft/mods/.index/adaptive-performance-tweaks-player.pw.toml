@@ -1,0 +1,14 @@
+name = "Adaptive Performance Tweaks: Player Login Optimization and Protection"
+filename = "adaptive_performance_tweaks_player_1.19.2-6.8.0.jar"
+side = "both"
+
+[download]
+mode = "metadata:curseforge"
+url = ""
+hash-format = "sha1"
+hash = "c0ea0ec99309f80d354fee9ef5ee53a695d8ea0d"
+
+[update]
+[update.curseforge]
+file-id = 4521941
+project-id = 563963
