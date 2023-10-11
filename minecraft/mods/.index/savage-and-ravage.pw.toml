@@ -1,14 +1,14 @@
 name = "Savage & Ravage"
-filename = "savage_and_ravage-1.19.2-5.0.4.jar"
+filename = "savage_and_ravage-1.19.2-5.0.5.jar"
 side = "both"
 
 [download]
 mode = "metadata:curseforge"
 url = ""
 hash-format = "sha1"
-hash = "e03d16ad6698c9494c7980ea3f7f7b676523ca28"
+hash = "ef5a95e035af657ec5ee66e01fe5d9e00e596433"
 
 [update]
 [update.curseforge]
-file-id = 4429231
+file-id = 4776245
 project-id = 381736

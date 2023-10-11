@@ -1,14 +1,14 @@
 name = "Walkie-Talkie"
-filename = "walkietalkie-forge-1.19.2-1.2.0.jar"
+filename = "walkietalkie-forge-1.19.2-1.2.2.jar"
 side = "both"
 
 [download]
 mode = "metadata:curseforge"
 url = ""
 hash-format = "sha1"
-hash = "94602b0204e68cb35af8599a43f9b14ea989bdc8"
+hash = "e2c5ac79c29b0d7eb4c6019f3f9e525c35c47771"
 
 [update]
 [update.curseforge]
-file-id = 4546337
+file-id = 4732326
 project-id = 825621

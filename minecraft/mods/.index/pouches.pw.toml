@@ -1,14 +1,14 @@
 name = "Pouches"
-filename = "seedpouch-1.4.jar"
+filename = "seedpouch-1.5.jar"
 side = "both"
 
 [download]
 mode = "metadata:curseforge"
 url = ""
 hash-format = "sha1"
-hash = "ba1b41faece1956e3c154f99f8277d7115217151"
+hash = "1664f6af4a94439d8c467cae2f2f8b5ca7cc8c8c"
 
 [update]
 [update.curseforge]
-file-id = 4483409
+file-id = 4677045
 project-id = 835320

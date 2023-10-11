@@ -1,14 +1,14 @@
 name = "Raised"
-filename = "raised-forge-1.19.2-1.2.2.jar"
+filename = "raised-forge-1.19.2-3.0.0.jar"
 side = "both"
 
 [download]
 mode = "metadata:curseforge"
 url = ""
 hash-format = "sha1"
-hash = "74b2f312c3c54fd5dd4a33df67fa7c12de0f6b7f"
+hash = "7f6091b08d4fcc442f607cacbd71afa9c6808fd4"
 
 [update]
 [update.curseforge]
-file-id = 4457439
+file-id = 4787084
 project-id = 570368

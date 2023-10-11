@@ -1,14 +1,14 @@
 name = "Structure Essentials mod"
-filename = "structureessentials-1.19.2-2.9.jar"
+filename = "structureessentials-1.19.2-3.1.jar"
 side = "both"
 
 [download]
 mode = "metadata:curseforge"
 url = ""
 hash-format = "sha1"
-hash = "9e3822add6d9164d6e1740062e8d79d12d75bc84"
+hash = "fc28ab54f551c31b1029d489c56208f9ec82d16f"
 
 [update]
 [update.curseforge]
-file-id = 4594746
+file-id = 4764987
 project-id = 832882

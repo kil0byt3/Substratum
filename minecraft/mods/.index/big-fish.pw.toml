@@ -1,14 +1,14 @@
 name = "Big Fish"
-filename = "bigfish-1.19.2-1.0.0.jar"
+filename = "bigfish-1.19.2-1.1.1.jar"
 side = "both"
 
 [download]
 mode = "metadata:curseforge"
 url = ""
 hash-format = "sha1"
-hash = "9c3492268714fdba9ab6684102a040a982a99339"
+hash = "a02b954e476b6362d7e9b8dd7b2745f5d1f13a93"
 
 [update]
 [update.curseforge]
-file-id = 4055291
+file-id = 4666459
 project-id = 645121

@@ -1,14 +1,14 @@
-name = "Sky Villages [Forge]"
-filename = "SkyVillages-1.0.1-1.19-forge-release.jar"
+name = "Sky Villages"
+filename = "SkyVillages-1.0.3-1.19.2-1.20.x-forge-release.jar"
 side = "both"
 
 [download]
 mode = "metadata:curseforge"
 url = ""
 hash-format = "sha1"
-hash = "14f58d5f7f9a2fab9d6142d4c03ecadd2316120d"
+hash = "aba8ee1271e9d4ebf7fdeca11adf149f86173be4"
 
 [update]
 [update.curseforge]
-file-id = 3857435
+file-id = 4787087
 project-id = 545467

@@ -1,14 +1,14 @@
 name = "Roughly Enough Items (REI)"
-filename = "RoughlyEnoughItems-9.1.619.jar"
+filename = "RoughlyEnoughItems-9.1.663.jar"
 side = "both"
 
 [download]
 mode = "metadata:curseforge"
 url = ""
 hash-format = "sha1"
-hash = "a4adc9d40bffa6c50a6ef7dbada81beaf24ff13b"
+hash = "4c2c1369622e9fb44b83ac05857ff264c9fa1e1c"
 
 [update]
 [update.curseforge]
-file-id = 4573157
+file-id = 4774386
 project-id = 310111

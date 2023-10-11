@@ -1,14 +1,14 @@
 name = "Upgrade Aquatic"
-filename = "upgrade_aquatic-1.19.2-5.0.0.jar"
+filename = "upgrade_aquatic-1.19.2-5.1.0.jar"
 side = "both"
 
 [download]
 mode = "metadata:curseforge"
 url = ""
 hash-format = "sha1"
-hash = "b4ca5d2f1004d887119368a893d257849a73e59f"
+hash = "0666a1e2ae0f21481f939ad9c9b36dbe8062feb3"
 
 [update]
 [update.curseforge]
-file-id = 4415517
+file-id = 4777515
 project-id = 326895

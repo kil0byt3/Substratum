@@ -1,14 +1,14 @@
 name = "Automobility"
-filename = "automobility-0.4.1+1.19.2-forge.jar"
+filename = "automobility-0.4.2+1.19.2-forge.jar"
 side = "both"
 
 [download]
 mode = "metadata:curseforge"
 url = ""
 hash-format = "sha1"
-hash = "d6aed788d21e09d6bdb933cf47807965825aca90"
+hash = "6679abd4f3777dea770ef46a520983c6aa1f00f6"
 
 [update]
 [update.curseforge]
-file-id = 4109699
+file-id = 4613200
 project-id = 658286
