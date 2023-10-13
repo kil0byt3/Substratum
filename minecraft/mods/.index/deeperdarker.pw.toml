@@ -1,14 +1,14 @@
 name = "Deeper and Darker"
-filename = "deeperdarker-forge-1.1.6-forge.jar"
+filename = "deeperdarker-forge-1.20.1-1.2.0.jar"
 side = "both"
 
 [download]
 mode = "metadata:curseforge"
 url = ""
 hash-format = "sha1"
-hash = "74cdf566a59c6d5a4fc58d4a734b05bd234cec75"
+hash = "c2cc633ba30c49c2e9bc2d645acd418531b025da"
 
 [update]
 [update.curseforge]
-file-id = 4166676
+file-id = 4715374
 project-id = 659011

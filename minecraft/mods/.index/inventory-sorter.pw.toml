@@ -1,14 +1,14 @@
 name = "Simple Inventory Sorter"
-filename = "inventorysorter-22.0.0.jar"
+filename = "inventorysorter-1.20.1-23.0.1.jar"
 side = "both"
 
 [download]
 mode = "metadata:curseforge"
 url = ""
 hash-format = "sha1"
-hash = "1ce8c900fbe55c7031daefdf30c0e3e9ba2fd77e"
+hash = "32e30b71d7ef67b306a24191c655528509454cb5"
 
 [update]
 [update.curseforge]
-file-id = 4565642
+file-id = 4655091
 project-id = 240633

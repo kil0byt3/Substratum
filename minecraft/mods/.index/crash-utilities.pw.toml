@@ -1,14 +1,14 @@
 name = "Crash Utilities"
-filename = "crashutilities-6.2.jar"
+filename = "crashutilities-8.1.4.jar"
 side = "both"
 
 [download]
 mode = "metadata:curseforge"
 url = ""
 hash-format = "sha1"
-hash = "77f7831d5a267d85b997bed44fd5f95cad6f3a46"
+hash = "e3c00b7591fd5ea99cfbb853b9369fb999d68ed0"
 
 [update]
 [update.curseforge]
-file-id = 4406293
+file-id = 4716086
 project-id = 371813

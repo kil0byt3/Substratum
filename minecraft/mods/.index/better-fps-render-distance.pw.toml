@@ -1,14 +1,14 @@
 name = "betterfpsdist mod"
-filename = "betterfpsdist-1.19.2-3.9.jar"
+filename = "betterfpsdist-1.20.1-3.9.jar"
 side = "both"
 
 [download]
 mode = "metadata:curseforge"
 url = ""
 hash-format = "sha1"
-hash = "4e7e62e30bd00e837530c257ddd2276129499e12"
+hash = "d853e1d3c5639f7a635667f809105dc00a735d1d"
 
 [update]
 [update.curseforge]
-file-id = 4764882
+file-id = 4764883
 project-id = 551520

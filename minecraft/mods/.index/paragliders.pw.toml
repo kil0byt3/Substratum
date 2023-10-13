@@ -1,14 +1,14 @@
-name = "Paragliders"
-filename = "Paraglider-1.19.2-1.7.0.5.jar"
+name = "Paraglider"
+filename = "Paraglider-forge-20.1.1.jar"
 side = "both"
 
 [download]
 mode = "metadata:curseforge"
 url = ""
 hash-format = "sha1"
-hash = "557f5f04d3a326d1090d7bf8c231354564bfbe31"
+hash = "b3286be3a6f5a5cc9dda5fdfc2da2383e5dd16f6"
 
 [update]
 [update.curseforge]
-file-id = 4478230
+file-id = 4729765
 project-id = 289240

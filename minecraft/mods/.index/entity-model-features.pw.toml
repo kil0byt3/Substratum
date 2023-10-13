@@ -1,14 +1,14 @@
 name = "Entity Model Features"
-filename = "entity_model_features_forge_1.19.2-1.0.2.jar"
+filename = "entity_model_features_forge_1.20-1.0.2.jar"
 side = "both"
 
 [download]
 mode = "metadata:curseforge"
 url = ""
 hash-format = "sha1"
-hash = "7db169a62078efdd2080dc0dea4e720284d9d200"
+hash = "86793540f63ccbbf72e08e3f72a9611648072a0b"
 
 [update]
 [update.curseforge]
-file-id = 4764668
+file-id = 4759939
 project-id = 844662

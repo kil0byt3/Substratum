@@ -1,14 +1,14 @@
 name = "Game Menu Remove GFARB"
-filename = "GameMenuRemoveGFARB-1.19-1.6.jar"
+filename = "gamemenuremovegfarb-forge-mc1.19.4-2.1.2.jar"
 side = "both"
 
 [download]
 mode = "metadata:curseforge"
 url = ""
 hash-format = "sha1"
-hash = "272a972fbd459a04067107d27aa5c894306de1f1"
+hash = "122deb73346968f7a78cbe1e86e17759110c5cc6"
 
 [update]
 [update.curseforge]
-file-id = 3866714
+file-id = 4664631
 project-id = 420519

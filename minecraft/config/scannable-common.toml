@@ -29,14 +29,13 @@
 	#Amount of energy used by the entity module per scan.
 	#Range: > 0
 	energyCostModuleEntity = 75
+	#Amount of energy used by the chest module per scan.
+	#Range: > 0
+	energyCostModuleChest = 100
 
 [general]
 	#The basic scan radius without range modules. Higher values mean more computational
 	#overhead and thus potentially worse performance while scanning.
-	#IMPORTANT: some modules such as the block and ore scanner modules will already use
-	#a reduced radius based on this value. Specifically, the ore scanners multiply this
-	#value by 0.25, and the block scanner multiplies it by 0.5.
-	#Range modules will boost the range by half this value.
 	#Range: 16 ~ 128
 	baseScanRadius = 64
 	#How long the results from a scan should remain visible, in milliseconds.
@@ -68,4 +67,30 @@
 [fluids]
 	#Fluid tags of fluids that should be ignored.
 	ignoredFluidTags = []
+
+[range]
+	#Relative amount of base scan radius added by each installed range module.
+	#Range: 0.0 ~ 1.0
+	rangeModifierModuleRange = 0.5
+	#Relative effective range of the common ore module.
+	#Range: 0.0 ~ 1.0
+	rangeModifierModuleOreCommon = 0.25
+	#Relative effective range of the rare ore module.
+	#Range: 0.0 ~ 1.0
+	rangeModifierModuleOreRare = 0.25
+	#Relative effective range of the block module.
+	#Range: 0.0 ~ 1.0
+	rangeModifierModuleBlock = 0.5
+	#Relative effective range of the fluid module.
+	#Range: 0.0 ~ 1.0
+	rangeModifierModuleFluid = 0.5
+	#Relative effective range of the chest module.
+	#Range: 0.0 ~ 1.0
+	rangeModifierModuleChest = 0.25
+
+[chests]
+	#Registry names of blocks considered 'chests', requiring the chest scanner module.
+	commonChestBlocks = []
+	#Registry names of blocks considered 'chests', requiring the chest scanner module.
+	commonChestTags = ["forge:barrels", "forge:chests", "minecraft:shulker_boxes"]
 

@@ -1,14 +1,14 @@
-name = "Nimble (Forge)"
-filename = "Nimble-1.19.2-forge-3.1.1.jar"
+name = "Nimble"
+filename = "Nimble-1.20.1-forge-5.0.0.jar"
 side = "both"
 
 [download]
 mode = "metadata:curseforge"
 url = ""
 hash-format = "sha1"
-hash = "19c9c3187ef51ba9d746d3e76e20e7c4a925ffde"
+hash = "2d816a54fd993e92ddd44c2c218632abad4aa308"
 
 [update]
 [update.curseforge]
-file-id = 4364639
+file-id = 4742897
 project-id = 311927

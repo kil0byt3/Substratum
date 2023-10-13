@@ -1,0 +1,14 @@
+name = "Ancient Aether"
+filename = "ancient_aether-0.6.15.jar"
+side = "both"
+
+[download]
+mode = "metadata:curseforge"
+url = ""
+hash-format = "sha1"
+hash = "27c759d29f65563c94de4da5dc1710b83a5e5d42"
+
+[update]
+[update.curseforge]
+file-id = 4777053
+project-id = 886751

@@ -1,14 +1,14 @@
 name = "LootJS"
-filename = "lootjs-forge-1.19.2-2.9.1.jar"
+filename = "lootjs-forge-1.20.1-2.10.3.jar"
 side = "both"
 
 [download]
 mode = "metadata:curseforge"
 url = ""
 hash-format = "sha1"
-hash = "73d4569729843e1838d15aa0d63f933318d76790"
+hash = "2c1800e7dc5406e0dc67391ca6349c20b72ebd6d"
 
 [update]
 [update.curseforge]
-file-id = 4709099
+file-id = 4771655
 project-id = 570630

@@ -4,14 +4,24 @@
 	clock_block = true
 	redstone_illuminator = true
 	crank = true
-	faucet = true
 	cog_block = true
 	gold_door = true
 	gold_trapdoor = true
 	lock_block = true
-	dispenser_minecart = true
 	crystal_display = true
 	relayer = true
+
+	[redstone.faucet]
+		enabled = true
+		#Turn off to prevent faucets from dropping items
+		spill_items = true
+		#Allows faucets to fill entities inventories
+		fill_entities_below = false
+
+	[redstone.dispenser_minecart]
+		enabled = true
+		#Dispenser minecarts will have their dispenser facing forward instead of up
+		face_forward = false
 
 	[redstone.speaker_block]
 		enabled = true
@@ -20,6 +30,9 @@
 		#Maximum block range
 		#Range: 0 ~ 100000000
 		range = 64
+		#Max text
+		#Range: 0 ~ 10000
+		max_text = 32
 
 	[redstone.bellows]
 		enabled = true
@@ -148,21 +161,15 @@
 		player_loot = false
 		#Alternative mode for bamboo spikes. Allows only harmful effects to be applied on them and they obtain infinite durability
 		only_allow_harmful_effects = true
+		#Populate the creative inventory with all tipped spikes variations
+		populate_creative_tab = true
 
 	[functional.urn]
 		enabled = true
 		#Chance for an urn to spawn a critter from the urn_spawn tag
 		#Range: 0.0 ~ 1.0
 		critter_spawn_chance = 0.009999999776482582
-
-		[functional.urn.cave_urns]
-			enabled = true
-			#Attempts at every patch to spawn 1 block. Increases average patch size
-			#Range: 1 ~ 100
-			attempts_per_patch = 4
-			#Spawn attempts per chunk. Increases spawn frequency
-			#Range: 0 ~ 100
-			spawn_attempts = 7
+		cave_urns = true
 
 	[functional.soap]
 		enabled = true
@@ -171,18 +178,15 @@
 
 	[functional.flax]
 		enabled = true
-
-		[functional.flax.wild_flax]
-			enabled = true
-			#Spawn wild flax on average every 'x' chunks. Increases spawn frequency
-			#Range: 1 ~ 100
-			rarity = 6
-			#Attempts at every patch to spawn 1 block. Increases average patch size
-			#Range: 1 ~ 100
-			attempts_per_patch = 35
+		wild_flax = true
+		#How many trades to give to wandering trader
+		#Range: 0 ~ 10
+		wandering_trader_trades = 2
+		#How many trades to give to farmers
+		#Range: 0 ~ 10
+		farmer_trades = 1
 
 [building]
-	daub = true
 	lapis_bricks = true
 	deepslate_lamp = true
 	end_stone_lamp = true
@@ -196,13 +200,6 @@
 	pancake = true
 	netherite_door = true
 	netherite_trapdoor = true
-	silver_door = true
-	silver_trapdoor = true
-	lead_door = true
-	lead_trapdoor = true
-	hanging_sign = true
-	crimson_lantern = true
-	copper_lantern = true
 	checker_block = true
 	raked_gravel = true
 	feather_block = true
@@ -211,7 +208,14 @@
 	doormat = true
 	flint_block = true
 	candle_holder = true
-	ash_bricks = true
+
+	[building.daub]
+		enabled = true
+		wattle_and_daub = true
+
+	[building.ash_bricks]
+		enabled = true
+		mason_trades = true
 
 	[building.blackboard]
 		enabled = true
@@ -257,6 +261,8 @@
 		enabled = true
 		#Allows notice boards to accept and display any item, not just maps and books
 		allow_any_item = false
+		#Enables a GUI for the block. Not needed as the block just holds one item which you can place by clicking on it
+		gui = true
 
 	[building.pedestal]
 		enabled = true
@@ -270,15 +276,10 @@
 		ash_from_fire = true
 		#Allows rain to wash away ash layers overtime
 		rain_wash_ash = true
-
-		[building.ash.basalt_ash]
-			enabled = true
-			#Attempts at every patch to spawn 1 block. Increases average patch size
-			#Range: 1 ~ 1000
-			attempts_per_patch = 36
-			#Spawn attempts per chunk. Increases spawn frequency
-			#Range: 0 ~ 100
-			spawn_attempts = 15
+		#Use a datapack to tweak rarity
+		basalt_ash = true
+		#Burning mobs will drop ash when they die
+		ash_from_burning_mobs = true
 
 	[building.flag]
 		enabled = true
@@ -298,7 +299,7 @@
 		sepia_globe = true
 		#How many globe trades to give to the wandering trader. This will effectively increase the chance of him having a globe trader. Increase this if you have other mods that add stuff to that trader
 		#Range: 0 ~ 50
-		chance = 2
+		wandering_trader_trades = 2
 
 	[building.sign_post]
 		enabled = true
@@ -310,9 +311,13 @@
 			show_distance_text = true
 
 [tools]
-	antique_ink = true
 	candy = true
 	stasis = true
+	altimeter = true
+
+	[tools.antique_ink]
+		enabled = true
+		cartographer_trades = true
 
 	[tools.quiver]
 		enabled = true
@@ -321,13 +326,13 @@
 		#Arrow stacks that can fit inside a quiver. Requires reboot
 		#Range: 1 ~ 9
 		slots = 6
-		#Increase this number to alter the probability for a Skeleton with quiver to spawn. Note that this also depends on local difficulty so you wont ever see them on easy and very rarely on normal. Similar logic to equipment
-		#Range: 0.0 ~ 1.0
-		quiver_skeleton_chance = 0.2
 		#Allows quiver to only be used when in offhand or in curio slot
 		only_works_in_curio = false
 		#Arrows you pickup will try to go in a quiver if available provided it has some arrow of the same type
 		quiver_pickup = true
+		#Increase this number to alter the probability for a Skeleton with quiver to spawn. Note that this also depends on local difficulty so you wont ever see them on easy and very rarely on normal. Similar logic to equipment
+		#Range: 0.0 ~ 1.0
+		quiver_skeleton_spawn_chance = 0.03
 
 	[tools.bubble_blower]
 		enabled = true
@@ -375,7 +380,7 @@
 		#Do bombs break blocks like tnt?
 		#Allowed Values: ALL, WEAK, NONE
 		break_blocks = "WEAK"
-		#Put here any number other than 0 to have your bombs explode after a certaom amount of ticks instead than on contact
+		#Put here any number other than 0 to have your bombs explode after a certain amount of ticks instead than on contact
 		#Range: 0 ~ 100000
 		bomb_fuse = 0
 
@@ -400,6 +405,20 @@
 		stasis_deceleration = 0.9625
 		#Allow enderman to intercept any slingshot projectile
 		unrestricted_enderman_intercept = true
+		#Allows splash potions to be thrown by slingshots
+		allow_splash_potions = false
+		#Allows bombs to be thrown by slingshots
+		allow_bombs = false
+		#Allows fire charges to be thrown by slingshots
+		allow_fire_charges = false
+		#Allows snowballs to be thrown by slingshots
+		allow_snowballs = false
+
+	[tools.slice_map]
+		enabled = true
+		#Multiplier that will be applied by slice maps to lower their range compared to normal maps
+		#Range: 0.0 ~ 1.0
+		range_multiplier = 0.25
 
 #General settings
 [general]
@@ -413,7 +432,7 @@
 	debug_save_dynamic_pack = false
 	#Turn this on to disable any interaction on blocks placed by other players. This affects item shelves, signs, flower pots, and boards. Useful for protected servers. Note that it will affect only blocks placed after this is turned on and such blocks will keep being protected after this option is disabled
 	server_protection = false
-	#slightly increase this or decrease this number to tweak the red marchant spawn chance. Won't spawn at 0 and will spawn twice as often on 2
+	#slightly increase this or decrease this number to tweak the red merchant spawn chance. Won't spawn at 0 and will spawn twice as often on 2
 	#Range: 0.0 ~ 10.0
 	red_merchant_spawn_multiplier = 1.0
 
@@ -465,7 +484,7 @@
 		mod_blacklist = ["extlights", "betterendforge", "tconstruct", "enigmaticlegacy"]
 		#Allows ceiling lanterns to fall if their support is broken.Additionally if they fall from high enough they will break creating a fire where they land
 		#Allowed Values: ON, OFF, NO_FIRE
-		fallin_lanterns = "ON"
+		falling_lanterns = "ON"
 
 	[tweaks.bells_tweaks]
 		#Ring a bell by clicking on a chain that's connected to it
@@ -500,6 +519,8 @@
 		#bottling health cost
 		#Range: 0 ~ 20
 		cost = 2
+		#Block that should be clicked on for bottling to work. Leave blank for enchanting table. You can put another block here from another mod if you find it more fitting
+		target_block = ""
 
 	[tweaks.map_tweaks]
 		#Cartographers will sell 'adventurer maps' that will lead to a random vanilla structure (choosen from a thought out preset list).
@@ -517,6 +538,14 @@
 		#These maps will roll a difference structure every time. Decrease their max trades to balance them
 		#Range: 1 ~ 12
 		map_trade_max_trades = 2
+		#Shows a death marker on your map when you die. Requires a recovery compass in player inventory or similar
+		#Allowed Values: OFF, WITH_COMPASS, ALWAYS
+		death_marker = "WITH_COMPASS"
+		#Miminum search radius for quill. Used to incrase the radius of vanilla searches. For reference buried treasures are at 50 and locate is at 100 chunks
+		#Range: 10 ~ 600
+		min_search_radius = 75
+		#Makes blocks tagged as 'tinted_on_map' use their tint color. This allows for accurate biome colors for water and grass as well as other custom block that use any tint
+		tinted_blocks_on_maps = true
 
 	[tweaks.ceiling_banners]
 		#Allow banners to be placed on ceilings
@@ -546,6 +575,16 @@
 		zombie_horse_inverse_conversion = true
 
 	[tweaks.dye_blocks]
-		#Allows using dyes on blocks just like soap
+		#Allows using dye on blocks just like with soap
 		enabled = false
+
+	[tweaks.noteblocks_scare]
+		#Noteblocks with a zombie head will scare off villagers
+		enabled = true
+
+	[tweaks.bad_luck_tweaks]
+		#Hit a void cat, get the unluck
+		cat_unluck = true
+		#If you have unluck you are more likely to get hit by a lighting
+		lightning_unluck = true
 

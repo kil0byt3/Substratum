@@ -1,14 +1,14 @@
 name = "Scaffolding Drops Nearby"
-filename = "scaffoldingdropsnearby-1.19.2-3.0.jar"
+filename = "scaffoldingdropsnearby-1.20.1-3.0.jar"
 side = "both"
 
 [download]
 mode = "metadata:curseforge"
 url = ""
 hash-format = "sha1"
-hash = "bb69190f563e00d9c4c43e9fcaebc74227e1647a"
+hash = "25a40dc67fa4e2860b5c4039fdb664c364c8e849"
 
 [update]
 [update.curseforge]
-file-id = 4314674
+file-id = 4583511
 project-id = 412742

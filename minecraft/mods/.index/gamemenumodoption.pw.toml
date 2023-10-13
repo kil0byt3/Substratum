@@ -1,14 +1,14 @@
 name = "Game Menu Mod Option"
-filename = "gamemenumodoption-mc1.19.2-1.18.1.jar"
+filename = "gamemenumodoption-mc1.20.1-2.2.1.jar"
 side = "both"
 
 [download]
 mode = "metadata:curseforge"
 url = ""
 hash-format = "sha1"
-hash = "2c9be17d73d0c5b991237f49563926bccf269787"
+hash = "3de6257b1bac0cb2f4d19baee7234ec497876fec"
 
 [update]
 [update.curseforge]
-file-id = 4657763
+file-id = 4658132
 project-id = 353051

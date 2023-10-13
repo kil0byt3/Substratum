@@ -1,14 +1,14 @@
 name = "Even Better Amethyst"
-filename = "1.19.2-forge-betteramethyst-1.0.3.jar"
+filename = "1.20.1-betteramethyst-1.0.0.jar"
 side = "both"
 
 [download]
 mode = "metadata:curseforge"
 url = ""
 hash-format = "sha1"
-hash = "43f6ba3648f718f544a20a075eb0ebb68c4cc7a4"
+hash = "a34ee8f18b9967e49ad9758de9c0122065794768"
 
 [update]
 [update.curseforge]
-file-id = 4791191
+file-id = 4664583
 project-id = 559220

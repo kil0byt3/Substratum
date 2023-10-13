@@ -1,14 +1,14 @@
 name = "Cycle Paintings"
-filename = "cyclepaintings-1.19.2-3.2.jar"
+filename = "cyclepaintings-1.20.1-3.2.jar"
 side = "both"
 
 [download]
 mode = "metadata:curseforge"
 url = ""
 hash-format = "sha1"
-hash = "12673beb05558c641514336b2bb453c17c040965"
+hash = "9a87dd19fc35b46bfeddded637d1d45c6791f21f"
 
 [update]
 [update.curseforge]
-file-id = 4421668
+file-id = 4583690
 project-id = 345973

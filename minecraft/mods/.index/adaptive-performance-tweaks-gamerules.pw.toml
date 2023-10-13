@@ -1,14 +1,14 @@
-name = "Adaptive Performance Tweaks: Gamerules"
-filename = "adaptive_performance_tweaks_gamerules_1.19.2-6.8.0.jar"
+name = "APTweaks: Gamerules"
+filename = "adaptive_performance_tweaks_gamerules_1.20.1-9.1.0.jar"
 side = "both"
 
 [download]
 mode = "metadata:curseforge"
 url = ""
 hash-format = "sha1"
-hash = "879311ac10f269630e149f097c73698db54a24ad"
+hash = "2ac9614d8f2a1a798dbdc79693e932d76222e50f"
 
 [update]
 [update.curseforge]
-file-id = 4521937
+file-id = 4644520
 project-id = 561137

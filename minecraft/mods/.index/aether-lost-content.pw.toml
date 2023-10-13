@@ -1,0 +1,14 @@
+name = "Aether: Lost Content Addon"
+filename = "lost_aether_content-1.20.1-1.2.1.jar"
+side = "both"
+
+[download]
+mode = "metadata:curseforge"
+url = ""
+hash-format = "sha1"
+hash = "647da02298ea810f33a179c21a7f66dcbb8ae44c"
+
+[update]
+[update.curseforge]
+file-id = 4772926
+project-id = 318602

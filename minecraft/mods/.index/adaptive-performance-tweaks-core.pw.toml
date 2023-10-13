@@ -1,14 +1,14 @@
-name = "Adaptive Performance Tweaks: Core"
-filename = "adaptive_performance_tweaks_core_1.19.2-6.9.1.jar"
+name = "APTweaks: Core"
+filename = "adaptive_performance_tweaks_core_1.20.1-9.1.0.jar"
 side = "both"
 
 [download]
 mode = "metadata:curseforge"
 url = ""
 hash-format = "sha1"
-hash = "59bfb94a1970383d805586ad35dcfff7282b74dc"
+hash = "c2e6f6dabc01d7e952e42b23a8d08cb869f2f7e5"
 
 [update]
 [update.curseforge]
-file-id = 4558387
+file-id = 4644521
 project-id = 561087
