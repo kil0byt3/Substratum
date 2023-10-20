@@ -1,14 +1,14 @@
 name = "APTweaks: Player"
-filename = "adaptive_performance_tweaks_player_1.20.1-9.1.0.jar"
+filename = "adaptive_performance_tweaks_player_1.20.1-10.0.0.jar"
 side = "both"
 
 [download]
 mode = "metadata:curseforge"
 url = ""
 hash-format = "sha1"
-hash = "9e7d249b7dd6f53d7f902851186d217841b8d73d"
+hash = "243366a83721d4c737876b1fbef91ab5c43884c6"
 
 [update]
 [update.curseforge]
-file-id = 4644523
+file-id = 4800045
 project-id = 563963

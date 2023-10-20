@@ -1,14 +1,14 @@
 name = "UI Library Mod"
-filename = "blockui-1.20.1-0.0.94-ALPHA.jar"
+filename = "blockui-1.20.1-0.0.98-ALPHA.jar"
 side = "both"
 
 [download]
 mode = "metadata:curseforge"
 url = ""
 hash-format = "sha1"
-hash = "59b321613f5225ae961916ef775203c5098dd3ae"
+hash = "454bd935c2ad9932bd23a0e0a808e0942b64574e"
 
 [update]
 [update.curseforge]
-file-id = 4739794
+file-id = 4804271
 project-id = 522992

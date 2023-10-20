@@ -1,14 +1,14 @@
-name = "Dramatic Doors"
-filename = "DramaticDoors-QuiFabrge-1.20.1-3.0.3.jar"
+name = "Dramatic Doors (QuiFabrge)"
+filename = "DramaticDoors-QuiFabrge-1.20.1-3.1.0_1.jar"
 side = "both"
 
 [download]
 mode = "metadata:curseforge"
 url = ""
 hash-format = "sha1"
-hash = "e05260d956b97423f7bb071219dbb84dec81eaa8"
+hash = "d325290592c44dca708213a614952442d02c2a61"
 
 [update]
 [update.curseforge]
-file-id = 4766924
+file-id = 4805653
 project-id = 380617
