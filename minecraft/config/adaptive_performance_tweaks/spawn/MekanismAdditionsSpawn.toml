@@ -21,4 +21,10 @@
 	MaxHostileMobsPerWorld = 16
 	#List of hostile Mobs to optimize in the format ["minecraft:blaze", "minecraft:cave_spider", ..]
 	HostileMobsList = ["mekanismadditions:baby_creeper", "mekanismadditions:baby_enderman", "mekanismadditions:baby_skeleton", "mekanismadditions:baby_stray", "mekanismadditions:baby_wither_skeleton"]
+	#Range: 1 ~ 1024
+	MaxPassiveMobsPerServer = 320
+	#Range: 1 ~ 1024
+	MaxNeutralMobsPerServer = 320
+	#Range: 1 ~ 1024
+	MaxHostileMobsPerServer = 320
 

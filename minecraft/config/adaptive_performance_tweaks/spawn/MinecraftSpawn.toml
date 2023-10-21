@@ -45,4 +45,16 @@
 	MaxWaterHostileMobsPerWorld = 64
 	#List of hostile water Mobs to optimize
 	WaterHostileMobsList = ["minecraft:drowned", "minecraft:elder_guardian", "minecraft:guardian"]
+	#Range: 1 ~ 1024
+	MaxPassiveMobsPerServer = 320
+	#Range: 1 ~ 1024
+	MaxNeutralMobsPerServer = 320
+	#Range: 1 ~ 1024
+	MaxHostileMobsPerServer = 320
+	#Range: 1 ~ 1024
+	MaxWaterPassiveMobsPerServer = 320
+	#Range: 1 ~ 1024
+	MaxWaterNeutralMobsPerServer = 320
+	#Range: 1 ~ 1024
+	MaxWaterHostileMobsPerServer = 320
 

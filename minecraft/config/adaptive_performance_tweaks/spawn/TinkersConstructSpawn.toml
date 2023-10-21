@@ -9,4 +9,6 @@
 	MaxHostileMobsPerWorld = 24
 	#List of hostile Mobs to optimize in the format ["minecraft:blaze", "minecraft:cave_spider", ..]
 	HostileMobsList = ["tconstruct:earth_slime", "tconstruct:sky_slime", "tconstruct:ender_slime"]
+	#Range: 1 ~ 1024
+	MaxHostileMobsPerServer = 320
 

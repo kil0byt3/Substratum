@@ -21,4 +21,10 @@
 	MaxHostileMobsPerWorld = 32
 	#List of hostile Mobs to optimize in the format ["minecraft:blaze", "minecraft:cave_spider", ..]
 	HostileMobsList = ["panthalassa:anglerfish", "panthalassa:dunkleosteus", "panthalassa:giant_orthocone", "panthalassa:helicoprion", "panthalassa:kronosaurus", "panthalassa:megalodon", "panthalassa:mosasaurus", "panthalassa:thalassomedon"]
+	#Range: 1 ~ 1024
+	MaxPassiveMobsPerServer = 320
+	#Range: 1 ~ 1024
+	MaxNeutralMobsPerServer = 320
+	#Range: 1 ~ 1024
+	MaxHostileMobsPerServer = 320
 

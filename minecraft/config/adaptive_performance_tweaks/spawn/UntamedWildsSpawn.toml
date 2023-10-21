@@ -21,4 +21,10 @@
 	MaxHostileMobsPerWorld = 16
 	#List of hostile Mobs to optimize in the format ["minecraft:blaze", "minecraft:cave_spider", ..]
 	HostileMobsList = ["untamedwilds:bear_black", "untamedwilds:bear_blind", "untamedwilds:bear_brown", "untamedwilds:bear_cave", "untamedwilds:bear_panda", "untamedwilds:bear_polar", "untamedwilds:bear_spectacled", "untamedwilds:bear_sun", "untamedwilds:bigcat_jaguar", "untamedwilds:bigcat_leopard", "untamedwilds:bigcat_lion", "untamedwilds:bigcat_puma", "untamedwilds:bigcat_snow_leopard", "untamedwilds:bigcat_tiger", "untamedwilds:football_fish", "untamedwilds:hippo", "untamedwilds:shark", "untamedwilds:snake", "untamedwilds:tarantula"]
+	#Range: 1 ~ 1024
+	MaxPassiveMobsPerServer = 320
+	#Range: 1 ~ 1024
+	MaxNeutralMobsPerServer = 320
+	#Range: 1 ~ 1024
+	MaxHostileMobsPerServer = 320
 

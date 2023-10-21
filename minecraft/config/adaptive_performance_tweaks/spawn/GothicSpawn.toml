@@ -21,4 +21,10 @@
 	MaxHostileMobsPerWorld = 16
 	#List of hostile Mobs to optimize in the format ["minecraft:blaze", "minecraft:cave_spider", ..]
 	HostileMobsList = ["gothic:bloodfly", "gothic:bloodfly_hornet", "gothic:dragon_snapper", "gothic:gothic_wolf", "gothic:ice_wolf", "gothic:lurker", "gothic:molerat", "gothic:razor", "gothic:scavenger", "gothic:shadowbeast", "gothic:snapper", "gothic:stone_guardian", "gothic:warg"]
+	#Range: 1 ~ 1024
+	MaxPassiveMobsPerServer = 320
+	#Range: 1 ~ 1024
+	MaxNeutralMobsPerServer = 320
+	#Range: 1 ~ 1024
+	MaxHostileMobsPerServer = 320
 

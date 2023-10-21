@@ -9,4 +9,6 @@
 	MaxPassiveMobsPerWorld = 64
 	#List of passive Mobs to optimize in the format ["minecraft:bat", "minecraft:cat", ..]
 	PassiveMobsList = ["friendsandfoes:glare"]
+	#Range: 1 ~ 1024
+	MaxPassiveMobsPerServer = 320
 

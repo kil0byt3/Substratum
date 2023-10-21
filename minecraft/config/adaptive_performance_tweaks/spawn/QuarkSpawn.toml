@@ -21,4 +21,10 @@
 	MaxHostileMobsPerWorld = 32
 	#List of hostile Mobs to optimize in the format ["minecraft:blaze", "minecraft:cave_spider", ..]
 	HostileMobsList = ["quark:forgotten", "quark:foxhound", "quark:wraith"]
+	#Range: 1 ~ 1204
+	MaxPassiveMobsPerServer = 320
+	#Range: 1 ~ 1204
+	MaxNeutralMobsPerServer = 320
+	#Range: 1 ~ 1204
+	MaxHostileMobsPerServer = 320
 

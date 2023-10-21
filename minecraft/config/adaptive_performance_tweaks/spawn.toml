@@ -7,7 +7,7 @@
 	denyList = [""]
 	#General list of ignored dimensions.
 	spawnIgnoreDimensionList = ["minecraft:the_end"]
-	#Enable/Disable more aggressive spawn limitations.
+	#Enable/Disable more aggressive and strict spawn limitations.
 	spawnAggressiveMode = false
 
 ["View Area"]

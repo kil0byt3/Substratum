@@ -15,4 +15,8 @@
 	MaxNeutralMobsPerWorld = 32
 	#List of neutral Mobs to optimize in the format ["minecraft:bee", "minecraft:wolf", ..]
 	NeutralMobsList = ["untitledduckmod:goose"]
+	#Range: 1 ~ 1024
+	MaxPassiveMobsPerServer = 320
+	#Range: 1 ~ 1024
+	MaxNeutralMobsPerServer = 320
 

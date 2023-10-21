@@ -21,4 +21,10 @@
 	MaxHostileMobsPerWorld = 16
 	#List of hostile Mobs to optimize in the format ["minecraft:blaze", "minecraft:cave_spider", ..]
 	HostileMobsList = ["alexsmobs:alligator_snapping_turtle", "alexsmobs:bone_serpent", "alexsmobs:centipede_head", "alexsmobs:crimson_mosquito", "alexsmobs:crocodile", "alexsmobs:dropbear", "alexsmobs:enderiophage", "alexsmobs:grizzly_bear", "alexsmobs:guster", "alexsmobs:hammerhead_shark", "alexsmobs:komodo_dragon", "alexsmobs:leafcutter_ant", "alexsmobs:mimicube", "alexsmobs:rattlesnake", "alexsmobs:soul_vulture", "alexsmobs:straddler", "alexsmobs:warped_mosco"]
+	#Range: 1 ~ 1024
+	MaxPassiveMobsPerServer = 320
+	#Range: 1 ~ 1024
+	MaxNeutralMobsPerServer = 320
+	#Range: 1 ~ 1024
+	MaxHostileMobsPerServer = 320
 
