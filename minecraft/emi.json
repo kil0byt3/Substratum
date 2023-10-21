@@ -1,6 +1,16 @@
 {
   "favorites": [],
   "lookup_history": [
+    {
+      "type": "item",
+      "id": "alexscaves:energized_galena_neutral",
+      "amount": 2
+    },
+    "item:alexscaves:energized_galena_scarlet",
+    "item:alexscaves:scarlet_neodymium_pillar",
+    "item:alexscaves:cave_book",
+    "item:alexscaves:cave_tablet{CaveBiome:\"alexscaves:magnetic_caves\"}",
+    "item:create:crimsite",
     "item:minecraft:map",
     "item:create:shaft",
     "item:create:clutch",

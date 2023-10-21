@@ -1,7 +1,7 @@
 
 #Decorative Blocks Configs
 [general]
-	#Bonfire Activator (define a resource location
+	#Bonfire Activator, default: "minecraft:blaze_powder"
 	"bonfire activator" = "minecraft:blaze_powder"
 	#Disable thatch creation on shearing hay bale
 	"thatch enabled" = true

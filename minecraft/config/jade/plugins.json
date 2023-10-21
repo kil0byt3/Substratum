@@ -73,6 +73,9 @@
     "goggles.detailed": false,
     "placard": true
   },
+  "gravestone": {
+    "grave": true
+  },
   "lootr": {
     "info": true
   },
