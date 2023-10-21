@@ -1,0 +1,14 @@
+name = "EMI Trades (Villager Trading EMI Plugin)"
+filename = "emitrades-forge-1.2.0+mc1.20.1.jar"
+side = "both"
+
+[download]
+mode = "metadata:curseforge"
+url = ""
+hash-format = "sha1"
+hash = "a2b7ee1112db27daabd66f685f9eccae702c5ab6"
+
+[update]
+[update.curseforge]
+file-id = 4710789
+project-id = 735523

@@ -1,0 +1,14 @@
+name = "Create: Balanced Flight (Angel Ring)"
+filename = "balancedflight-1.20.1_v2.1.0.jar"
+side = "both"
+
+[download]
+mode = "metadata:curseforge"
+url = ""
+hash-format = "sha1"
+hash = "2e1d57707a596932c192ceeac7fdbc319ac9d892"
+
+[update]
+[update.curseforge]
+file-id = 4635838
+project-id = 538560
