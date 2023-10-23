@@ -1,0 +1,14 @@
+name = "Project: Vibrant Journeys"
+filename = "projectvibrantjourneys-6.0.0ALPHA1.jar"
+side = "both"
+
+[download]
+mode = "metadata:curseforge"
+url = ""
+hash-format = "sha1"
+hash = "16e41db0c705f1796c7ea9426f1a38be36439b26"
+
+[update]
+[update.curseforge]
+file-id = 4811846
+project-id = 300297

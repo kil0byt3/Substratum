@@ -1,0 +1,14 @@
+name = "Endless Biomes"
+filename = "EndlessBiomes 1.4.2s - 1.20.1.jar"
+side = "both"
+
+[download]
+mode = "metadata:curseforge"
+url = ""
+hash-format = "sha1"
+hash = "e2e3d7c01102b10f7f5459c66ca695c313e26e72"
+
+[update]
+[update.curseforge]
+file-id = 4715137
+project-id = 667688
