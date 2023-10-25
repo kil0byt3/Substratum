@@ -1,14 +1,14 @@
 name = "Cable Tiers"
-filename = "cabletiers-1.20.1-1.1.jar"
+filename = "cabletiers-1.20.1-1.11.jar"
 side = "both"
 
 [download]
 mode = "metadata:curseforge"
 url = ""
 hash-format = "sha1"
-hash = "219839b4f5aab1ecad410ea158af47e4c142b5d9"
+hash = "7eadcae26576d61524050039cd4406f4220f5462"
 
 [update]
 [update.curseforge]
-file-id = 4729777
+file-id = 4814710
 project-id = 454382

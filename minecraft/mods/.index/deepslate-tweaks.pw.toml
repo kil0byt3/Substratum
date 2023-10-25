@@ -1,0 +1,14 @@
+name = "Deepslate Tweaks (Forge / Fabric)"
+filename = "deepslatetweaks-1.2-1.20.1.jar"
+side = "both"
+
+[download]
+mode = "metadata:curseforge"
+url = ""
+hash-format = "sha1"
+hash = "27097c995089ce315254f3266e5558d2cec413cb"
+
+[update]
+[update.curseforge]
+file-id = 4774985
+project-id = 632466
