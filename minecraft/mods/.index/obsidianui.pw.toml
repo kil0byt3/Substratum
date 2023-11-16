@@ -1,0 +1,14 @@
+name = "ObsidianUI"
+filename = "obsidianui-0.1.2+1.20.1.jar"
+side = "both"
+
+[download]
+mode = "metadata:curseforge"
+url = ""
+hash-format = "sha1"
+hash = "bf3f448e9418170d77b060855012d77490dba305"
+
+[update]
+[update.curseforge]
+file-id = 4740107
+project-id = 684718

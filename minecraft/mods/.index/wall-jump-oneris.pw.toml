@@ -1,0 +1,14 @@
+name = "Wall Jump - [Forge/Fabric]"
+filename = "Walljump_1.20.1.jar"
+side = "both"
+
+[download]
+mode = "metadata:curseforge"
+url = ""
+hash-format = "sha1"
+hash = "9a94ef7d5419b310552d568137a411180f929da0"
+
+[update]
+[update.curseforge]
+file-id = 4724456
+project-id = 901277

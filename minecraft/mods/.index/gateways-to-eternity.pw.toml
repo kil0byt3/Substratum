@@ -1,14 +1,14 @@
 name = "Gateways To Eternity"
-filename = "GatewaysToEternity-1.20.1-4.1.1.jar"
+filename = "GatewaysToEternity-1.20.1-4.2.0.jar"
 side = "both"
 
 [download]
 mode = "metadata:curseforge"
 url = ""
 hash-format = "sha1"
-hash = "4f2ae489a139120798e95e28e2e7a9ece0be2be9"
+hash = "954a013b75bc1cec5821b616e2c55c670d1ba6da"
 
 [update]
 [update.curseforge]
-file-id = 4711391
+file-id = 4872441
 project-id = 417802

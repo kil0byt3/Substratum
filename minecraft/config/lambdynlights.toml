@@ -1,0 +1,51 @@
+
+[light_sources]
+	entities = true
+	self = true
+	block_entities = true
+	water_sensitive_check = true
+
+	[light_sources.settings]
+
+		[light_sources.settings.entities]
+
+			[light_sources.settings.entities.minecraft]
+				player = true
+				painting = true
+				item_frame = true
+				bat = true
+				item = true
+				creeper = true
+				skeleton = true
+				zombie = true
+				armor_stand = true
+				bee = true
+				squid = true
+				sheep = true
+				chicken = true
+				salmon = true
+				horse = true
+				drowned = true
+				spider = true
+				experience_orb = true
+				fireball = true
+				enderman = true
+				witch = true
+
+			[light_sources.settings.entities.alexsmobs]
+				fly = true
+				terrapin = true
+				crow = true
+				blue_jay = true
+				catfish = true
+				cockroach = true
+				rocky_roller = true
+
+			[light_sources.settings.entities.irons_spellbooks]
+				summoned_zombie = true
+				necromancer = true
+				summoned_skeleton = true
+				magic_missile_projectile = true
+				icicle_projectile = true
+				firefly_swarm = true
+

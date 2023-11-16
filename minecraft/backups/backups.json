@@ -12,6 +12,19 @@
       "backupName": "automated",
       "backupFormat": "ZIP",
       "complete": true
+    },
+    {
+      "worldName": "New World",
+      "createTime": 1698292800373,
+      "backupLocation": "E:\\MINECRAFT\\Instances\\Substratum\\minecraft\\backups\\2023-10-25_21-0-0.zip",
+      "size": 19331493,
+      "ratio": 0.6838968,
+      "sha1": "8e53aeab0ff701bd2598f888d9cbcecccf0070ed",
+      "preview": "",
+      "snapshot": false,
+      "backupName": "automated",
+      "backupFormat": "ZIP",
+      "complete": true
     }
   ]
 }

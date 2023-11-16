@@ -1,14 +1,14 @@
 name = "APTweaks: Spawn"
-filename = "adaptive_performance_tweaks_spawn_1.20.1-10.0.0.jar"
+filename = "adaptive_performance_tweaks_spawn_1.20.1-10.2.0.jar"
 side = "both"
 
 [download]
 mode = "metadata:curseforge"
 url = ""
 hash-format = "sha1"
-hash = "c9a069ccb70c097df4f8144d20ec841c8e3f94a4"
+hash = "da1329e895931139894d20bdbd32c262725c8d93"
 
 [update]
 [update.curseforge]
-file-id = 4800046
+file-id = 4818144
 project-id = 573708

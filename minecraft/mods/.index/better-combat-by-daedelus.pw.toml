@@ -1,14 +1,14 @@
 name = "Better Combat"
-filename = "bettercombat-forge-1.7.4+1.20.1.jar"
+filename = "bettercombat-forge-1.8.1+1.20.1.jar"
 side = "both"
 
 [download]
 mode = "metadata:curseforge"
 url = ""
 hash-format = "sha1"
-hash = "62fac19c6053bdccb014a94e60a2a8f3f0376008"
+hash = "f9dc4e749698e30965f48c8bf23bb7d74a3d252c"
 
 [update]
 [update.curseforge]
-file-id = 4780843
+file-id = 4823303
 project-id = 639842

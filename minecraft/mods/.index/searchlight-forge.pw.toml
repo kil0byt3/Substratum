@@ -1,0 +1,14 @@
+name = "Searchlight (& Wall Lights) (Forge)"
+filename = "searchlight-1.20-forge-1.1.11.jar"
+side = "both"
+
+[download]
+mode = "metadata:curseforge"
+url = ""
+hash-format = "sha1"
+hash = "f52e4051a5d28397f9c3e8de48e7b4a56241a3bc"
+
+[update]
+[update.curseforge]
+file-id = 4619325
+project-id = 497127

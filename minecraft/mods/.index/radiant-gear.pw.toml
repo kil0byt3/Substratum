@@ -1,14 +1,14 @@
 name = "Radiant Gear"
-filename = "radiantgear-forge-2.1.1+1.20.1.jar"
+filename = "radiantgear-forge-2.1.2+1.20.1.jar"
 side = "both"
 
 [download]
 mode = "metadata:curseforge"
 url = ""
 hash-format = "sha1"
-hash = "29a2e1377056a62802023ee837ea1b5bb0091fc3"
+hash = "390519464154175b0d512d4cc08efba72ad631eb"
 
 [update]
 [update.curseforge]
-file-id = 4679978
+file-id = 4831264
 project-id = 602199
