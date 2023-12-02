@@ -7,7 +7,7 @@
 	#Format for every entry is "<namespace>:<path>". Tags are supported, must be in the format of "#<namespace>:<path>". Namespace may be omitted to use "minecraft" by default. May use asterisk as wildcard parameter via pattern matching, e.g. "minecraft:*_shulker_box" to match all shulker boxes no matter of color.
 	mob_blacklist = []
 	#Type of shape used for calculating area in which spawns are prevented.
-	#This basically let's you choose between taxi cab or euclidean metrics.
+	#This basically let's you choose between maximum or euclidean metrics.
 	#Allowed Values: ELLIPSOID, CYLINDER, CUBOID
 	shape_type = "ELLIPSOID"
 	#Range for preventing mob spawns on y-dimension.
@@ -55,7 +55,7 @@
 	#Format for every entry is "<namespace>:<path>". Tags are supported, must be in the format of "#<namespace>:<path>". Namespace may be omitted to use "minecraft" by default. May use asterisk as wildcard parameter via pattern matching, e.g. "minecraft:*_shulker_box" to match all shulker boxes no matter of color.
 	mob_blacklist = []
 	#Type of shape used for calculating area in which spawns are prevented.
-	#This basically let's you choose between taxi cab or euclidean metrics.
+	#This basically let's you choose between maximum or euclidean metrics.
 	#Allowed Values: ELLIPSOID, CYLINDER, CUBOID
 	shape_type = "CUBOID"
 	#Range for preventing mob spawns on y-dimension.
@@ -103,7 +103,7 @@
 	#Format for every entry is "<namespace>:<path>". Tags are supported, must be in the format of "#<namespace>:<path>". Namespace may be omitted to use "minecraft" by default. May use asterisk as wildcard parameter via pattern matching, e.g. "minecraft:*_shulker_box" to match all shulker boxes no matter of color.
 	mob_blacklist = []
 	#Type of shape used for calculating area in which spawns are prevented.
-	#This basically let's you choose between taxi cab or euclidean metrics.
+	#This basically let's you choose between maximum or euclidean metrics.
 	#Allowed Values: ELLIPSOID, CYLINDER, CUBOID
 	shape_type = "ELLIPSOID"
 	#Range for preventing mob spawns on y-dimension.

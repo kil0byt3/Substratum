@@ -11,7 +11,7 @@
 	spawnAggressiveMode = false
 
 ["View Area"]
-	#Enable/Disable view area optimization.
+	#Enable/Disable player based view area optimization.
 	viewAreaEnabled = true
 
 ["Global Spawn Limitations"]
@@ -29,4 +29,9 @@
 	#Defines the max. number of entities of a specific type, which could spawn within the server. Use 0 to disable this optimization.
 	#Range: 0 ~ 1024
 	spawnLimitationMaxMobsPerServer = 512
+
+["Chunk Optimization"]
+	#Allows to spawn at least one mob (regardless of the type) per selected chunk to avoid side effects.A value of 9 means every 9 chunk request will be allowed. Use 0 to disable this optimization.
+	#Range: 0 ~ 256
+	friendlyChunkSpawnRate = 9
 

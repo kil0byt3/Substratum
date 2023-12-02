@@ -12,6 +12,8 @@
 	"Vanilla-Consistent Mining Speeds" = true
 	#Changes the hitboxes of vanilla double plants. Disable if it causes odd behavior.
 	"Change Double Plant Hitboxes" = true
+	#Makes blockstate conversion sounds (ambrosium, swet ball) better
+	"Better Conversion Sounds" = true
 
 ["Mob Sound Changes"]
 	#Gives Moas their sounds from older builds of the Aether II: Highlands
@@ -37,8 +39,6 @@
 	#Adds dungeon mobs from the Aether: Genesis to the spawners added to the Bronze Dungeon if it is installed
 	#Allowed Values: sentry_only, all, no_golems
 	"Genesis Mobs in Spawners" = "all"
-	#Modifies the depth density function of the Aether to use an alternate one that allows height-dependent biomes. Disable if problems arise.
-	"Modify Depth Density Function" = true
 
 	[Worldgen.Biomes]
 		#When enabled, any biome value config changes will be reset. It is recommended that you disable this if you want to keep any custom biome parameters you may have set.
@@ -52,9 +52,9 @@
 
 			[Worldgen.Biomes."The Blight".Temperature]
 				#Minimum Temperature value for the Blight.
-				Min = 0.0
+				Min = -0.2
 				#Maximum Temperature value for the Blight.
-				Max = 0.4
+				Max = 0.6
 
 			[Worldgen.Biomes."The Blight".Humidity]
 				#Minimum Humidity value for the Blight.
@@ -122,9 +122,9 @@
 
 			[Worldgen.Biomes."Cloudcap Jungle".Temperature]
 				#Minimum Temperature value for the Cloudcap Jungle.
-				Min = 0.0
+				Min = -0.2
 				#Maximum Temperature value for the Cloudcap Jungle.
-				Max = 0.4
+				Max = 0.6
 
 			[Worldgen.Biomes."Cloudcap Jungle".Humidity]
 				#Minimum Humidity value for the Cloudcap Jungle.

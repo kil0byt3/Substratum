@@ -58,6 +58,8 @@
 	enableCaveRoots = true
 	#Enable better ruined nether portals
 	enableBetterRuinedNetherPortals = true
+	#Enable generation of sandy sprouts
+	"enableSandySprouts " = true
 
 ["Entity Options"]
 	#Enable spawning of tropical fish in jungles

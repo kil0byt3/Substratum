@@ -31,6 +31,15 @@
 				fireball = true
 				enderman = true
 				witch = true
+				wolf = true
+				pillager = true
+				villager = true
+				vindicator = true
+				pig = true
+				dolphin = true
+				cod = true
+				cow = true
+				iron_golem = true
 
 			[light_sources.settings.entities.alexsmobs]
 				fly = true
@@ -40,6 +49,20 @@
 				catfish = true
 				cockroach = true
 				rocky_roller = true
+				grizzly_bear = true
+				raccoon = true
+				lobster = true
+				flying_fish = true
+				seal = true
+				bison = true
+				cachalot_whale = true
+				skunk = true
+				kangaroo = true
+				gazelle = true
+				emu = true
+				maned_wolf = true
+				elephant = true
+				rhinoceros = true
 
 			[light_sources.settings.entities.irons_spellbooks]
 				summoned_zombie = true
@@ -48,4 +71,8 @@
 				magic_missile_projectile = true
 				icicle_projectile = true
 				firefly_swarm = true
+				archevoker = true
+
+			[light_sources.settings.entities.lootr]
+				lootr_minecart = true
 

@@ -1,14 +1,13 @@
-name = "Smoothchunk mod"
-filename = "smoothchunk-1.20.1-3.3.jar"
-side = "both"
+filename = 'smoothchunk-1.20.1-3.5.jar'
+name = 'Smoothchunk mod'
+side = 'both'
 
 [download]
-mode = "metadata:curseforge"
-url = ""
-hash-format = "sha1"
-hash = "a2251484a9fbded32fcb06bc8711de408e6e0f76"
+hash = '24cf70124aa5120fcd82325903f7bed4d6e3ca1d'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
 
-[update]
 [update.curseforge]
-file-id = 4764869
+file-id = 4876164
 project-id = 582327

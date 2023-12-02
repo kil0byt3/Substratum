@@ -1,14 +1,13 @@
-name = "AmbientSounds"
-filename = "AmbientSounds_FORGE_v5.3.1_mc1.20.1.jar"
-side = "both"
+filename = 'AmbientSounds_FORGE_v5.3.5_mc1.20.1.jar'
+name = 'AmbientSounds'
+side = 'both'
 
 [download]
-mode = "metadata:curseforge"
-url = ""
-hash-format = "sha1"
-hash = "e3a6778269888c53478d31e531abb4a491dd9053"
+hash = '9ebdda93d52626527dd166ad0f6d847282418f1e'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
 
-[update]
 [update.curseforge]
-file-id = 4856537
+file-id = 4887789
 project-id = 254284

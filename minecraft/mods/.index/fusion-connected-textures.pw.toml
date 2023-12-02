@@ -1,14 +1,13 @@
-name = "Fusion"
-filename = "fusion-1.1.0a-forge-mc1.20.1.jar"
-side = "both"
+filename = 'fusion-1.1.0b-forge-mc1.20.1.jar'
+name = 'Fusion'
+side = 'both'
 
 [download]
-mode = "metadata:curseforge"
-url = ""
-hash-format = "sha1"
-hash = "c63c06d448e5344f2fcd1b37eed1936b3ae642b2"
+hash = 'b79763817697c8feff20d8ee3b3a56b0b3adb192'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
 
-[update]
 [update.curseforge]
-file-id = 4861620
+file-id = 4880312
 project-id = 854949

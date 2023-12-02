@@ -1,14 +1,13 @@
-name = "Labels"
-filename = "labels-1.20-1.16.jar"
-side = "both"
+filename = 'labels-1.20-1.18.jar'
+name = 'Labels'
+side = 'both'
 
 [download]
-mode = "metadata:curseforge"
-url = ""
-hash-format = "sha1"
-hash = "364e815294ad98670e2225e5e457622d6af4d2c8"
+hash = 'c47500cd5a0e5a1e5bdb6970ee7bb24ee1f0adb7'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
 
-[update]
 [update.curseforge]
-file-id = 4712468
+file-id = 4892473
 project-id = 688223
