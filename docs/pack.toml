@@ -1,0 +1,13 @@
+name = "Substratum"
+author = "kilo"
+version = "0.0.1"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "4cd6ef4dfbefab5186c8586c1d98be4f37556148bd26c4bf64b6212c78f2e75b"
+
+[versions]
+forge = "47.2.0"
+minecraft = "1.20.1"
